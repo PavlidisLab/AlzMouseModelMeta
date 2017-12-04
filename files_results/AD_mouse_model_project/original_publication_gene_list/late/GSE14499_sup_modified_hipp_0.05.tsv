@@ -1,0 +1,167 @@
+#GSE14499, Supplementary Data 1 : Differentially expressed genes in APP-TG mice compared to WT, and effect of BDNF gene delivery										
+# not all p values are included (only the GFP mut and wt mice)										
+# legend: 										
+# p.E.BDNFvsAPPWT: infected with GFP virus vs. WT sham (Entorhinal Cortex)										
+# p.H.BDNFvsAPP: WT infected with GFP virus vs. WT sham (Hippocampus)										
+# aveAppE: average expression values of APP infected with GFP virus, Entorhinal Cortex										
+# aveAppH: average expression values of APP infected with GFP virus, Hippocampus										
+# aveNGfpE: average expression values of WT infected with GFP virus (Entorhinal Cortex)										
+# aveGfpH: average expression values of WT infected with GFP virus (Hippocampus)										
+# E.APP_GFPvsNTG_GFP: Transgenic APP infected with GFP virus, vs. WT infected with GFP virus(Entorhinal Cortex)										
+# H.APP_GFPvsNTG_GFP:Transgenic APP infected with GFP virus, vs. WT infected with GFP virus(Hippocampus)										
+# Notes:										
+# GeneSymbols and GeneNames are updated by gemma annotation, the original ones are from the paper										
+# last update: 2016-02-18, 11-12										
+#										
+ProbeName	geneSymbol	GeneNames	H.APP_GFPvsNTG_GFP	aveAppH	aveGfpH	p_value	original_symbol	original_gene	up_down	regulation
+1436893_a_at	March7	membrane-associated ring finger (C3HC4) 7	-0.682	7.733529778	8.415818838	0.00056	7-Mar	membrane-associated ring finger (C3HC4) 7	-0.682	down
+1437774_at	1700020I14Rik	RIKEN cDNA 1700020I14 gene	-0.919	8.543436269	9.462572663	0.00026	1700020I14Rik	RIKEN cDNA 1700020I14 gene	-0.919	down
+1419032_at	2610018G03Rik	RIKEN cDNA 2610018G03 gene	-0.724	4.592234308	5.315749832	0.00029	2610018G03Rik	RIKEN cDNA 2610018G03 gene	-0.724	down
+1453262_at	2810032G03Rik	RIKEN cDNA 2810032G03 gene	0.323	6.421311026	6.098763956	0.00051	2810032G03Rik	RIKEN cDNA 2810032G03 gene	0.323	up
+1444738_at	5730419I09Rik	RIKEN cDNA 5730419I09 gene	-0.284	5.802615141	6.086723031	0.02099	5730419I09Rik	RIKEN cDNA 5730419I09 gene	-0.284	down
+1457028_at	A430033K04Rik	RIKEN cDNA A430033K04 gene	0.235	6.873481923	6.637990239	0.03209	A430033K04Rik	RIKEN cDNA A430033K04 gene	0.235	up
+1416263_at	Abcb9	ATP-binding cassette, sub-family B (MDR/TAP), member 9	0.32	6.47637865	6.156135472	0.00151	Abcb9	ATP-binding cassette, sub-family B (MDR/TAP), member 9	0.32	up
+1452236_at	Abcf1	ATP-binding cassette, sub-family F (GCN20), member 1	-0.763	7.615205607	8.37855158	0.00228	Abcf1	ATP-binding cassette, sub-family F (GCN20), member 1	-0.763	down
+1435630_s_at	Acat2	acetyl-Coenzyme A acetyltransferase 2	0.438	10.86826545	10.43043975	0.00145	Acat2	acetyl-Coenzyme A acetyltransferase 2	0.438	up
+1422335_at	Adra2c	adrenergic receptor, alpha 2c	0.397	7.895979611	7.499318083	0.00172	Adra2c	adrenergic receptor, alpha 2c	0.397	up
+1437467_at	Alcam	activated leukocyte cell adhesion molecule	-0.447	8.64971367	9.096346823	0.00499	Alcam	activated leukocyte cell adhesion molecule	-0.447	down
+1456950_at	Alms1	Alstrom syndrome 1 homolog (human)	-0.297	5.008730836	5.305613356	0.03168	Alms1	Alstrom syndrome 1 homolog (human)	-0.297	down
+1438474_at	Ankrd35	ankyrin repeat domain 35	0.348	6.474675695	6.126198611	0.00487	Ankrd35	ankyrin repeat domain 35	0.348	up
+1423819_s_at	Arl6ip1	ADP-ribosylation factor-like 6 interacting protein 1	-0.392	11.36911699	11.76098943	0.00266	Arl6ip1	ADP-ribosylation factor-like 6 interacting protein 1	-0.392	down
+1421205_at	Atm	ataxia telangiectasia mutated homolog (human)	-0.541	5.187267303	5.727853158	0.00032	Atm	ataxia telangiectasia mutated homolog (human)	-0.541	down
+1436023_at	Bclaf1	BCL2-associated transcription factor 1	-1.051	7.443519749	8.494718118	0.00398	Bclaf1	BCL2-associated transcription factor 1	-1.051	down
+1438089_a_at	Bclaf1	BCL2-associated transcription factor 1	-0.842	7.851454223	8.69360129	0.00092	Bclaf1	BCL2-associated transcription factor 1	-0.842	down
+1437548_at	Bicd1	bicaudal D homolog 1 (Drosophila)	-0.85	5.428749614	6.279152148	0.00286	Bicd1	bicaudal D homolog 1 (Drosophila)	-0.85	down
+1445512_at	Brd4	bromodomain containing 4	-0.263	3.793164725	4.055722004	0.00313			-0.263	down
+1456401_at	Cacnb2	calcium channel, voltage-dependent, beta 2 subunit	-0.527	7.271961225	7.798937221	0.00374	Cacnb2	calcium channel, voltage-dependent, beta 2 subunit	-0.527	down
+1417377_at	Cadm1	cell adhesion molecule 1	-0.641	10.21933144	10.86080085	0.00132	Cadm1	cell adhesion molecule 1	-0.641	down
+1440248_at	Casc4	cancer susceptibility candidate 4	-0.795	6.51199984	7.306825888	0.0025	Casc4	cancer susceptibility candidate 4	-0.795	down
+1417327_at	Cav2	caveolin 2	-0.279	9.032391509	9.311636491	0.0376	Cav2	caveolin 2	-0.279	down
+1449083_at	Ccdc91	coiled-coil domain containing 91	-0.407	8.643056807	9.049874927	9.00E-04	Ccdc91	coiled-coil domain containing 91	-0.407	down
+1418459_at	Ccdc91	coiled-coil domain containing 91	-0.301	6.632899719	6.933986964	0.026	Ccdc91	coiled-coil domain containing 91	-0.301	down
+1416123_at	Ccnd2	cyclin D2	-0.588	4.947768192	5.535818206	0.01403	Ccnd2	cyclin D2	-0.588	down
+1441283_at	Ccny	cyclin Y	-0.384	3.290375204	3.674868136	0.00479	Ccny	cyclin Y	-0.384	down
+1430506_at	Cdk13	cyclin-dependent kinase 13	0.304	4.13683025	3.833092463	0.02124	8430406P12Rik	RIKEN cDNA 8430406P12 gene	0.304	up
+1436343_at	Chd4	chromodomain helicase DNA binding protein 4	-0.806	7.241978901	8.047663257	0.00211	Chd4	chromodomain helicase DNA binding protein 4	-0.806	down
+1447512_at	Chl1	cell adhesion molecule with homology to L1CAM	0.278	3.403757559	3.125424985	0.00167	Chl1	cell adhesion molecule with homology to L1CAM	0.278	up
+1460741_x_at	D17Wsu92e	DNA segment, Chr 17, Wayne State University 92, expressed	0.451	7.96912026	7.518602373	0.00198	D17Wsu92e	DNA segment, Chr 17, Wayne State University 92, expressed	0.451	up
+1429094_at	Ddi2	DNA-damage inducible protein 2	0.338	6.435060562	6.097402229	0.00376	Ddi2	DNA-damage inducible protein 2	0.338	up
+1423043_s_at	Ddx3x	DEAD/H (Asp-Glu-Ala-Asp/His) box polypeptide 3, X-linked	-0.549	11.07150692	11.62064271	0.00081	Ddx3x	DEAD/H (Asp-Glu-Ala-Asp/His) box polypeptide 3, X-linked	-0.549	down
+1451895_a_at	Dhcr24	24-dehydrocholesterol reductase	0.408	9.975635592	9.567293734	0.00167	Dhcr24	24-dehydrocholesterol reductase	0.408	up
+1448619_at	Dhcr7	7-dehydrocholesterol reductase	0.49	8.885805048	8.396104149	0.00016	Dhcr7	7-dehydrocholesterol reductase	0.49	up
+1436173_at	Dlc1	deleted in liver cancer 1	0.413	8.234248433	7.821567944	0.00448	Dlc1	deleted in liver cancer 1	0.413	up
+1449819_at	Dmc1	DMC1 dosage suppressor of mck1 homolog, meiosis-specific homologous recombination (yeast)	-0.183	3.029485723	3.212900606	0.04941	Dmc1	DMC1 dosage suppressor of mck1 homolog, meiosis-specific homologous recombination (yeast)disrupted meiotic cDNA 1	-0.183	down
+1453872_at	Dmrtc2	doublesex and mab-3 related transcription factor like family C2	-0.234	3.409833598	3.643341112	0.04387	Dmrtc2	doublesex and mab-3 related transcription factor like family C2	-0.234	down
+1451270_at	Dusp18	dual specificity phosphatase 18	-1.168	7.100315618	8.268095029	0.00276	Dusp18	dual specificity phosphatase 18	-1.168	down
+1435931_at	E130308A19Rik	RIKEN cDNA E130308A19 gene	0.452	6.419148786	5.966817891	0.00133	E130308A19Rik	RIKEN cDNA E130308A19 gene	0.452	up
+1433673_at	E130309D14Rik	RIKEN cDNA E130309D14 gene	0.223	6.904892767	6.681715938	0.02216	E130309D14Rik	RIKEN cDNA E130309D14 gene	0.223	up
+1416716_at	Efs	embryonal Fyn-associated substrate	0.311	7.206831259	6.896175405	0.00178	Efs	embryonal Fyn-associated substrate	0.311	up
+1416661_at	Eif3a	eukaryotic translation initiation factor 3, subunit A	-1.039	6.364983075	7.403675701	0.00231	Eif3s10	eukaryotic translation initiation factor 3, subunit 10 (theta)	-1.039	down
+1421090_at	Epb4.1l1	erythrocyte protein band 4.1-like 1	-1.159	8.096400604	9.255392597	0.00282	Epb4.1l1	erythrocyte protein band 4.1-like 1	-1.159	down
+1452158_at	Eprs	glutamyl-prolyl-tRNA synthetase	-0.507	7.129056082	7.636152169	0.00384	Eprs	glutamyl-prolyl-tRNA synthetase	-0.507	down
+1449136_at	Epx	eosinophil peroxidase	0.442	3.914495862	3.472508467	0.00194	Epx	eosinophil peroxidase	0.442	up
+1418827_at	Eri1	exoribonuclease 1	0.401	6.622648324	6.221873671	0.00238	Thex1	three prime histone mRNA exonuclease 1	0.401	up
+1453727_at	Esf1	ESF1, nucleolar pre-rRNA processing protein, homolog (S. cerevisiae)	-0.729	5.631631909	6.360899692	0.00418	Esf1	ESF1, nucleolar pre-rRNA processing protein, homolog (S. cerevisiae)	-0.729	down
+1448130_at	Fdft1	farnesyl diphosphate farnesyl transferase 1	0.55	9.609971494	9.059810457	0.00035	Fdft1	farnesyl diphosphate farnesyl transferase 1	0.55	up
+1438322_x_at	Fdft1	farnesyl diphosphate farnesyl transferase 1	0.677	10.76265324	10.08554051	6.00E-05	Fdft1	farnesyl diphosphate farnesyl transferase 1	0.677	up
+1423418_at	Fdps	farnesyl diphosphate synthetase	0.448	8.929809136	8.481727052	0.0033	Fdps	farnesyl diphosphate synthetase	0.448	up
+1431088_at	Foxp4	forkhead box P4	0.492	6.686124622	6.193665606	0.0015	Foxp4	forkhead box P4	0.492	up
+1434458_at	Fst	follistatin	-1.295	5.560880518	6.856060278	9.00E-05	Fst	follistatin	-1.295	down
+1437388_at	Fut10	fucosyltransferase 10	0.8	5.982872303	5.182677714	0.00414	Fut10	fucosyltransferase 10	0.8	up
+1429685_at	Gabrb2	gamma-aminobutyric acid (GABA) A receptor, subunit beta 2	-0.596	10.04701701	10.64313944	0.00422			-0.596	down
+1435749_at	Gda	guanine deaminase	-0.569	10.29351511	10.86222891	0.00159	Gda	guanine deaminase	-0.569	down
+1438278_a_at	Gm13691|Cwc22|Gm13695|Gm13696|Gm13697|Gm13694|Gm13698|Gm13693	CWC22 spliceosome-associated protein homolog pseudogene|CWC22 spliceosome-associated protein homolog (S. cerevisiae)	-0.284	7.514796537	7.798865718	0.01364	BC003993	cDNA sequence BC003993	-0.284	down
+1440891_at	Gria4	glutamate receptor, ionotropic, AMPA4 (alpha 4)	-0.895	5.505939593	6.401273632	0.00073	Gria4	glutamate receptor, ionotropic, AMPA4 (alpha 4)	-0.895	down
+1429843_at	Grrp1	glycine/arginine rich protein 1	0.368	6.236485894	5.868304714	0.01828	Grrp1	glycine/arginine rich protein 1	0.368	up
+1421817_at	Gsr	glutathione reductase	-0.42	8.166140904	8.58594078	0.00099	Gsr	glutathione reductase 1	-0.42	down
+1450924_at	Hdgfrp3	hepatoma-derived growth factor, related protein 3	-0.704	8.34708339	9.05103657	0.00286	Hdgfrp3	hepatoma-derived growth factor, related protein 3	-0.704	down
+1427229_at	Hmgcr	3-hydroxy-3-methylglutaryl-Coenzyme A reductase	0.422	8.498132284	8.075795046	0.00528	Hmgcr	3-hydroxy-3-methylglutaryl-Coenzyme A reductase	0.422	up
+1433443_a_at	Hmgcs1	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1	0.482	11.66898856	11.18675575	9.00E-05	Hmgcs1	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1	0.482	up
+1448862_at	Icam2	intercellular adhesion molecule 2	0.413	5.641515715	5.228084981	0.00161	Icam2	intercellular adhesion molecule 2	0.413	up
+1451122_at	Idi1	isopentenyl-diphosphate delta isomerase	0.58	9.944195407	9.364418526	0.00243	Idi1	isopentenyl-diphosphate delta isomerase	0.58	up
+1434751_at	Ids	iduronate 2-sulfatase	-0.532	7.839012104	8.370707282	0.00151	Ids	iduronate 2-sulfatase	-0.532	down
+1427503_at	Ighg3	Immunoglobulin heavy constant gamma 3	-1.592	6.230123838	7.822425428	0.00212	AI324046	expressed sequence AI324046	-1.592	down
+1454671_at	Insig1	insulin induced gene 1	0.314	9.382018446	9.067998828	0.03633	Insig1	insulin induced gene 1	0.314	up
+1433634_at	Irf2bp2	interferon regulatory factor 2 binding protein 2	-0.546	8.3394067	8.885284378	9.00E-05	Irf2bp2	interferon regulatory factor 2 binding protein 2	-0.546	down
+1457120_at	Itk	IL2-inducible T-cell kinase	-0.176	2.679601242	2.855110859	0.04998	Itk	IL2-inducible T-cell kinase	-0.176	down
+1456092_at	Kctd7	potassium channel tetramerisation domain containing 7	0.362	6.927229447	6.565040894	0.00451	Kctd7	potassium channel tetramerisation domain containing 7	0.362	up
+1452690_at	Khsrp	KH-type splicing regulatory protein	-1.285	7.495005782	8.780465234	0.00096	Khsrp	KH-type splicing regulatory protein	-1.285	down
+1428174_x_at	Khsrp	KH-type splicing regulatory protein	-0.649	7.822967559	8.471668861	0.00248	Khsrp	KH-type splicing regulatory protein	-0.649	down
+1448890_at	Klf2	Kruppel-like factor 2 (lung)	-0.459	6.730733908	7.18990102	0.0029	Klf2	Kruppel-like factor 2 (lung)	-0.459	down
+1451979_at	Kras	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	0.302	9.486336672	9.184037804	0.0069	Kras	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	0.302	up
+1421821_at	Ldlr	low density lipoprotein receptor	0.445	8.273986526	7.828867459	0.00411	Ldlr	low density lipoprotein receptor	0.445	up
+1428130_at	Lman1	lectin, mannose-binding, 1	-0.525	6.966128365	7.490775365	0.00163	Lman1	lectin, mannose-binding, 1	-0.525	down
+1418723_at	Lpar3	lysophosphatidic acid receptor 3	0.348	3.82640422	3.478052553	0.00248	Edg7	endothelial differentiation, lysophosphatidic acid G-protein-coupled receptor 7	0.348	up
+1418188_a_at	Malat1|Ramp2	metastasis associated lung adenocarcinoma transcript 1 (non-coding RNA)|receptor (calcitonin) activity modifying protein 2	-1.026	9.635687347	10.6617266	0.00294	Ramp2	receptor (calcitonin) activity modifying protein 2	-1.026	down
+1451203_at	Mb	myoglobin	0.338	4.269154531	3.931264474	0.00099	Mb	myoglobin	0.338	up
+1454844_at	Mchr1	melanin-concentrating hormone receptor 1	-0.4	7.712206022	8.112176643	0.00277	Mchr1	melanin-concentrating hormone receptor 1	-0.4	down
+1454845_x_at	Mchr1	melanin-concentrating hormone receptor 1	-0.342	7.820942695	8.162684231	0.00208	Mchr1	melanin-concentrating hormone receptor 1	-0.342	down
+1437300_at	Mef2d	myocyte enhancer factor 2D	0.356	8.248760599	7.892671679	0.00376	Mef2d	myocyte enhancer factor 2D	0.356	up
+1416397_at	Mesdc1	mesoderm development candidate 1	0.362	7.129492674	6.767346885	0.0014	Mesdc1	mesoderm development candidate 1	0.362	up
+1429005_at	Mfhas1	malignant fibrous histiocytoma amplified sequence 1	0.319	10.01371461	9.694854054	0.00047	Mfhas1	malignant fibrous histiocytoma amplified sequence 1	0.319	up
+1447831_s_at	Mtmr7	myotubularin related protein 7	2.478	9.735668081	7.258031187	0.00196	Mtmr7	myotubularin related protein 7	2.478	up
+1417303_at	Mvd	mevalonate (diphospho) decarboxylase	0.567	6.271472855	5.704622769	0.00172	Mvd	mevalonate (diphospho) decarboxylase	0.567	up
+1448663_s_at	Mvd	mevalonate (diphospho) decarboxylase	0.588	7.104541253	6.51687762	0.00346	Mvd	mevalonate (diphospho) decarboxylase	0.588	up
+1449072_a_at	N6amt2	N-6 adenine-specific DNA methyltransferase 2 (putative)	-0.481	8.89158217	9.372820943	0.0097	N6amt2	N-6 adenine-specific DNA methyltransferase 2 (putative)	-0.481	down
+1418024_at	Naa15	N(alpha)-acetyltransferase 15, NatA auxiliary subunit	-0.462	7.411017296	7.873164207	0.00267	Narg1	NMDA receptor-regulated gene 1	-0.462	down
+1440860_at	Nbea	neurobeachin	0.36	5.400453584	5.040012618	0.003	Mab21l1	mab-21-like 1 (C. elegans)	0.36	up
+1432427_at	Ndufb4	NADH dehydrogenase (ubiquinone) 1 beta subcomplex 4	0.304	4.750019416	4.445821289	0.04381	Ndufb4	NADH dehydrogenase (ubiquinone) 1 beta subcomplex 4	0.304	up
+1428951_at	Nol8	nucleolar protein 8	-0.425	7.523998464	7.948998632	0.00309	Nol8	nucleolar protein 8	-0.425	down
+1451569_at	Nr2c2	nuclear receptor subfamily 2, group C, member 2	-0.653	6.968776296	7.621338485	0.00484	Nr2c2	nuclear receptor subfamily 2, group C, member 2	-0.653	down
+1444600_at	Nrbp1	nuclear receptor binding protein 1	-0.517	4.327950029	4.844838464	0.00014	Nrbp1	nuclear receptor binding protein 1	-0.517	down
+1416222_at	Nsdhl	NAD(P) dependent steroid dehydrogenase-like	0.449	9.292048194	8.843053244	2.00E-04	Nsdhl	NAD(P) dependent steroid dehydrogenase-like	0.449	up
+1460044_at	Onecut2	one cut domain, family member 2	0.597	4.797122206	4.200424398	6.00E-05	Onecut2	one cut domain, family member 2	0.597	up
+1456489_at	Pcf11	cleavage and polyadenylation factor subunit homolog (S. cerevisiae)	-0.653	6.01761112	6.670146635	0.00094	Pcf11	cleavage and polyadenylation factor subunit homolog (S. cerevisiae)	-0.653	down
+1435635_at	Pcmtd1	protein-L-isoaspartate (D-aspartate) O-methyltransferase domain containing 1	-0.772	6.605262689	7.377528068	0.00494	Pcmtd1	protein-L-isoaspartate (D-aspartate) O-methyltransferase domain containing 1	-0.772	down
+1448155_at	Pdcd6ip	programmed cell death 6 interacting protein	-0.587	7.864865403	8.45186879	0.0038	Pdcd6ip	programmed cell death 6 interacting protein	-0.587	down
+1456606_a_at	Phactr1	phosphatase and actin regulator 1	-0.665	8.653762149	9.319177829	0.00012	Phactr1	phosphatase and actin regulator 1	-0.665	down
+1439022_at	Phactr1	phosphatase and actin regulator 1	-0.527	8.847220998	9.374650658	0.00064	Phactr1	phosphatase and actin regulator 1	-0.527	down
+1452404_at	Phactr2	phosphatase and actin regulator 2	-0.429	6.442249974	6.871425993	0.00362	Phactr2	phosphatase and actin regulator 2	-0.429	down
+1457105_at	Pkd2l1	polycystic kidney disease 2-like 1	0.337	4.440710728	4.103688504	0.00232	Pkd2l1	polycystic kidney disease 2-like 1	0.337	up
+1438677_at	Pkp4	plakophilin 4	-0.596	9.552428906	10.1485375	0.00109	Pkp4	plakophilin 4	-0.596	down
+1429487_at	Ppp1r12a	protein phosphatase 1, regulatory (inhibitor) subunit 12A	-0.498	7.523126453	8.021589333	0.00406	Ppp1r12a	protein phosphatase 1, regulatory (inhibitor) subunit 12A	-0.498	down
+1452788_at	Ppp2r5e	protein phosphatase 2, regulatory subunit B (B56), epsilon isoform	-0.632	7.888653098	8.520663483	0.00253	Ppp2r5e	protein phosphatase 2, regulatory subunit B (B56), epsilon isoform	-0.632	down
+1428463_a_at	Ppp2r5e	protein phosphatase 2, regulatory subunit B (B56), epsilon isoform	-0.496	9.332976905	9.828752688	0.00394	Ppp2r5e	protein phosphatase 2, regulatory subunit B (B56), epsilon isoform	-0.496	down
+1457029_at	Ppp4r1l-ps	protein phosphatase 4, regulatory subunit 1-like, pseudogene	-0.505	4.233945245	4.739412574	0.00172	C030010B13Rik	RIKEN cDNA C030010B13 gene	-0.505	down
+1455016_at	Prpf38b	PRP38 pre-mRNA processing factor 38 (yeast) domain containing B	-0.751	5.003060628	5.754126122	0.00127	Prpf38b	PRP38 pre-mRNA processing factor 38 (yeast) domain containing B	-0.751	down
+1449292_at	Rb1cc1	RB1-inducible coiled-coil 1	-0.937	7.12336599	8.060583968	0.00178	Rb1cc1	RB1-inducible coiled-coil 1	-0.937	down
+1418120_at	Rbm8a	RNA binding motif protein 8a	-0.576	6.907976294	7.48375587	0.00103	Rbm8a	RNA binding motif protein 8a	-0.576	down
+1416180_a_at	Rdx	radixin	-0.763	7.418756796	8.181510219	0.00257	Rdx	radixin	-0.763	down
+1426891_at	Rpap1	RNA polymerase II associated protein 1	0.425	7.339798674	6.914629991	0.00372	Rpap1	RNA polymerase II associated protein 1	0.425	up
+1421564_at	Serpina3c	serine (or cysteine) peptidase inhibitor, clade A, member 3C	0.363	3.537603998	3.17419051	0.00111	Serpina3c	serine (or cysteine) peptidase inhibitor, clade A, member 3C	0.363	up
+1429537_at	Sfrs18	serine/arginine-rich splicing factor 18	-0.923	6.630951457	7.554290979	0.00489	5730406M06Rik	RIKEN cDNA 5730406M06 gene	-0.923	down
+1457183_at	Slc6a1	solute carrier family 6 (neurotransmitter transporter, GABA), member 1	-0.488	3.260274776	3.748279121	0.00074	Slc6a1	solute carrier family 6 (neurotransmitter transporter, GABA), member 1	-0.488	down
+1449844_at	Slco1a1	solute carrier organic anion transporter family, member 1a1	0.284	4.569610686	4.286089503	0.00451	Slco1a1	solute carrier organic anion transporter family, member 1a1	0.284	up
+1424207_at	Smarca5-ps|Smarca5	SWI/SNF related, matrix associated, actin depenent ragulator of chromatin, subfamily a, member 5, pseudogene|SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5	-0.612	8.108944613	8.720687416	0.00199	Smarca5	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5	-0.612	down
+1429658_a_at	Smc2	structural maintenance of chromosomes 2	-0.691	4.796862424	5.487790206	0.00397	Smc2	structural maintenance of chromosomes 2	-0.691	down
+1451935_a_at	Spint2	serine protease inhibitor, Kunitz type 2	-0.218	8.776995583	8.994853262	0.04547	Spint2	serine protease inhibitor, Kunitz type 2	-0.218	down
+1419256_at	Spnb2	spectrin beta 2	-0.541	9.71946237	10.26062916	0.00168	Spnb2	spectrin beta 2	-0.541	down
+1436892_at	Spred2	sprouty-related, EVH1 domain containing 2	-1.431	6.70202783	8.133403877	0.00037	Spred2	sprouty-related, EVH1 domain containing 2	-1.431	down
+1415874_at	Spry1	sprouty homolog 1 (Drosophila)	-0.164	7.820899654	7.98524095	0.03335	Spry1	sprouty homolog 1 (Drosophila)	-0.164	down
+1415993_at	Sqle	squalene epoxidase	0.515	10.30299458	9.788160092	0.00014	Sqle	squalene epoxidase	0.515	up
+1416421_a_at	Ssb	Sjogren syndrome antigen B	-0.536	7.679445922	8.215127571	0.00388	Ssb	Sjogren syndrome antigen B	-0.536	down
+1460193_at	St13	suppression of tumorigenicity 13	-0.957	8.581311554	9.538622205	0	St13	suppression of tumorigenicity 13	-0.957	down
+1420377_at	St8sia2	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 2	0.527	5.938268901	5.411751438	0.00128	St8sia2	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 2	0.527	up
+1421735_a_at	St8sia5	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 5	0.293	8.906058638	8.612862689	0.00479	St8sia5	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 5	0.293	up
+1439802_at	Stk35	serine/threonine kinase 35	0.441	7.932950575	7.492253308	0.00453	Stk35	serine/threonine kinase 35	0.441	up
+1450401_at	Tgs1	trimethylguanosine synthase homolog (S. cerevisiae)	-0.506	7.240039208	7.745695411	0.00097	Tgs1	trimethylguanosine synthase homolog (S. cerevisiae)	-0.506	down
+1423135_at	Thy1	thymus cell antigen 1, theta	1.291	13.89700264	12.60580341	0	Thy1	thymus cell antigen 1, theta	1.291	up
+1452978_at	Tmem138	transmembrane protein 138	0.318	6.763060722	6.444784994	0.00357	Tmem138	transmembrane protein 138	0.318	up
+1424454_at	Tmem87a	transmembrane protein 87A	3.85	8.448332922	4.598702427	0.00343	Tmem87a	transmembrane protein 87A	3.85	up
+1437432_a_at	Trim12a	tripartite motif-containing 12A	-1.027	3.24560402	4.27297606	0.00097	Trim12	tripartite motif protein 12	-1.027	down
+1442316_x_at	Trp53bp1	transformation related protein 53 binding protein 1	-0.469	3.66023333	4.129201195	0.03678	Trp53bp1	transformation related protein 53 binding protein 1	-0.469	down
+1460448_s_at	Ttc14	tetratricopeptide repeat domain 14	-0.937	6.291762311	7.22887264	4.00E-05	Ttc14	tetratricopeptide repeat domain 14	-0.937	down
+1438051_at	Ttc14	tetratricopeptide repeat domain 14	-0.705	6.025604334	6.730515601	0.00212	Ttc14	tetratricopeptide repeat domain 14	-0.705	down
+1432130_a_at	Ttc14	tetratricopeptide repeat domain 14	-0.483	4.705340506	5.188334138	0.00072	Ttc14	tetratricopeptide repeat domain 14	-0.483	down
+1416689_at	Tuft1	tuftelin 1	0.26	6.555689827	6.295825138	0.01324	Tuft1	tuftelin 1	0.26	up
+1449263_at	Ufm1	ubiquitin-fold modifier 1	-0.342	8.39332182	8.734883169	0.00417	Ufm1	ubiquitin-fold modifier 1	-0.342	down
+1419277_at	Usp48	ubiquitin specific peptidase 48	-0.698	6.144044424	6.842430341	0.00137	Usp48	ubiquitin specific peptidase 48	-0.698	down
+1440641_at	Vps29	vacuolar protein sorting 29 (S. pombe)	-0.514	4.587118877	5.100651619	0.0039	Vps29	vacuolar protein sorting 29 (S. pombe)	-0.514	down
+1429363_at	Vps37a	vacuolar protein sorting 37A (yeast)	-0.551	5.631185983	6.181804828	0.00817	Vps37a	vacuolar protein sorting 37A (yeast)	-0.551	down
+1426360_at	Zc3h11a	zinc finger CCCH type containing 11A	-0.488	7.324577607	7.812109615	0.00154	Zc3h11a	zinc finger CCCH type containing 11A	-0.488	down
+1438580_at	Zcchc7	zinc finger, CCHC domain containing 7	-0.406	4.754641895	5.160367524	0.0456	Zcchc7	zinc finger, CCHC domain containing 7	-0.406	down
+1454787_at	Zdhhc9	zinc finger, DHHC domain containing 9	0.401	8.074815722	7.674057739	0.00048	Zdhhc9	zinc finger, DHHC domain containing 9	0.401	up
+1449510_at	Zfp467	zinc finger protein 467	0.401	6.474118687	6.073057765	0.003	Zfp467	zinc finger protein 467	0.401	up
+1449546_a_at	Zfp617	zinc finger protein 617	-0.447	8.118394816	8.565335318	0.00124	Zfp617	zinc finger protein 617	-0.447	down
+1458163_at	Zfp941	zinc finger protein 941	-0.947	5.355140478	6.302372252	4.00E-04	BC066028	cDNA sequence BC066028	-0.947	down
+1451046_at	Zfpm1	zinc finger protein, multitype 1	0.5	8.122785681	7.623203296	0.00351	Zfpm1	zinc finger protein, multitype 1	0.5	up

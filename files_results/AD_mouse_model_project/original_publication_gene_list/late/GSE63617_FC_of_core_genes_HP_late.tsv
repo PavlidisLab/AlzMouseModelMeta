@@ -1,0 +1,20 @@
+original_gene_symbol	Description	tissue_timepoint	original_FC	marker	ProbeName	geneSymbol	GeneNames	regulation
+Nudt19	nudix (nucleoside diphosphate linked moiety X)-type motif 19	HP_15.m	-0.423480113	early	A_51_P111952	Nudt19	nudix (nucleoside diphosphate linked moiety X)-type motif 19	down
+Aph1b	anterior pharynx defective 1 b homolog (C. elegans)	HP_15.m	0.02839395	early	A_51_P325124	Aph1b	anterior pharynx defective 1b homolog (C. elegans)	up
+Aph1b	anterior pharynx defective 1 b homolog (C. elegans)	HP_15.m	0.77343704	early	A_52_P456750	Aph1b	anterior pharynx defective 1b homolog (C. elegans)	up
+Arl16	ADP-ribosylation factor-like 16	HP_15.m	0.89971446	early	A_51_P298716			up
+D14Ertd449e	DNA segment, Chr 14, ERATO Doi 449, expressed	HP_15.m	1.51	late	A_51_P222453	D14Ertd449e	DNA segment, Chr 14, ERATO Doi 449, expressed	up
+1810014B01Rik	RIKEN cDNA 1810014B01 gene	HP_15.m	1.78	late	A_51_P477285	1810014B01Rik	RIKEN cDNA 1810014B01 gene	up
+2210015D19Rik	RIKEN cDNA 2210015D19 gene	HP_15.m	1.79	both	A_52_P588917			up
+2210015D19Rik	RIKEN cDNA 2210015D19 gene	HP_15.m	1.79	both	A_51_P298231	2210015D19Rik	RIKEN cDNA 2210015D19 gene	up
+Actl6a	actin-like 6A	HP_15.m	1.82	late	A_52_P231737	Actl6a	actin-like 6A	up
+Wdfy1	Mus musculus WD repeat and FYVE domain containing 1 (Wdfy1), transcript variant 1, mRNA	HP_15.m	2.02	both	A_51_P390314	Wdfy1	WD repeat and FYVE domain containing 1	up
+Wdfy1	Mus musculus WD repeat and FYVE domain containing 1 (Wdfy1), transcript variant 1, mRNA	HP_15.m	2.02	both	A_52_P328825	Wdfy1	WD repeat and FYVE domain containing 1	up
+Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	HP_15.m	2.32	both	A_51_P361286	Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	up
+Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	HP_15.m	2.32	both	A_52_P572447	Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	up
+Snhg3	small nucleolar RNA host gene (non-protein coding) 3	HP_15.m	2.6	late	A_52_P661071	Snhg3	small nucleolar RNA host gene (non-protein coding) 3	up
+Rnf25	ring finger protein 25	HP_15.m	2.63	late	A_52_P249611	Rnf25	ring finger protein 25	up
+Sox2ot	Mus musculus SOX2 overlapping transcript (non-protein coding) (Sox2ot), non-coding RNA	HP_15.m	2.79	both	A_52_P389324	Sox2ot	SOX2 overlapping transcript (non-protein coding)	up
+Slc15a2	solute carrier family 15 (H + /peptide transporter), member 2	HP_15.m	3.67	both	A_52_P426605	Slc15a2	solute carrier family 15 (H+/peptide transporter), member 2	up
+Slc15a2	solute carrier family 15 (H + /peptide transporter), member 2	HP_15.m	3.67	both	A_51_P267278	Slc15a2	solute carrier family 15 (H+/peptide transporter), member 2	up
+Tia1	cytotoxic granule-associated RNA binding protein 1	HP_15.m	4.47	late	A_52_P381009			up

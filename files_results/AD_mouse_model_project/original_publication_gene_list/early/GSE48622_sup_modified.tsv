@@ -1,0 +1,42 @@
+# GSE48622,Table S1. Differentially regulated genes in the hippocampus of neuronal APP/APLP2 N-dCKO mice								
+# Results of mean fold change of four pairs of littermate APLP2 null control vs. N-dCKO are expressed as log2.								
+# The biological processes associated with each gene are derived from the GO annotations provided in the array annotation file from Affymetrix.								
+# APLP2_KO vs N_dC_KO								
+# Notes:								
+# GeneSymbols and GeneNames are updated by gemma annotation, the original ones are from the paper								
+# Gene ontology (GO) biological process from the table is ommitted								
+# last update: 2016-02-18								
+#								
+ProbeName	geneSymbol	GeneNames	logFC	P_value	orig_Entrez_ID	original_symbol	original_gene	regulation
+1420621_a_at	App	amyloid beta (A4) precursor protein	-28.69	0	11820	App	Amyloid-β (A4) precursor protein	down
+1451580_a_at	Ttr	transthyretin	-5.21	0.018	22139	Ttr	Transthyretin	down
+1448556_at	Prlr	prolactin receptor	-4.904	0.002	19116	Prlr	Prolactin receptor	down
+1418808_at	Rdh5	retinol dehydrogenase 5	-4.119	0.026	19682	Rdh5	Retinol dehydrogenase 5	down
+1430648_at			-2.95	0.004	72821	Scn2b	Sodium channel, voltage-gated, type II, β	down
+1434667_at	Col8a2	collagen, type VIII, alpha 2	-2.673	0.004	329941	Col8a2	Collagen, type VIII, α2	down
+1424893_at			-2.557	0.009	83431	Ndel1	Nuclear distribution gene E-like homolog 1 (Aspergillus nidulans)	down
+1454866_s_at	Clic6	chloride intracellular channel 6	-2.362	0.007	209195	Clic6	Chloride intracellular channel 6	down
+1448766_at	Gjb1	gap junction protein, beta 1	-2.054	0.012	14618	Gjb1	Gap junction membrane channel protein β1	down
+1450995_at	Folr1	folate receptor 1 (adult)	-1.67	0.007	14275	Folr1	Folate receptor 1 (adult)	down
+1448136_at	Enpp2	ectonucleotide pyrophosphatase/phosphodiesterase 2	-1.651	0.004	18606	Enpp2	Ectonucleotide pyrophosphatase/phosphodiesterase 2	down
+1456418_at			-1.618	0.007	100040591	Kcnj13	Potassium inwardly rectifying channel, subfamily J, member 13	down
+1448754_at	Rbp1	retinol binding protein 1, cellular	-1.552	0.036	NA	Rbp1	Retinol-binding protein 1	down
+1449421_a_at	Kcne2	potassium voltage-gated channel, Isk-related subfamily, gene 2	-1.506	0.005	246133	Kcne2	Potassium voltage-gated channel, Isk-related subfamily, gene 2	down
+1425926_a_at	Otx2	orthodenticle homolog 2 (Drosophila)	-1.261	0.003	18424	Otx2	Orthodenticle homolog 2 (Drosophila)	down
+1423400_at	Kl	klotho	-1.238	0.003	16591	Kl	Klotho	down
+1452546_x_at	Defb11	defensin beta 11	-1.196	0.003	246081	Defb11	Defensin β11	down
+1424713_at	Calml4	calmodulin-like 4	-1.17	0.005	75600	Calml4	Calmodulin-like 4	down
+1416203_at	Aqp1	aquaporin 1	-1.122	0.003	11826	Aqp1	Aquaporin 1	down
+1449340_at	Sostdc1	sclerostin domain containing 1	-1.112	0.004	66042	Sostdc1	Sclerostin domain containing 1	down
+1417231_at	Cldn2	claudin 2	-1.105	0.002	12738	Cldn2	Claudin 2	down
+1443723_at	Trpm3	transient receptor potential cation channel, subfamily M, member 3	-1.105	0.002	226025	Trpm3	Transient receptor potential cation channel, subfamily M, member 3	down
+1438200_at	Sulf1	sulfatase 1	-1.036	0.004	240725	Sulf1	Sulfatase 1	down
+1418907_at	F5	coagulation factor V	-0.965	0.003	14067	F5	Coagulation factor V	down
+1455627_at	Col8a1	collagen, type VIII, alpha 1	-0.96	0.004	12837	Col8a1	Collagen, type VIII, α1	down
+1448550_at	Lbp	lipopolysaccharide binding protein	-0.928	0.002	16803	Lbp	Lipopolysaccharide-binding protein	down
+1440902_at	Ermn	ermin, ERM-like protein	-0.921	0.012	77767	Ermn	Ermin, ERM-like protein	down
+1417275_at	Mal	myelin and lymphocyte protein, T-cell differentiation protein	-0.842	0.026	17153	Mal	Myelin and lymphocyte protein, T-cell differentiation protein	down
+1451532_s_at	Steap1	six transmembrane epithelial antigen of the prostate 1	-0.837	0.004	70358	Steap1	Six-transmembrane epithelial antigen of the prostate 1	down
+1452975_at	Agxt2l1	alanine-glyoxylate aminotransferase 2-like 1	-0.8	0.008	71760	Agxt2l1	Alanine-glyoxylate aminotransferase 2-like 1	down
+1421955_a_at	Nedd4	neural precursor cell expressed, developmentally down-regulated 4	0.82	0.002	17999	Nedd4	Neural precursor cell expressed, developmentally down-regulated 4	up
+1457936_at	Mapk8	mitogen-activated protein kinase 8	1.073	0.027	26419	Mapk8	Mitogen-activated protein kinase 8	up
