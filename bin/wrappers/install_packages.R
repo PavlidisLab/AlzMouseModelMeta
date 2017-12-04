@@ -22,7 +22,9 @@ for(i in bio_packs){
 }
 
 
-## install
+## install Github R packages
 ## see https://github.com/oganm/markerGeneProfile
 
 devtools::install_github('oganm/markerGeneProfile')
+
+devtools::install_github("BerylZhuang/helper_functions")
