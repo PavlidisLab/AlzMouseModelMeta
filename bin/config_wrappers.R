@@ -8,7 +8,8 @@ disease_ls <- c('AD')
 
 ## use absolute path
 home_dir <- 'C:/Users/bzhuang/Documents/AD/'
-home_dir <- 'C:/work/AD/'
+
+
 dir.create(home_dir,showWarnings = F)
 
 disease_dir <- paste0(home_dir, 'AD_mouse_model_project/')
