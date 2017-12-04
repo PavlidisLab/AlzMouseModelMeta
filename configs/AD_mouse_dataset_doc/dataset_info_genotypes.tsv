@@ -1,0 +1,30 @@
+# for all timepoints and all Ads						
+# updated 2016-11-2, 11-7, order updated 11-8						
+#						
+#GSE64398.1	18m	late		GPL6885	TAU	
+#						
+#						
+# this is the dataset information (manual input) for limma results summary and others						
+#						
+Study	Age_timepoint	Phase	Order	Platform	Original_genotype	Model_types
+GSE63617	3, 6m	early	19	GPL7042	AD11	Other models
+GSE48622	2m	early	17	GPL1261	APLP2_KO	KO models
+GSE48622	2m	early	16	GPL1261	APP_KO	KO models
+GSE64398	2, 4,8,18m	early	9	GPL6885	het_TASTPM	Amyloid transgenic models
+GSE64398	2, 4,8,18m	early	8	GPL6885	het_TPM	Amyloid transgenic models
+GSE64398	2, 4,8,18m	early	12	GPL6885	ho_TASTPM	Amyloid transgenic models
+GSE48622	2m	early	18	GPL1261	N_dC_KO	KO models
+GSE64398	2, 4,8,18m	early	13	GPL6885	TAU	TAU transgenic models
+GSE36237	5m	early	1	GPL1261	Tg2576	Amyloid transgenic models
+GSE52022	4m	late	4	GPL1261	5xFAD	Amyloid transgenic models
+GSE50521	14-15m	late	5	GPL6096	5xFAD	Amyloid transgenic models
+GSE63617	15m	late	20	GPL7202	AD11	Other models
+GSE64398	4-18m	late	10	GPL6885	het_TASTPM	Amyloid transgenic models
+GSE64398	4-18m	late	11	GPL6885	ho_TASTPM	Amyloid transgenic models
+GSE14499	7m	late	6	GPL1261	J20	Amyloid transgenic models
+GSE53480	4m	late	15	GPL1261	Tg4510	TAU transgenic models
+GSE64398	2-4m	early	7	GPL6885	TAS10	Amyloid transgenic models
+GSE64398	8-18m	late	7	GPL6885	TAS10	Amyloid transgenic models
+GSE64398	4-18m	late	14	GPL6885	TAU	TAU transgenic models
+GSE1556	12m	late	2	GPL81	Tg2576	Amyloid transgenic models
+GSE15056	17m	late	3	GPL7202	Tg2576	Amyloid transgenic models

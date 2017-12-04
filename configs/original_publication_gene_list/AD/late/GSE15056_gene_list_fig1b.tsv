@@ -1,0 +1,13 @@
+# only 8 upregulated genes were listed(out of 39+8, including 5 downregulated genes in tg2576)			
+#fig1(B) Overview of significantly up-regulated genes common to both Tg2576 and APPPS1 mice. No genes were significantly down-regulated that were common to both Tg2576 and APPPS1 mice			
+#Differentially expressed genes were found with LIMMA (http://www.bioconductor.org) by a moderated t-test 18. Significance was assessed at p < 0.001 or false 			
+#discovery rate-adjusted pFDR < 0.05 19.			
+geneSymbol	p-value	FC	regulation
+Ccl3	0.00002	10.8	up
+Ccl4	0.00016	4.5	up
+Clec7A	0.00057	5.7	up
+Cst7	0.00009	28.8	up
+Cxcl16	0.00097	4.4	up
+Grn	0.00016	8.4	up
+Hla-dqb2	0.00031	5.7	up
+St14	0.00002	7.4	up

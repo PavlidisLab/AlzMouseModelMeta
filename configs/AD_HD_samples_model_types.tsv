@@ -1,0 +1,395 @@
+Study	Sample	Disease_stage	Genotype	Timepoint	Gender	Dataset	Age	Original_genotype	Age_timepoint	Phase	Order	Platform	Model_types	Disease
+GSE36237	GSE36237_HippVeh_WT_1	WT	WT	1m	F	GSE36237	5	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_WT_2	WT	WT	1m	F	GSE36237	5	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_WT_3	WT	WT	1m	F	GSE36237	5	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_WT_4	WT	WT	1m	F	GSE36237	5	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_WT_5	WT	WT	1m	F	GSE36237	5	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_WT_6	WT	WT	1m	F	GSE36237	5	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_WT_7	WT	WT	1m	F	GSE36237	5	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_WT_8	WT	WT	1m	F	GSE36237	5	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_TG_1	Disease	AD	1m	F	GSE36237	5	Tg2576	5m	early	1	GPL1261	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_TG_2	Disease	AD	1m	F	GSE36237	5	Tg2576	5m	early	1	GPL1261	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_TG_3	Disease	AD	1m	F	GSE36237	5	Tg2576	5m	early	1	GPL1261	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_TG_4	Disease	AD	1m	F	GSE36237	5	Tg2576	5m	early	1	GPL1261	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_TG_5	Disease	AD	1m	F	GSE36237	5	Tg2576	5m	early	1	GPL1261	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_TG_6	Disease	AD	1m	F	GSE36237	5	Tg2576	5m	early	1	GPL1261	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_TG_7	Disease	AD	1m	F	GSE36237	5	Tg2576	5m	early	1	GPL1261	Amyloid transgenic models	AD
+GSE36237	GSE36237_HippVeh_TG_8	Disease	AD	1m	F	GSE36237	5	Tg2576	5m	early	1	GPL1261	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep1	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep10	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep11	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep12	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep2	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep3	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep4	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep5	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep6	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep7	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep8	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_2m_Hipp_rep9	WT	WT	1m	M	GSE64398.1	2	WT	NA	early	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep1	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep2	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep3	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep4	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep5	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep6	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep7	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep8	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep9	WT	WT	1m	M	GSE64398.1	4	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep1	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep10	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep2	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep3	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep4	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep5	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep6	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep7	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep8	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep9	WT	WT	1m	M	GSE64398.1	8	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep1	WT	WT	1m	M	GSE64398.1	18	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep2	WT	WT	1m	M	GSE64398.1	18	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep3	WT	WT	1m	M	GSE64398.1	18	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep4	WT	WT	1m	M	GSE64398.1	18	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep5	WT	WT	1m	M	GSE64398.1	18	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep6	WT	WT	1m	M	GSE64398.1	18	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep7	WT	WT	1m	M	GSE64398.1	18	WT	NA	early	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_2m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	2	het_TASTPM	2, 4,8,18m	early	9	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_2m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	2	het_TASTPM	2, 4,8,18m	early	9	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_2m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	2	het_TASTPM	2, 4,8,18m	early	9	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_2m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	2	het_TASTPM	2, 4,8,18m	early	9	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_2m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	2	ho_TASTPM	2, 4,8,18m	early	12	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_2m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	2	ho_TASTPM	2, 4,8,18m	early	12	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_2m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	2	ho_TASTPM	2, 4,8,18m	early	12	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_2m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	2	ho_TASTPM	2, 4,8,18m	early	12	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_2m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	2	TAS10	2-4m	early	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_2m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	2	TAS10	2-4m	early	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_2m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	2	TAS10	2-4m	early	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_2m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	2	TAS10	2-4m	early	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_2m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	2	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_2m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	2	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_2m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	2	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_4m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	4	het_TASTPM	2, 4,8,18m	early	9	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_4m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	4	het_TASTPM	2, 4,8,18m	early	9	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_4m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	4	het_TASTPM	2, 4,8,18m	early	9	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_4m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	4	het_TASTPM	2, 4,8,18m	early	9	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_4m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	4	TAS10	2-4m	early	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_4m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	4	TAS10	2-4m	early	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_4m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	4	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_4m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	4	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_4m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	4	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_4m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	4	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_8m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	8	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_8m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	8	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_8m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	8	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_8m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	8	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_18m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	18	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_18m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	18	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TPM_18m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	18	het_TPM	2, 4,8,18m	early	8	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAU_2m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	2	TAU	2, 4,8,18m	early	13	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_2m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	2	TAU	2, 4,8,18m	early	13	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_2m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	2	TAU	2, 4,8,18m	early	13	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_4m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	4	TAU	2, 4,8,18m	early	13	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_4m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	4	TAU	2, 4,8,18m	early	13	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_4m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	4	TAU	2, 4,8,18m	early	13	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_4m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	4	TAU	2, 4,8,18m	early	13	GPL6885	TAU transgenic models	AD
+GSE48622	GSE48622_WT_rep1	WT	WT	1m	M	GSE48622	2	WT	NA	early	NA	NA	KO models	AD
+GSE48622	GSE48622_WT_rep2	WT	WT	1m	M	GSE48622	2	WT	NA	early	NA	NA	KO models	AD
+GSE48622	GSE48622_WT_rep3	WT	WT	1m	M	GSE48622	2	WT	NA	early	NA	NA	KO models	AD
+GSE48622	GSE48622_WT_rep4	WT	WT	1m	M	GSE48622	2	WT	NA	early	NA	NA	KO models	AD
+GSE48622	GSE48622_APLP2KO_rep1	Disease	AD	1m	M	GSE48622	2	APLP2_KO	2m	early	17	GPL1261	KO models	AD
+GSE48622	GSE48622_APLP2KO_rep2	Disease	AD	1m	M	GSE48622	2	APLP2_KO	2m	early	17	GPL1261	KO models	AD
+GSE48622	GSE48622_APLP2KO_rep3	Disease	AD	1m	M	GSE48622	2	APLP2_KO	2m	early	17	GPL1261	KO models	AD
+GSE48622	GSE48622_APLP2KO_rep4	Disease	AD	1m	M	GSE48622	2	APLP2_KO	2m	early	17	GPL1261	KO models	AD
+GSE48622	GSE48622_APPKO_rep1	Disease	AD	1m	M	GSE48622	2	APP_KO	2m	early	16	GPL1261	KO models	AD
+GSE48622	GSE48622_APPKO_rep2	Disease	AD	1m	M	GSE48622	2	APP_KO	2m	early	16	GPL1261	KO models	AD
+GSE48622	GSE48622_APPKO_rep3	Disease	AD	1m	M	GSE48622	2	APP_KO	2m	early	16	GPL1261	KO models	AD
+GSE48622	GSE48622_APPKO_rep4	Disease	AD	1m	M	GSE48622	2	APP_KO	2m	early	16	GPL1261	KO models	AD
+GSE48622	GSE48622_N.dCKO_rep1	Disease	AD	1m	M	GSE48622	2	N_dC_KO	2m	early	18	GPL1261	KO models	AD
+GSE48622	GSE48622_N.dCKO_rep2	Disease	AD	1m	M	GSE48622	2	N_dC_KO	2m	early	18	GPL1261	KO models	AD
+GSE48622	GSE48622_N.dCKO_rep3	Disease	AD	1m	M	GSE48622	2	N_dC_KO	2m	early	18	GPL1261	KO models	AD
+GSE48622	GSE48622_N.dCKO_rep4	Disease	AD	1m	M	GSE48622	2	N_dC_KO	2m	early	18	GPL1261	KO models	AD
+GSE63617	GSE63617_3m_hp_VH_rep1	WT	WT	1m	F	GSE63617.1	3	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_3m_hp_VH_rep2	WT	WT	1m	F	GSE63617.1	3	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_3m_hp_VH_rep3	WT	WT	1m	F	GSE63617.1	3	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_3m_hp_VH_rep4	WT	WT	1m	F	GSE63617.1	3	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_3m_hp_VH_rep5	WT	WT	1m	F	GSE63617.1	3	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_6m_hp_VH_rep1	WT	WT	1m	F	GSE63617.2	6	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_6m_hp_VH_rep2	WT	WT	1m	F	GSE63617.2	6	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_6m_hp_VH_rep3	WT	WT	1m	F	GSE63617.2	6	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_6m_hp_VH_rep4	WT	WT	1m	F	GSE63617.2	6	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_6m_hp_VH_rep5	WT	WT	1m	F	GSE63617.2	6	WT	NA	early	NA	NA	Other models	AD
+GSE63617	GSE63617_3m_hp_AD11_rep1	Disease	AD	1m	F	GSE63617.1	3	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_3m_hp_AD11_rep2	Disease	AD	1m	F	GSE63617.1	3	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_3m_hp_AD11_rep3	Disease	AD	1m	F	GSE63617.1	3	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_3m_hp_AD11_rep4	Disease	AD	1m	F	GSE63617.1	3	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_3m_hp_AD11_rep5	Disease	AD	1m	F	GSE63617.1	3	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_6m_hp_AD11_rep1	Disease	AD	1m	F	GSE63617.2	6	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_6m_hp_AD11_rep2	Disease	AD	1m	F	GSE63617.2	6	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_6m_hp_AD11_rep3	Disease	AD	1m	F	GSE63617.2	6	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_6m_hp_AD11_rep4	Disease	AD	1m	F	GSE63617.2	6	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE63617	GSE63617_6m_hp_AD11_rep5	Disease	AD	1m	F	GSE63617.2	6	AD11	3, 6m	early	19	GPL7042	Other models	AD
+GSE9375	GSE9375_WT_4S	WT	WT	1m	F	GSE9375	12	WT	NA	early	NA	NA	CAG repeat KI	HD
+GSE9375	GSE9375_WT_5S	WT	WT	1m	F	GSE9375	12	WT	NA	early	NA	NA	CAG repeat KI	HD
+GSE9375	GSE9375_WT_6S	WT	WT	1m	F	GSE9375	12	WT	NA	early	NA	NA	CAG repeat KI	HD
+GSE9375	GSE9375_Hdh4Q80_7S	Disease	HD	1m	F	GSE9375	12	Hdh4_Q80	12_months	early	6	GPL81	CAG repeat KI	HD
+GSE9375	GSE9375_Hdh4Q80_8S	Disease	HD	1m	F	GSE9375	12	Hdh4_Q80	12_months	early	6	GPL81	CAG repeat KI	HD
+GSE9375	GSE9375_Hdh4Q80_9S	Disease	HD	1m	F	GSE9375	12	Hdh4_Q80	12_months	early	6	GPL81	CAG repeat KI	HD
+GSE7958	GSE7958_WT_3m_436	WT	WT	1m	M	GSE7958	3	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_WT_3m_438	WT	WT	1m	F	GSE7958	3	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_WT_3m_467	WT	WT	1m	M	GSE7958	3	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_Q92_3m_439	Disease	HD	1m	F	GSE7958	3	HdhQ92_Q92	3_months	early	8	GPL1261	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_Q92_3m_440	Disease	HD	1m	F	GSE7958	3	HdhQ92_Q92	3_months	early	8	GPL1261	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_Q92_3m_466	Disease	HD	1m	M	GSE7958	3	HdhQ92_Q92	3_months	early	8	GPL1261	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_WT_striatum_rep1	WT	WT	1m	F	GSE9038	1.625	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_WT_striatum_rep2	WT	WT	1m	M	GSE9038	1.625	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_WT_striatum_rep3	WT	WT	1m	F	GSE9038	1.625	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_WT_striatum_rep4	WT	WT	1m	M	GSE9038	1.625	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_WT_striatum_rep5	WT	WT	1m	M	GSE9038	1.625	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_WT_striatum_rep6	WT	WT	1m	F	GSE9038	1.625	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_HdhQ111_striatum_rep1	Disease	HD	1m	F	GSE9038	1.625	HdhQ111	3-10_weeks	early	10	GPL1261	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_HdhQ111_striatum_rep2	Disease	HD	1m	M	GSE9038	1.625	HdhQ111	3-10_weeks	early	10	GPL1261	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_HdhQ111_striatum_rep3	Disease	HD	1m	M	GSE9038	1.625	HdhQ111	3-10_weeks	early	10	GPL1261	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_HdhQ111_striatum_rep4	Disease	HD	1m	F	GSE9038	1.625	HdhQ111	3-10_weeks	early	10	GPL1261	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_HdhQ111_striatum_rep5	Disease	HD	1m	M	GSE9038	1.625	HdhQ111	3-10_weeks	early	10	GPL1261	Human HTT exon 1 KI	HD
+GSE9038	GSE9038_HdhQ111_striatum_rep6	Disease	HD	1m	M	GSE9038	1.625	HdhQ111	3-10_weeks	early	10	GPL1261	Human HTT exon 1 KI	HD
+GSE50379	GSE50379_WT_rep1	WT	WT	1m	M	GSE50379	3	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE50379	GSE50379_WT_rep2	WT	WT	1m	M	GSE50379	3	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE50379	GSE50379_WT_rep3	WT	WT	1m	M	GSE50379	3	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE50379	GSE50379_HdhQ111_rep1	Disease	HD	1m	M	GSE50379	3	HdhQ111	3_months	early	11	GPL6246	Human HTT exon 1 KI	HD
+GSE50379	GSE50379_HdhQ111_rep2	Disease	HD	1m	M	GSE50379	3	HdhQ111	3_months	early	11	GPL6246	Human HTT exon 1 KI	HD
+GSE50379	GSE50379_HdhQ111_rep3	Disease	HD	1m	M	GSE50379	3	HdhQ111	3_months	early	11	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_WT_rep1	WT	WT	1m	M	GSE32417	6	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_WT_rep2	WT	WT	1m	M	GSE32417	6	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_WT_rep3	WT	WT	1m	F	GSE32417	6	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_WT_rep4	WT	WT	1m	F	GSE32417	6	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_WT_rep5	WT	WT	1m	F	GSE32417	6	WT	NA	early	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_HdhQ150_rep1	Disease	HD	1m	F	GSE32417	6	HdhQ150	6_months	early	12	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_HdhQ150_rep2	Disease	HD	1m	M	GSE32417	6	HdhQ150	6_months	early	12	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_HdhQ150_rep3	Disease	HD	1m	F	GSE32417	6	HdhQ150	6_months	early	12	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_HdhQ150_rep4	Disease	HD	1m	F	GSE32417	6	HdhQ150	6_months	early	12	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_6m_HdhQ150_rep5	Disease	HD	1m	F	GSE32417	6	HdhQ150	6_months	early	12	GPL6246	Human HTT exon 1 KI	HD
+GSE64386	GSE64386_Str_WT_2m_GN50_2	WT	WT	1m	F	GSE64386	2	WT	NA	early	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_2m_GN50_4	WT	WT	1m	F	GSE64386	2	WT	NA	early	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_2m_GN51_5	WT	WT	1m	M	GSE64386	2	WT	NA	early	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_2m_GN80_2	WT	WT	1m	M	GSE64386	2	WT	NA	early	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_7m_GN1_1	WT	WT	1m	M	GSE64386	7	WT	NA	early	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_7m_GN1_3	WT	WT	1m	M	GSE64386	7	WT	NA	early	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_7m_GN2_3	WT	WT	1m	F	GSE64386	7	WT	NA	early	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_7m_HD12_1	WT	WT	1m	F	GSE64386	7	WT	NA	early	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_2m_GN50_1	Disease	HD	1m	F	GSE64386	2	BAC_HD	2, 7 months	early	15	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_2m_GN50_3	Disease	HD	1m	F	GSE64386	2	BAC_HD	2, 7 months	early	15	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_2m_GN51_1	Disease	HD	1m	M	GSE64386	2	BAC_HD	2, 7 months	early	15	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_2m_GN51_3	Disease	HD	1m	M	GSE64386	2	BAC_HD	2, 7 months	early	15	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_7m_GN1_2	Disease	HD	1m	M	GSE64386	7	BAC_HD	2, 7 months	early	15	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_7m_GN1_4	Disease	HD	1m	M	GSE64386	7	BAC_HD	2, 7 months	early	15	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_7m_GN2_1	Disease	HD	1m	F	GSE64386	7	BAC_HD	2, 7 months	early	15	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_7m_GN2_2	Disease	HD	1m	F	GSE64386	7	BAC_HD	2, 7 months	early	15	GPL6885	Full-length transgenic	HD
+GSE1556	GSE1556_12moControl.1	WT	WT	1m	F	GSE1556	12	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE1556	GSE1556_12moControl.2	WT	WT	1m	F	GSE1556	12	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE1556	GSE1556_12moAPPSw.1	Disease	AD	1m	F	GSE1556	12	Tg2576	12m	late	2	GPL81	Amyloid transgenic models	AD
+GSE1556	GSE1556_12moAPPSw.2	Disease	AD	1m	F	GSE1556	12	Tg2576	12m	late	2	GPL81	Amyloid transgenic models	AD
+GSE15056	GSE15056_wt_rep1	WT	WT	1m	F	GSE15056	17	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE15056	GSE15056_wt_rep2	WT	WT	1m	F	GSE15056	17	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE15056	GSE15056_Tg2576_rep1	Disease	AD	1m	F	GSE15056	17	Tg2576	17m	late	3	GPL7202	Amyloid transgenic models	AD
+GSE15056	GSE15056_Tg2576_rep2	Disease	AD	1m	F	GSE15056	17	Tg2576	17m	late	3	GPL7202	Amyloid transgenic models	AD
+GSE52022	GSE52022_4mon_WT_rep1	WT	WT	1m	F	GSE52022	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE52022	GSE52022_4mon_WT_rep2	WT	WT	1m	F	GSE52022	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE52022	GSE52022_4mon_5XFAD_rep1	Disease	AD	1m	F	GSE52022	4	5xFAD	4m	late	4	GPL1261	Amyloid transgenic models	AD
+GSE52022	GSE52022_4mon_5XFAD_rep2	Disease	AD	1m	F	GSE52022	4	5xFAD	4m	late	4	GPL1261	Amyloid transgenic models	AD
+GSE50521	GSE50521_eIF2+_S51A1	WT	WT	1m	F	GSE50521	14.5	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE50521	GSE50521_eIF2+_S51A2	WT	WT	1m	M	GSE50521	14.5	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE50521	GSE50521_eIF2+_S51A3	WT	WT	1m	M	GSE50521	14.5	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE50521	GSE50521_WT1	WT	WT	1m	M	GSE50521	14.5	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE50521	GSE50521_WT2	WT	WT	1m	M	GSE50521	14.5	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE50521	GSE50521_WT3	WT	WT	1m	F	GSE50521	14.5	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE50521	GSE50521_5xFAD1	Disease	AD	1m	M	GSE50521	14.5	5xFAD	14-15m	late	5	GPL6096	Amyloid transgenic models	AD
+GSE50521	GSE50521_5xFAD2	Disease	AD	1m	F	GSE50521	14.5	5xFAD	14-15m	late	5	GPL6096	Amyloid transgenic models	AD
+GSE50521	GSE50521_5xFAD3	Disease	AD	1m	M	GSE50521	14.5	5xFAD	14-15m	late	5	GPL6096	Amyloid transgenic models	AD
+GSE50521	GSE50521_5xFAD;eIF2+_S51A1	Disease	AD	1m	F	GSE50521	14.5	5xFAD	14-15m	late	5	GPL6096	Amyloid transgenic models	AD
+GSE50521	GSE50521_5xFAD;eIF2+_S51A2	Disease	AD	1m	M	GSE50521	14.5	5xFAD	14-15m	late	5	GPL6096	Amyloid transgenic models	AD
+GSE50521	GSE50521_5xFAD;eIF2+_S51A3	Disease	AD	1m	M	GSE50521	14.5	5xFAD	14-15m	late	5	GPL6096	Amyloid transgenic models	AD
+GSE14499	GSE14499_Hippocampus,GFP,rep1	WT	WT	1m	F	GSE14499	7	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE14499	GSE14499_Hippocampus,GFP,rep2	WT	WT	1m	F	GSE14499	7	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE14499	GSE14499_Hippocampus,APP,GFP,rep1	Disease	AD	1m	F	GSE14499	7	J20	7m	late	6	GPL1261	Amyloid transgenic models	AD
+GSE14499	GSE14499_Hippocampus,APP,GFP,rep2	Disease	AD	1m	M	GSE14499	7	J20	7m	late	6	GPL1261	Amyloid transgenic models	AD
+GSE14499	GSE14499_Hippocampus,APP,GFP,rep3	Disease	AD	1m	F	GSE14499	7	J20	7m	late	6	GPL1261	Amyloid transgenic models	AD
+GSE14499	GSE14499_Hippocampus,APP,GFP,rep4	Disease	AD	1m	M	GSE14499	7	J20	7m	late	6	GPL1261	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep1	WT	WT	1m	M	GSE64398.1	18	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep2	WT	WT	1m	M	GSE64398.1	18	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep3	WT	WT	1m	M	GSE64398.1	18	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep4	WT	WT	1m	M	GSE64398.1	18	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep5	WT	WT	1m	M	GSE64398.1	18	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep6	WT	WT	1m	M	GSE64398.1	18	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_18m_Hipp_rep7	WT	WT	1m	M	GSE64398.1	18	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep1	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep2	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep3	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep4	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep5	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep6	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep7	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep8	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_4m_Hipp_rep9	WT	WT	1m	M	GSE64398.1	4	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep1	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep10	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep2	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep3	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	TAU transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep4	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep5	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep6	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep7	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep8	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_WT_8m_Hipp_rep9	WT	WT	1m	M	GSE64398.1	8	WT	NA	late	NA	NA	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_18m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	18	het_TASTPM	4-18m	late	10	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_18m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	18	het_TASTPM	4-18m	late	10	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_18m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	18	het_TASTPM	4-18m	late	10	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_18m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	18	het_TASTPM	4-18m	late	10	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_18m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	18	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_18m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	18	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_18m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	18	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_18m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	18	TAS10	8-18m	late	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_18m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	18	TAS10	8-18m	late	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_18m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	18	TAS10	8-18m	late	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_18m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	18	TAS10	8-18m	late	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_4m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	4	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_4m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	4	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_4m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	4	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_4m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	4	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_8m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	8	het_TASTPM	4-18m	late	10	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_8m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	8	het_TASTPM	4-18m	late	10	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_8m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	8	het_TASTPM	4-18m	late	10	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_het_TASTPM_8m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	8	het_TASTPM	4-18m	late	10	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_8m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	8	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_8m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	8	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_8m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	8	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_ho_TASTPM_8m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	8	ho_TASTPM	4-18m	late	11	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_8m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	8	TAS10	8-18m	late	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_8m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	8	TAS10	8-18m	late	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAS10_8m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	8	TAS10	8-18m	late	7	GPL6885	Amyloid transgenic models	AD
+GSE64398	GSE64398_TAU_8m_Hipp_rep1	Disease	AD	1m	M	GSE64398.1	8	TAU	4-18m	late	14	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_8m_Hipp_rep2	Disease	AD	1m	M	GSE64398.1	8	TAU	4-18m	late	14	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_8m_Hipp_rep3	Disease	AD	1m	M	GSE64398.1	8	TAU	4-18m	late	14	GPL6885	TAU transgenic models	AD
+GSE64398	GSE64398_TAU_8m_Hipp_rep4	Disease	AD	1m	M	GSE64398.1	8	TAU	4-18m	late	14	GPL6885	TAU transgenic models	AD
+GSE53480	GSE53480_WT_rep1	WT	WT	1m	M	GSE53480	4	WT	NA	late	NA	NA	TAU transgenic models	AD
+GSE53480	GSE53480_WT_rep2	WT	WT	1m	M	GSE53480	4	WT	NA	late	NA	NA	TAU transgenic models	AD
+GSE53480	GSE53480_WT_rep3	WT	WT	1m	F	GSE53480	4	WT	NA	late	NA	NA	TAU transgenic models	AD
+GSE53480	GSE53480_WT_rep4	WT	WT	1m	M	GSE53480	4	WT	NA	late	NA	NA	TAU transgenic models	AD
+GSE53480	GSE53480_Tg4510_rep1	Disease	AD	1m	F	GSE53480	4	Tg4510	4m	late	15	GPL1261	TAU transgenic models	AD
+GSE53480	GSE53480_Tg4510_rep2	Disease	AD	1m	M	GSE53480	4	Tg4510	4m	late	15	GPL1261	TAU transgenic models	AD
+GSE53480	GSE53480_Tg4510_rep3	Disease	AD	1m	M	GSE53480	4	Tg4510	4m	late	15	GPL1261	TAU transgenic models	AD
+GSE53480	GSE53480_Tg4510_rep4	Disease	AD	1m	F	GSE53480	4	Tg4510	4m	late	15	GPL1261	TAU transgenic models	AD
+GSE63617	GSE63617_15m_hp_VH_rep1	WT	WT	1m	F	GSE63617.2	15	WT	NA	late	NA	NA	Other models	AD
+GSE63617	GSE63617_15m_hp_VH_rep2	WT	WT	1m	F	GSE63617.2	15	WT	NA	late	NA	NA	Other models	AD
+GSE63617	GSE63617_15m_hp_VH_rep3	WT	WT	1m	F	GSE63617.2	15	WT	NA	late	NA	NA	Other models	AD
+GSE63617	GSE63617_15m_hp_VH_rep4	WT	WT	1m	F	GSE63617.2	15	WT	NA	late	NA	NA	Other models	AD
+GSE63617	GSE63617_15m_hp_VH_rep5	WT	WT	1m	F	GSE63617.2	15	WT	NA	late	NA	NA	Other models	AD
+GSE63617	GSE63617_15m_hp_AD11_rep1	Disease	AD	1m	F	GSE63617.2	15	AD11	15m	late	20	GPL7202	Other models	AD
+GSE63617	GSE63617_15m_hp_AD11_rep2	Disease	AD	1m	F	GSE63617.2	15	AD11	15m	late	20	GPL7202	Other models	AD
+GSE63617	GSE63617_15m_hp_AD11_rep3	Disease	AD	1m	F	GSE63617.2	15	AD11	15m	late	20	GPL7202	Other models	AD
+GSE63617	GSE63617_15m_hp_AD11_rep4	Disease	AD	1m	F	GSE63617.2	15	AD11	15m	late	20	GPL7202	Other models	AD
+GSE63617	GSE63617_15m_hp_AD11_rep5	Disease	AD	1m	F	GSE63617.2	15	AD11	15m	late	20	GPL7202	Other models	AD
+GSE62210	GSE62210_WT_rep1	WT	WT	1m	M	GSE62210	2	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE62210	GSE62210_WT_rep2	WT	WT	1m	M	GSE62210	2	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE62210	GSE62210_WT_rep3	WT	WT	1m	M	GSE62210	2	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE62210	GSE62210_R62_rep1	Disease	HD	1m	M	GSE62210	2	R62	8_weeks	late	1	GPL6246	N-terminal transgenic	HD
+GSE62210	GSE62210_R62_rep2	Disease	HD	1m	M	GSE62210	2	R62	8_weeks	late	1	GPL6246	N-terminal transgenic	HD
+GSE62210	GSE62210_R62_rep3	Disease	HD	1m	M	GSE62210	2	R62	8_weeks	late	1	GPL6246	N-terminal transgenic	HD
+GSE48104	GSE48104_WT_rep1	WT	WT	1m	F	GSE48104	2.75	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE48104	GSE48104_WT_rep2	WT	WT	1m	F	GSE48104	2.75	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE48104	GSE48104_WT_rep3	WT	WT	1m	F	GSE48104	2.75	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE48104	GSE48104_WT_rep4	WT	WT	1m	F	GSE48104	2.75	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE48104	GSE48104_R62_rep1	Disease	HD	1m	M	GSE48104	2.75	R62	10-12_weeks	late	2	GPL1261	N-terminal transgenic	HD
+GSE48104	GSE48104_R62_rep2	Disease	HD	1m	F	GSE48104	2.75	R62	10-12_weeks	late	2	GPL1261	N-terminal transgenic	HD
+GSE48104	GSE48104_R62_rep3	Disease	HD	1m	F	GSE48104	2.75	R62	10-12_weeks	late	2	GPL1261	N-terminal transgenic	HD
+GSE48104	GSE48104_R62_rep4	Disease	HD	1m	F	GSE48104	2.75	R62	10-12_weeks	late	2	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_42	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_45	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_46	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_47	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_48	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_49	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_54	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_63	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_WT_66	WT	WT	1m	F	GSE9857	3	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_105	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_107	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_109	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_64	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_65	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_70	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_78	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_86	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE9857	GSE9857_R62_95	Disease	HD	1m	F	GSE9857	3	R62	12_weeks	late	3	GPL1261	N-terminal transgenic	HD
+GSE26317	GSE26317_str.wt.cntr.1	WT	WT	1m	M	GSE26317	5	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE26317	GSE26317_str.wt.cntr.2	WT	WT	1m	F	GSE26317	5	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE26317	GSE26317_str.wt.cntr.3	WT	WT	1m	F	GSE26317	5	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE26317	GSE26317_str.wt.cntr.4	WT	WT	1m	M	GSE26317	5	WT	NA	late	NA	NA	N-terminal transgenic	HD
+GSE26317	GSE26317_str.tg.cntr.1	Disease	HD	1m	F	GSE26317	5	R62_300Q	5_months	late	4	GPL6103	N-terminal transgenic	HD
+GSE26317	GSE26317_str.tg.cntr.2	Disease	HD	1m	M	GSE26317	5	R62_300Q	5_months	late	4	GPL6103	N-terminal transgenic	HD
+GSE26317	GSE26317_str.tg.cntr.3	Disease	HD	1m	M	GSE26317	5	R62_300Q	5_months	late	4	GPL6103	N-terminal transgenic	HD
+GSE26317	GSE26317_str.tg.cntr.4	Disease	HD	1m	F	GSE26317	5	R62_300Q	5_months	late	4	GPL6103	N-terminal transgenic	HD
+GSE25232	GSE25232_wt_rep1	WT	WT	1m	F	GSE25232	14	WT	NA	late	NA	NA	CAG repeat KI	HD
+GSE25232	GSE25232_wt_rep2	WT	WT	1m	F	GSE25232	14	WT	NA	late	NA	NA	CAG repeat KI	HD
+GSE25232	GSE25232_wt_rep3	WT	WT	1m	F	GSE25232	14	WT	NA	late	NA	NA	CAG repeat KI	HD
+GSE25232	GSE25232_N171-98Q_rep1	Disease	HD	1m	F	GSE25232	14	N171_98Q	14_months	late	5	GPL6885	CAG repeat KI	HD
+GSE25232	GSE25232_N171-98Q_rep2	Disease	HD	1m	F	GSE25232	14	N171_98Q	14_months	late	5	GPL6885	CAG repeat KI	HD
+GSE25232	GSE25232_N171-98Q_rep3	Disease	HD	1m	F	GSE25232	14	N171_98Q	14_months	late	5	GPL6885	CAG repeat KI	HD
+GSE25232	GSE25232_N171-98Q_rep4	Disease	HD	1m	F	GSE25232	14	N171_98Q	14_months	late	5	GPL6885	CAG repeat KI	HD
+GSE10202	GSE10202_WT_161	WT	WT	1m	F	GSE10202	22	WT	NA	late	NA	NA	CAG repeat KI	HD
+GSE10202	GSE10202_WT_170	WT	WT	1m	M	GSE10202	22	WT	NA	late	NA	NA	CAG repeat KI	HD
+GSE10202	GSE10202_WT_180	WT	WT	1m	M	GSE10202	22	WT	NA	late	NA	NA	CAG repeat KI	HD
+GSE10202	GSE10202_WT_200	WT	WT	1m	M	GSE10202	22	WT	NA	late	NA	NA	CAG repeat KI	HD
+GSE10202	GSE10202_CHL2_141	Disease	HD	1m	F	GSE10202	22	CHL2Q150_Q150	22_months	late	7	GPL1261	CAG repeat KI	HD
+GSE10202	GSE10202_CHL2_153	Disease	HD	1m	F	GSE10202	22	CHL2Q150_Q150	22_months	late	7	GPL1261	CAG repeat KI	HD
+GSE10202	GSE10202_CHL2_154	Disease	HD	1m	F	GSE10202	22	CHL2Q150_Q150	22_months	late	7	GPL1261	CAG repeat KI	HD
+GSE10202	GSE10202_CHL2_191	Disease	HD	1m	M	GSE10202	22	CHL2Q150_Q150	22_months	late	7	GPL1261	CAG repeat KI	HD
+GSE7958	GSE7958_WT_18m_12	WT	WT	1m	M	GSE7958	18	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_WT_18m_17	WT	WT	1m	F	GSE7958	18	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_WT_18m_9	WT	WT	1m	F	GSE7958	18	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_Q92_18m_11	Disease	HD	1m	M	GSE7958	18	HdhQ92_Q92	18_months	late	9	GPL1261	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_Q92_18m_25	Disease	HD	1m	F	GSE7958	18	HdhQ92_Q92	18_months	late	9	GPL1261	Human HTT exon 1 KI	HD
+GSE7958	GSE7958_Q92_18m_66	Disease	HD	1m	F	GSE7958	18	HdhQ92_Q92	18_months	late	9	GPL1261	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_WT_rep1	WT	WT	1m	M	GSE32417	12	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_WT_rep2	WT	WT	1m	F	GSE32417	12	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_WT_rep3	WT	WT	1m	F	GSE32417	12	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_WT_rep4	WT	WT	1m	F	GSE32417	12	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_WT_rep5	WT	WT	1m	F	GSE32417	12	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_18m_WT_rep1	WT	WT	1m	F	GSE32417	18	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_18m_WT_rep2	WT	WT	1m	F	GSE32417	18	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_18m_WT_rep3	WT	WT	1m	F	GSE32417	18	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_18m_WT_rep4	WT	WT	1m	F	GSE32417	18	WT	NA	late	NA	NA	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_HdhQ150_rep1	Disease	HD	1m	M	GSE32417	12	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_HdhQ150_rep2	Disease	HD	1m	M	GSE32417	12	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_HdhQ150_rep3	Disease	HD	1m	F	GSE32417	12	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_HdhQ150_rep4	Disease	HD	1m	F	GSE32417	12	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_HdhQ150_rep5	Disease	HD	1m	F	GSE32417	12	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_12m_HdhQ150_rep6	Disease	HD	1m	F	GSE32417	12	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_18m_HdhQ150_rep1	Disease	HD	1m	F	GSE32417	18	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_18m_HdhQ150_rep2	Disease	HD	1m	F	GSE32417	18	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_18m_HdhQ150_rep3	Disease	HD	1m	F	GSE32417	18	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE32417	GSE32417_18m_HdhQ150_rep4	Disease	HD	1m	F	GSE32417	18	HdhQ150	12, 18 months	late	13	GPL6246	Human HTT exon 1 KI	HD
+GSE19676	GSE19676_WT_12m_rep1	WT	WT	1m	M	GSE19676	12	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE19676	GSE19676_WT_12m_rep2	WT	WT	1m	M	GSE19676	12	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE19676	GSE19676_WT_12m_rep3	WT	WT	1m	M	GSE19676	12	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE19676	GSE19676_WT_12m_rep4	WT	WT	1m	M	GSE19676	12	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE19676	GSE19676_WT_24m_rep1	WT	WT	1m	F	GSE19676	24	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE19676	GSE19676_WT_24m_rep2	WT	WT	1m	M	GSE19676	24	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE19676	GSE19676_WT_24m_rep3	WT	WT	1m	M	GSE19676	24	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_12m_rep1	Disease	HD	1m	M	GSE19676	12	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_12m_rep2	Disease	HD	1m	M	GSE19676	12	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_12m_rep3	Disease	HD	1m	M	GSE19676	12	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_12m_rep4	Disease	HD	1m	M	GSE19676	12	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_12m_rep5	Disease	HD	1m	F	GSE19676	12	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_24m_rep1	Disease	HD	1m	F	GSE19676	24	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_24m_rep2	Disease	HD	1m	M	GSE19676	24	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_24m_rep3	Disease	HD	1m	M	GSE19676	24	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_24m_rep4	Disease	HD	1m	M	GSE19676	24	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE19676	GSE19676_YAC128_24m_rep5	Disease	HD	1m	M	GSE19676	24	YAC128	12, 24 months	late	14	GPL6333	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_11m_GN34_1	WT	WT	1m	M	GSE64386	11	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_11m_GN34_5	WT	WT	1m	M	GSE64386	11	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_11m_GN47_1	WT	WT	1m	F	GSE64386	11	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_WT_11m_WT1	WT	WT	1m	F	GSE64386	11	WT	NA	late	NA	NA	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_11m_GN36_1	Disease	HD	1m	F	GSE64386	11	BAC_HD	11_months	late	16	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_11m_GN37_3	Disease	HD	1m	M	GSE64386	11	BAC_HD	11_months	late	16	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_11m_NTN2_1	Disease	HD	1m	M	GSE64386	11	BAC_HD	11_months	late	16	GPL6885	Full-length transgenic	HD
+GSE64386	GSE64386_Str_TG_11m_NTN28_2	Disease	HD	1m	F	GSE64386	11	BAC_HD	11_months	late	16	GPL6885	Full-length transgenic	HD

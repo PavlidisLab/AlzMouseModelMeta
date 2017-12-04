@@ -1,0 +1,93 @@
+# Differentially expressed genes in 12 month-old APPSw mice									
+# Rank is based on the p-value for each comparison (2x2) such that a rank of 8/-8 corresponds to a p-value < 0.001.  Rank values ranging from 4 to 8 indicate									
+# significantly increased gene expression (Roman text), and values from –4 to –8 indicate significantly decreased genes (italic text).  FC, fold change.  FC									
+# is expressed as mean±SEM.									
+Classification	gse1556_genes	up_down	error	Rank	geneNames	geneSymbol	manual	notes	regulation
+Growth	Nerve growth factor, beta	-8.79	0.78	-8	nerve growth factor	Ngf			down
+Miscellaneous	Farnesyltransferase, CAAX box, beta	-6.62	3.75	-4	farnesyltransferase, CAAX box, beta	Fntb			down
+Miscellaneous	Solute carrier family 1, member 1	-4.39	1.89	-4	solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1	Slc1a1			down
+Miscellaneous	Phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma	-2.8	0.49	-4	phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma	Pip5k1c			down
+GTPase	Guanine nucleotide binding protein, beta 1	-2.68	0.78	-5	guanine nucleotide binding protein (G protein), beta 1	Gnb1			down
+Miscellaneous	Karyopherin (importin) alpha 6	-2.49	0.78	-4	karyopherin (importin) alpha 6	Kpna6			down
+Microtubule	Kinesin heavy chain member 5C	-2.35	0.48	-4	kinesin family member 5C	Kif5c			down
+Synaptic	Vesicle-associated membrane protein 3	-1.88	0.24	-6	vesicle-associated membrane protein 3	Vamp3			down
+Synaptic	Synaptobrevin 2	-1.86	0.29	-8	vesicle-associated membrane protein 2	Vamp2			down
+Ion Channels	ATPase, Na+/K+ transporting, beta 2 polypeptide	-1.77	0.37	-6	ATPase, Na+/K+ transporting, beta 2 polypeptide	Atp1b2			down
+Immune-related	Lymphocyte specific formin related protein	-1.73	0.4	-6	formin-like 1	Fmnl1			down
+Fibroblast & glial	Glial fibrillary acidic protein	-1.65	0.31	-4	glial fibrillary acidic protein	Gfap			down
+Miscellaneous	Nel-like 2 homolog (chicken)	-1.64	0.29	-6	NEL-like 2 (chicken); NEL-like 2	Nell2			down
+Miscellaneous	Cytokine receptor-like factor 1	-1.61	0.18	-7	cytokine receptor-like factor 1	Crlf1			down
+Miscellaneous	Dentatorubral pallidoluysian atrophy	-1.6	0.24	-6	atrophin 1	Atn1			down
+	Thyroid hormone receptor alpha	-1.59	0.12	-5	thyroid hormone receptor alpha	Thra			down
+Miscellaneous	Adrenergic receptor kinase, beta 1	-1.55	0.23	-6	adrenergic receptor kinase, beta 1	Adrbk1			down
+Ion Channels	Chloride channel 4-2	-1.54	0.12	-8	chloride channel 4-2	Clcn4-2			down
+Miscellaneous	Latent transforming growth factor beta binding protein 4	-1.53	0.17	-8	latent transforming growth factor beta binding protein 4	Ltbp4			down
+Miscellaneous	Neurogranin (protein kinase C substrate, RC3)	-1.53	0.14	-7	neurogranin	Nrgn			down
+Miscellaneous	Metallothionein 3	-1.52	0.26	-4	metallothionein 3	Mt3			down
+Miscellaneous	Non-POU-domain-containing, octamer binding protein	-1.52	0.03	-4	non-POU-domain-containing, octamer binding protein	Nono			down
+GTPase	cAMP-regulated guanine nucleotide exchange factor II	-1.51	0.21	-6	Rap guanine nucleotide exchange factor (GEF) 4	Rapgef4			down
+Microtubule	MAP/microtubule affinity-regulating kinase 2	-1.5	0.18	-5	MAP/microtubule affinity-regulating kinase 2	Mark2			down
+Miscellaneous	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 1	1.5	0.08	4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 1	Smarcc1			up
+Cholesterol	Low density lipoprotein receptor	1.51	0.07	4	low density lipoprotein receptor	Ldlr			up
+Extracellular matrix and tissue remodeling	Protocadherin alpha 5	1.51	0.11	6	protocadherin alpha 5	Pcdha5			up
+GTPase	RAP2B, member of RAS oncogene family	1.51	0.09	5	RAP2B, member of RAS oncogene family	Rap2b			up
+Transcription Regulation	Transcription factor 20	1.51	0.12	4	transcription factor 20	Tcf20			up
+Fatty acid metabolism	Acetyl-Coenzyme A acyltransferase 2 (mitochondrial 3-oxoacyl-Coenzyme A thiolase)	1.53	0.23	4	acetyl-Coenzyme A acyltransferase 2 (mitochondrial 3-oxoacyl-Coenzyme A thiolase)	Acaa2			up
+Miscellaneous	NMDA receptor-regulated gene 1	1.53	0.1	6	N(alpha)-acetyltransferase 15, NatA auxiliary subunit	Naa15			up
+GTPase	RAB6, member RAS oncogene family	1.53	0.14	6	RAB6A, member RAS oncogene family	Rab6a			up
+Immune-related	Histocompatibility 2, Q region locus 7	1.55	0.15	6	histocompatibility 2, Q region locus 7	H2-Q7			up
+Transcription Regulation	Myocyte enhancer factor 2C	1.6	0.19	6	myocyte enhancer factor 2C	Mef2c			up
+Miscellaneous	B-cell receptor-associated protein 37	1.61	0.16	4	prohibitin 2	Phb2			up
+Miscellaneous	Phosphodiesterase 1A, calmodulin-dependent	1.62	0.04	8	phosphodiesterase 1A, calmodulin-dependent	Pde1a			up
+Miscellaneous	Ankyrin 3, epithelial	1.63	0.11	8	ankyrin 3, epithelial	Ank3			up
+Miscellaneous	Cofilin 2, muscle	1.64	0.16	4	cofilin 2, muscle	Cfl2			up
+Growth	Frizzled homolog 4	1.65	0.19	4	frizzled homolog 4 (Drosophila)	Fzd4			up
+Immune-related	Histocompatibility 2, K region	1.65	0.22	5	histocompatibility 2, K1, K region	H2-K1			up
+Protein Biosynthesis	Eukaryotic translation initiation factor 2C, 2	1.66	0.17	8	eukaryotic translation initiation factor 2C, 2	Eif2c2			up
+Transcription Regulation	Nuclear receptor interacting protein 1	1.67	0.19	6	nuclear receptor interacting protein 1	Nrip1			up
+Miscellaneous	Solute carrier family 31, member 1	1.67	0.27	4	solute carrier family 31, member 1	Slc31a1			up
+Extracellular matrix and tissue remodeling	Decorin	1.68	0.31	4	decorin	Dcn			up
+Miscellaneous	Farnesyl diphosphate synthetase	1.72	0.11	8	farnesyl diphosphate synthetase	Fdps			up
+Miscellaneous	Close homolog of L1	1.73	0.09	8	cell adhesion molecule with homology to L1CAM	Chl1			up
+Protease	Angiotensin converting enzyme	1.78	1.07	4	angiotensin I converting enzyme (peptidyl-dipeptidase A) 1	Ace			up
+Protein Biosynthesis	Ribosomal protein L29	1.79	0.23	4	ribosomal protein L29	Rpl29			up
+Miscellaneous	Splicing factor 3b, subunit 1, 155 kDa	1.79	0.05	8	splicing factor 3b, subunit 1	Sf3b1			up
+Proteosome	Proteosome (prosome, macropain) subunit, beta type 8 (large multifunctional protease 7)	1.82	0.35	4	proteasome (prosome, macropain) subunit, beta type 8 (large multifunctional peptidase 7)	Psmb8			up
+GTPase	Retinitis pigmentosa GTPase regulator	1.82	0.27	4	retinitis pigmentosa GTPase regulator	Rpgr			up
+Cholesterol	Sterol-C5-desaturase	1.82	0.11	6	sterol-C5-desaturase (fungal ERG3, delta-5-desaturase) homolog (S. Cerevisae)	Sc5d			up
+Miscellaneous	Prosaposin	1.89	0.23	8	prosaposin	Psap			up
+Miscellaneous	Ganglioside-induced differentiation associated protein 10	1.97	0.19	8	ganglioside-induced differentiation-associated-protein 10	Gdap10			up
+Miscellaneous	Paternally expressed 3	1.99	0.18	8	paternally expressed 3	Peg3			up
+Transcription Regulation	Sox11 SRY-box containing gene 11	2.03	0.16	8	SRY-box containing gene 11; SRY (sex determining region Y)-box 11	Sox11			up
+Miscellaneous	DEAD (aspartate-glutamate-alanine-aspartate) box polypeptide 6	2.08	0.15	8	DEAD (Asp-Glu-Ala-Asp) box polypeptide 6	Ddx6			up
+GTPase	Interferon gamma induced GTPase	2.16	0.34	4	interferon gamma induced GTPase	Igtp			up
+Protein Biosynthesis	Ribosomal protein S11	2.16	0.49	4	ribosomal protein S11	Rps11			up
+Transcription Regulation	Early growth response 1	2.2	0.39	4	early growth response 1	Egr1			up
+Miscellaneous	DNA segment, Chr 7, Roswell Park 2 complex, expressed	2.21	0.59	6	nudix (nucleoside diphosphate linked moiety X)-type motif 19	Nudt19		see http://www.ncbi.nlm.nih.gov/gene/27945	up
+GTPase	Guanylate nucleotide binding protein 3	2.22	0.63	4	guanylate binding protein 3	Gbp3			up
+Miscellaneous	Cyclin-dependent kinase inhibitor 1C (P57)	2.41	0.73	4	cyclin-dependent kinase inhibitor 1C (P57)	Cdkn1c			up
+Growth	Insulin-like growth factor 2	2.48	0.76	4	insulin-like growth factor 2	Igf2			up
+Ion Channels	Potassium voltage gated channel, shaker related subfamily, member 1	2.52	0.16	8	potassium voltage-gated channel, shaker-related subfamily, member 1	Kcna1			up
+Miscellaneous	LPS-binding protein	2.59	0.76	4	lipopolysaccharide binding protein	Lbp			up
+Transcription Regulation	Trans-acting transcription factor 1	2.7	0.61	8	trans-acting transcription factor 1	Sp1			up
+Transcription Regulation	Chromobox homolog 3 (Drosophila HP1 gamma)	2.71	0.37	8	chromobox homolog 3 (Drosophila HP1 gamma)	Cbx3			up
+Growth	Growth hormone	2.81	0.92	4	growth hormone	Gh			up
+Growth	Bone morphogenetic protein 6	2.86	0.95	4	bone morphogenetic protein 6	Bmp6			up
+Growth	Prolactin receptor	3	0.82	4	prolactin receptor	Prlr			up
+Growth	Phosphatase and tensin homolog (Pten)	3.12	0.43	8	phosphatase and tensin homolog	Pten			up
+Extracellular matrix and tissue remodeling	Procollagen, type VIII, alpha 1	3.65	1.13	4	collagen, type VIII, alpha 1	Col8a1			up
+Ion Channels	Voltage-dependent anion channel 2	4.02	0.96	4	voltage-dependent anion channel 2	Vdac2			up
+Immune-related	Histocompatibility 2, K region locus 2	4.23	1.95	4	histocompatibility 2, K region locus 2	H2-K2			up
+Miscellaneous	Folate receptor 1 (adult)	4.25	2.77	4	folate receptor 1 (adult)	Folr1			up
+Miscellaneous	Aquaporin 1	5.48	2.6	4	aquaporin 1	Aqp1			up
+GTPase	Interferon-inducible GTPase	5.61	1.56	4	interferon inducible GTPase 1	Iigp1			up
+Proteosome	Proteosome (prosome, macropain) subunit, beta type 9 (large multifunctional protease 2)	5.7	2.71	4	proteasome (prosome, macropain) subunit, beta type 9 (large multifunctional peptidase 2)	Psmb9			up
+GTPase	Guanylate nucleotide binding protein 2	5.8	5.4	4	guanylate binding protein 2	Gbp2			up
+Miscellaneous	Retinol dehydrogenase type 5	6.34	3.13	4	retinol dehydrogenase 5	Rdh5			up
+Immune-related	T-cell specific GTPase	6.71	4.05	4	T-cell specific GTPase 1|T-cell specific GTPase 2	Tgtp1|Tgtp2			up
+Transcription Regulation	Trans-acting transcription factor 4	8.75	5.29	5	trans-acting transcription factor 4	Sp4			up
+Amyloid Sequestration	Transthyretin	10.05	7.89	4	transthyretin	Ttr			up
+Extracellular matrix and tissue remodeling	Dermatan sulphate proteoglycan 3	10.25	4.31	6	epiphycan	Epyc			up
+Growth	Insulin II	10.95	5.35	4	insulin II	Ins2			up
+Protease	Cathepsin C	14.27	7.86	5	cathepsin C	Ctsc			up
+Miscellaneous	DNA segment, Chr X, ERATO Doi 242, expressed	1.64	0.15	6	NA	DXErtd242e	DXErtd242e		up

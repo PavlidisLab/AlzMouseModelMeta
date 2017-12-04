@@ -1,0 +1,20 @@
+# updated 2016-11-2, 11-8: update order								
+# change GSE62210 to late								
+# this is the dataset information (manual input) for limma results summary and others								
+Study	Age_timepoint	Phase	Order	Platform	Original_genotype	mouse_model	Genotypes	Model_types
+GSE62210	8_weeks	late	1	GPL6246	R62	R62	R6/2	N-terminal transgenic
+GSE48104	10-12_weeks	late	2	GPL1261	R62	R62	R6/2	N-terminal transgenic
+GSE9857	12_weeks	late	3	GPL1261	R62	R62	R6/2	N-terminal transgenic
+GSE26317	5_months	late	4	GPL6103	R62_300Q	R62	R6/2	N-terminal transgenic
+GSE25232	14_months	late	5	GPL6885	N171_98Q	N171_98Q	D9-N171_98Q	CAG repeat KI
+GSE9375	12_months	early	6	GPL81	Hdh4_Q80	Hdh4_Q80	Hdh4_Q80	CAG repeat KI
+GSE10202	22_months	late	7	GPL1261	CHL2Q150_Q150	CHL2Q150_Q150	CHL2Q150	CAG repeat KI
+GSE7958	3_months	early	8	GPL1261	HdhQ92_Q92	HdhQ92_Q92	HdhQ92	Human HTT exon 1 KI
+GSE7958	18_months	late	9	GPL1261	HdhQ92_Q92	HdhQ92_Q92	HdhQ92	Human HTT exon 1 KI
+GSE9038	3-10_weeks	early	10	GPL1261	HdhQ111	HdhQ111	HdhQ111	Human HTT exon 1 KI
+GSE50379	3_months	early	11	GPL6246	HdhQ111	HdhQ111	HdhQ111	Human HTT exon 1 KI
+GSE32417	6_months	early	12	GPL6246	HdhQ150	HdhQ150	HdhQ150	Human HTT exon 1 KI
+GSE32417	12, 18 months	late	13	GPL6246	HdhQ150	HdhQ150	HdhQ150	Human HTT exon 1 KI
+GSE19676	12, 24 months	late	14	GPL6333	YAC128	YAC128	YAC128	Full-length transgenic
+GSE64386	2, 7 months	early	15	GPL6885	BAC_HD	BACHD-ΔN17	BACHD-ΔN17	Full-length transgenic
+GSE64386	11_months	late	16	GPL6885	BAC_HD	BACHD-ΔN17	BACHD-ΔN17	Full-length transgenic

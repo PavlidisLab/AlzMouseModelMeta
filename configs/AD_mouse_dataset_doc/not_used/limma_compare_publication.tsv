@@ -1,0 +1,22 @@
+# updated 2016-02-23 – compare publications																						
+# this is the data for limma_DEA.R and explore_data_general.R																						
+# 1. reqired columns for explore_data_general.R 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																						
+# 2. the table file must contain the following columns for limma_DEA.R (outlier must be removed before limma_DEA.R)																						
+#      'eeName': GSE_id, e.g. GSE1234																						
+#      'platform_id': e.g. GPL1261																						
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																						
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																						
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																						
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																						
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																						
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																						
+#      'factors': factors to be used in the limma model, e.g. c('Genotype', 'Batch')																						
+#      'factor_levels': specify factor levels which update the baseline level in the limma model, sep by '; ', 																						
+#																						
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																						
+# gender_record: from the literature, gender xist: based on the Xist gene																						
+# subset: further subset the samples (maybe remove treatment)																						
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																						
+row_number	eeID	eeName	platform_id	priority	extra_notes	sample_size(after)	data_set_added	model_updated	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	factors	factor_levels	treatment	problem_with_the_dataset
+1	CEL 	GSE48622	GPL1261	1.5_med_high	this is to compare result from publication_use 'APLP2_KO' as baseline	16	2015-12-02	2015-12-09	APLP2_KO, APP_KO, N_dC_KO, WT	2 months	NA	male?	No	No			No		c('Genotype')	array_design$Genotype <- factor(array_design$Genotype, levels = c('APLP2_KO', 'WT', 'APP_KO', 'N_dC_KO'))		
+		GSE50521	GPL6096		for original 4 genotypes														c('Genotype2')			

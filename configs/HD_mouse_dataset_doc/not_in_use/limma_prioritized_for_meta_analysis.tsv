@@ -1,0 +1,43 @@
+# updated 2016-04-19- for both gemma and CEL files for huntingtons #2016-10-13 add GSE32417																						
+# this is the data for limma_DEA.R and explore_data_general.R																						
+# 1. reqired columns for explore_data_general.R 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																						
+# 2. the table file must contain the following columns for limma_DEA.R (outlier must be removed before limma_DEA.R)																						
+#      'eeName': GSE_id, e.g. GSE1234																						
+#      'platform_id': e.g. GPL1261																						
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																						
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																						
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																						
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																						
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																						
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																						
+#      'factors': factors to be used in the limma model, e.g. c('Genotype', 'Batch')																						
+#      'factor_levels': specify factor levels which update the baseline level in the limma model, sep by '; ', 																						
+#																						
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																						
+# gender_record: from the literature, gender xist: based on the Xist gene																						
+# subset: further subset the samples (maybe remove treatment)																						
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																						
+#7	CEL	GSE18551	GPL1261	Already removed: YAC128_12_m_S3; YAC128_12_m_S1	Only 24 m	Striatum	2016-04-18	2016-04-18	YAC128	24 months	NA		No	Yes	Timepoint	c('24_months')	No		c('Genotype')			
+#8	CEL	GSE18551	GPL1261	Already removed: YAC128_12_m_S3; YAC128_12_m_S1	Only 12 m	Striatum	2016-04-18	2016-04-18	YAC128	12 months	NA		No	Yes	Timepoint	c('12_months')	No		c('Genotype')			
+#7	CEL	GSE9803	GPL1261	GSE9803,9804 are 2 different batches; batch corrected		Striatum	2016-04-18	2016-04-18	R62	12w	NA		Yes	No			No		c('Genotype', 'Batch')			
+#8	CEL	GSE9804	GPL1261	GSE9803,9804 are 2 different batches	Timepoint 85,83 days are no difference all to 12_weeks	Striatum	2016-04-18	2016-04-18	R62	12w	NA		No	No			No		c('Genotype')			
+row_number	eeID	eeName	platform_id	priority	extra_notes	sample_size(after)	data_set_added	model_updated	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	factors	factor_levels	treatment	problem_with_the_dataset
+1	CEL	GSE62210	GPL6246			Striatum	2016-04-18	2016-04-18	R62, p62 KO	8 W	NA		No	No			No		c('Genotype')			
+2	CEL	GSE9038	GPL1261	batch corrected	 subset by organism part, batch correction by organism part	Striatum	2016-04-18	2016-04-18	HdhQ111	3-10 w	NA		Yes	No			No		c('Genotype', 'Batch', 'Gender')			
+3	CEL	GSE48104	GPL1261		only keep batch 1 (contains WT and R62), the dream KOs are in batch 2	Striatum	2016-04-18	2016-04-18	R62, DREAM_KO	Maybe 11 w	NA		No	No			No		c('Genotype')			
+4	CEL	GSE7958	GPL1261		18m	Striatum	2016-04-18	2016-04-18	HdhQ92	18m	NA		No	Yes	Timepoint	c('18_months')	No		c('Genotype', 'Gender')			
+5	CEL	GSE7958	GPL1261		3m	Striatum	2016-04-18	2016-04-18	HdhQ92	3m	NA		No	Yes	Timepoint	c('3_months')	No		c('Genotype', 'Gender')			
+6	CEL	GSE10202	GPL1261	batch corrected	batch corrected	Striatum	2016-04-18	2016-04-18	Q150	22 m	NA		Yes	No			No		c('Genotype', 'Batch', 'Gender')			
+7	CEL	GSE9375	GPL81			Striatum	2016-04-18	2016-04-18	Hdh4_Q80	12_m	NA		No	No			No		c('Genotype')			
+8	gemma	GSE25232	GPL6885			Striatum	2016-04-19	2016-04-19	N171-98Q	14 m			No	No			No		c('Genotype')			
+9	gemma	GSE26317	GPL6103	Only reference, striatum	Cerebral_cortex, Cerebellum removed and treatment group HDACi_4b removed	Striatum	2016-04-19	2016-04-19	R6/2(300Q)	5 m			No	Yes	Treatment; OrganismPart	c('reference'); c('Striatum')	No		c('Genotype', 'Gender')			
+10	gemma	GSE64386	GPL6885	7m; Striatum	treatment removed: exendin_4, GLP_1Tf, insulin; organism part removed: cortex	Striatum	2016-04-19	2016-04-19	BAC_HD	7m			No	Yes	Timepoint; OrganismPart	c('7_months'); c('Striatum')	No		c('Genotype', 'Gender')			
+11	gemma	GSE64386	GPL6885	11m; Striatum	treatment removed: exendin_4, GLP_1Tf, insulin; organism part removed: cortex	Striatum	2016-04-19	2016-04-19	BAC_HD	11m			No	Yes	Timepoint; OrganismPart	c('11_months'); c('Striatum')	No		c('Genotype', 'Gender')			
+12	CEL	GSE50379	GPL6246	3m striatum		Striatum	2016-04-26	2016-04-26	HdhQ111/Q111/mGluR5+/+	90 days (3_m)			No	No			No		c('Genotype')			
+13	gemma	GSE64386	GPL6885	2m; Striatum	treatment removed: exendin_4, GLP_1Tf, insulin; organism part removed: cortex	Striatum	2016-04-19	2016-05-03	BAC_HD	2m			No	Yes	Timepoint; OrganismPart	c('2_months'); c('Striatum')	No		c('Genotype', 'Gender')			
+14	gemma	GSE19676	GPL6333	Only 24 m; bad p value dist	outlier WT_24m_rep4 already removed	Striatum	2016-04-19		YAC128	24m			No	Yes	Timepoint	c('24_months')	No		c('Genotype', 'Gender')			
+15	gemma	GSE19676	GPL6333	Only 12 m; bad p value dist		Striatum	2016-04-19		YAC128	12m			No	Yes	Timepoint	c('12_months')	No		c('Genotype', 'Gender')			
+16	CEL	GSE32417	GPL6246			Striatum	2016-10-13		HdhQ150	6m			Yes	Yes	Timepoint	c('6_months')	No		c('Genotype', 'Batch', 'Gender')			
+17	CEL	GSE32417	GPL6246			Striatum	2016-10-13		HdhQ150	12m			Yes	Yes	Timepoint	c('12_months')	No		c('Genotype', 'Batch', 'Gender')			
+18	CEL	GSE32417	GPL6246	dont add gender and batch as covariates		Striatum	2016-10-13		HdhQ150	18m			Yes	Yes	Timepoint	c('18_months')	No		c('Genotype')			
+19	CEL	GSE9857	GPL1261	GSE9803,9804 are 2 different batches; batch corrected		Striatum	2016-04-18	2016-04-18	R62	12 w	NA		Yes	No			No		c('Genotype', 'Batch')			

@@ -1,0 +1,491 @@
+full_name	shorten	notes
+wild_type	WT	
+APP_knock_out	APP_KO	
+APPsa_knock_out	APPsa_KO	
+APLP2_knock_out	APLP2_KO	
+mixed_genetic_background_|_APLP2_knock_out_|	mixed_APLP2_KO	
+APP_[human]_amyloid_beta_(A4)_precursor_protein_|_knock_in_|	J20	GSE14499, see http://www.ncbi.nlm.nih.gov/pubmed/19198615
+wild_type_genotype	WT	
+wildtype	WT	
+_/__|_Aplp2_[mouse]_amyloid_beta_(A4)_precursor_like_protein_2_|	APLP2_KO	
+_/__|_Aplp2_[mouse]_amyloid_beta_(A4)_precursor_like_protein_2_|_App_[mouse]_amyloid_beta_(A4)_precursor_protein_|_App_a/a,_Aplp2__/__|	APPsa_DM	
++/__|_Psen1_[mouse]_presenilin_1_|	Psen1	
+psen1/2_dko_|__/__|_Psen2_[mouse]_presenilin_2_|_Psen1_[mouse]_presenilin_1_|	Psen1_2	
+Dicer1_[mouse]_dicer_1,_ribonuclease_type_III_|__/__|	Dicer_KO	
+MAPT_[human]_microtubule_associated_protein_tau_|_Overexpression_|_Psen1_(M146V/M146V),_APP_(swe/swe),_MAPT_(P301L/P301L)_|_Psen1_[mouse]_presenilin_1_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	3xTg_H	
+APP_[human]_amyloid_beta_(A4)_precursor_protein_|_Psen1_(M146V/M146V),_APP_(swe/_),_MAPT_(P301L/_)_|_Psen1_[mouse]_presenilin_1_|_Overexpression_|_MAPT_[human]_microtubule_associated_protein_tau_|	3xTg_h	
+Mgmt_/_	Mgmt_neg	
+Overexpression_|_transgenic_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	Tg2576	
+Hippocampus,APPtransgenicanimals,GFPtreated,biologicalrep1	Hippocampus,APP,GFP,rep1	
+Hippocampus,APPtransgenicanimals,BDNFtreated,biologicalrep4	Hippocampus,APP,BDNF,rep4	
+Hippocampus,non.transgenicanimals,shamlesion,biologicalrep1	Hippocampus,sham,rep1	
+Hippocampus,APPtransgenicanimals,GFPtreated,biologicalrep2	Hippocampus,APP,GFP,rep2	
+Hippocampus,non.transgenicanimals,GFPtreated,biologicalrep2	Hippocampus,GFP,rep2	
+Entorhinalcortex,APPtransgenicanimals,BDNFtreated,biologicalrep1	Entorhinalcortex,APP,BDNF,rep1	
+Hippocampus,APPtransgenicanimals,BDNFtreated,biologicalrep1	Hippocampus,APP,BDNF,rep1	
+Hippocampus,APPtransgenicanimals,GFPtreated,biologicalrep3	Hippocampus,APP,GFP,rep3	
+Hippocampus,APPtransgenicanimals,BDNFtreated,biologicalrep2	Hippocampus,APP,BDNF,rep2	
+Hippocampus,APPtransgenicanimals,GFPtreated,biologicalrep4	Hippocampus,APP,GFP,rep4	
+Entorhinalcortex,non.transgenicanimals,shamlesion,biologicalrep1	Entorhinalcortex,sham,rep1	
+Hippocampus,APPtransgenicanimals,BDNFtreated,biologicalrep3	Hippocampus,APP,BDNF,rep3	
+Hippocampus,non.transgenicanimals,shamlesion,biologicalrep2	Hippocampus,sham,rep2	
+Hippocampus,non.transgenicanimals,shamlesion,biologicalrep3	Hippocampus,sham,rep3	
+Entorhinalcortex,APPtransgenicanimals,BDNFtreated,biologicalrep2	Entorhinalcortex,APP,BDNF,rep2	
+Entorhinalcortex,APPtransgenicanimals,BDNFtreated,biologicalrep3	Entorhinalcortex,APP,BDNF,rep3	
+Entorhinalcortex,non.transgenicanimals,GFPtreated,biologicalrep1	Entorhinalcortex,GFPtreated,rep1	
+Entorhinalcortex,APPtransgenicanimals,GFPtreated,biologicalrep1	Entorhinalcortex,APP,GFP,rep1	
+Entorhinalcortex,non.transgenicanimals,shamlesion,biologicalrep2	Entorhinalcortex,shamlesion,rep2	
+Entorhinalcortex,non.transgenicanimals,GFPtreated,biologicalrep2	Entorhinalcortex,GFPtreated,rep2	
+Entorhinalcortex,APPtransgenicanimals,BDNFtreated,biologicalrep4	Entorhinalcortex,APP,BDNF,rep4	
+Entorhinalcortex,APPtransgenicanimals,GFPtreated,biologicalrep3	Entorhinalcortex,APP,GFP,rep3	
+Entorhinalcortex,non.transgenicanimals,shamlesion,biologicalrep3	Entorhinalcortex,sham,rep3	
+Entorhinalcortex,APPtransgenicanimals,GFPtreated,biologicalrep2	Entorhinalcortex,APP,GFP,rep2	
+Hippocampus,non.transgenicanimals,GFPtreated,biologicalrep1	Hippocampus,GFP,rep1	
+Entorhinalcortex,APPtransgenicanimals,GFPtreated,biologicalrep4	Entorhinalcortex,APP,GFP,rep4	
+adultonWTsection,biologicalrep1	adultonWT,rep1	
+neonatalonTGsection,biologicalrep1	neonatalonTG,rep1	
+neonatalonTGsection,biologicalrep2	neonatalonTG,rep2	
+neonatalonWTsection,biologicalrep3	neonatalonWT,rep3	
+adultonTGsection,biologicalrep2	adultonTG,rep2	
+neonatalonWTsection,biologicalrep2	neonatalonWT,rep2	
+adultonTGsection,biologicalrep1	adultonTG,rep1	
+neonatalonWTsection,biologicalrep1	neonatalonWT,rep1	
+adultonTGsection,biologicalrep3	adultonTG,rep3	
+adultonWTsection,biologicalrep2	adultonWT,rep2	
+adultonWTsection,biologicalrep3	adultonWT,rep3	
+neonatalonTGsection,biologicalrep3	neonatalonTG,rep3	
+Control(forPScDKO)6months	Control	
+PScDKO6months	PScDKO6	
+Corticalneurons.EGCG.Rep3	EGCG.Rep3	
+Corticalneurons.EGCG.Rep2	EGCG.Rep2	
+Corticalneurons.EGCG.Rep1	EGCG.Rep1	
+Corticalneurons.Ctrl.Rep4[EGCG,Rot]	Ctrl.Rep4	
+Corticalneurons.Ctrl.Rep3[EGCG,Rot]	Ctrl.Rep3	
+Corticalneurons.Ctrl.Rep2[EGCG,Rot]	Ctrl.Rep2	
+Corticalneurons.Ctrl.Rep1[EGCG,Rot]	Ctrl.Rep1	
+Mousecortexofcontrolmice,biologicalrep2	control,rep2	
+Mousecortexofcontrolmice,biologicalrep3	control,rep3	
+MousecortexofDicerKOmice,biologicalrep2	Dicer_KO,rep2	
+MousecortexofDicerKOmice,biologicalrep3	Dicer_KO,rep3	
+Mousecortexofcontrolmice,biologicalrep1	control,rep1	
+MousecortexofDicerKOmice,biologicalrep1	Dicer_KO,rep1	
+3xTg.AD.H,biologicalrep1	3xTg.AD.H,rep1	
+3xTg.AD.H,biologicalrep2	3xTg.AD.H,rep2	
+3xTg.AD.H,biologicalrep3	3xTg.AD.H,rep3	
+3xTg.AD.h,biologicalrep1	3xTg.AD.h,rep1	
+3xTg.AD.h,biologicalrep2	3xTg.AD.h,rep2	
+3xTg.AD.h,biologicalrep3	3xTg.AD.h,rep3	
+non.Tg_1,biologicalrep1	non.Tg_1,rep1	
+non.Tg_1,biologicalrep2	non.Tg_1,rep2	
+non.Tg_1,biologicalrep3	non.Tg_1,rep3	
+Microglia_Abeta_Con_rep3	Abeta_Con_rep3	
+Microglia_Abeta_Con_rep2	Abeta_Con_rep2	
+Microglia_Veh_AE1_rep1	Veh_AE1_rep1	
+Microglia_Veh_Con_rep2	Veh_Con_rep2	
+Microglia_Veh_Con_rep1	Veh_Con_rep1	
+Microglia_Veh_AE1_rep3	Veh_AE1_rep3	
+Microglia_Veh_AE1_rep2	Veh_AE1_rep2	
+Microglia_Abeta_AE1_rep2	Abeta_AE1_rep2	
+Microglia_Abeta_AE1_rep1	Abeta_AE1_rep1	
+Microglia_Abeta_Con_rep1	Abeta_Con_rep1	
+Microglia_Veh_Con_rep3	Veh_Con_rep3	
+Microglia_Abeta_AE1_rep3	Abeta_AE1_rep3	
+Green_fluorescent_protein	GFP	
+reference_subject_role	reference	
+reference_substance_role	reference	
+pioglitazone_|_18_mg/kg/day_|	pioglitazone_18mg	
+24_hours_|_methylazoxymethanol_|	methylazoxymethanol_24h	
+24_hours_|_reference_substance_role_|	reference_24h	
+48_hours_|_reference_substance_role_|	reference_48h	
+methylazoxymethanol_|_48_hours_|	methylazoxymethanol_48h	
+methylazoxymethanol_|_6_hours_|	methylazoxymethanol_6h	
+reference_substance_role_|_168_hours_|	reference_168h	
+methylazoxymethanol_|_168_hours_|	methylazoxymethanol_168h	
+reference_substance_role_|_6_hours_|	reference_6h	
+reference_subject_role	reference	
+mild_|_Traumatic_brain_injury_|	mild_injury	
+reference_substance_role	reference	
+BVGVPUMSPSNRRQ_CNOJNPITSA_N	EP4	
+Hippocampus,Tg2576.APPSwemice,12month.old,withlowAbetaplaqueload.rep2	low_Abeta_12m.rep2	
+Hippocampus,Tg2576.APPSwemice,18month.old,withhighAbetaplaqueload.rep2	high_Abeta_18m.rep2	
+Hippocampus,Tg2576.APPSwemice,18month.old,ACEinhibitor.treated.rep1	ACEin_18m.rep1	
+Hippocampus,Tg2576.APPSwemice,18month.old,ACEinhibitor.treated.rep2	ACEin_18m.rep2	
+Hippocampus,Tg2576.APPSwemice,12month.old,withlowAbetaplaqueload.rep1	low_Abeta_12m.rep1	
+Hippocampus,Tg2576.APPSwemice,18month.old,withhighAbetaplaqueload.rep1	high_Abeta_18m.rep1	
+MouseAnatomyOntology.5DR.P_e1_le1	DR.P_e1_le1	
+MouseAnatomyOntology.6WT.P_e1_le1	WT.P_e1_le1	
+MouseAnatomyOntology.3DR.P_le1	DR.P_le1	
+MouseAnatomyOntology.4WT.P_le1	WT.P_le1	
+MouseAnatomyOntology.1DR.E_le1	DR.E_le1	
+MouseAnatomyOntology.2WT.E_le1	WT.E_le1	
+polytopic_protease_downregulation	downregulation	
+polytopic_protease_downregulation	downregulation	
+polytopic_protease_downregulation	downregulation	
+APP_[human]_amyloid_beta_(A4)_precursor_protein_|_K670N,_M671L,_Human_transgene_|	Tg2576	
+Amyloid_Precursor_Protein_|_alpha_secretase_cleaved_|	sAPPalpha	
+Polb_[mouse]_polymerase_(DNA_directed),_beta_|_+/__|	Polb	
+Polb_[mouse]_MAPT_[human]	3xTg_Polb	
+MAPT_[human]_microtubule_associated_protein_tau_|_+/__|_AppSwe,_Ps1M146V,_tauP301L_|_PSEN1_[human]_presenilin_1_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	3xTg	
+Rasgrf1_[mouse]_RAS_protein_specific_guanine_nucleotide_releasing_factor_1_|_Homozygous_negative_|	Rasgrf1_KO	
+AD_3XTG_3D_Replicate_1	AD_3XTG_3D_rep_1	
+WT_1A_Replicate_3	WT_1A_rep_3	
+ADPB_3XTGPOLB_4E_Replicate_4	3XTGPOLB_4E_rep_4	
+WT_1E_Replicate_2	WT_1E_rep_2	
+ADPB_3XTGPOLB_4D_Replicate_3	3XTGPOLB_4D_rep_3	
+ADPB_3XTGPOLB_4C_Replicate_2	3XTGPOLB_4C_rep_2	
+PB_POLB_2A_Replicate_1	POLB_2A_rep_1	
+ADPB_3XTGPOLB_4B_Replicate_1	3XTGPOLB_4B_rep_1	
+PB_POLB_2C_Replicate_3	POLB_2C_rep_3	
+PB_POLB_2B_Replicate_2	POLB_2B_rep_2	
+WT_1C_Replicate_5	WT_1C_rep_5	
+AD_3XTG_3B_Replicate_6	3XTG_3B_rep_6	
+WT_1B_Replicate_4	WT_1B_rep_4	
+AD_3XTG_3A_Replicate_5	3XTG_3A_rep_5	
+AD_3XTG_3C_Replicate_4	3XTG_3C_rep_4	
+AD_3XTG_3F_Replicate_3	3XTG_3F_rep_3	
+WT_1D_Replicate_1	WT_1D_rep_1	
+AD_3XTG_3E_Replicate_2	3XTG_3E_rep_2	
+PB_POLB_2D_Replicate_4	POLB_2D_rep_4	
+_/__|_App_[mouse]_amyloid_beta_(A4)_precursor_protein_|_/__|_Aplp2_[mouse]_amyloid_beta_(A4)_precursor_like_protein_2_|	N_dC_KO	
+_/__|_Aplp2_[mouse]_amyloid_beta_(A4)_precursor_like_protein_2_|	APLP2_KO	
+_/__|_App_[mouse]_amyloid_beta_(A4)_precursor_protein_|	APP_KO	
+Hipocampus_APLP2KO_rep1	APLP2KO_rep1	
+Hipocampus_APPKO_rep1	APPKO_rep1	
+Hipocampus_WT_rep1	WT_rep1	
+Hipocampus_WT_rep2	WT_rep2	
+Hipocampus_APPKO_rep4	APPKO_rep4	
+Hipocampus_APPKO_rep3	APPKO_rep3	
+Hipocampus_WT_rep3	WT_rep3	
+Hipocampus_APLP2KO_rep4	APLP2KO_rep4	
+Hipocampus_N.dCKO_rep4	N.dCKO_rep4	
+Hipocampus_APLP2KO_rep3	APLP2KO_rep3	
+Hipocampus_N.dCKO_rep3	N.dCKO_rep3	
+Hipocampus_WT_rep4	WT_rep4	
+Hipocampus_N.dCKO_rep2	N.dCKO_rep2	
+Hipocampus_APLP2KO_rep2	APLP2KO_rep2	
+Hipocampus_N.dCKO_rep1	N.dCKO_rep1	
+Hipocampus_APPKO_rep2	APPKO_rep2	
+12monthsMousehipocampus001	APP_Tg_1_S01	
+12monthsMousehipocampus002	APP_Tg_1_S02	
+12monthsMousehipocampus003	APP_Tg_1_S03	
+12monthsMousehipocampus004	APP_Tg_1_S04	
+12monthsMousehipocampus005	APP_Tg_1_S05	
+12monthsMousehipocampus006	APP_Tg_3_S06	
+12monthsMousehipocampus007	APP_Tg_3_S07	
+12monthsMousehipocampus008	APP_Tg_3_S08	
+12monthsMousehipocampus009	APP_Tg_3_S09	
+12monthsMousehipocampus010	APP_Tg_4_S10	
+12monthsMousehipocampus011	APP_Tg_3_S11	
+12monthsMousehipocampus012	APP_Tg_3_S12	
+12monthsMousehipocampus013	APP_Tg_1_S13	
+12monthsMousehipocampus014	APP_Tg_5_S14	
+12monthsMousehipocampus015	APP_Tg_5_S15	
+12monthsMousehipocampus016	APP_Tg_5_S16	
+12monthsMousehipocampus017	APP_Tg_5_S17	
+12monthsMousehipocampus018	APP_Tg_2_S18	
+12monthsMousehipocampus019	APP_Tg_2_S19	
+12monthsMousehipocampus020	APP_Tg_2_S20	
+12monthsMousehipocampus021	APP_Tg_2_S21	
+12monthsMousehipocampus022	APP_Tg_2_S22	
+12monthsMousehipocampus023	APP_Tg_2_S23	
+12monthsMousehipocampus024	APP_Tg_4_S24	
+12monthsMousehipocampus025	APP_Tg_4_S25	
+12monthsMousehipocampus026	APP_Tg_4_S26	
+12monthsMousehipocampus027	APP_Tg_4_S27	
+12monthsMousehipocampus028	APP_Tg_4_S28	
+12monthsMousehipocampus029	WT_C57BL_6_S29	
+12monthsMousehipocampus030	WT_C57BL_6_S30	
+12monthsMousehipocampus031	WT_DBA_2_S31	
+12monthsMousehipocampus032	WT_DBA_2_S32	
+12monthsMousehipocampus033	WT_SJL_S33	
+12monthsMousehipocampus034	WT_SJL_S34	
+12monthsMousehipocampus035	WT_C57BL_6_S35	
+12monthsMousehipocampus036	WT_C57BL_6_S36	
+12monthsMousehipocampus037	WT_DBA_2_S37	
+12monthsMousehipocampus038	WT_DBA_2_S38	
+12monthsMousehipocampus039	WT_SJL_S39	
+12monthsMousehipocampus040	WT_SJL_S40	
+Control_Day150_biological_rep1	Control_Day150_rep1	
+Control_Day150_biological_rep2	Control_Day150_rep2	
+Control_Day150_biological_rep3	Control_Day150_rep3	
+Control_Day150_biological_rep4	Control_Day150_rep4	
+Control_Day70_biological_rep1	Control_Day70_rep1	
+Control_Day70_biological_rep2	Control_Day70_rep2	
+Control_Day70_biological_rep3	Control_Day70_rep3	
+Control_Day70_biological_rep4	Control_Day70_rep4	
+Control_Day80_biological_rep1	Control_Day80_rep1	
+Control_Day80_biological_rep2	Control_Day80_rep2	
+Control_Day80_biological_rep3	Control_Day80_rep3	
+Control_Day80_biological_rep4	Control_Day80_rep4	
+TgCRND8_Day150_biological_rep1	TgCRND8_Day150_rep1	
+TgCRND8_Day150_biological_rep2	TgCRND8_Day150_rep2	
+TgCRND8_Day150_biological_rep3	TgCRND8_Day150_rep3	
+TgCRND8_Day150_biological_rep4	TgCRND8_Day150_rep4	
+TgCRND8_Day70_biological_rep1	TgCRND8_Day70_rep1	
+TgCRND8_Day70_biological_rep2	TgCRND8_Day70_rep2	
+TgCRND8_Day70_biological_rep3	TgCRND8_Day70_rep3	
+TgCRND8_Day70_biological_rep4	TgCRND8_Day70_rep4	
+TgCRND8_Day80_biological_rep1	TgCRND8_Day80_rep1	
+TgCRND8_Day80_biological_rep2	TgCRND8_Day80_rep2	
+TgCRND8_Day80_biological_rep3	TgCRND8_Day80_rep3	
+TgCRND8_Day80_biological_rep4	TgCRND8_Day80_rep4	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+Overexpression_|_App_KM670/671NL,_App_V717F_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	TgCRND8	
+150_days	150days	
+70_days	70days	
+80_days	80days	
+15m_bfb_AD11[NFND_251269422747_S01_GE2.v4_91]	15m_bfb_AD11_rep1	GSE63617
+15m_bfb_AD11[NFND_251269422748_S01_GE2.v4_91]	15m_bfb_AD11_rep2	GSE63617
+15m_bfb_AD11[NFND_251269422935_S01_GE2.v4_91]	15m_bfb_AD11_rep3	GSE63617
+15m_bfb_AD11[NFND_251269422936_S01_GE2.v4_91]	15m_bfb_AD11_rep4	GSE63617
+15m_bfb_AD11[NFND_251269422937_S01_GE2.v4_91]	15m_bfb_AD11_rep5	GSE63617
+15m_bfb_VH[NFND_251269422743_S01_GE2.v4_91]	15m_bfb_VH_rep1	GSE63617
+15m_bfb_VH[NFND_251269422744_S01_GE2.v4_91]	15m_bfb_VH_rep2	GSE63617
+15m_bfb_VH[NFND_251269422746_S01_GE2.v4_91]	15m_bfb_VH_rep3	GSE63617
+15m_bfb_VH[NFND_251269423498_S01_GE2.v4_91]	15m_bfb_VH_rep4	GSE63617
+15m_bfb_VH[NFND_251269423499_S01_GE2.v4_91]	15m_bfb_VH_rep5	GSE63617
+15m_ctx_AD11[NFND_251269423490_S01_GE2.v4_91]	15m_ctx_AD11_rep1	GSE63617
+15m_ctx_AD11[NFND_251269423492_S01_GE2.v4_91]	15m_ctx_AD11_rep2	GSE63617
+15m_ctx_AD11[NFND_251269423494_S01_GE2.v4_91]	15m_ctx_AD11_rep3	GSE63617
+15m_ctx_AD11[NFND_251269423496_S01_GE2.v4_91]	15m_ctx_AD11_rep4	GSE63617
+15m_ctx_AD11[NFND_251269423534_S01_GE2.v4_91]	15m_ctx_AD11_rep5	GSE63617
+15m_ctx_VH[NFND_251269423491_S01_GE2.v4_91]	15m_ctx_VH_rep1	GSE63617
+15m_ctx_VH[NFND_251269423493_S01_GE2.v4_91]	15m_ctx_VH_rep2	GSE63617
+15m_ctx_VH[NFND_251269423495_S01_GE2.v4_91]	15m_ctx_VH_rep3	GSE63617
+15m_ctx_VH[NFND_251269423532_S01_GE2.v4_91]	15m_ctx_VH_rep4	GSE63617
+15m_ctx_VH[NFND_251269423535_S01_GE2.v4_91]	15m_ctx_VH_rep5	GSE63617
+15m_hp_AD11[NFND_251486811713_S01_GE2.v4_91_1_1]	15m_hp_AD11_rep1	GSE63617
+15m_hp_AD11[NFND_251486811713_S01_GE2.v4_91_1_2]	15m_hp_AD11_rep2	GSE63617
+15m_hp_AD11[NFND_251486811877_S01_GE2.v4_91_1_2]	15m_hp_AD11_rep3	GSE63617
+15m_hp_AD11[NFND_251486811877_S01_GE2.v4_91_1_3]	15m_hp_AD11_rep4	GSE63617
+15m_hp_AD11[NFND_251486811877_S01_GE2.v4_91_1_4]	15m_hp_AD11_rep5	GSE63617
+15m_hp_VH[NFND_251486811713_S01_GE2.v4_91_1_3]	15m_hp_VH_rep1	GSE63617
+15m_hp_VH[NFND_251486811714_S01_GE2.v4_91_1_1]	15m_hp_VH_rep2	GSE63617
+15m_hp_VH[NFND_251486811714_S01_GE2.v4_91_1_2]	15m_hp_VH_rep3	GSE63617
+15m_hp_VH[NFND_251486811714_S01_GE2.v4_91_1_3]	15m_hp_VH_rep4	GSE63617
+15m_hp_VH[NFND_251486811714_S01_GE2.v4_91_1_4]	15m_hp_VH_rep5	GSE63617
+1m_bfb_AD11[NFND_251486812129_S01_GE2.v4_91_1_3]	1m_bfb_AD11_rep1	GSE63617
+1m_bfb_AD11[NFND_251486812129_S01_GE2.v4_91_1_4]	1m_bfb_AD11_rep2	GSE63617
+1m_bfb_AD11[NFND_251486812130_S01_GE2.v4_91_1_1]	1m_bfb_AD11_rep3	GSE63617
+1m_bfb_AD11[NFND_251486812130_S01_GE2.v4_91_1_2]	1m_bfb_AD11_rep4	GSE63617
+1m_bfb_AD11[NFND_251486812130_S01_GE2.v4_91_1_3]	1m_bfb_AD11_rep5	GSE63617
+1m_bfb_VH[NFND_251486811823_S01_GE2.v4_91_1_1]	1m_bfb_VH_rep1	GSE63617
+1m_bfb_VH[NFND_251486811823_S01_GE2.v4_91_1_2]	1m_bfb_VH_rep2	GSE63617
+1m_bfb_VH[NFND_251486811823_S01_GE2.v4_91_1_3]	1m_bfb_VH_rep3	GSE63617
+1m_bfb_VH[NFND_251486811823_S01_GE2.v4_91_1_4]	1m_bfb_VH_rep4	GSE63617
+1m_bfb_VH[NFND_251486812130_S01_GE2.v4_91_1_4]	1m_bfb_VH_rep5	GSE63617
+1m_ctx_AD11[NFND_251486811713_S01_GE2.v4_91_1_4]	1m_ctx_AD11_rep1	GSE63617
+1m_ctx_AD11[NFND_251486811716_S01_GE2.v4_91_1_3]	1m_ctx_AD11_rep2	GSE63617
+1m_ctx_AD11[NFND_251486811716_S01_GE2.v4_91_1_4]	1m_ctx_AD11_rep3	GSE63617
+1m_ctx_AD11[NFND_251486811718_S01_GE2.v4_91_1_1]	1m_ctx_AD11_rep4	GSE63617
+1m_ctx_AD11[NFND_251486811718_S01_GE2.v4_91_1_2]	1m_ctx_AD11_rep5	GSE63617
+1m_ctx_VH[NFND_251486811718_S01_GE2.v4_91_1_3]	1m_ctx_VH_rep1	GSE63617
+1m_ctx_VH[NFND_251486811718_S01_GE2.v4_91_1_4]	1m_ctx_VH_rep2	GSE63617
+1m_ctx_VH[NFND_251486812126_S01_GE2.v4_91_1_1]	1m_ctx_VH_rep3	GSE63617
+1m_ctx_VH[NFND_251486812126_S01_GE2.v4_91_1_2]	1m_ctx_VH_rep4	GSE63617
+1m_ctx_VH[NFND_251486812126_S01_GE2.v4_91_1_3]	1m_ctx_VH_rep5	GSE63617
+1m_hp_AD11[NFND_251486812126_S01_GE2.v4_91_1_4]	1m_hp_AD11_rep1	GSE63617
+1m_hp_AD11[NFND_251486812127_S01_GE2.v4_91_1_1]	1m_hp_AD11_rep2	GSE63617
+1m_hp_AD11[NFND_251486812127_S01_GE2.v4_91_1_2]	1m_hp_AD11_rep3	GSE63617
+1m_hp_AD11[NFND_251486812127_S01_GE2.v4_91_1_3]	1m_hp_AD11_rep4	GSE63617
+1m_hp_AD11[NFND_251486812127_S01_GE2.v4_91_1_4]	1m_hp_AD11_rep5	GSE63617
+1m_hp_VH[NFND_251486812128_S01_GE2.v4_91_1_2]	1m_hp_VH_rep1	GSE63617
+1m_hp_VH[NFND_251486812128_S01_GE2.v4_91_1_3]	1m_hp_VH_rep2	GSE63617
+1m_hp_VH[NFND_251486812128_S01_GE2.v4_91_1_4]	1m_hp_VH_rep3	GSE63617
+1m_hp_VH[NFND_251486812129_S01_GE2.v4_91_1_1]	1m_hp_VH_rep4	GSE63617
+1m_hp_VH[NFND_251486812129_S01_GE2.v4_91_1_2]	1m_hp_VH_rep5	GSE63617
+3m_bfb_AD11[NFND_251269423810_S01_GE2.v4_91]	3m_bfb_AD11_rep1	GSE63617
+3m_bfb_AD11[NFND_251269423812_S01_GE2.v4_91]	3m_bfb_AD11_rep2	GSE63617
+3m_bfb_AD11[NFND_251269423814_S01_GE2.v4_91]	3m_bfb_AD11_rep3	GSE63617
+3m_bfb_AD11[NFND_251269423821_S01_GE2.v4_91]	3m_bfb_AD11_rep4	GSE63617
+3m_bfb_AD11[NFND_251269423823_S01_GE2.v4_91]	3m_bfb_AD11_rep5	GSE63617
+3m_bfb_VH[NFND_251269423811_S01_GE2.v4_91]	3m_bfb_VH_rep1	GSE63617
+3m_bfb_VH[NFND_251269423813_S01_GE2.v4_91]	3m_bfb_VH_rep2	GSE63617
+3m_bfb_VH[NFND_251269423820_S01_GE2.v4_91]	3m_bfb_VH_rep3	GSE63617
+3m_bfb_VH[NFND_251269423822_S01_GE2.v4_91]	3m_bfb_VH_rep4	GSE63617
+3m_bfb_VH[NFND_251269423824_S01_GE2.v4_91]	3m_bfb_VH_rep5	GSE63617
+3m_ctx_AD11[NFND_251269423531_S01_GE2.v4_91]	3m_ctx_AD11_rep1	GSE63617
+3m_ctx_AD11[NFND_251269423537_S01_GE2.v4_91]	3m_ctx_AD11_rep2	GSE63617
+3m_ctx_AD11[NFND_251269423539_S01_GE2.v4_91]	3m_ctx_AD11_rep3	GSE63617
+3m_ctx_AD11[NFND_251269423541_S01_GE2.v4_91]	3m_ctx_AD11_rep4	GSE63617
+3m_ctx_AD11[NFND_251269423544_S01_GE2.v4_91]	3m_ctx_AD11_rep5	GSE63617
+3m_ctx_VH[NFND_251269423536_S01_GE2.v4_91]	3m_ctx_VH_rep1	GSE63617
+3m_ctx_VH[NFND_251269423538_S01_GE2.v4_91]	3m_ctx_VH_rep2	GSE63617
+3m_ctx_VH[NFND_251269423540_S01_GE2.v4_91]	3m_ctx_VH_rep3	GSE63617
+3m_ctx_VH[NFND_251269423542_S01_GE2.v4_91]	3m_ctx_VH_rep4	GSE63617
+3m_ctx_VH[NFND_251269423545_S01_GE2.v4_91]	3m_ctx_VH_rep5	GSE63617
+3m_hp_AD11[NFND_251269423830_S01_GE2.v4_91]	3m_hp_AD11_rep1	GSE63617
+3m_hp_AD11[NFND_251269423832_S01_GE2.v4_91]	3m_hp_AD11_rep2	GSE63617
+3m_hp_AD11[NFND_251269423834_S01_GE2.v4_91]	3m_hp_AD11_rep3	GSE63617
+3m_hp_AD11[NFND_251269424596_S01_GE2.v4_91]	3m_hp_AD11_rep4	GSE63617
+3m_hp_AD11[NFND_251269424598_S01_GE2.v4_91]	3m_hp_AD11_rep5	GSE63617
+3m_hp_VH[NFND_251269423831_S01_GE2.v4_91]	3m_hp_VH_rep1	GSE63617
+3m_hp_VH[NFND_251269423833_S01_GE2.v4_91]	3m_hp_VH_rep2	GSE63617
+3m_hp_VH[NFND_251269424595_S01_GE2.v4_91]	3m_hp_VH_rep3	GSE63617
+3m_hp_VH[NFND_251269424597_S01_GE2.v4_91]	3m_hp_VH_rep4	GSE63617
+3m_hp_VH[NFND_251269424599_S01_GE2.v4_91]	3m_hp_VH_rep5	GSE63617
+6m_bfb_AD11[NFND_251486811447_S01_GE2.v4_91_1_1]	6m_bfb_AD11_rep1	GSE63617
+6m_bfb_AD11[NFND_251486811447_S01_GE2.v4_91_1_2]	6m_bfb_AD11_rep2	GSE63617
+6m_bfb_AD11[NFND_251486811447_S01_GE2.v4_91_1_3]	6m_bfb_AD11_rep3	GSE63617
+6m_bfb_AD11[NFND_251486811447_S01_GE2.v4_91_1_4]	6m_bfb_AD11_rep4	GSE63617
+6m_bfb_AD11[NFND_251486811448_S01_GE2.v4_91_1_1]	6m_bfb_AD11_rep5	GSE63617
+6m_bfb_VH[NFND_251486811448_S01_GE2.v4_91_1_2]	6m_bfb_VH_rep1	GSE63617
+6m_bfb_VH[NFND_251486811448_S01_GE2.v4_91_1_3]	6m_bfb_VH_rep2	GSE63617
+6m_bfb_VH[NFND_251486811448_S01_GE2.v4_91_1_4]	6m_bfb_VH_rep3	GSE63617
+6m_bfb_VH[NFND_251486811716_S01_GE2.v4_91_1_2]	6m_bfb_VH_rep4	GSE63617
+6m_ctx_AD11[NFND_251486811419_S02_GE2.v4_91_1_1]	6m_ctx_AD11_rep1	GSE63617
+6m_ctx_AD11[NFND_251486811419_S02_GE2.v4_91_1_2]	6m_ctx_AD11_rep2	GSE63617
+6m_ctx_AD11[NFND_251486811419_S02_GE2.v4_91_1_3]	6m_ctx_AD11_rep3	GSE63617
+6m_ctx_AD11[NFND_251486811419_S02_GE2.v4_91_1_4]	6m_ctx_AD11_rep4	GSE63617
+6m_ctx_AD11[NFND_251486811420_S01_GE2.v4_91_1_1]	6m_ctx_AD11_rep5	GSE63617
+6m_ctx_VH[NFND_251486811420_S01_GE2.v4_91_1_2]	6m_ctx_VH_rep1	GSE63617
+6m_ctx_VH[NFND_251486811420_S01_GE2.v4_91_1_3]	6m_ctx_VH_rep2	GSE63617
+6m_ctx_VH[NFND_251486811420_S01_GE2.v4_91_1_4]	6m_ctx_VH_rep3	GSE63617
+6m_ctx_VH[NFND_251486811444_S01_GE2.v4_91_1_1]	6m_ctx_VH_rep4	GSE63617
+6m_ctx_VH[NFND_251486811444_S01_GE2.v4_91_1_2]	6m_ctx_VH_rep5	GSE63617
+6m_hp_AD11[NFND_251486811444_S01_GE2.v4_91_1_3]	6m_hp_AD11_rep1	GSE63617
+6m_hp_AD11[NFND_251486811444_S01_GE2.v4_91_1_4]	6m_hp_AD11_rep2	GSE63617
+6m_hp_AD11[NFND_251486811445_S01_GE2.v4_91_1_1]	6m_hp_AD11_rep3	GSE63617
+6m_hp_AD11[NFND_251486811445_S01_GE2.v4_91_1_2]	6m_hp_AD11_rep4	GSE63617
+6m_hp_AD11[NFND_251486811445_S01_GE2.v4_91_1_3]	6m_hp_AD11_rep5	GSE63617
+6m_hp_VH[NFND_251486811445_S01_GE2.v4_91_1_4]	6m_hp_VH_rep1	GSE63617
+6m_hp_VH[NFND_251486811446_S01_GE2.v4_91_1_1]	6m_hp_VH_rep2	GSE63617
+6m_hp_VH[NFND_251486811446_S01_GE2.v4_91_1_2]	6m_hp_VH_rep3	GSE63617
+6m_hp_VH[NFND_251486811446_S01_GE2.v4_91_1_3]	6m_hp_VH_rep4	GSE63617
+6m_hp_VH[NFND_251486811446_S01_GE2.v4_91_1_4]	6m_hp_VH_rep5	GSE63617
+Ngf_[mouse]_nerve_growth_factor_|_kd_by_anti_NGF_Ig_|_Knockdown_|	AD11	GSE63617
+Overexpression_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|_APP[Human]_K670N;_APP_APP[Human]_M671L;_APP[Human]_V717F_|	J20	GSE66598
+initial_time_point_|_3_months_|	3_months	GSE66598
+APP_[human]_amyloid_beta_(A4)_precursor_protein_|_swe/swe_|;Homozygous_negative_|_Trem2_[mouse]_triggering_receptor_expressed_on_myeloid_cells_2_|	5xFAD_Trem2_KO	GSE65067
+APP_[human]_amyloid_beta_(A4)_precursor_protein_|_swe/swe_|	5xFAD	GSE65067
+Homozygous_negative_|_Trem2_[mouse]_triggering_receptor_expressed_on_myeloid_cells_2_|	Trem2_KO	GSE65067
+TREM2_APP._1	Trem2_KO_1	GSE65067, replace . With -, and sample names
+TREM2_APP._2	Trem2_KO_2	GSE65067, replace . With -, and sample names
+TREM2_APP._3	Trem2_KO_3	GSE65067, replace . With -, and sample names
+TREM2_APP._4	Trem2_KO_4	GSE65067, replace . With -, and sample names
+WT_APP._1	WT_1	GSE65067, replace . With -, and sample names
+WT_APP._2	WT_2	GSE65067, replace . With -, and sample names
+WT_APP._3	WT_3	GSE65067, replace . With -, and sample names
+WT_APP._4	WT_4	GSE65067, replace . With -, and sample names
+WT_APP._5	WT_5	GSE65067, replace . With -, and sample names
+WT_APP+_1	5xFAD_1	GSE65067, replace sample names
+WT_APP+_2	5xFAD_2	GSE65067, replace sample names
+WT_APP+_3	5xFAD_3	GSE65067, replace sample names
+WT_APP+_4	5xFAD_4	GSE65067, replace sample names
+WT_APP+_5	5xFAD_5	GSE65067, replace sample names
+TREM2_APP+_1	5xFAD_Trem2_KO_1	GSE65067, replace sample names
+TREM2_APP+_2	5xFAD_Trem2_KO_2	GSE65067, replace sample names
+TREM2_APP+_3	5xFAD_Trem2_KO_3	GSE65067, replace sample names
+TREM2_APP+_4	5xFAD_Trem2_KO_4	GSE65067, replace sample names
+TREM2_APP+_5	5xFAD_Trem2_KO_5	GSE65067, replace sample names
+TREM2_APP+_6	5xFAD_Trem2_KO_6	GSE65067, replace sample names
+Eif2a_[mouse]_eukaryotic_translation_initiation_factor_2A_|_+/S51A_|_Heterozygous_|_APP[human]KM670/671NL;_APP[human]_I716V;_APP[human]V717I;_PSEN1[human]M146L;_PSEN1[human]_L286V_|_PSEN1_[human]_presenilin_1_|_Overexpression_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	5xFAD_eIF2a	GSE50521
+Eif2a_[mouse]_eukaryotic_translation_initiation_factor_2A_|_+/S51A_|_Heterozygous_|_wild_type_genotype	eIF2a	GSE50521
+wild_type_genotype_APP[human]KM670/671NL;_APP[human]_I716V;_APP[human]V717I;_PSEN1[human]M146L;_PSEN1[human]_L286V_|_PSEN1_[human]_presenilin_1_|_Overexpression_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|	5xFAD	GSE50522
+Ubb_[mouse]_ubiquitin_B_|_Ubb+1_transgenic_|_Overexpression_|	Ubb+1	GSE13691.1
+Ubb+1_transgenic_|_Overexpression_|_Ubb_[mouse]_ubiquitin_B_|	Ubb+1	GSE13691.2
+Hippocampus5xFAD1	5xFAD1	GSE50521, sample name
+Hippocampus5xFAD;eIF2+/S51A1	5xFAD;eIF2+_S51A1	GSE50521, sample name
+Hippocampus5xFAD2	5xFAD2	GSE50521, sample name
+HippocampuseIF2+/S51A2	eIF2+_S51A2	GSE50521, sample name
+HippocampuseIF2?+/S51A1	eIF2+_S51A1	GSE50521, sample name
+Hippocampuswild.type2	WT2	GSE50521, sample name
+HippocampuseIF2?+/S51A3	eIF2+_S51A3	GSE50521, sample name
+Hippocampus5xFAD;eIF2+/S51A2	5xFAD;eIF2+_S51A2	GSE50521, sample name
+Hippocampuswild.type1	WT1	GSE50521, sample name
+Hippocampus5xFAD3	5xFAD3	GSE50521, sample name
+Hippocampus5xFAD;eIF2?+/S51A3	5xFAD;eIF2+_S51A3	GSE50521, sample name
+Hippocampuswild.type3	WT3	GSE50521, sample name
+malednADAM10/APP,biologicalrep2	dnADAM10_APP,male,rep2	GSE10908, sample name
+ADAM10,biologicalrep3	ADAM10,rep3	GSE10908, sample name
+malednADAM10/APP,biologicalrep3	dnADAM10_APP,male,rep3	GSE10908, sample name
+dnADAM10,biologicalrep1	dnADAM10,rep1	GSE10908, sample name
+femaleAPP,biologicalrep1	APP,female,rep1	GSE10908, sample name
+dnADAM10,biologicalrep2	dnADAM10,rep2	GSE10908, sample name
+dnADAM10,biologicalrep3	dnADAM10,rep3	GSE10908, sample name
+femalednADAM10/APP,biologicalrep3	dnADAM10_APP,female,rep3	GSE10908, sample name
+femalednADAM10/APP,biologicalrep2	dnADAM10_APP,female,rep2	GSE10908, sample name
+femaleADAM10/APP,biologicalrep1	ADAM10_APP,female,rep1	GSE10908, sample name
+maleAPP,biologicalrep3	APP,male,rep3	GSE10908, sample name
+femaleADAM10/APP,biologicalrep2	ADAM10_APP,female,rep2	GSE10908, sample name
+FVB/N,biologicalrep2	FVB_N,rep2	GSE10908, sample name
+FVB/N,biologicalrep3	FVB_N,rep3	GSE10908, sample name
+maleADAM10/APP,biologicalrep2	ADAM10_APP,male,rep2	GSE10908, sample name
+maleADAM10/APP,biologicalrep3	ADAM10_APP,male,rep3	GSE10908, sample name
+femaleADAM10/APP,biologicalrep3	ADAM10_APP,female,rep3	GSE10908, sample name
+maleADAM10/APP,biologicalrep1	ADAM10_APP,rep1	GSE10908, sample name
+femalednADAM10/APP,biologicalrep1	dnADAM10_APP,female,rep1	GSE10908, sample name
+FVB/N,biologicalrep1	FVB_N,rep1	GSE10908, sample name
+femaleAPP,biologicalrep2	APP,female,rep2	GSE10908, sample name
+femaleAPP,biologicalrep3	APP,female,rep3	GSE10908, sample name
+maleAPP,biologicalrep1	APP,male,rep1	GSE10908, sample name
+maleAPP,biologicalrep2	APP,male,rep2	GSE10908, sample name
+ADAM10,biologicalrep1	ADAM10,rep1	GSE10908, sample name
+malednADAM10/APP,biologicalrep1	dnADAM10_APP,male,rep1	GSE10908, sample name
+ADAM10,biologicalrep2	ADAM10,rep2	GSE10908, sample name
+Overexpression_|_PSEN2_[human]_presenilin_2_|_APP_[human]_amyloid_beta_(A4)_precursor_protein_|_APP_swe/swe,_PSEN_mut/mut_|	PS2APP	GSE74995
+3_months_|_initial_time_point_|	3_months	GSE74995
+WT7monthsSAM14136220	WT_7m_rep1	GSE74995, sample name
+PS2APP13monthsSAM14136244	PS2APP_13m_rep1	GSE74995, sample name
+WT13monthsSAM14136229	WT_13m_rep1	GSE74995, sample name
+WT3monthsSAM14136219	WT_3m_rep1	GSE74995, sample name
+WT13monthsSAM14136226	WT_13m_rep2	GSE74995, sample name
+PS2APP7monthsSAM14136239	PS2APP_7m_rep1	GSE74995, sample name
+WT3monthsSAM14136216	WT_3m_rep2	GSE74995, sample name
+WT7monthsSAM14136221	WT_7m_rep2	GSE74995, sample name
+PS2APP7monthsSAM14136236	PS2APP_7m_rep2	GSE74995, sample name
+PS2APP7monthsSAM14136237	PS2APP_7m_rep3	GSE74995, sample name
+WT3monthsSAM14136218	WT_3m_rep3	GSE74995, sample name
+WT7monthsSAM14136223	WT_7m_rep3	GSE74995, sample name
+WT13monthsSAM14136227	WT_13m_rep3	GSE74995, sample name
+WT7monthsSAM14136224	WT_7m_rep4	GSE74995, sample name
+WT13monthsSAM14136228	WT_13m_rep4	GSE74995, sample name
+WT3monthsSAM14136217	WT_3m_rep4	GSE74995, sample name
+PS2APP3monthsSAM14136230	PS2APP_3m_rep5	GSE74995, sample name
+PS2APP13monthsSAM14136243	PS2APP_13m_rep2	GSE74995, sample name
+WT7monthsSAM14136222	WT_7m_rep5	GSE74995, sample name
+PS2APP7monthsSAM14136235	PS2APP_7m_rep4	GSE74995, sample name
+PS2APP3monthsSAM14136232	PS2APP_3m_rep1	GSE74995, sample name
+WT13monthsSAM14136225	WT_13m_rep5	GSE74995, sample name
+PS2APP13monthsSAM14136241	PS2APP_13m_rep3	GSE74995, sample name
+WT3monthsSAM14136215	WT_3m_rep5	GSE74995, sample name
+PS2APP3monthsSAM14136231	PS2APP_3m_rep2	GSE74995, sample name
+PS2APP3monthsSAM14136233	PS2APP_3m_rep3	GSE74995, sample name
+PS2APP13monthsSAM14136240	PS2APP_13m_rep4	GSE74995, sample name
+PS2APP13monthsSAM14136242	PS2APP_13m_rep5	GSE74995, sample name
+PS2APP7monthsSAM14136238	PS2APP_7m_rep5	GSE74995, sample name
+PS2APP3monthsSAM14136234	PS2APP_3m_rep4	GSE74995, sample name
+initial_time_point_|_3_months_|	3_months	GSE66598
+TPM	het_TPM	GSE64398, heterozyous of PSEN1 (M146V), on Thy1 promoter
+HET_TASTPM	het_TASTPM	GSE64398; 
+TAU	TAU	GSE64398; MAPT_P301L
+TAS10	TAS10	GSE64398; (AppSwe) human APP (K670N/M671L); heterozygous on Thy1 promoter ( Richardson et al., 2003)
+HO_TASTPM	ho_TASTPM	GSE64398
+Mapt_[mouse]_microtubule_associated_protein_tau_|_rTG4510_mouse_model_|_P301L_mutation_|	Tg4510	GSE53480
+Overexpression_|_TFEB_[human]_transcription_factor_EB_|	TFEB	GSE53480
+Wild.typemouseinjectedwithAAVTFEBrep1	WT_TFEB_rep1	GSE53480, sample name
+Tg4510mouseinjectedwithAAVTFEBrep2	Tg4510_TFEB_rep2	GSE53480, sample name
+Tg4510mouseinjectedwithAAVTFEBrep1	Tg4510_TFEB_rep1	GSE53480, sample name
+Tg4510mouseinjectedwithAAVTFEBrep3	Tg4510_TFEB_rep3	GSE53480, sample name
+Wild.typemouseinjectedwithAAVTFEBrep3	WT_TFEB_rep3	GSE53480, sample name
+Wild.typemouseinjectedwithAAVTFEBrep2	WT_TFEB_rep2	GSE53480, sample name
+Tg4510mouseinjectedwithAAVTFEBrep4	Tg4510_TFEB_rep4	GSE53480, sample name
+Wild.typemouseinjectedwithAAVTFEBrep4	WT_TFEB_rep4	GSE53480, sample name
+Tg4510controlmouserep1	Tg4510_rep1	GSE53480, sample name
+Tg4510controlmouserep2	Tg4510_rep2	GSE53480, sample name
+Wild.typecontrolmouserep2	WT_rep2	GSE53480, sample name
+Wild.typecontrolmouserep1	WT_rep1	GSE53480, sample name
+Tg4510controlmouserep4	Tg4510_rep4	GSE53480, sample name
+Tg4510controlmouserep3	Tg4510_rep3	GSE53480, sample name
+Wild.typecontrolmouserep3	WT_rep3	GSE53480, sample name
+Wild.typecontrolmouserep4	WT_rep4	GSE53480, sample name

@@ -1,0 +1,32 @@
+# updated 2016-04-21 for CEL files - analysis mode, only AD mice, updated 2016-09-19																			
+# this is the data for explore_data_general.R (not for limma)																			
+# 1. reqired columns for explore_data_general.R: 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																			
+#      'eeName': GSE_id, e.g. GSE1234																			
+#      'platform_id': e.g. GPL1261																			
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																			
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																			
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																			
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																			
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																			
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																			
+#																			
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																			
+# gender_record: from the literature, gender xist: based on the Xist gene																			
+# subset: further subset the samples (maybe remove treatment)																			
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																			
+# Notes: problem with GSE26600																			
+#4	9238	GSE63617.1	GPL7042	use gemma	only hippocampus with all time points, rm outlier; 3m_hp_VH_rep5(2sd away); 3m_hp_AD11_rep5(from heatmap); 3m_hp_VH_rep4(from heatmap)	Hippocampus	2016-01-05		3, 15 m	NA	unk	No	Yes	OrganismPart	c('Hippocampus')	Yes	3m_hp_VH_rep5; 3m_hp_AD11_rep5; 3m_hp_VH_rep4	sample correlation outlier	
+#5	9238	GSE63617.2	GPL7202	use gemma	only hippocampus with 3, 6, 15m(1 m are confounded with batch)	Hippocampus	2016-01-05		 6, 15 m	NA	unk	No	Yes	Timepoint; OrganismPart	c('6_months', '15_months'); c('Hippocampus')	Yes	6m_ctx_VH_rep3; 1m_hp_AD11_rep2	sample correlation outlier	
+#																			
+#5		GSE64398.1	GPL6885		need batch correction	Hippocampus	2016-06-07		2,4,8,18m		M	Yes	No			Yes	TPM_2m_Hipp_rep4; TAU_18m_Hipp_rep1; TAU_18m_Hipp_rep2; TAU_2m_Hipp_rep1; TAU_18m_Hipp_rep3	TPM_2m_Hipp_rep4 is the only one belongs batch3; sample correlation outliers; sample correlation outliers; sample correlation outliers; remove due to after outlier removal, only 1 sample left of TAU genotype of 18_m old	
+row_number	eeID	eeName	platform_id	priority	extra_notes	tissue	data_set_added	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	rm_notes	problem_with_the_dataset
+1	7669	GSE36237	GPL1261	1_high	rm treatment groups, rm outlier, rm prefrontal cortex	Hippocampus	2015-11-12	Tg2576 (APPSw), wt	4 months	female	female	Yes	Yes	Treatment; OrganismPart	c('reference'); c('Hippocampus')	Yes	HippPDE9_TG_1	Possibly a sample swamp(should be prefrontal cortex sample) or a mixture of hippocampus and prefrontal cortex sample (sample correlation outlier)	1 outlier (HippPDE9Tg+, rep1) is grouped with Prefrontal cortex by PCA_ removed
+2	6685	GSE48622	GPL1261	1.5_med_high		Hippocampus	2015-12-02	APLP2_KO, APP_KO, N_dC_KO, WT	2 months	NA	male?	No	No			No			
+3	924	GSE14499	GPL1261	2_med	treatment effect is removed, and keep hippocampus; GFP and reference are treated seperately (all compared to J20??)	Hippocampus	2015-11-12	J20	7 months	NA	mixed(added to design)	No	Yes	Treatment; OrganismPart	c('GFP','reference'); c('Hippocampus')	No			
+4		GSE52022	GPL1261			Hippocampus	2016-04-05		4,8m	female		No	No			No			
+6	9238	GSE63617.1	GPL7042		only hippocampus with all time points, rm outlier; 3m_hp_VH_rep5(2sd away); 3m_hp_AD11_rep5(from heatmap); 3m_hp_VH_rep4(from heatmap)	Hippocampus	2016-01-05		3, 15 m	NA	unk	No	Yes	OrganismPart	c('Hippocampus')	Yes	15m_bfb_AD11_rep3	sample correlation outlier	
+7	9238	GSE63617.2	GPL7202		only hippocampus with 3, 6, 15m(1 m are confounded with batch)	Hippocampus	2016-01-05		 6, 15 m	NA	unk	No	Yes	Timepoint; OrganismPart	c('6_months', '15_months'); c('Hippocampus')	Yes	6m_ctx_VH_rep3; 1m_hp_AD11_rep5	sample correlation outlier; sample correlation outlier	
+8		GSE50521	GPL6096					5xFAD	14-15m			Yes	No			No			
+9	CEL	GSE15056	GPL7202			Hippocampus			17m			No	No			No			
+10		GSE53480	GPL1261		treatment effect is removed,	Hippocampus						No	Yes	Treatment	c('reference')	No			
+5		GSE64398.1	GPL6885		need batch correction	Hippocampus	2016-06-07		2,4,8,18m		M	Yes	No			Yes	TPM_2m_Hipp_rep4; TAU_18m_Hipp_rep1; TAU_18m_Hipp_rep2; TAU_2m_Hipp_rep1	TPM_2m_Hipp_rep4 is the only one belongs batch3; sample correlation outliers; sample correlation outliers; sample correlation outliers	

@@ -1,0 +1,52 @@
+# updated 2016-04-18_huntington's																			
+# this is the data for explore_data_general.R (not for limma)																			
+# 1. reqired columns for explore_data_general.R: 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																			
+#      'eeName': GSE_id, e.g. GSE1234																			
+#      'platform_id': e.g. GPL1261																			
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																			
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																			
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																			
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																			
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																			
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																			
+#																			
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																			
+# gender_record: from the literature, gender xist: based on the Xist gene																			
+# subset: further subset the samples (maybe remove treatment)																			
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																			
+# Notes: problem with GSE26600																			
+row_number	eeID	eeName	platform_id	priority	extra_notes	tissue	data_set_added	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	rm_notes	problem_with_the_dataset
+1	CEL	GSE10202	GPL1261			Striatum	2016-04-18	Q150	22 m	NA		No	No			No			
+2	CEL	GSE18551	GPL1261		all timepoints	Striatum	2016-04-18	YAC128	12, 24 months	NA		No	No			No			
+3	CEL	GSE18551	GPL1261		subset by time	Striatum	2016-04-18	YAC128	12 months	NA		No	Yes	Timepoint	c('12_months')	No			
+4	CEL	GSE18551	GPL1261		subset by time	Striatum	2016-04-18	YAC128	24 months	NA		No	Yes	Timepoint	c('24_months')	No			
+5	CEL	GSE19780	GPL1261			Striatum, Cerebellum	2016-04-18	HdhQ111	3-10 w	NA		No	No			No			
+6	CEL	GSE19780	GPL1261		subset by organism part	Striatum	2016-04-18	HdhQ111	3-10 w	NA		No	Yes	OrganismPart	c('Striatum')	No			
+7	CEL	GSE19780	GPL1261		subset by organism part	Cerebellum	2016-04-18	HdhQ111	3-10 w	NA		No	No	OrganismPart	c('Cerebellum')	No			
+8	CEL	GSE29681	GPL1261			whole brain	2016-04-18		12 w	NA		No	No			No			
+9	CEL	GSE29681	GPL1261		rm treatment groups	whole brain	2016-04-18		12 w	NA		No	Yes	Treatment	c('reference')	No			
+10	CEL	GSE38218	GPL1261			cortex	2016-04-18	R62 and HDAC4 KO	9 w	NA		No	No			No			
+11	CEL	GSE38219	GPL1261			cortex	2016-04-18	R62 and HDAC4 KO	15 w	NA		No	No			No			
+12	CEL	GSE7958	GPL1261			Striatum	2016-04-18	HdhQ92	3m 18m	NA		No	No			No			
+13	CEL	GSE7958	GPL1261			Striatum	2016-04-18	HdhQ92	3m	NA		No	Yes	Timepoint	c('3_months')	No			
+14	CEL	GSE7958	GPL1261			Striatum	2016-04-18	HdhQ92	18m	NA		No	Yes	Timepoint	c('18_months')	No			
+15	CEL	GSE48104	GPL1261			Striatum	2016-04-18	R62, DREAM_KO	Maybe 11 w	NA		No	No			No			
+16	CEL	GSE9038	GPL1261	are this the same as 19780??		Striatum, Cerebellum	2016-04-18	HdhQ111	3-10 w	NA		No	No			No			
+17	CEL	GSE9038	GPL1261	are this the same as 19780??	subset by organism part	Striatum	2016-04-18	HdhQ111	3-10 w	NA		No	Yes	OrganismPart	c('Striatum')	No			
+18	CEL	GSE9038	GPL1261	are this the same as 19780??	subset by organism part	Cerebellum	2016-04-18	HdhQ111	3-10 w	NA		No	Yes	OrganismPart	c('Cerebellum')	No			
+19	CEL	GSE9803	GPL1261	GSE9803,9804 are 2 different batches		Striatum	2016-04-18	R62	12 months	NA		No	No			No			
+20	CEL	GSE9804	GPL1261	GSE9803,9804 are 2 different batches		Striatum	2016-04-18	R62	12 months	NA		No	No			No			
+21	CEL	GSE9375	GPL81			Striatum	2016-04-18	Hdh4_Q80	12_m	NA		No	No			No			
+22	CEL	GSE62210	GPL6246			Striatum	2016-04-18	R62, p62 KO	8 W	NA		No	No			No			
+23	CEL	GSE50379	GPL6246			Striatum	2016-04-26	HdhQ111/Q111/mGluR5+/+	90 days (3_m)			No	No			No			
+24	CEL	GSE44306	GPL6246			hippocampus and cerebellum	2016-04-26	N171-HD82Q	10, 20 weeks			No	No			No			
+25	CEL	GSE3248	GPL81			Cerebellum	2016-04-26		4,8,16 months			No	No			No			
+26	CEL	GSE3621	GPL1261			brain hemisphere	2016-04-26	R6/1	17,22, 27weeks			No	No			No			
+27	CEL	GSE44306	GPL6246			cerebellum (subset)	2016-04-26	N171-HD82Q	10 weeks			No	Yes	OrganismPart	c('Cerebellum')	No			
+28	CEL	GSE44306	GPL6246			hippocampus (subset)	2016-04-26	N171-HD82Q	10 weeks (subset)			No	Yes	OrganismPart; Timepoint	c('Hippocampus'); c('10_weeks')	No			
+29	CEL	GSE44306	GPL6246			hippocampus (subset)	2016-04-26	N171-HD82Q	20 weeks (subset)			No	Yes	OrganismPart; Timepoint	c('Hippocampus'); c('20_weeks')	No			
+30	CEL	GSE3248	GPL81		timepoint and batch are confounded, need to analyse each time point separately	Cerebellum	2016-04-26		4 m (subset)			No	Yes	Timepoint	c('4_months')	Yes	WT_S46_10m_rep1; WT_A39_4m_rep2	timepoint does not match batch	
+31	CEL	GSE3248	GPL81		timepoint and batch are confounded, need to analyse each time point separately	Cerebellum	2016-04-26		8 m (subset)			No	Yes	Timepoint	c('8_months')	Yes	WT_S46_10m_rep1; WT_A39_4m_rep2	timepoint does not match batch	
+32	CEL	GSE3248	GPL81		timepoint and batch are confounded, need to analyse each time point separately	Cerebellum	2016-04-26		3, 3.5 m (subset)			No	Yes	Timepoint	c('3_months', '3.5_months')	Yes	WT_S46_10m_rep1; WT_A39_4m_rep2	timepoint does not match batch	
+33	CEL	GSE3248	GPL81		timepoint and batch are confounded, need to analyse each time point separately	Cerebellum	2016-04-26		10 m (subset)			No	Yes	Timepoint	c('10_months')	Yes	WT_S46_10m_rep1; WT_A39_4m_rep2	timepoint does not match batch	
+	CEL	GSE32417	GPL6246	rm outlier (12m_WT_rep1); 6m_HdhQ150_rep5(gender mixed up, labeled F, but gender genes show M)		Caudate_nucleus	2016-05-30	Hdh_Q150	6,12,18 m			No	No			Yes	12m_WT_rep1; 6m_HdhQ150_rep5	sample outlier(1) and gender mix-matched(1)	

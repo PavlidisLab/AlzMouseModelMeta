@@ -1,0 +1,31 @@
+study	platform	disease	pre_process	notes	process
+GSE14499	GPL1261	AD	affy_RMA_NUSE_RLE		
+GSE1556	GPL81	AD	gemma (no raw data)		Data were analyzed with MAS 5.0 and scaled to 2500; log2 transformed
+GSE36237	GPL1261	AD	affy_RMA_NUSE_RLE		
+GSE48622	GPL1261	AD	affy_RMA_NUSE_RLE		
+GSE50521	GPL6096	AD	affy_exon_RLE_gemma_RMA	Affymetrix Mouse Exon 1.0 ST Array [transcript (gene) version]	
+GSE52022	GPL1261	AD	affy_RMA_NUSE_RLE		
+GSE63617	GPL7202	AD	agilent	GSE63617.1 and GSE63617.2	
+GSE64398	GPL6885	AD	illumina_quantile_iDat		
+GSE10202	GPL1261	HD	affy_RMA_NUSE_RLE		
+GSE19676	GPL6333	HD	illumina_quantile_gemma	okay, can be preprocessed but keep gemma	The BeadStudio software was used to quantile normalize and background correct the scanned microarray image data. The data was then exported into R using the beadarray package (http://bioconductor.org/packages/2.3/bioc/html/beadarray. To avoid negative values, intensities are shifted by the sample minimum.
+GSE25232	GPL6885	HD	illumina_quantile_gemma	okay, can be preprocessed but keep gemma	Slides were scanned using Illumina BeadStation and signal extracted using Illumina BeadStudio software.  Raw data is the output of the BeadStudio software and was analyzed using Bioconductor packages.  Data was normalized using the LIMMA package.
+GSE26317	GPL6103	HD	illumina_quantile_gemma	Error in gregexpr("\t", dataLine1)[[1]] : subscript out of bounds	BeadStudio, quantile normalization. 1 sample (cb.wt.cntr.3 [4068838009_C]) was a technical outlier and was excluded from the analysis.
+GSE48104	GPL1261	HD	affy_RMA_NUSE_RLE		
+GSE50379	GPL6246	HD	affy_RMA_no_NUSE_RLE		
+GSE62210	GPL6246	HD	affy_RMA_no_NUSE_RLE		
+GSE64386	GPL6885	HD	illumina_quantile_gemma	Error in gregexpr("\t", dataLine1)[[1]] : subscript out of bounds	Array chips were scanned using an iScan reader, and expression data were extracted and compiled using BeadStudio software (Illumina). Raw data were analyzed by using Bioconductor packages as previously described (Coppola 2011). Quality assessment was performed by examining the interarray Pearson correlation and clustering based on the top variant genes was assessed.
+GSE7958	GPL1261	HD	affy_RMA_NUSE_RLE		
+GSE9038	GPL1261	HD	affy_RMA_NUSE_RLE		
+GSE9375	GPL81	HD	affy_RMA_NUSE_RLE		
+GSE9803	GPL1261	HD	affy_RMA_NUSE_RLE		
+GSE9804	GPL1261	HD	affy_RMA_NUSE_RLE		
+GSE20547	GPL1261	PD	affy_RMA_NUSE_RLE	GSE20547.1 and GSE20547.2	
+GSE24838	GPL6246	PD	affy_RMA_no_NUSE_RLE		
+GSE31458	GPL8321	PD	affy_RMA_NUSE_RLE		
+GSE52584	GPL6246	PD	affy_RMA_no_NUSE_RLE	GSE52584.1 and GSE52584.2	
+GSE60080	GPL6246	PD	affy_RMA_no_NUSE_RLE		
+GSE60413	GPL1261	PD	affy_RMA_NUSE_RLE		
+GSE60414	GPL11180	PD	affy_RMA_no_NUSE_RLE		
+GSE7707	GPL1261	PD	affy_RMA_NUSE_RLE		
+GSE8030	GPL339	PD	affy_RMA_NUSE_RLE		

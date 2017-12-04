@@ -1,0 +1,22 @@
+# updated 2016-04-21																			
+# this is the data for explore_data_general.R																			
+# 1. reqired columns for explore_data_general.R: 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																			
+#      'eeName': GSE_id, e.g. GSE1234																			
+#      'platform_id': e.g. GPL1261																			
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																			
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																			
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																			
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																			
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																			
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																			
+#																			
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																			
+# gender_record: from the literature, gender xist: based on the Xist gene																			
+# subset: further subset the samples (maybe remove treatment)																			
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																			
+#																			
+row_number	eeID	eeName	platform_id	priority	extra_notes	tissue	data_set_added	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	rm_notes	problem_with_the_dataset
+1	27	GSE1556	GPL81	1_high		Hippocampus	2015-11-12	Tg2576 (APPSw), wt	12 months	male	male	No	No			No			dataset too small
+2		GSE50521	GPL6096					5xFAD	14-15m			No	No			No			
+3	9238	GSE63617.1	GPL7042	use gemma	only hippocampus with all time points, rm outlier; 3m_hp_VH_rep5(2sd away); 3m_hp_AD11_rep5(from heatmap); 3m_hp_VH_rep4(from heatmap)	Hippocampus	2016-01-05		3, 15 m	NA	unk	No	Yes	OrganismPart	c('Hippocampus')	Yes	3m_hp_VH_rep5; 3m_hp_AD11_rep5; 3m_hp_VH_rep4	sample correlation outlier; sample correlation outlier; sample correlation outlier	
+4	9238	GSE63617.2	GPL7202	use gemma	only hippocampus with 3, 6, 15m(1 m are confounded with batch)	Hippocampus	2016-01-05		 6, 15 m	NA	unk	No	Yes	Timepoint; OrganismPart	c('6_months', '15_months'); c('Hippocampus')	Yes	6m_ctx_VH_rep3; 1m_hp_AD11_rep2	sample correlation outlier; sample correlation outlier	

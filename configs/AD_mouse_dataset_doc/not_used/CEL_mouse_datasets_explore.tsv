@@ -1,0 +1,51 @@
+# updated 2016-02-23, for CEL files, updated 2016-09-19: add GSE53480																			
+# this is the data for explore_data_general.R (not for limma)																			
+# 1. reqired columns for explore_data_general.R: 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																			
+#      'eeName': GSE_id, e.g. GSE1234																			
+#      'platform_id': e.g. GPL1261																			
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																			
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																			
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																			
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																			
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																			
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																			
+#																			
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																			
+# gender_record: from the literature, gender xist: based on the Xist gene																			
+# subset: further subset the samples (maybe remove treatment)																			
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																			
+# Notes: problem with GSE26600																			
+row_number	eeID	eeName	platform_id	priority	extra_notes	tissue	data_set_added	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	rm_notes	problem_with_the_dataset
+1	7669	GSE36237	GPL1261	1_high	with treatment effect	Hippocampus, Prefrontal Cortex	2015-11-12	Tg2576 (APPSw), wt	4 months	female	female	No	No			No			1 outlier (HippPDE9Tg+, rep1) is grouped with Prefrontal cortex by PCA_ removed
+2	7669	GSE36237	GPL1261	1_high	rm treatment groups	Hippocampus, Prefrontal Cortex	2015-11-12	Tg2576 (APPSw), wt	4 months	female	female	No	Yes	Treatment	c('reference')	Yes	HippPDE9Tg+,rep1	Possibly a sample swamp(should be prefrontal cortex sample) or a mixture of hippocampus and prefrontal cortex sample	1 outlier (HippPDE9Tg+, rep1) is grouped with Prefrontal cortex by PCA_ removed
+3	7669	GSE36237	GPL1261	1_high	only hipp samples	Hippocampus, Prefrontal Cortex	2015-11-12	Tg2576 (APPSw), wt	4 months	female	female	No	Yes	OrganismPart	c('Hippocampus')	No			
+4	7669	GSE36237	GPL1261	1_high	only cortex samples	Hippocampus, Prefrontal Cortex	2015-11-12	Tg2576 (APPSw), wt	4 months	female	female	No	Yes	OrganismPart	c('Prefrontal_cortex')	No			
+5	6685	GSE48622	GPL1261	1.5_med_high		Hippocampus	2015-12-02	APLP2_KO, APP_KO, N_dC_KO, WT	2 months	NA	male?	No	No			No			
+6	697	GSE8425	GPL339	1.5_med_high		Hippocampus	2015-11-23	WT(3), Ras-GRF1 KO (3)	3 months	male	male	No	No			No			
+7	924	GSE14499	GPL1261	2_med	with treatment effect	Hippocampus; Entorhinal cortex	2015-11-12	J20	7 months	NA	mixed(added to design)	No	No			No			
+8	924	GSE14499	GPL1261	2_med	treatment effect is removed, and keep hippocampus; GFP and reference should be the same effect-- but not really...	Hippocampus	2015-11-12	J20	7 months	NA	mixed(added to design)	No	Yes	Treatment; OrganismPart	c('GFP','reference'); c('Hippocampus')	No			
+9	924	GSE14499	GPL1261	2_med	treatment effect is removed, and keep hippocampus; GFP (reference is wt only)	Hippocampus	2015-11-12	J20	7 months	NA	mixed(added to design)	No	Yes	OrganismPart; Treatment	c('Hippocampus'); c('GFP')	No			
+10	9247	GSE13691.1	GPL339			Hippocampus	2016-01-22	Ubb+1 transgenic, wt	16 months			No	No			No			
+11	9246	GSE13691.2	GPL340			Hippocampus	2016-01-22	Ubb+1 transgenic, wt	16 months			No	No			No			
+12		GSE10908	GPL1261				2016-02-01					No	No			No			
+13	9247	GSE13691.1	GPL339			Hippocampus	2016-01-22	Ubb+1 transgenic, wt	16 months			No	No			Yes	CA3_Ubb+1tg_271A	Failed_QC	sample does not pass QC
+14	9246	GSE13691.2	GPL340			Hippocampus	2016-01-22	Ubb+1 transgenic, wt	16 months			No	No			Yes	CA3_Ubb+1tg_271B	Failed_QC	sample does not pass QC
+15		GSE10908	GPL1261		the data is very messy, need to separate by batch, c('Batch_01_10_05_05')		2016-02-01					No	Yes	Batch	c('Batch_01_10_05_05')	No			
+16	7669	GSE36237	GPL1261	1_high	rm treatment groups	Hippocampus, Prefrontal Cortex	2016-02-01	Tg2576 (APPSw), wt	4 months	female	female	No	Yes	Treatment; OrganismPart	c('reference'); c('Hippocampus')	No			
+17	9238	GSE63617.1	GPL7042	1_high	only hippocampus with all time points	Hippocampus	2016-01-05		3, 15 m	NA	unk	No	No			No			
+18	9238	GSE63617.1	GPL7042	1_high	only hippocampus with all time points	Hippocampus	2016-01-05		3, 15 m	NA	unk	No	Yes	OrganismPart	c('Hippocampus')	No			
+19	9238	GSE63617.2	GPL7202	1_high	only hippocampus with 6, 15m(1 m are confounded with batch)	Hippocampus	2016-01-05		6, 15 m	NA	unk	No	Yes	Timepoint; OrganismPart	c('6_months', '15_months'); c('Hippocampus')	No			
+20	9238	GSE63617.2	GPL7202	1_high	only hippocampus with all time points	Hippocampus	2016-01-05		1, 6,15 months	NA	unk	No	Yes	OrganismPart	c('Hippocampus')	No			
+21	9238	GSE63617.2	GPL7202	1_high	only hippocampus with  6, 15m(1 m are confounded with batch)	Hippocampus	2016-01-05		6, 15 m	NA	unk	No	Yes	Timepoint; OrganismPart	c('6_months', '15_months'); c('Hippocampus')	No			
+22	9238	GSE63617.2	GPL7202	1_high	only hippocampus with 6,m(1 m are confounded with batch)	Hippocampus	2016-01-05		6 months	NA	unk	No	Yes	Timepoint; OrganismPart	c('6_months'); c('Hippocampus')	No			
+23	9238	GSE63617.2	GPL7202	1_high	only hippocampus with 15m(1 m are confounded with batch)	Hippocampus	2016-01-05		15 months	NA	unk	No	Yes	Timepoint; OrganismPart	c('15_months'); c('Hippocampus')	No			
+24	9238	GSE63617.2	GPL7202	1_high	only hippocampus with all time points	Hippocampus	2016-01-05		1, 6,15 months	NA	unk	No	No			No			
+25	9238	GSE63617.1	GPL7042	1_high	only hippocampus with all time points, rm outlier	Hippocampus	2016-01-05		3, 15 m	NA	unk	No	Yes	OrganismPart	c('Hippocampus')	Yes	15m_bfb_AD11_rep3	low sample to sample correlation	
+26		GSE52022	GPL1261				2016-04-05	5xFAD	4,8m	female		No	No			No			
+27		GSE64398.1	GPL6885			Hippocampus	2016-06-07					No	No			No			
+28		GSE64398.2	GPL6885			cerebellum	2016-06-07					No	No			No			
+29		GSE64398.3	GPL6885			cortex	2016-06-07					No	No			No			
+30		GSE50521	GPL6096					5xFAD	14-15m			No	No			No			
+31		GSE15056	GPL7202									No	No			No			
+32		GSE53480	GPL1261									No	No			No			
+33		GSE64398	GPL6885				2016-06-07					No	Yes	OrganismPart	c('Hippocampus', 'Cortex')	No			

@@ -1,0 +1,58 @@
+#									
+# updated 2016-9-10 Alzheimer, change 6m #GSE63617 to early	## again change to late as before								
+# updated 2016-09-19 back to seperate genotypes again									
+#									
+#									
+# this is the dataset information (manual input) for limma results summary and others									
+#									
+#Dataset	Timepoint	Phase	Order	Extra_phase	Platform	Genotype	Notes	mouse_model	models_combined
+#GSE48622	2_months	early	1		GPL1261	AD		AD	APLP2_KO(4); APP_KO(4); N_dC_KO(4)
+#GSE63617.1	3_months	early	2		GPL7042	AD11		WT(3); AD11(4)	
+#GSE36237	5_months	early	3		GPL1261	Tg2576	intermediate	WT(8); Tg2576(8)	
+#GSE64398.1	2_months	early	4		GPL6885	AD		combined genotypes	
+#GSE64398.1	4_months	early	5		GPL6885	AD		combined genotypes	
+#GSE63617.2	6_months	late	6		GPL7202	AD11	intermediate	WT(5); AD11(5)	
+#GSE64398.1	4_months	late	7		GPL6885	ho_TASTPM	have abeta deposit (intermediate?)		
+#GSE64398.1	8_months	late	8		GPL6885	AD		combined genotypes	
+#GSE64398.1	18_months	late	9		GPL6885	AD			
+#GSE52022	4_months	late	10		GPL1261	5xFAD	intermediate; 5xFAD is accelerated	WT(2); 5XFAD(2)	
+#GSE14499	7_months	late	11		GPL1261	J20	intermediate	WT(2); J20(4)	
+#GSE1556	12_months	late	12		GPL81	Tg2576		WT(2); Tg2576(2)	
+#GSE50521	14-15_months	late	13		GPL6096	5xFAD		WT(6); 5xFAD(6)	
+#GSE63617.2	15_months	late	14		GPL7202	AD11		WT(5); AD11(5)	
+#GSE15056	17_months	late	15		GPL7202	Tg2576		WT(2); Tg2576(2)	
+#GSE53480	4_months	late	16		GPL1261	Tg4510		WT(4); Tg4510(4)	
+Dataset	Timepoint	Phase	Order	Extra_phase	Platform	Genotype	Notes	mouse_model	previous_phase
+GSE48622	2_months	early	1		GPL1261	APP_KO		WT(4); APLP2_KO(4); APP_KO(4); N_dC_KO(4)	early
+GSE48622	2_months	early	2		GPL1261	APLP2_KO		WT(4); APLP2_KO(4); APP_KO(4); N_dC_KO(4)	early
+GSE48622	2_months	early	3		GPL1261	N_dC_KO		WT(4); APLP2_KO(4); APP_KO(4); N_dC_KO(4)	early
+GSE64398.1	2_months	early	4		GPL6885	het_TASTPM			early
+GSE64398.1	2_months	early	5		GPL6885	ho_TASTPM			early
+GSE64398.1	2_months	early	6		GPL6885	TAS10			early
+GSE64398.1	2_months	early	7		GPL6885	TAU			early
+GSE64398.1	2_months	early	8		GPL6885	het_TPM			early
+GSE63617.1	3_months	early	9		GPL7042	AD11		WT(3); AD11(4)	early
+GSE63617.2	6_months	early	10		GPL7202	AD11	intermediate	WT(5); AD11(5)	late
+GSE64398.1	4_months	early	11		GPL6885	het_TASTPM			early
+GSE64398.1	4_months	early	12		GPL6885	TAU			early
+GSE64398.1	4_months	early	13		GPL6885	het_TPM			early
+GSE36237	5_months	early	14		GPL1261	Tg2576	intermediate	WT(8); Tg2576(8)	early
+GSE64398.1	4_months	early	15		GPL6885	TAS10	rm due to bad p value distribution		early
+GSE64398.1	8_months	early	16		GPL6885	het_TPM			late
+GSE64398.1	18_months	early	17		GPL6885	het_TPM			late
+GSE1556	12_months	late	18		GPL81	Tg2576		WT(2); Tg2576(2)	late
+GSE50521	14-15_months	late	19		GPL6096	5xFAD		WT(6); 5xFAD(6)	late
+GSE63617.2	15_months	late	20		GPL7202	AD11		WT(5); AD11(5)	late
+GSE64398.1	18_months	late	21		GPL6885	het_TASTPM			late
+GSE64398.1	18_months	late	22		GPL6885	ho_TASTPM			late
+GSE64398.1	18_months	late	23		GPL6885	TAS10			late
+GSE52022	4_months	late	24		GPL1261	5xFAD	intermediate; 5xFAD is accelerated	WT(2); 5XFAD(2)	late
+GSE64398.1	4_months	late	25		GPL6885	ho_TASTPM	have abeta deposit (intermediate?)		late
+GSE14499	7_months	late	26		GPL1261	J20	intermediate	WT(2); J20(4)	late
+GSE64398.1	8_months	late	27		GPL6885	het_TASTPM			late
+GSE64398.1	8_months	late	28		GPL6885	ho_TASTPM			late
+GSE64398.1	8_months	late	29		GPL6885	TAS10			late
+GSE64398.1	8_months	late	30		GPL6885	TAU	maybe late??		late
+GSE15056	17_months	late	31		GPL7202	Tg2576		WT(2); Tg2576(2)	late
+GSE53480	4_months	late	32		GPL1261	Tg4510		WT(4); Tg4510(4)	late
+GSE64398.1	18_months	late	33		GPL6885	TAU	added 2017-01-27		late

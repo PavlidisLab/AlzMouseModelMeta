@@ -1,0 +1,45 @@
+geneSymbol	date_added	notes	publication	pubmed	Type_of_modification	Measurement
+Abca7	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Aplp2	2016-01-02	amyloid beta (A4) precursor-like protein 2				
+Apoe	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+App	2016-01-02	known genetic component; these mutations are rare but predispose the individual to developing early-onset AD	Rollo JL 2015 (review)	26703952		
+Bace1	2016-01-02		list from Ashwani	20595388	Associated	Plaque amount; The level of synapse loss
+Bin1	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Calpain	2016-01-02	calpain blocked by inhibitor MDL28170	list from Ashwani	19895631; 20595388; 22688056	Enhancer; Associated; Associated(Enhancer?)	Neuronal death; Plaque amount; The level of synapse loss; Investigated memory and learning function, Investigated the effects on tau accumulation and phosphorylation
+Cass4	2016-01-02	New loci reaching genome-wide significance in the combined discovery and replication analysis	Lambert JC 2013	24162737		
+Cd2ap	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Cd33	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Cdk5	2016-01-02		list from Ashwani	19895631	Associated	Neuronal death
+Celf1	2016-01-02	New loci reaching genome-wide significance in the combined discovery and replication analysis	Lambert JC 2013	24162737		
+Clu	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Cr1	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Dsg2	2016-01-02	New loci reaching genome-wide significance in the discovery analysis	Lambert JC 2013	24162737		
+Eaat2	2016-01-02		list from Ashwani	25711212	Enhancer	Immunoblotting
+Eid1	2016-01-02		list from Ashwani	22186421	Associated/Suppressor ?	Investigated memory and learning function
+Epha1	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Fermt2	2016-01-02	New loci reaching genome-wide significance in the combined discovery and replication analysis	Lambert JC 2013	24162737		
+Hla-drb1	2016-01-02	New loci reaching genome-wide significance in the discovery analysis	Lambert JC 2013	24162737		
+Hla-drb5	2016-01-02	New loci reaching genome-wide significance in the discovery analysis	Lambert JC 2013	24162737		
+Inpp5d	2016-01-02	New loci reaching genome-wide significance in the combined discovery and replication analysis	Lambert JC 2013	24162737		
+Mef2c	2016-01-02	New loci reaching genome-wide significance in the combined discovery and replication analysis	Lambert JC 2013	24162737		
+Ms4a	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Ms4a6a	2016-01-02	Known GWAS-defined associated genes; maybe a alternative Ms4a?	Lambert JC 2013	24162737		
+Nme8	2016-01-02	New loci reaching genome-wide significance in the combined discovery and replication analysis	Lambert JC 2013	24162737		
+Npepps	2016-01-02	Knockdown of PSA in mice enhances the APOE level while overexpression of PSA reduces the Tau expression	list from Ashwani	21320871	Suppressor	MEK degradation assay
+Picalm	2016-01-02	GWAS have previously provided compelling evidence for 10 susceptibility loci for LOAD	Rollo JL 2015 (review), ref[20-23]	26703952		
+Psa	2016-01-02	Knockdown of PSA in mice enhances the APOE level while overexpression of PSA reduces the Tau expression	list from Ashwani	21320871	Suppressor	MEK degradation assay
+Psen1	2016-01-02	known genetic component; these mutations are rare but predispose the individual to developing early-onset AD	Rollo JL 2015 (review)	26703952		
+Psen2	2016-01-02	known genetic component; these mutations are rare but predispose the individual to developing early-onset AD	Rollo JL 2015 (review)	26703952		
+Ptk2b	2016-01-02	New loci reaching genome-wide significance in the discovery analysis	Lambert JC 2013	24162737		
+Rin3	2016-01-02	New loci reaching genome-wide significance in the discovery analysis	Lambert JC 2013	24162737		
+Slc24a4	2016-01-02	New loci reaching genome-wide significance in the discovery analysis	Lambert JC 2013	24162737		
+Sorl1	2016-01-02	New loci reaching genome-wide significance in the discovery analysis	Lambert JC 2013	24162737		
+Srcl	2016-01-02		list from Ashwani	16868960	Associated	Measured the clearance of extracellular Abeta; Measured the mRNA expression
+Tgf-beta1 	2016-01-02	Transgenic mice with low and medium leve of TGFB1 was crossed with heterozygous hAPP mice heterozygous hAPP mice	list from Ashwani	11329064	Suppressor	ELISA
+Tnfr1	2016-01-02	down-regulated in HD IPSCs	list from Ashwani	17724122	Enhancer	The level of APP aggregates
+Trem2	2016-01-02	expressing the triggering receptor located on myeloid cells 2 have also been observed to represent novel risk factors for LOAD	Rollo JL 2015 (review), ref[24-26]	26703952		
+Vegf	2016-01-02		list from Ashwani	21771586	Suppressor	Investigated memory and learning function
+Zcwpw1	2016-01-02	New loci reaching genome-wide significance in the combined discovery and replication analysis	Lambert JC 2013	24162737		
+Brca1	2016-01-05	physiological increases in brain activity transiently increase neuronal DNA double-strand breaks (DSBs) without causing neuronal apoptosis. In the dentate gyrus (DG)	Suberbielle, 2015	26615780		
+Ttr	2016-01-14	mice overexpressing APP with the Swedish mutation (APPSw) markedly upregulate transthyretin (TTR) and insulin-like growth factor-2 (IGF-2)	Stein et al 2004	15342738	Up-regulated in Tg2576	
+Igf2	2016-01-14	mice overexpressing APP with the Swedish mutation (APPSw) markedly upregulate transthyretin (TTR) and insulin-like growth factor-2 (IGF-2)	Stein et al 2004	15342738	Up-regulated in Tg2576	

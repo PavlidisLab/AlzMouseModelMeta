@@ -1,0 +1,27 @@
+# updated 2017-03-06 -early																						
+# updated 2016-04-19- for both gemma and CEL files for huntingtons #2016-10-13 add GSE32417																						
+# this is the data for limma_DEA.R and explore_data_general.R																						
+# 1. reqired columns for explore_data_general.R 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																						
+# 2. the table file must contain the following columns for limma_DEA.R (outlier must be removed before limma_DEA.R)																						
+#      'eeName': GSE_id, e.g. GSE1234																						
+#      'platform_id': e.g. GPL1261																						
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																						
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																						
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																						
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																						
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																						
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																						
+#      'factors': factors to be used in the limma model, e.g. c('Genotype', 'Batch')																						
+#      'factor_levels': specify factor levels which update the baseline level in the limma model, sep by '; ', 																						
+#																						
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																						
+# gender_record: from the literature, gender xist: based on the Xist gene																						
+# subset: further subset the samples (maybe remove treatment)																						
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																						
+row_number	eeID	eeName	platform_id	priority	extra_notes	sample_size(after)	data_set_added	model_updated	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	factors	factor_levels	treatment	problem_with_the_dataset
+1	early	GSE32417	GPL6246			Striatum	2016-10-13		HdhQ150	6m			Yes	Yes	Timepoint	c('6_months')	No		c('Genotype', 'Batch', 'Gender')			
+2	early	GSE50379	GPL6246	3m striatum		Striatum	2016-04-26	2016-04-26	HdhQ111/Q111/mGluR5+/+	90 days (3_m)			No	No			No		c('Genotype')			
+3	early	GSE64386	GPL6885	2-7m; Striatum	treatment removed: exendin_4, GLP_1Tf, insulin; organism part removed: cortex	Striatum	2016-04-19	2016-05-03	BAC_HD	2m			No	Yes	Timepoint; OrganismPart	c('2_months', '7_months'); c('Striatum')	No		c('Genotype', 'Gender')			
+4	early	GSE7958	GPL1261		3m	Striatum	2016-04-18	2016-04-18	HdhQ92	3m	NA		No	Yes	Timepoint	c('3_months')	No		c('Genotype', 'Gender')			
+5	early	GSE9038	GPL1261	batch corrected	 subset by organism part, batch correction by organism part	Striatum	2016-04-18	2016-04-18	HdhQ111	3-10 w	NA		Yes	No			No		c('Genotype', 'Batch', 'Gender')			
+6	early	GSE9375	GPL81			Striatum	2016-04-18	2016-04-18	Hdh4_Q80	12_m	NA		No	No			No		c('Genotype')			

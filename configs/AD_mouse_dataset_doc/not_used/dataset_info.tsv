@@ -1,0 +1,39 @@
+#								
+"# updated 2016-04-21 Alzheimer, updated 2016-11-07"								
+#								
+#GSE64398.1	18_months	late			GPL6885	TAU	rm due to TAU 18m are outliers	
+#GSE64398.1	4_months	early	10		GPL6885	TAS10	rm due to bad p value distribution	
+#GSE64398.1	18_months	late	20		GPL6885	ho_TASTPM		
+#GSE64398.1	18_months	late	21		GPL6885	TAS10		
+#GSE64398.1	18_months	late	22		GPL6885	het_TPM		
+#GSE64398.1	8_months	late	15		GPL6885	ho_TASTPM		
+#GSE64398.1	8_months	late	16		GPL6885	TAS10		
+#GSE64398.1	8_months	late	17		GPL6885	TAU	maybe late??	
+#GSE64398.1	8_months	late	18		GPL6885	het_TPM		
+#GSE64398.1	4_months	early	11		GPL6885	TAU		
+#GSE64398.1	4_months	early	12		GPL6885	het_TPM		
+#GSE64398.1	4_months	late	13		GPL6885	ho_TASTPM	have abeta deposit (intermediate?)	
+#GSE64398.1	2_months	early	5		GPL6885	ho_TASTPM		
+#GSE64398.1	2_months	early	6		GPL6885	TAS10		
+#GSE64398.1	2_months	early	7		GPL6885	TAU		
+#GSE64398.1	2_months	early	8		GPL6885	het_TPM		
+#								
+#								
+# this is the dataset information (manual input) for limma results summary and others								
+#								
+Dataset	Timepoint	Phase	Order	Extra_phase	Platform	Genotype	Notes	mouse_model
+GSE48622	2_months	early	1		GPL1261	APP_KO		WT(4); APLP2_KO(4); APP_KO(4); N_dC_KO(4)
+GSE63617.1	3_months	early	2		GPL7042	AD11		WT(3); AD11(4)
+GSE36237	5_months	early	3		GPL1261	Tg2576	intermediate	WT(8); Tg2576(8)
+GSE64398.1	2_months	early	4		GPL6885	het_TASTPM		
+GSE64398.1	4_months	early	5		GPL6885	het_TASTPM		
+GSE64398.1	8_months	late	6		GPL6885	het_TASTPM		
+GSE64398.1	18_months	late	7		GPL6885	het_TASTPM		
+GSE52022	4_months	late	8		GPL1261	5xFAD	intermediate; 5xFAD is accelerated	WT(2); 5XFAD(2)
+GSE63617.2	6_months	early	9		GPL7202	AD11	intermediate	WT(5); AD11(5)
+GSE14499	7_months	late	10		GPL1261	J20	intermediate	WT(2); J20(4)
+GSE1556	12_months	late	11		GPL81	Tg2576		WT(2); Tg2576(2)
+GSE50521	14-15_months	late	12		GPL6096	5xFAD		WT(6); 5xFAD(6)
+GSE63617.2	15_months	late	13		GPL7202	AD11		WT(5); AD11(5)
+GSE15056	17_months	late	14		GPL7202	Tg2576		WT(2); Tg2576(2)
+GSE53480	4_months	late	15		GPL1261	Tg4510		WT(4); Tg4510(4)

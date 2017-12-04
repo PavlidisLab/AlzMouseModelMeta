@@ -1,0 +1,29 @@
+# updated 2016-04-18_huntington's # no correlation outlier, no QC outlier 2016-07-08																			
+# this is the data for explore_data_general.R (not for limma)																			
+# 1. reqired columns for explore_data_general.R: 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																			
+#      'eeName': GSE_id, e.g. GSE1234																			
+#      'platform_id': e.g. GPL1261																			
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																			
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																			
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																			
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																			
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																			
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																			
+#																			
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																			
+# gender_record: from the literature, gender xist: based on the Xist gene																			
+# subset: further subset the samples (maybe remove treatment)																			
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																			
+# Notes: problem with GSE26600																			
+#5	CEL	GSE9803	GPL1261	GSE9803,9804 are 2 different batches		Striatum	2016-04-18	R62	12 months	NA		Yes	No			No			
+#6	CEL	GSE9804	GPL1261	GSE9803,9804 are 2 different batches		Striatum	2016-04-18	R62	12 months	NA		No	No			No			
+row_number	eeID	eeName	platform_id	priority	extra_notes	tissue	data_set_added	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	rm_notes	problem_with_the_dataset
+1	CEL	GSE10202	GPL1261			Striatum	2016-04-18	Q150	22 m	NA		No	No			No			
+2	CEL	GSE7958	GPL1261			Striatum	2016-04-18	HdhQ92	3m 18m	NA		No	No			No			
+3	CEL	GSE48104	GPL1261		only keep batch 1 (contains WT and R62), the dream KOs are in batch 2	Striatum	2016-04-18	R62, DREAM_KO	11 W	NA		No	Yes	Batch	c('Batch_1')	No			
+4	CEL	GSE9038	GPL1261	are this the same as 19780??	subset by organism part, need batch correction	Striatum	2016-04-18	HdhQ111	3-10 w	NA		Yes	Yes	OrganismPart	c('Striatum')	No			
+5	CEL	GSE9375	GPL81			Striatum	2016-04-18	Hdh4_Q80	12_m	NA		No	No			No			
+6	CEL	GSE62210	GPL6246			Striatum	2016-04-18	R62, p62 KO	8 W	NA		No	No			No			
+7	CEL	GSE50379	GPL6246			Striatum	2016-04-26	HdhQ111/Q111/mGluR5+/+	90 days (3_m)			No	No			No			
+8	CEL	GSE32417	GPL6246									Yes	No			No			
+9	CEL	GSE9857	GPL1261	GSE9803,9804 are 2 different batches		Striatum	2016-10-13	R62	12w	NA		Yes	No			No			

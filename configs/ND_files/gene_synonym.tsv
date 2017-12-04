@@ -1,0 +1,8 @@
+# these are gene symbols in some of the platforms and now had a gene name					
+oldSymbol	geneSymbol	geneNames	Ensembl	source	notes
+1300014I06Rik	Pxdc1	PX domain containing 1	ENSMUSG00000021411	NCBI	
+9930013L23Rik	Cemip	cell migration inducing protein, hyaluronan binding	ENSMUSG00000052353	NCBI	
+1810033B17Rik	Mcemp1	mast cell expressed membrane protein 1	ENSMUSG00000013974	NCBI	RefSeq status: PROVISIONAL
+4831426I19Rik	Syne3	spectrin repeat containing, nuclear envelope family member 3	ENSMUSG00000054150	NCBI	
+4833422F24Rik	Ocstamp	osteoclast stimulatory transmembrane protein	ENSMUSG00000027670	NCBI	RefSeq status: PROVISIONAL
+5330426P16Rik	Dubr	Dppa2 upstream binding RNA	NA	NCBI	

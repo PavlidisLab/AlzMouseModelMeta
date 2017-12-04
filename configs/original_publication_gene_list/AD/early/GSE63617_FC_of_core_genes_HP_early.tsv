@@ -1,0 +1,42 @@
+original_gene_symbol	Description	tissue_timepoint	original_FC	marker	ProbeName	geneSymbol	GeneNames	regulation
+Nudt19	nudix (nucleoside diphosphate linked moiety X)-type motif 19	HP_3m	-0.71	early	A_51_P111952	Nudt19	nudix (nucleoside diphosphate linked moiety X)-type motif 19	down
+Txnl4a	thioredoxin-like 4	HP_6m	-0.65	NA	A_52_P407145	Txnl4a	thioredoxin-like 4A	down
+Txnl4a	thioredoxin-like 4	HP_6m	-0.65	NA	A_51_P360836	Txnl4a	thioredoxin-like 4A	down
+Txnl4a	thioredoxin-like 4	HP_6m	-0.65	NA	A_52_P179729	Txnl4a	thioredoxin-like 4A	down
+Txnl4a	thioredoxin-like 4	HP_3m	-0.573421	NA	A_52_P407145	Txnl4a	thioredoxin-like 4A	down
+Nudt19	nudix (nucleoside diphosphate linked moiety X)-type motif 19	HP_6m	-0.515123934	early	A_51_P111952	Nudt19	nudix (nucleoside diphosphate linked moiety X)-type motif 19	down
+Txnl4a	thioredoxin-like 4	HP_3m	-0.409063377	NA	A_51_P360836	Txnl4a	thioredoxin-like 4A	down
+1810014B01Rik	RIKEN cDNA 1810014B01 gene	HP_3m	0.032825545	late	A_51_P477285	1810014B01Rik	RIKEN cDNA 1810014B01 gene	up
+Actl6a	actin-like 6A	HP_3m	0.189660168	late	A_52_P231737	Actl6a	actin-like 6A	up
+Aph1b	anterior pharynx defective 1 b homolog (C. elegans)	HP_6m	0.300695779	early	A_51_P325124	Aph1b	anterior pharynx defective 1b homolog (C. elegans)	up
+Arl16	ADP-ribosylation factor-like 16	HP_6m	0.390173871	early	A_51_P298716			up
+D14Ertd449e	DNA segment, Chr 14, ERATO Doi 449, expressed	HP_3m	0.686982085	late	A_51_P222453	D14Ertd449e	DNA segment, Chr 14, ERATO Doi 449, expressed	up
+Aph1b	anterior pharynx defective 1 b homolog (C. elegans)	HP_6m	0.913892957	early	A_52_P456750	Aph1b	anterior pharynx defective 1b homolog (C. elegans)	up
+Snhg3	small nucleolar RNA host gene (non-protein coding) 3	HP_3m	1.192328638	late	A_52_P661071	Snhg3	small nucleolar RNA host gene (non-protein coding) 3	up
+D14Ertd449e	DNA segment, Chr 14, ERATO Doi 449, expressed	HP_6m	1.58	late	A_51_P222453	D14Ertd449e	DNA segment, Chr 14, ERATO Doi 449, expressed	up
+2210015D19Rik	RIKEN cDNA 2210015D19 gene	HP_6m	1.69	both	A_52_P588917			up
+2210015D19Rik	RIKEN cDNA 2210015D19 gene	HP_6m	1.69	both	A_51_P298231	2210015D19Rik	RIKEN cDNA 2210015D19 gene	up
+Tia1	cytotoxic granule-associated RNA binding protein 1	HP_3m	1.718170688	late	A_52_P381009			up
+Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	HP_3m	1.75	both	A_51_P361286	Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	up
+Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	HP_3m	1.75	both	A_52_P572447	Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	up
+2210015D19Rik	RIKEN cDNA 2210015D19 gene	HP_3m	1.81	both	A_52_P588917			up
+2210015D19Rik	RIKEN cDNA 2210015D19 gene	HP_3m	1.81	both	A_51_P298231	2210015D19Rik	RIKEN cDNA 2210015D19 gene	up
+Wdfy1	Mus musculus WD repeat and FYVE domain containing 1 (Wdfy1), transcript variant 1, mRNA	HP_3m	1.86	both	A_51_P390314	Wdfy1	WD repeat and FYVE domain containing 1	up
+Wdfy1	Mus musculus WD repeat and FYVE domain containing 1 (Wdfy1), transcript variant 1, mRNA	HP_3m	1.86	both	A_52_P328825	Wdfy1	WD repeat and FYVE domain containing 1	up
+Actl6a	actin-like 6A	HP_6m	1.92	late	A_52_P231737	Actl6a	actin-like 6A	up
+Arl16	ADP-ribosylation factor-like 16	HP_3m	1.93	early	A_51_P298716			up
+Wdfy1	Mus musculus WD repeat and FYVE domain containing 1 (Wdfy1), transcript variant 1, mRNA	HP_6m	1.93	both	A_51_P390314	Wdfy1	WD repeat and FYVE domain containing 1	up
+Wdfy1	Mus musculus WD repeat and FYVE domain containing 1 (Wdfy1), transcript variant 1, mRNA	HP_6m	1.93	both	A_52_P328825	Wdfy1	WD repeat and FYVE domain containing 1	up
+1810014B01Rik	RIKEN cDNA 1810014B01 gene	HP_6m	1.99	late	A_51_P477285	1810014B01Rik	RIKEN cDNA 1810014B01 gene	up
+Aph1b	anterior pharynx defective 1 b homolog (C. elegans)	HP_3m	2.09	early	A_52_P456750	Aph1b	anterior pharynx defective 1b homolog (C. elegans)	up
+Aph1b	anterior pharynx defective 1 b homolog (C. elegans)	HP_3m	2.09	early	A_51_P325124	Aph1b	anterior pharynx defective 1b homolog (C. elegans)	up
+Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	HP_6m	2.48	both	A_51_P361286	Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	up
+Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	HP_6m	2.48	both	A_52_P572447	Agpat5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	up
+Sox2ot	Mus musculus SOX2 overlapping transcript (non-protein coding) (Sox2ot), non-coding RNA	HP_3m	2.59	both	A_52_P389324	Sox2ot	SOX2 overlapping transcript (non-protein coding)	up
+Snhg3	small nucleolar RNA host gene (non-protein coding) 3	HP_6m	2.63	late	A_52_P661071	Snhg3	small nucleolar RNA host gene (non-protein coding) 3	up
+Sox2ot	Mus musculus SOX2 overlapping transcript (non-protein coding) (Sox2ot), non-coding RNA	HP_6m	3.24	both	A_52_P389324	Sox2ot	SOX2 overlapping transcript (non-protein coding)	up
+Tia1	cytotoxic granule-associated RNA binding protein 1	HP_6m	3.34	late	A_52_P381009			up
+Slc15a2	solute carrier family 15 (H + /peptide transporter), member 2	HP_6m	3.44	both	A_52_P426605	Slc15a2	solute carrier family 15 (H+/peptide transporter), member 2	up
+Slc15a2	solute carrier family 15 (H + /peptide transporter), member 2	HP_6m	3.44	both	A_51_P267278	Slc15a2	solute carrier family 15 (H+/peptide transporter), member 2	up
+Slc15a2	solute carrier family 15 (H + /peptide transporter), member 2	HP_3m	3.55	both	A_52_P426605	Slc15a2	solute carrier family 15 (H+/peptide transporter), member 2	up
+Slc15a2	solute carrier family 15 (H + /peptide transporter), member 2	HP_3m	3.55	both	A_51_P267278	Slc15a2	solute carrier family 15 (H+/peptide transporter), member 2	up

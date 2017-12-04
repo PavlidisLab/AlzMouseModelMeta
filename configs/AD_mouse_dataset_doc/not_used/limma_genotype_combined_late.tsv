@@ -1,0 +1,29 @@
+# updated 2017-03-06 late																						
+# updated 2016-04-21 -gemma and CEL files – limma DEA																						
+# this is the data for limma_DEA.R and explore_data_general.R																						
+# 1. reqired columns for explore_data_general.R 'eeName','platform_id',  'subset', 'subset_by', 'keep_subset', 'outlier', 'outlier_to_rm' 																						
+# 2. the table file must contain the following columns for limma_DEA.R (outlier must be removed before limma_DEA.R)																						
+#      'eeName': GSE_id, e.g. GSE1234																						
+#      'platform_id': e.g. GPL1261																						
+#      'subset': 'yes' indicate that samples needed to be subsetted, if no subset is needed, leave it blank																						
+#      'subset_by': if subset is 'yes', fill in this column of which factor needs to be subsetted 																						
+#                    and separated by '; '(with a space) if multiple factors are required to be subsetted. e.g. 'OrganismPart; Timepoint'																						
+#      'keep_subset': indicate the levels of a factor or multiple factors to keep for analysis. order is the same as order in 'subset_by'																						
+#                    column. e.g. 'c('Hippocampus'); c('6_months', '15_months')'																						
+#      'batch_corrected': 'yes' to retrieve batch corrected expression matrix, 'no' otherwise																						
+#      'factors': factors to be used in the limma model, e.g. c('Genotype', 'Batch')																						
+#      'factor_levels': specify factor levels which update the baseline level in the limma model, sep by '; ', 																						
+#																						
+# seperator: '; ' (there's a space after ;) if multiple factors are in the subset_by, each keep_subset are seperated by '; '																						
+# gender_record: from the literature, gender xist: based on the Xist gene																						
+# subset: further subset the samples (maybe remove treatment)																						
+# batch corrected: to use the array data with combat batch corrected (results can be compared to the non-bacth corrected)																						
+row_number	eeID	eeName	platform_id	priority	extra_notes	sample_size(after)	data_set_added	model_updated	mouse_model	Age	Gender_record	Gender_xist	batch_corrected	subset	subset_by	keep_subset	outlier	outlier_to_rm	factors	factor_levels	treatment	problem_with_the_dataset
+1	late	GSE14499	GPL1261	2_med	treatment effect is removed, only use GFP, [GFP and genotype should be the same effect, but not really (only 1 batch); by gt test, treatment has an effect here(all reference are wild types)-use only the reference]	9	2015-11-12	2015-12-09	J20, wt	7 months	NA	mixed(added to design)	No	Yes	Treatment	c('GFP')	No		c('Genotype', 'Gender')			
+2	late	GSE63617.2	GPL7202	1_high	only hippocampus with 15m(1 m are confounded with batch)	Hippocampus	2016-01-05			15 months			No	Yes	Timepoint; OrganismPart	c('15_months'); c('Hippocampus')	No		c('Genotype')			
+3	late	GSE52022	GPL1261	1_high	Remove 8 month sample due to bad p value dis		2016-04-05	2016-04-05	5xFAD	4m	female	female	No	Yes	Timepoint	c('4_months')	No		c('Genotype')			
+4	late	GSE1556	GPL81	1_high		4	2015-11-12	2015-11-24	Tg2576 (APPSw), wt	12 months	male	male	No	No			No		c('Genotype')			dataset too small
+5	late	GSE50521	GPL6096				2016-04-10	2016-04-10	5xFAD	14-15m			Yes	No			No		c('Genotype')			
+6	late	GSE15056	GPL7202										No	No			No		c('Genotype')			
+7	late	GSE53480	GPL1261		rm treatment groups								No	No			No		c('Genotype')			
+8	late	GSE64398.late	GPL6885			Hippocampus	combined all late samples						Yes	No			No		c('Genotype')			

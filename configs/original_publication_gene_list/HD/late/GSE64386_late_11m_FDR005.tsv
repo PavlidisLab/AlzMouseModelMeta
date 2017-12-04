@@ -1,0 +1,1276 @@
+ProbeName	geneSymbol	Description	LogRatio	pValue	pValueFDR	timepoint	regulation	phase
+ILMN_3159131	Cyp2a5		-1.37	2.97e-22	7.64e-18	11m	down	late
+ILMN_2813547	Scn4b	Mus musculus sodium channel, type IV, beta (Scn4b), mRNA.	-1.83	2.9e-20	2.48e-16	11m	down	late
+ILMN_2671128	B230373p09rik (dnahc1)	dynein, axonemal heavy chain 1	-1.36	5.89e-19	2.39e-15	11m	down	late
+ILMN_2988228	Drd2	Mus musculus dopamine receptor 2 (Drd2), mRNA.	-1.47	1.56e-18	5.02e-15	11m	down	late
+ILMN_2695819	Ddit4l (rpt801)	Mus musculus DNA-damage-inducible transcript 4-like (Ddit4l), mRNA.	-2.44	7.44e-18	1.91e-14	11m	down	late
+ILMN_1244081	Rgs4	Mus musculus regulator of G-protein signaling 4 (Rgs4), mRNA.	-1.26	9.53e-18	2.23e-14	11m	down	late
+ILMN_2797061	Actn2	Mus musculus actinin alpha 2 (Actn2), mRNA.	-1.5	2.32e-17	4.58e-14	11m	down	late
+ILMN_2730425	Ryr1		-1.66	4.71e-17	7.57e-14	11m	down	late
+ILMN_2907241	Tmem90a	Mus musculus transmembrane protein 90a (Tmem90a), mRNA.	-1.14	1.01e-16	1.44e-13	11m	down	late
+ILMN_1248563	Car11	Mus musculus carbonic anhydrase 11 (Car11), mRNA.	-0.92	1.22e-16	1.65e-13	11m	down	late
+ILMN_2733915	Pde10a		-1.48	1.56e-16	2e-13	11m	down	late
+ILMN_1250689	Rgs9	Mus musculus regulator of G-protein signaling 9 (Rgs9), mRNA.	-0.99	2.3e-16	2.81e-13	11m	down	late
+ILMN_2736471	C86987		-1.27	9.54e-16	1.11e-12	11m	down	late
+ILMN_3105563	Dmkn	Mus musculus dermokine (Dmkn), transcript variant 2, mRNA.	-1.64	1.73e-15	1.85e-12	11m	down	late
+ILMN_1217517	Dcamkl1		-1.06	1.69e-15	1.85e-12	11m	down	late
+ILMN_1229763	Dmkn	Mus musculus dermokine (Dmkn), transcript variant 2, mRNA.	-1.55	5.34e-15	5.28e-12	11m	down	late
+ILMN_2698299	Gabrd	Mus musculus gamma-aminobutyric acid (GABA-A) receptor, subunit delta (Gabrd), mRNA.	-1.16	7.81e-15	7.43e-12	11m	down	late
+ILMN_2656748	Dfy	Mus musculus Duffy blood group, chemokine receptor (Darc), mRNA.	-1.05	8.13e-15	7.46e-12	11m	down	late
+ILMN_3062286	Rpel1		-1.01	8.65e-15	7.66e-12	11m	down	late
+ILMN_2733073	Ryr1		-1.42	1.06e-14	9.12e-12	11m	down	late
+ILMN_2734062	Drd1a		-1.08	1.21e-14	9.82e-12	11m	down	late
+ILMN_2945472	Acy1	Mus musculus aminoacylase 1 (Acy1), mRNA.	-0.87	1.22e-14	9.82e-12	11m	down	late
+ILMN_2694955	Igfbp4		-1.22	1.47e-14	1.14e-11	11m	down	late
+ILMN_1221410	Gpr12		-1.17	2.52e-14	1.85e-11	11m	down	late
+ILMN_1232561	Rxrg	Mus musculus retinoid X receptor gamma (Rxrg), mRNA.	-1.13	2.92e-14	2.03e-11	11m	down	late
+ILMN_2695344	Il17rc	Mus musculus interleukin 17 receptor C (Il17rc), mRNA.	-0.9	3.66e-14	2.47e-11	11m	down	late
+ILMN_2785350	Il17rc	Mus musculus interleukin 17 receptor C (Il17rc), mRNA.	-0.96	4.27e-14	2.75e-11	11m	down	late
+ILMN_1258988	Igfbp4		-1.17	5.45e-14	3.41e-11	11m	down	late
+ILMN_2858359	Clspn	Mus musculus claspin homolog (Xenopus laevis) (Clspn), mRNA.	-1.32	6.12e-14	3.75e-11	11m	down	late
+ILMN_2670261	Cnr1		-1.01	6.41e-14	3.83e-11	11m	down	late
+ILMN_1256369	Lynx1	Mus musculus Ly6/neurotoxin 1 (Lynx1), mRNA.	-0.88	7.93e-14	4.53e-11	11m	down	late
+ILMN_2592996	Gpr6		-1.02	9.32e-14	5.21e-11	11m	down	late
+ILMN_2749595	2610204m08rik		-0.97	1.01e-13	5.5e-11	11m	down	late
+ILMN_2748222	Tesc		-1.15	1.08e-13	5.77e-11	11m	down	late
+ILMN_2623056	Clspn	Mus musculus claspin homolog (Xenopus laevis) (Clspn), mRNA.	-1.26	1.35e-13	7.06e-11	11m	down	late
+ILMN_2719834	Ccm2		-0.83	1.47e-13	7.57e-11	11m	down	late
+ILMN_2662214	Cacng4		-1.17	1.55e-13	7.8e-11	11m	down	late
+ILMN_2827248	Chat	Mus musculus choline acetyltransferase (Chat), mRNA.	-0.9	1.82e-13	8.99e-11	11m	down	late
+ILMN_2707941	Gpr83		-0.94	2.12e-13	1.03e-10	11m	down	late
+ILMN_2650289	Rin1		-1.01	2.53e-13	1.2e-10	11m	down	late
+ILMN_2896113	Eg545758	Mus musculus predicted gene, EG545758 (EG545758), mRNA.	-0.78	4.35e-13	1.99e-10	11m	down	late
+ILMN_2740764	Rps6ka4	Mus musculus ribosomal protein S6 kinase, polypeptide 4 (Rps6ka4), mRNA.	-0.94	5.05e-13	2.28e-10	11m	down	late
+ILMN_2886828	Rarb	Mus musculus retinoic acid receptor, beta (Rarb), mRNA.	-0.97	5.16e-13	2.29e-10	11m	down	late
+ILMN_3103233	Gng7	Mus musculus guanine nucleotide binding protein (G protein), gamma 7 subunit (Gng7), transcript variant 2, mRNA.	-0.88	6.25e-13	2.72e-10	11m	down	late
+ILMN_2669164	Arg2	Mus musculus arginase type II (Arg2), mRNA.	-0.88	7.73e-13	3.26e-10	11m	down	late
+ILMN_2617194	Rarb		-0.95	7.98e-13	3.31e-10	11m	down	late
+ILMN_2691613	Ppp1ca	Mus musculus protein phosphatase 1, catalytic subunit, alpha isoform (Ppp1ca), mRNA.	-0.63	9.43e-13	3.85e-10	11m	down	late
+ILMN_2734598	Cyp2a5		-0.72	9.78e-13	3.93e-10	11m	down	late
+ILMN_2749529	Itga9	Mus musculus integrin alpha 9 (Itga9), mRNA.	-0.84	1.09e-12	4.32e-10	11m	down	late
+ILMN_2651660	Ppp1r1b	Mus musculus protein phosphatase 1, regulatory (inhibitor) subunit 1B (Ppp1r1b), mRNA.	-1.06	1.14e-12	4.39e-10	11m	down	late
+ILMN_1246403	Ai593442	Mus musculus expressed sequence AI593442 (AI593442), transcript variant 1, mRNA.	-0.93	1.14e-12	4.39e-10	11m	down	late
+ILMN_2950189	Myt1l	Mus musculus myelin transcription factor 1-like (Myt1l), mRNA.	-0.98	1.17e-12	4.43e-10	11m	down	late
+ILMN_2623091	Adora2a		-0.87	1.35e-12	5.02e-10	11m	down	late
+ILMN_2804166	Igsf9	Mus musculus immunoglobulin superfamily, member 9 (Igsf9), mRNA.	-1.06	1.48e-12	5.44e-10	11m	down	late
+ILMN_2661005	1110018g07rik	Mus musculus RIKEN cDNA 1110018G07 gene (1110018G07Rik), mRNA.	-0.61	1.94e-12	7.01e-10	11m	down	late
+ILMN_1248101	Cecr6	Mus musculus cat eye syndrome chromosome region, candidate 6 homolog (human) (Cecr6), mRNA.	-1.06	2.21e-12	7.77e-10	11m	down	late
+ILMN_2758545	Cldn23	Mus musculus claudin 23 (Cldn23), mRNA.	-1	2.39e-12	8.28e-10	11m	down	late
+ILMN_2725215	8430415e04rik	Mus musculus RIKEN cDNA 8430415E04 gene (8430415E04Rik), mRNA.	-0.94	2.45e-12	8.38e-10	11m	down	late
+ILMN_2701723	C130060k24rik	Mus musculus RIKEN cDNA C130060K24 gene (C130060K24Rik), mRNA.	-0.74	2.75e-12	9.29e-10	11m	down	late
+ILMN_2881024	1700040i03rik	Mus musculus RIKEN cDNA 1700040I03 gene (1700040I03Rik), mRNA. XM_923066 XM_978905 XM_981332 XM_981367 XM_981402 XM_990015 XM_991725	-0.93	3.11e-12	1e-09	11m	down	late
+ILMN_1224034	Pde1b		-0.73	3.16e-12	1e-09	11m	down	late
+ILMN_2963091	E130012a19rik	Mus musculus RIKEN cDNA E130012A19 gene (E130012A19Rik), mRNA.	-0.91	3.76e-12	1.19e-09	11m	down	late
+ILMN_2870786	Upb1	Mus musculus ureidopropionase, beta (Upb1), mRNA.	-0.82	3.79e-12	1.19e-09	11m	down	late
+ILMN_1228958	Fst		-0.83	4.2e-12	1.3e-09	11m	down	late
+ILMN_2856771	Dgkb	Mus musculus diacylglycerol kinase, beta (Dgkb), mRNA.	-1.04	5.47e-12	1.65e-09	11m	down	late
+ILMN_1254736	Myo5a		-0.8	7.09e-12	2.1e-09	11m	down	late
+ILMN_2740407	Pde2a		-0.84	7.37e-12	2.13e-09	11m	down	late
+ILMN_2718149	Homer1	Mus musculus homer homolog 1 (Drosophila) (Homer1), transcript variant d, mRNA.	-0.98	8.01e-12	2.25e-09	11m	down	late
+ILMN_2822905	Ngef	Mus musculus neuronal guanine nucleotide exchange factor (Ngef), mRNA.	-0.76	8.06e-12	2.25e-09	11m	down	late
+ILMN_2752431	Itpka		-0.89	9.88e-12	2.73e-09	11m	down	late
+ILMN_1253641	Ntrk3	Mus musculus neurotrophic tyrosine kinase, receptor, type 3 (Ntrk3), transcript variant 1, mRNA.	-0.89	1.04e-11	2.84e-09	11m	down	late
+ILMN_2614086	Acvr1c		-1.24	1.09e-11	3e-09	11m	down	late
+ILMN_2942551	Sh3rf2	Mus musculus SH3 domain containing ring finger 2 (Sh3rf2), mRNA.	-1.05	1.13e-11	3e-09	11m	down	late
+ILMN_2946520	Npy	Mus musculus neuropeptide Y (Npy), mRNA.	-0.79	1.62e-11	4.24e-09	11m	down	late
+ILMN_2793739	Ai747699	Mus musculus expressed sequence AI747699 (AI747699), mRNA.	-0.89	1.74e-11	4.39e-09	11m	down	late
+ILMN_3001313	Trpc3	Mus musculus transient receptor potential cation channel, subfamily C, member 3 (Trpc3), mRNA.	-0.88	1.74e-11	4.39e-09	11m	down	late
+ILMN_1217753	Srpk1	Mus musculus serine/arginine-rich protein specific kinase 1 (Srpk1), mRNA.	-0.82	1.74e-11	4.39e-09	11m	down	late
+ILMN_2645071	Nrgn	Mus musculus neurogranin (Nrgn), mRNA.	-0.73	1.7e-11	4.39e-09	11m	down	late
+ILMN_2627300	Akap9		-0.75	1.8e-11	4.4e-09	11m	down	late
+ILMN_2733314	D13bwg1146e		-0.67	1.78e-11	4.4e-09	11m	down	late
+ILMN_1225085	Prkcb		-0.65	1.77e-11	4.4e-09	11m	down	late
+ILMN_2698449	Dtr	Mus musculus heparin-binding EGF-like growth factor (Hbegf), mRNA.	-1.06	1.9e-11	4.61e-09	11m	down	late
+ILMN_2715429	Slc8a2	Mus musculus solute carrier family 8 (sodium/calcium exchanger), member 2 (Slc8a2), mRNA. XM_982202 XM_982243	-0.98	2.38e-11	5.67e-09	11m	down	late
+ILMN_2823778	Sc4mol	Mus musculus sterol-C4-methyl oxidase-like (Sc4mol), mRNA.	-0.91	2.41e-11	5.69e-09	11m	down	late
+ILMN_2865082	Gabrd	Mus musculus gamma-aminobutyric acid (GABA-A) receptor, subunit delta (Gabrd), mRNA.	-1	3.17e-11	7.41e-09	11m	down	late
+ILMN_1238436	Cplx2		-0.78	3.21e-11	7.43e-09	11m	down	late
+ILMN_1223600	Indo	Mus musculus indoleamine-pyrrole 2,3 dioxygenase (Indo), mRNA.	-0.85	3.47e-11	8e-09	11m	down	late
+ILMN_2954824	Ppp1r1b	Mus musculus protein phosphatase 1, regulatory (inhibitor) subunit 1B (Ppp1r1b), mRNA.	-0.66	3.57e-11	8e-09	11m	down	late
+ILMN_2911729	Kcnip3	Mus musculus Kv channel interacting protein 3, calsenilin (Kcnip3), mRNA.	-0.93	3.84e-11	8.58e-09	11m	down	late
+ILMN_3133448	Mfge8	Mus musculus milk fat globule-EGF factor 8 protein (Mfge8), transcript variant 2, mRNA.	-0.7	4.01e-11	8.88e-09	11m	down	late
+ILMN_2785353	Il17rc	Mus musculus interleukin 17 receptor C (Il17rc), mRNA.	-0.93	4.16e-11	9.14e-09	11m	down	late
+ILMN_2868220	Inhba	Mus musculus inhibin beta-A (Inhba), mRNA.	-1.38	4.26e-11	9.28e-09	11m	down	late
+ILMN_2680054	D0h4s114	Mus musculus DNA segment, human D4S114 (D0H4S114), mRNA.	-1.11	4.58e-11	9.88e-09	11m	down	late
+ILMN_1253473	Ppp1r1b	Mus musculus protein phosphatase 1, regulatory (inhibitor) subunit 1B (Ppp1r1b), mRNA.	-1.02	4.76e-11	1e-08	11m	down	late
+ILMN_2842357	Ryr1	Mus musculus ryanodine receptor 1, skeletal muscle (Ryr1), mRNA.	-0.89	4.7e-11	1e-08	11m	down	late
+ILMN_1243596	Bc017634		-0.74	4.75e-11	1e-08	11m	down	late
+ILMN_2602230	Lin7b	Mus musculus lin-7 homolog B (C. elegans) (Lin7b), mRNA.	-0.69	5.3e-11	1.11e-08	11m	down	late
+ILMN_3124947	Zfp238	Mus musculus zinc finger protein 238 (Zfp238), transcript variant 1, mRNA.	-0.67	6.23e-11	1.28e-08	11m	down	late
+ILMN_2601884	2310032d16rik		-0.89	6.56e-11	1.34e-08	11m	down	late
+ILMN_2780286	Scube3	Mus musculus signal peptide, CUB domain, EGF-like 3 (Scube3), mRNA.	-0.6	6.87e-11	1.39e-08	11m	down	late
+ILMN_2769925	Alk		-0.56	7.07e-11	1.42e-08	11m	down	late
+ILMN_2849449	Itga5	Mus musculus integrin alpha 5 (fibronectin receptor alpha) (Itga5), mRNA.	-0.74	8.3e-11	1.65e-08	11m	down	late
+ILMN_1246859	Rhobtb2	Mus musculus Rho-related BTB domain containing 2 (Rhobtb2), mRNA.	-0.9	8.43e-11	1.67e-08	11m	down	late
+ILMN_3030009	Gng7	Mus musculus guanine nucleotide binding protein (G protein), gamma 7 subunit (Gng7), transcript variant 2, mRNA.	-0.88	8.81e-11	1.73e-08	11m	down	late
+ILMN_2942554	Sh3rf2	Mus musculus SH3 domain containing ring finger 2 (Sh3rf2), mRNA.	-0.81	1.03e-10	1.97e-08	11m	down	late
+ILMN_2468981	Rasl10b		-0.7	1.08e-10	2.06e-08	11m	down	late
+ILMN_2726850	Tacr1		-0.76	1.14e-10	2.11e-08	11m	down	late
+ILMN_2612774	Hrbl	Mus musculus HIV-1 Rev binding protein-like (Hrbl), transcript variant 2, mRNA.	-0.64	1.3e-10	2.38e-08	11m	down	late
+ILMN_2699307	Hebp1		-0.72	1.6e-10	2.9e-08	11m	down	late
+ILMN_2756023	Pcsk9	Mus musculus proprotein convertase subtilisin/kexin type 9 (Pcsk9), mRNA.	-0.66	1.7e-10	3.05e-08	11m	down	late
+ILMN_3005071	Kcnj4	Mus musculus potassium inwardly-rectifying channel, subfamily J, member 4 (Kcnj4), mRNA.	-0.94	1.92e-10	3.41e-08	11m	down	late
+ILMN_2767605	Lmo2	Mus musculus LIM domain only 2 (Lmo2), mRNA.	-0.86	1.97e-10	3.47e-08	11m	down	late
+ILMN_2733828	Ai593442	Mus musculus expressed sequence AI593442 (AI593442), transcript variant 1, mRNA.	-0.75	2.12e-10	3.71e-08	11m	down	late
+ILMN_1247491	Slc18a3		-0.55	2.14e-10	3.71e-08	11m	down	late
+ILMN_2842338	Tbc1d10c	Mus musculus TBC1 domain family, member 10c (Tbc1d10c), mRNA.	-0.69	2.26e-10	3.89e-08	11m	down	late
+ILMN_2806439	Slc17a8	Mus musculus solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 8 (Slc17a8), mRNA.	-0.77	2.55e-10	4.34e-08	11m	down	late
+ILMN_2802590	Tmem16b	Mus musculus transmembrane protein 16B (Tmem16b), mRNA.	-1	2.58e-10	4.36e-08	11m	down	late
+ILMN_1251756	N28178		-0.81	2.85e-10	4.79e-08	11m	down	late
+ILMN_1219447	Zfp261		-0.68	3.12e-10	5.17e-08	11m	down	late
+ILMN_2756900	Ecel1	Mus musculus endothelin converting enzyme-like 1 (Ecel1), mRNA.	-0.85	3.25e-10	5.36e-08	11m	down	late
+ILMN_2716389	Smpd3		-0.83	3.35e-10	5.37e-08	11m	down	late
+ILMN_3152241	Slc16a6	Mus musculus solute carrier family 16 (monocarboxylic acid transporters), member 6 (Slc16a6), transcript variant 2, mRNA.	-0.77	3.3e-10	5.37e-08	11m	down	late
+ILMN_1219915	Dgat2		-0.76	3.3e-10	5.37e-08	11m	down	late
+ILMN_1241255	Loc380683		-0.45	3.32e-10	5.37e-08	11m	down	late
+ILMN_2596560	Rpel1		-0.73	3.89e-10	6.15e-08	11m	down	late
+ILMN_2771709	Ppargc1b		-0.58	3.9e-10	6.15e-08	11m	down	late
+ILMN_1226095	Oprk1	Mus musculus opioid receptor, kappa 1 (Oprk1), mRNA.	-0.68	4.06e-10	6.36e-08	11m	down	late
+ILMN_3060395	Odf4	Mus musculus outer dense fiber of sperm tails 4 (Odf4), mRNA.	-0.76	4.22e-10	6.57e-08	11m	down	late
+ILMN_2650557	Ccbp2	Mus musculus chemokine binding protein 2 (Ccbp2), mRNA.	-0.89	4.31e-10	6.68e-08	11m	down	late
+ILMN_2672458	Gnb5	Mus musculus guanine nucleotide binding protein, beta 5 (Gnb5), transcript variant 1, mRNA.	-0.76	4.75e-10	7.3e-08	11m	down	late
+ILMN_2664909	Mesdc1	Mus musculus mesoderm development candidate 1 (Mesdc1), mRNA.	-0.77	4.97e-10	7.56e-08	11m	down	late
+ILMN_2792868	Blvrb	Mus musculus biliverdin reductase B (flavin reductase (NADPH)) (Blvrb), mRNA.	-0.69	4.96e-10	7.56e-08	11m	down	late
+ILMN_2915671	Kcnab1	Mus musculus potassium voltage-gated channel, shaker-related subfamily, beta member 1 (Kcnab1), mRNA.	-0.75	5.8e-10	8.71e-08	11m	down	late
+ILMN_2959729	Arhgap20	Mus musculus Rho GTPase activating protein 20 (Arhgap20), mRNA.	-0.77	6.43e-10	9.6e-08	11m	down	late
+ILMN_2627299	Akap9		-0.8	6.49e-10	9.65e-08	11m	down	late
+ILMN_2611022	Bcl11b		-0.79	6.54e-10	9.66e-08	11m	down	late
+ILMN_2824971	Gpr158	Mus musculus G protein-coupled receptor 158 (Gpr158), mRNA.	-0.61	6.66e-10	9.72e-08	11m	down	late
+ILMN_2599739	6030419c18rik	Mus musculus RIKEN cDNA 6030419C18 gene (6030419C18Rik), mRNA.	-0.79	7.36e-10	1.06e-07	11m	down	late
+ILMN_2731331	Bc046386	Mus musculus polycystic kidney disease 2-like 1 (Pkd2l1), mRNA.	-0.62	7.89e-10	1.13e-07	11m	down	late
+ILMN_2889916	Klf16	Mus musculus Kruppel-like factor 16 (Klf16), mRNA.	-0.69	8.09e-10	1.16e-07	11m	down	late
+ILMN_1253860	Mas1	Mus musculus MAS1 oncogene (Mas1), mRNA.	-1.03	8.58e-10	1.21e-07	11m	down	late
+ILMN_2781557	Cyp46a1	Mus musculus cytochrome P450, family 46, subfamily a, polypeptide 1 (Cyp46a1), mRNA.	-0.86	8.73e-10	1.23e-07	11m	down	late
+ILMN_2650915	Jmjd2b	Mus musculus jumonji domain containing 2B (Jmjd2b), mRNA.	-0.65	9.03e-10	1.26e-07	11m	down	late
+ILMN_1258942	Lynx1	Mus musculus Ly6/neurotoxin 1 (Lynx1), mRNA.	-0.62	9.31e-10	1.29e-07	11m	down	late
+ILMN_2625197	Ptprv	Mus musculus protein tyrosine phosphatase, receptor type, V (Ptprv), mRNA.	-0.8	1e-09	1.32e-07	11m	down	late
+ILMN_1254943	Bc024955		-0.79	1e-09	1.33e-07	11m	down	late
+ILMN_2516705	Upb1	Mus musculus ureidopropionase, beta (Upb1), mRNA.	-0.69	1.09e-09	1.48e-07	11m	down	late
+ILMN_2625435	Kcnd2		-0.65	1.09e-09	1.48e-07	11m	down	late
+ILMN_2747728	Pde7b	Mus musculus phosphodiesterase 7B (Pde7b), mRNA.	-0.94	1.16e-09	1.55e-07	11m	down	late
+ILMN_1233172	Pou3f1	Mus musculus POU domain, class 3, transcription factor 1 (Pou3f1), mRNA.	-0.9	1.15e-09	1.55e-07	11m	down	late
+ILMN_2666622	Rgs2		-0.9	1.16e-09	1.55e-07	11m	down	late
+ILMN_2981623	B230206h07rik	Mus musculus RIKEN cDNA B230206H07 gene (B230206H07Rik), mRNA.	-0.68	1.18e-09	1.56e-07	11m	down	late
+ILMN_2616584	Ppp1r1a		-0.75	1.23e-09	1.62e-07	11m	down	late
+ILMN_2819951	Lrp12	Mus musculus low density lipoprotein-related protein 12 (Lrp12), mRNA.	-0.6	1.26e-09	1.65e-07	11m	down	late
+ILMN_1225880	Srm	Mus musculus spermidine synthase (Srm), mRNA.	-0.77	1.33e-09	1.71e-07	11m	down	late
+ILMN_1238898	Rhobtb2	Mus musculus Rho-related BTB domain containing 2 (Rhobtb2), mRNA.	-0.63	1.33e-09	1.71e-07	11m	down	late
+ILMN_3137154	Gpr12		-0.95	1.55e-09	1.97e-07	11m	down	late
+ILMN_1224996	Sez6		-0.86	1.61e-09	2.04e-07	11m	down	late
+ILMN_2680958	Kcnip2	Mus musculus Kv channel-interacting protein 2 (Kcnip2), transcript variant a, mRNA.	-0.95	1.65e-09	2.07e-07	11m	down	late
+ILMN_2598946	Bai2	Mus musculus brain-specific angiogenesis inhibitor 2 (Bai2), mRNA.	-0.65	1.67e-09	2.07e-07	11m	down	late
+ILMN_2603364	Gpr24		-0.76	1.7e-09	2.1e-07	11m	down	late
+ILMN_1235388	Bc055811	Mus musculus immunoglobin superfamily, member 21 (Igsf21), mRNA.	-1.07	1.73e-09	2.13e-07	11m	down	late
+ILMN_2634108	Ap1s1		-0.61	1.91e-09	2.32e-07	11m	down	late
+ILMN_2648661	Cap1	Mus musculus CAP, adenylate cyclase-associated protein 1 (yeast) (Cap1), mRNA.	-0.6	2.05e-09	2.46e-07	11m	down	late
+ILMN_1213070	1700037h04rik		-0.56	2.05e-09	2.46e-07	11m	down	late
+ILMN_2596979	Nrarp		-0.73	2.17e-09	2.6e-07	11m	down	late
+ILMN_2687391	Bc028975	Mus musculus WD repeat domain 78 (Wdr78), mRNA.	-0.78	2.41e-09	2.85e-07	11m	down	late
+ILMN_2960071	Ppp1ca	Mus musculus protein phosphatase 1, catalytic subunit, alpha isoform (Ppp1ca), mRNA.	-0.75	2.4e-09	2.85e-07	11m	down	late
+ILMN_2771034	Mfge8		-0.97	2.69e-09	3.15e-07	11m	down	late
+ILMN_2643241	Accn2	Mus musculus amiloride-sensitive cation channel 2, neuronal (Accn2), mRNA.	-0.61	2.82e-09	3.27e-07	11m	down	late
+ILMN_1229407	Bid3		-0.74	2.91e-09	3.35e-07	11m	down	late
+ILMN_2712900	Sars1		-0.75	3e-09	3.41e-07	11m	down	late
+ILMN_2790357	Sema7a	Mus musculus sema domain, immunoglobulin domain (Ig), and GPI membrane anchor, (semaphorin) 7A (Sema7a), mRNA.	-0.91	3e-09	3.43e-07	11m	down	late
+ILMN_1246917	Abcc12		-0.46	3.18e-09	3.6e-07	11m	down	late
+ILMN_1229246	2610039e05rik	Mus musculus spermatogenesis associated 2-like (Spata2L), mRNA.	-1.04	3.42e-09	3.83e-07	11m	down	late
+ILMN_1228942	Cd59a	Mus musculus CD59a antigen (Cd59a), mRNA.	-0.8	3.5e-09	3.91e-07	11m	down	late
+ILMN_2449917	Tyro3		-0.69	3.58e-09	3.97e-07	11m	down	late
+ILMN_2680959	Kcnip2	Mus musculus Kv channel-interacting protein 2 (Kcnip2), transcript variant a, mRNA.	-0.78	3.74e-09	4.11e-07	11m	down	late
+ILMN_3124037	Kcnip2	Mus musculus Kv channel-interacting protein 2 (Kcnip2), transcript variant c, mRNA.	-0.83	4.26e-09	4.64e-07	11m	down	late
+ILMN_2630641	Srm	Mus musculus spermidine synthase (Srm), mRNA.	-0.58	4.82e-09	5.23e-07	11m	down	late
+ILMN_1249941	Gdf10		-0.77	5e-09	5.39e-07	11m	down	late
+ILMN_2656498	Foxo1		-0.7	5.06e-09	5.44e-07	11m	down	late
+ILMN_2632092	Ppp1r9a		-0.63	5.15e-09	5.51e-07	11m	down	late
+ILMN_2616226	Dbp	Mus musculus D site albumin promoter binding protein (Dbp), mRNA.	-0.76	5.3e-09	5.65e-07	11m	down	late
+ILMN_2972521	Agtr1a	Mus musculus angiotensin II receptor, type 1a (Agtr1a), mRNA.	-0.39	5.41e-09	5.74e-07	11m	down	late
+ILMN_2860699	Epb4.9	Mus musculus erythrocyte protein band 4.9 (Epb4.9), mRNA.	-0.64	6e-09	6.28e-07	11m	down	late
+ILMN_2425854	Wnt8b	Mus musculus wingless related MMTV integration site 8b (Wnt8b), mRNA.	-0.62	6.78e-09	7.12e-07	11m	down	late
+ILMN_2668835	Npas2		-0.94	7e-09	7.26e-07	11m	down	late
+ILMN_3132588	D930038m13rik		-0.66	7e-09	7.26e-07	11m	down	late
+ILMN_2778789	Sgip1	Mus musculus SH3-domain GRB2-like (endophilin) interacting protein 1 (Sgip1), mRNA.	-0.53	7.05e-09	7.31e-07	11m	down	late
+ILMN_1226868	Mapk4		-0.79	7.88e-09	8.13e-07	11m	down	late
+ILMN_1225528	Trib3		-0.53	7.91e-09	8.13e-07	11m	down	late
+ILMN_1229726	Fibcd1	Mus musculus fibrinogen C domain containing 1 (Fibcd1), mRNA.	-1.05	8e-09	8.18e-07	11m	down	late
+ILMN_2974460	Rhobtb2	Mus musculus Rho-related BTB domain containing 2 (Rhobtb2), mRNA.	-0.86	8.08e-09	8.18e-07	11m	down	late
+ILMN_2953751	Sec14l1	Mus musculus SEC14-like 1 (S. cerevisiae) (Sec14l1), mRNA.	-0.74	8e-09	8.18e-07	11m	down	late
+ILMN_2942353	Ccl25	Mus musculus chemokine (C-C motif) ligand 25 (Ccl25), mRNA.	-0.75	8.3e-09	8.37e-07	11m	down	late
+ILMN_2960263	Slc8a2	Mus musculus solute carrier family 8 (sodium/calcium exchanger), member 2 (Slc8a2), mRNA. XM_982202 XM_982243	-0.75	8.51e-09	8.55e-07	11m	down	late
+ILMN_1249663	Cd4	Mus musculus CD4 antigen (Cd4), mRNA.	-0.61	8.9e-09	8.86e-07	11m	down	late
+ILMN_2756891	Ai505034	Mus musculus 1-acylglycerol-3-phosphate O-acyltransferase 7 (lysophosphatidic acid acyltransferase, eta) (Agpat7), mRNA.	-0.76	9.17e-09	9.1e-07	11m	down	late
+ILMN_2656864	Chat		-0.63	9.57e-09	9.46e-07	11m	down	late
+ILMN_1222084	Rem2	Mus musculus rad and gem related GTP binding protein 2 (Rem2), mRNA.	-0.65	1.02e-08	1e-06	11m	down	late
+ILMN_2597248	Abcb9		-0.6	1.13e-08	1.1e-06	11m	down	late
+ILMN_2762672	Cacna2d3	Mus musculus calcium channel, voltage-dependent, alpha2/delta subunit 3 (Cacna2d3), mRNA.	-0.73	1.23e-08	1.19e-06	11m	down	late
+ILMN_2755585	Avpi1	Mus musculus arginine vasopressin-induced 1 (Avpi1), mRNA.	-0.47	1.24e-08	1.2e-06	11m	down	late
+ILMN_2679077	Nola2	Mus musculus nucleolar protein family A, member 2 (Nola2), mRNA.	-0.57	1.4e-08	1.35e-06	11m	down	late
+ILMN_2878021	Atp2b1	Mus musculus ATPase, Ca++ transporting, plasma membrane 1 (Atp2b1), mRNA.	-0.82	1.44e-08	1.38e-06	11m	down	late
+ILMN_2936419	Bc051142	Mus musculus cDNA sequence BC051142 (BC051142), mRNA.	-0.58	1.46e-08	1.39e-06	11m	down	late
+ILMN_2680308	Sec14l1		-0.65	1.48e-08	1.4e-06	11m	down	late
+ILMN_3112334	Pitpnm3	Mus musculus PITPNM family member 3 (Pitpnm3), transcript variant 1, mRNA.	-0.61	1.49e-08	1.41e-06	11m	down	late
+ILMN_2765759	Asb2	Mus musculus ankyrin repeat and SOCS box-containing protein 2 (Asb2), mRNA.	-0.65	1.51e-08	1.43e-06	11m	down	late
+ILMN_2891583	Car12	Mus musculus carbonic anyhydrase 12 (Car12), mRNA.	-0.87	1.58e-08	1.49e-06	11m	down	late
+ILMN_2961005	Ier5l	Mus musculus immediate early response 5-like (Ier5l), mRNA.	-0.88	1.64e-08	1.52e-06	11m	down	late
+ILMN_2900827	Ssbp4	Mus musculus single stranded DNA binding protein 4 (Ssbp4), mRNA.	-0.48	1.64e-08	1.52e-06	11m	down	late
+ILMN_2747456	Ivns1abp		-0.71	1.7e-08	1.56e-06	11m	down	late
+ILMN_2625351	Sh3bgrl3	Mus musculus SH3 domain binding glutamic acid-rich protein-like 3 (Sh3bgrl3), mRNA.	-0.58	1.73e-08	1.58e-06	11m	down	late
+ILMN_1246864	Rarb		-0.58	1.89e-08	1.72e-06	11m	down	late
+ILMN_2659317	E130306d19rik		-0.54	1.95e-08	1.77e-06	11m	down	late
+ILMN_2813724	Bai2	Mus musculus brain-specific angiogenesis inhibitor 2 (Bai2), mRNA.	-0.52	2.03e-08	1.84e-06	11m	down	late
+ILMN_2604548	Rgs14	Mus musculus regulator of G-protein signaling 14 (Rgs14), mRNA.	-0.7	2.19e-08	1.97e-06	11m	down	late
+ILMN_2446559	Tnfrsf4		-0.5	2.39e-08	2.11e-06	11m	down	late
+ILMN_1260448	Plk2	Mus musculus polo-like kinase 2 (Drosophila) (Plk2), mRNA.	-0.69	2.57e-08	2.25e-06	11m	down	late
+ILMN_2809611	Srm	Mus musculus spermidine synthase (Srm), mRNA.	-0.66	2.61e-08	2.27e-06	11m	down	late
+ILMN_2906855	Ky	Mus musculus kyphoscoliosis peptidase (Ky), mRNA.	-0.62	2.62e-08	2.27e-06	11m	down	late
+ILMN_2648921	Pcdhb8	Mus musculus protocadherin beta 8 (Pcdhb8), mRNA.	-0.58	2.59e-08	2.27e-06	11m	down	late
+ILMN_1245352	Bc056929	Mus musculus doublecortin and CaM kinase-like 3 (Dcamkl3), mRNA.	-0.64	2.65e-08	2.29e-06	11m	down	late
+ILMN_2737416	Fjx1		-0.74	2.91e-08	2.5e-06	11m	down	late
+ILMN_1248397	Smarcd3		-0.63	3.15e-08	2.69e-06	11m	down	late
+ILMN_2833781	Pwwp2	Mus musculus PWWP domain containing 2 (Pwwp2), transcript variant 2, mRNA.	-0.68	3.54e-08	3.01e-06	11m	down	late
+ILMN_1253008	Acat2	Mus musculus acetyl-Coenzyme A acetyltransferase 2 (Acat2), mRNA.	-0.48	3.73e-08	3.15e-06	11m	down	late
+ILMN_1217353	Rfx2	Mus musculus regulatory factor X, 2 (influences HLA class II expression) (Rfx2), mRNA.	-0.52	3.76e-08	3.17e-06	11m	down	late
+ILMN_1256263	Camkk2	Mus musculus calcium/calmodulin-dependent protein kinase kinase 2, beta (Camkk2), mRNA.	-0.76	3.79e-08	3.18e-06	11m	down	late
+ILMN_1221199	Ppm1f	Mus musculus protein phosphatase 1F (PP2C domain containing) (Ppm1f), mRNA.	-0.46	3.85e-08	3.21e-06	11m	down	late
+ILMN_2937484	Dlgap2	Mus musculus discs, large (Drosophila) homolog-associated protein 2 (Dlgap2), mRNA.	-0.68	4.45e-08	3.64e-06	11m	down	late
+ILMN_2681248	A430065p19rik		-0.52	4.46e-08	3.64e-06	11m	down	late
+ILMN_1237961	Gnb5	Mus musculus guanine nucleotide binding protein, beta 5 (Gnb5), transcript variant 2, mRNA.	-0.59	4.75e-08	3.86e-06	11m	down	late
+ILMN_1238309	A2bp1		-0.45	4.81e-08	3.9e-06	11m	down	late
+ILMN_2756578	Flrt3	Mus musculus fibronectin leucine rich transmembrane protein 3 (Flrt3), mRNA.	-0.68	4.91e-08	3.95e-06	11m	down	late
+ILMN_2694360	Efcbp2		-0.65	4.88e-08	3.95e-06	11m	down	late
+ILMN_2705294	Siat8b	Mus musculus ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 2 (St8sia2), mRNA.	-0.79	4.93e-08	3.96e-06	11m	down	late
+ILMN_2643648	Dbccr1		-0.7	5.39e-08	4.3e-06	11m	down	late
+ILMN_1248298	Plxdc1	Mus musculus plexin domain containing 1 (Plxdc1), mRNA.	-0.58	5.49e-08	4.35e-06	11m	down	late
+ILMN_2747507	Pitpnm2	Mus musculus phosphatidylinositol transfer protein, membrane-associated 2 (Pitpnm2), mRNA.	-0.7	5.8e-08	4.57e-06	11m	down	late
+ILMN_1251845	E130304d01		-0.95	6.14e-08	4.81e-06	11m	down	late
+ILMN_2873444	Fbxo32	Mus musculus F-box protein 32 (Fbxo32), mRNA.	-0.58	6.85e-08	5.32e-06	11m	down	late
+ILMN_1254082	Chodl		-0.52	6.84e-08	5.32e-06	11m	down	late
+ILMN_1248692	Cacng3	Mus musculus calcium channel, voltage-dependent, gamma subunit 3 (Cacng3), mRNA.	-0.61	6.99e-08	5.39e-06	11m	down	late
+ILMN_2870329	Dock4	Mus musculus dedicator of cytokinesis 4 (Dock4), mRNA.	-0.65	7.11e-08	5.47e-06	11m	down	late
+ILMN_2828265	5-sep	Mus musculus septin 5 (Sept5), mRNA.	-0.78	7.17e-08	5.5e-06	11m	down	late
+ILMN_3113303	Atp2b2	Mus musculus ATPase, Ca++ transporting, plasma membrane 2 (Atp2b2), transcript variant 2, mRNA.	-0.58	7.51e-08	5.72e-06	11m	down	late
+ILMN_1228542	Gtf3c4		-0.6	7.63e-08	5.78e-06	11m	down	late
+ILMN_1252078	Foxp1	Mus musculus forkhead box P1 (Foxp1), mRNA.	-0.73	7.71e-08	5.83e-06	11m	down	late
+ILMN_2781458	Tlcd1	Mus musculus TLC domain containing 1 (Tlcd1), mRNA.	-0.63	7.8e-08	5.88e-06	11m	down	late
+ILMN_1255166	Ctxn	Mus musculus cortexin 1 (Ctxn1), mRNA.	-0.63	7.88e-08	5.92e-06	11m	down	late
+ILMN_2592507	Ppp1r9b		-0.59	8.06e-08	6.04e-06	11m	down	late
+ILMN_2759058	Rnf103	Mus musculus ring finger protein 103 (Rnf103), mRNA.	-0.4	8.1e-08	6.05e-06	11m	down	late
+ILMN_2885123	6530418l21rik	Mus musculus RIKEN cDNA 6530418L21 gene (6530418L21Rik), mRNA.	-0.99	8.19e-08	6.08e-06	11m	down	late
+ILMN_2626389	D7ertd156e	Mus musculus nodal modulator 1 (Nomo1), mRNA.	-0.7	8.85e-08	6.51e-06	11m	down	late
+ILMN_2651369	Kcnk2	Mus musculus potassium channel, subfamily K, member 2 (Kcnk2), mRNA.	-0.69	8.89e-08	6.51e-06	11m	down	late
+ILMN_1226785	Homer1	Mus musculus homer homolog 1 (Drosophila) (Homer1), transcript variant d, mRNA.	-0.75	9.11e-08	6.65e-06	11m	down	late
+ILMN_1218256	Loc268935		-0.55	9.16e-08	6.67e-06	11m	down	late
+ILMN_1233784	Wdr34		-0.55	9.21e-08	6.68e-06	11m	down	late
+ILMN_2637203	Rfc5		-0.46	9.37e-08	6.78e-06	11m	down	late
+ILMN_1248290	Wnt7a	Mus musculus wingless-related MMTV integration site 7A (Wnt7a), mRNA.	-0.77	9.5e-08	6.82e-06	11m	down	late
+ILMN_2679377	Chgb		-0.51	9.46e-08	6.82e-06	11m	down	late
+ILMN_2870788	Upb1	Mus musculus ureidopropionase, beta (Upb1), mRNA.	-0.59	9.56e-08	6.85e-06	11m	down	late
+ILMN_1224516	Slmap		-0.65	9.79e-08	6.95e-06	11m	down	late
+ILMN_1219025	9030409g11rik	Mus musculus RIKEN cDNA 9030409G11 gene (9030409G11Rik), mRNA.	-0.59	1e-07	7.1e-06	11m	down	late
+ILMN_3161601	Snca		-0.62	1.03e-07	7.29e-06	11m	down	late
+ILMN_2740115	Siat8c		-1.05	1.07e-07	7.57e-06	11m	down	late
+ILMN_1227882	Loc381270		-0.59	1.08e-07	7.61e-06	11m	down	late
+ILMN_2614853	6720458f09rik	Mus musculus RIKEN cDNA 6720458F09 gene (6720458F09Rik), mRNA.	-0.58	1.13e-07	7.86e-06	11m	down	late
+ILMN_2680307	Sec14l1		-0.76	1.17e-07	8.13e-06	11m	down	late
+ILMN_2690596	Hey1		-0.53	1.18e-07	8.15e-06	11m	down	late
+ILMN_2517170	Tuba4	Mus musculus tubulin, alpha 4A (Tuba4a), mRNA.	-0.59	1.24e-07	8.5e-06	11m	down	late
+ILMN_2607786	Fads1	Mus musculus fatty acid desaturase 1 (Fads1), mRNA.	-0.39	1.26e-07	8.62e-06	11m	down	late
+ILMN_3162809	Lrrn6a	Mus musculus leucine rich repeat and Ig domain containing 1 (Lingo1), mRNA.	-0.52	1.26e-07	8.63e-06	11m	down	late
+ILMN_3065373	4930572j05rik	Mus musculus RIKEN cDNA 4930572J05 gene (4930572J05Rik), mRNA.	-0.58	1.28e-07	8.71e-06	11m	down	late
+ILMN_2478523	Txnl4		-0.57	1.31e-07	8.92e-06	11m	down	late
+ILMN_2955509	Klk6	Mus musculus kallikrein related-peptidase 6 (Klk6), mRNA.	-0.97	1.34e-07	9.05e-06	11m	down	late
+ILMN_1232146	1700021c14rik		-0.43	1.34e-07	9.05e-06	11m	down	late
+ILMN_2784144	Rasgrp2	Mus musculus RAS, guanyl releasing protein 2 (Rasgrp2), mRNA.	-0.87	1.39e-07	9.31e-06	11m	down	late
+ILMN_2628759	Htr1b	Mus musculus 5-hydroxytryptamine (serotonin) receptor 1B (Htr1b), mRNA.	-0.69	1.41e-07	9.35e-06	11m	down	late
+ILMN_2703738	Lrp12	Mus musculus low density lipoprotein-related protein 12 (Lrp12), mRNA.	-0.58	1.42e-07	9.42e-06	11m	down	late
+ILMN_2993652	Ncan	Mus musculus neurocan (Ncan), mRNA.	-0.55	1.52e-07	9.97e-06	11m	down	late
+ILMN_2592321	Cdh13		-0.7	1.54e-07	1.01e-05	11m	down	late
+ILMN_1230766	Scmh1		-0.55	1.56e-07	1.02e-05	11m	down	late
+ILMN_2849285	Krt10	Mus musculus keratin 10 (Krt10), mRNA.	-0.45	1.61e-07	1.04e-05	11m	down	late
+ILMN_2649810	Rpl3l	Mus musculus ribosomal protein L3-like (Rpl3l), mRNA.	-0.37	1.6e-07	1.04e-05	11m	down	late
+ILMN_1246058	Ppp1ca	Mus musculus protein phosphatase 1, catalytic subunit, alpha isoform (Ppp1ca), mRNA.	-0.53	1.67e-07	1.07e-05	11m	down	late
+ILMN_1250869	Ablim2		-0.64	1.74e-07	1.11e-05	11m	down	late
+ILMN_2932824	Gna-rs1	Mus musculus guanine nucleotide binding protein, related sequence 1 (Gna-rs1), mRNA.	-0.42	1.79e-07	1.14e-05	11m	down	late
+ILMN_2678495	Akap9		-0.8	1.87e-07	1.18e-05	11m	down	late
+ILMN_2924831	Gas7	Mus musculus growth arrest specific 7 (Gas7), mRNA.	-0.67	1.86e-07	1.18e-05	11m	down	late
+ILMN_3143304	4930572j05rik	Mus musculus RIKEN cDNA 4930572J05 gene (4930572J05Rik), mRNA.	-0.64	1.86e-07	1.18e-05	11m	down	late
+ILMN_1230263	Me2		-0.6	1.88e-07	1.18e-05	11m	down	late
+ILMN_2628178	Socs2		-0.67	1.99e-07	1.25e-05	11m	down	late
+ILMN_3150366	Ryr3	Mus musculus ryanodine receptor 3 (Ryr3), mRNA.	-0.65	2.03e-07	1.27e-05	11m	down	late
+ILMN_2704257	Reln		-0.54	2.04e-07	1.27e-05	11m	down	late
+ILMN_3090378	Catnd2		-0.58	2.06e-07	1.28e-05	11m	down	late
+ILMN_2618169	Kcnab1	Mus musculus potassium voltage-gated channel, shaker-related subfamily, beta member 1 (Kcnab1), mRNA.	-0.7	2.15e-07	1.33e-05	11m	down	late
+ILMN_2593787	Kcnk13	Mus musculus potassium channel, subfamily K, member 13 (Kcnk13), mRNA.	-0.69	2.21e-07	1.35e-05	11m	down	late
+ILMN_2649333	Rps6kl1		-0.55	2.2e-07	1.35e-05	11m	down	late
+ILMN_3096933	Top1mt	Mus musculus DNA topoisomerase 1, mitochondrial (Top1mt), mRNA.	-0.53	2.21e-07	1.35e-05	11m	down	late
+ILMN_2902767	Prrt3	Mus musculus proline-rich transmembrane protein 3 (Prrt3), mRNA.	-0.51	2.26e-07	1.37e-05	11m	down	late
+ILMN_2990420	Jmjd2b	Mus musculus jumonji domain containing 2B (Jmjd2b), mRNA.	-0.47	2.41e-07	1.46e-05	11m	down	late
+ILMN_2642403	Lmo4	Mus musculus LIM domain only 4 (Lmo4), mRNA.	-0.53	2.48e-07	1.49e-05	11m	down	late
+ILMN_1235811	1110032e23rik		-0.72	2.5e-07	1.5e-05	11m	down	late
+ILMN_1228970	Rhobtb2	Mus musculus Rho-related BTB domain containing 2 (Rhobtb2), mRNA.	-0.66	2.54e-07	1.52e-05	11m	down	late
+ILMN_2791644	Reep1	Mus musculus receptor accessory protein 1 (Reep1), mRNA.	-0.52	2.59e-07	1.54e-05	11m	down	late
+ILMN_1255511	1110037n09rik		-0.78	2.64e-07	1.57e-05	11m	down	late
+ILMN_2620893	Dlgap2	Mus musculus discs, large (Drosophila) homolog-associated protein 2 (Dlgap2), mRNA.	-0.61	2.67e-07	1.57e-05	11m	down	late
+ILMN_2463181	Tnc		-0.48	2.64e-07	1.57e-05	11m	down	late
+ILMN_2961165	Ttl	Mus musculus tubulin tyrosine ligase (Ttl), mRNA.	-0.62	2.71e-07	1.58e-05	11m	down	late
+ILMN_2651556	Otof	Mus musculus otoferlin (Otof), mRNA.	-0.61	2.79e-07	1.63e-05	11m	down	late
+ILMN_3093626	Porcn	Mus musculus porcupine homolog (Drosophila) (Porcn), transcript variant Mporc-b, mRNA.	-0.48	2.8e-07	1.63e-05	11m	down	late
+ILMN_2665238	Grm1	Mus musculus glutamate receptor, metabotropic 1 (Grm1), mRNA.	-0.58	3.01e-07	1.73e-05	11m	down	late
+ILMN_1247811	Ass1	Mus musculus argininosuccinate synthetase 1 (Ass1), mRNA.	-0.57	3e-07	1.73e-05	11m	down	late
+ILMN_2640346	P2ry13	Mus musculus purinergic receptor P2Y, G-protein coupled 13 (P2ry13), mRNA.	-0.81	3.03e-07	1.74e-05	11m	down	late
+ILMN_1246285	Tmem46	Mus musculus transmembrane protein 46 (Tmem46), mRNA.	-1.06	3.1e-07	1.78e-05	11m	down	late
+ILMN_1213123	Adam23		-0.65	3.35e-07	1.91e-05	11m	down	late
+ILMN_1214070	Al033326	Mus musculus RanBP-type and C3HC4-type zinc finger containing 1 (Rbck1), mRNA.	-0.62	3.41e-07	1.94e-05	11m	down	late
+ILMN_1227403	Rtn4rl1		-0.63	3.46e-07	1.96e-05	11m	down	late
+ILMN_2637188	Cnr1		-0.58	3.69e-07	2.06e-05	11m	down	late
+ILMN_2710764	Dlgh4		-0.75	3.74e-07	2.08e-05	11m	down	late
+ILMN_2744731	A330102k23rik		-0.64	3.77e-07	2.08e-05	11m	down	late
+ILMN_2645133	Ai839735		-0.45	3.76e-07	2.08e-05	11m	down	late
+ILMN_2594855	Pdpk1		-0.54	3.85e-07	2.11e-05	11m	down	late
+ILMN_2445324	Zfpm1	Mus musculus zinc finger protein, multitype 1 (Zfpm1), mRNA.	-0.56	3.88e-07	2.12e-05	11m	down	late
+ILMN_2661588	Spnb3		-0.56	4.05e-07	2.21e-05	11m	down	late
+ILMN_1227758	2310069i04rik		-0.44	4.05e-07	2.21e-05	11m	down	late
+ILMN_2924391	Pcsk2	Mus musculus proprotein convertase subtilisin/kexin type 2 (Pcsk2), mRNA.	-0.7	4.18e-07	2.27e-05	11m	down	late
+ILMN_2798138	Gipc2	Mus musculus GIPC PDZ domain containing family, member 2 (Gipc2), mRNA.	-0.52	4.21e-07	2.28e-05	11m	down	late
+ILMN_2850324	Sohlh1	Mus musculus spermatogenesis and oogenesis specific basic helix-loop-helix 1 (Sohlh1), mRNA.	-0.51	4.29e-07	2.32e-05	11m	down	late
+ILMN_1249242	Zrf2		-0.68	4.41e-07	2.38e-05	11m	down	late
+ILMN_3068535	D4ertd429e	Mus musculus DNA segment, Chr 4, ERATO Doi 429, expressed (D4Ertd429e), transcript variant 1, mRNA.	-0.57	4.6e-07	2.47e-05	11m	down	late
+ILMN_1230357	Itpr1	Mus musculus inositol 1,4,5-triphosphate receptor 1 (Itpr1), mRNA.	-0.46	4.67e-07	2.5e-05	11m	down	late
+ILMN_2706819	Rasl11b		-0.81	4.77e-07	2.55e-05	11m	down	late
+ILMN_2733091	Baiap2		-0.58	5.01e-07	2.67e-05	11m	down	late
+ILMN_2724235	Myo18a		-0.54	5.07e-07	2.69e-05	11m	down	late
+ILMN_1239627	4631426j05rik		-0.56	5.12e-07	2.71e-05	11m	down	late
+ILMN_2482209	Tpm2	Mus musculus tropomyosin 2, beta (Tpm2), mRNA.	-0.52	5.15e-07	2.71e-05	11m	down	late
+ILMN_1256117	Hrh3	Mus musculus histamine receptor H 3 (Hrh3), mRNA.	-0.94	5.2e-07	2.73e-05	11m	down	late
+ILMN_2761720	2610019f03rik	Mus musculus RIKEN cDNA 2610019F03 gene (2610019F03Rik), mRNA.	-0.54	5.23e-07	2.74e-05	11m	down	late
+ILMN_3033562	Mgc106740	Mus musculus predicted gene, OTTMUSG00000017677 (OTTMUSG00000017677), mRNA.	-0.59	5.35e-07	2.79e-05	11m	down	late
+ILMN_1242183	Loc227631		-0.45	5.77e-07	2.98e-05	11m	down	late
+ILMN_1229680	Flrt3	Mus musculus fibronectin leucine rich transmembrane protein 3 (Flrt3), mRNA.	-0.68	5.9e-07	3.04e-05	11m	down	late
+ILMN_2877900	Cpne5	Mus musculus copine V (Cpne5), mRNA.	-0.34	5.99e-07	3.08e-05	11m	down	late
+ILMN_2934028	Ttll11	Mus musculus tubulin tyrosine ligase-like family, member 11 (Ttll11), mRNA.	-0.73	6.12e-07	3.11e-05	11m	down	late
+ILMN_2653205	Gp1bb		-0.59	6.06e-07	3.11e-05	11m	down	late
+ILMN_2828768	Usp28	Mus musculus ubiquitin specific peptidase 28 (Usp28), mRNA.	-0.59	6.1e-07	3.11e-05	11m	down	late
+ILMN_3139548	Lmo3	Mus musculus LIM domain only 3 (Lmo3), mRNA.	-0.48	6.21e-07	3.15e-05	11m	down	late
+ILMN_1215903	Ap1s1		-0.53	6.24e-07	3.16e-05	11m	down	late
+ILMN_2646045	5730507a09rik	Mus musculus RIKEN cDNA 5730507A09 gene (5730507A09Rik), mRNA.	-0.5	6.33e-07	3.2e-05	11m	down	late
+ILMN_1236009	Camk2b	Mus musculus calcium/calmodulin-dependent protein kinase II, beta (Camk2b), mRNA.	-0.54	6.45e-07	3.25e-05	11m	down	late
+ILMN_1216469	Kcnab1	Mus musculus potassium voltage-gated channel, shaker-related subfamily, beta member 1 (Kcnab1), mRNA.	-0.61	6.61e-07	3.32e-05	11m	down	late
+ILMN_1234415	Prima1		-0.51	6.6e-07	3.32e-05	11m	down	late
+ILMN_2605512	Lamb3		-0.49	6.69e-07	3.35e-05	11m	down	late
+ILMN_2639674	Pcsk2	Mus musculus proprotein convertase subtilisin/kexin type 2 (Pcsk2), mRNA.	-0.69	6.79e-07	3.39e-05	11m	down	late
+ILMN_2932474	4930521e07rik	Mus musculus RIKEN cDNA 4930521E07 gene (4930521E07Rik), mRNA.	-0.51	6.87e-07	3.43e-05	11m	down	late
+ILMN_1255385	Chst1	Mus musculus carbohydrate (keratan sulfate Gal-6) sulfotransferase 1 (Chst1), mRNA.	-0.52	7.02e-07	3.49e-05	11m	down	late
+ILMN_2758264	Cyp2s1	Mus musculus cytochrome P450, family 2, subfamily s, polypeptide 1 (Cyp2s1), mRNA.	-0.59	7.15e-07	3.54e-05	11m	down	late
+ILMN_2661722	Ccl25	Mus musculus chemokine (C-C motif) ligand 25 (Ccl25), mRNA.	-0.58	7.13e-07	3.54e-05	11m	down	late
+ILMN_2607196	0910001a06rik	Mus musculus RIKEN cDNA 0910001A06 gene (0910001A06Rik), mRNA.	-0.46	7.2e-07	3.55e-05	11m	down	late
+ILMN_2631934	3110007p09rik		-0.43	7.75e-07	3.79e-05	11m	down	late
+ILMN_1227951	Gcnt2	Mus musculus glucosaminyl (N-acetyl) transferase 2, I-branching enzyme (Gcnt2), transcript variant 1, mRNA.	-0.63	8.28e-07	4e-05	11m	down	late
+ILMN_2687473	Neto1		-0.62	8.4e-07	4.04e-05	11m	down	late
+ILMN_1231573	Serpinb1a		-0.54	8.49e-07	4.06e-05	11m	down	late
+ILMN_2597249	Abcb9		-0.52	8.45e-07	4.06e-05	11m	down	late
+ILMN_2787238	Hpca	Mus musculus hippocalcin (Hpca), mRNA.	-0.43	8.49e-07	4.06e-05	11m	down	late
+ILMN_3062075	Lmo3	Mus musculus LIM domain only 3 (Lmo3), mRNA.	-0.62	9.29e-07	4.41e-05	11m	down	late
+ILMN_2627041	Cx3cl1		-0.65	9.5e-07	4.49e-05	11m	down	late
+ILMN_2883164	Serpine2	Mus musculus serine (or cysteine) peptidase inhibitor, clade E, member 2 (Serpine2), mRNA.	-0.59	9.54e-07	4.51e-05	11m	down	late
+ILMN_2744337	Cd47	Mus musculus CD47 antigen (Rh-related antigen, integrin-associated signal transducer) (Cd47), mRNA.	-0.38	9.87e-07	4.65e-05	11m	down	late
+ILMN_2651582	Ab041544	Mus musculus RIKEN cDNA 9630031F12 gene (9630031F12Rik), mRNA.	-0.69	1.01e-06	4.76e-05	11m	down	late
+ILMN_1214866	Eml1		-0.44	1.02e-06	4.79e-05	11m	down	late
+ILMN_2637413	Dbpht2		-0.78	1.04e-06	4.88e-05	11m	down	late
+ILMN_2752737	Prosapip1	Mus musculus ProSAPiP1 protein (Prosapip1), mRNA.	-0.68	1.16e-06	5.38e-05	11m	down	late
+ILMN_2655260	Ptp4a3	Mus musculus protein tyrosine phosphatase 4a3 (Ptp4a3), mRNA.	-0.47	1.22e-06	5.65e-05	11m	down	late
+ILMN_1257415	Jph4	Mus musculus junctophilin 4 (Jph4), transcript variant a, mRNA.	-0.74	1.23e-06	5.69e-05	11m	down	late
+ILMN_1242779	Gnb1l		-0.4	1.26e-06	5.81e-05	11m	down	late
+ILMN_2837671	Fblim1	Mus musculus filamin binding LIM protein 1 (Fblim1), mRNA.	-0.6	1.29e-06	5.93e-05	11m	down	late
+ILMN_2593888	Gsk3b		-0.52	1.3e-06	5.97e-05	11m	down	late
+ILMN_1254016	Adora1		-0.52	1.36e-06	6.25e-05	11m	down	late
+ILMN_2606746	Car2	Mus musculus carbonic anhydrase 2 (Car2), mRNA.	-0.89	1.37e-06	6.27e-05	11m	down	late
+ILMN_3090731	Pkig	Mus musculus protein kinase inhibitor, gamma (Pkig), transcript variant 3, mRNA.	-0.42	1.4e-06	6.39e-05	11m	down	late
+ILMN_1248328	Acvrl1		-0.47	1.5e-06	6.79e-05	11m	down	late
+ILMN_1247053	B930093c12rik		-0.41	1.56e-06	7.02e-05	11m	down	late
+ILMN_2754598	Centg3		-0.39	1.57e-06	7.05e-05	11m	down	late
+ILMN_2888448	Ccr6	Mus musculus chemokine (C-C motif) receptor 6 (Ccr6), mRNA.	-0.64	1.6e-06	7.14e-05	11m	down	late
+ILMN_1250063	Ppp2r5d	Mus musculus protein phosphatase 2, regulatory subunit B (B56), delta isoform (Ppp2r5d), mRNA.	-0.4	1.66e-06	7.37e-05	11m	down	late
+ILMN_2635700	Lgi2		-0.66	1.71e-06	7.52e-05	11m	down	late
+ILMN_1251414	Nxf		-1.26	1.71e-06	7.54e-05	11m	down	late
+ILMN_1245717	Epb4.9		-0.44	1.74e-06	7.66e-05	11m	down	late
+ILMN_2942117	Rap1gap	Mus musculus Rap1 GTPase-activating protein (Rap1gap), mRNA.	-0.63	1.76e-06	7.71e-05	11m	down	late
+ILMN_2724451	Fbf1	Mus musculus Fas (TNFRSF6) binding factor 1 (Fbf1), mRNA.	-0.54	1.77e-06	7.77e-05	11m	down	late
+ILMN_2846803	Camkk2	Mus musculus calcium/calmodulin-dependent protein kinase kinase 2, beta (Camkk2), mRNA.	-0.63	1.78e-06	7.78e-05	11m	down	late
+ILMN_1241225	Dctd	Mus musculus dCMP deaminase (Dctd), mRNA.	-0.42	1.79e-06	7.79e-05	11m	down	late
+ILMN_2595651	4930438o05rik		-0.73	1.79e-06	7.81e-05	11m	down	late
+ILMN_1240537	0710001e13rik	Mus musculus cyclic AMP-regulated phosphoprotein, 21 (Arpp21), transcript variant 1, mRNA.	-0.33	1.84e-06	8e-05	11m	down	late
+ILMN_2605703	2700038n03rik	Mus musculus RIKEN cDNA 2700038N03 gene (2700038N03Rik), mRNA.	-0.45	1.85e-06	8.03e-05	11m	down	late
+ILMN_1253970	Sirt7	Mus musculus sirtuin 7 (silent mating type information regulation 2, homolog) 7 (S. cerevisiae) (Sirt7), mRNA.	-0.48	1.86e-06	8.06e-05	11m	down	late
+ILMN_1237886	Enc1	Mus musculus ectodermal-neural cortex 1 (Enc1), mRNA.	-0.59	1.87e-06	8.1e-05	11m	down	late
+ILMN_2764309	Dusp14	Mus musculus dual specificity phosphatase 14 (Dusp14), mRNA.	-1.05	1.95e-06	8.37e-05	11m	down	late
+ILMN_2701355	Nanos1		-0.5	2.01e-06	8.59e-05	11m	down	late
+ILMN_2610424	Myt1l	Mus musculus myelin transcription factor 1-like (Myt1l), mRNA.	-0.49	2.02e-06	8.62e-05	11m	down	late
+ILMN_1219077	Aa536749		-0.51	2.04e-06	8.67e-05	11m	down	late
+ILMN_2678521	Gpr146		-0.5	2.05e-06	8.7e-05	11m	down	late
+ILMN_2518284	Dlgh2		-0.42	2.05e-06	8.7e-05	11m	down	late
+ILMN_2966602	6430411k18rik	Mus musculus RIKEN cDNA 6430411K18 gene (6430411K18Rik) on chromosome 12.	-0.71	2.18e-06	9.19e-05	11m	down	late
+ILMN_1249022	Caln1		-0.43	2.23e-06	9.41e-05	11m	down	late
+ILMN_2692723	Lpl		-0.59	2.25e-06	9.42e-05	11m	down	late
+ILMN_1235176	Traip		-0.37	2.25e-06	9.42e-05	11m	down	late
+ILMN_2832808	Vdac1	Mus musculus voltage-dependent anion channel 1 (Vdac1), mRNA.	-0.42	2.27e-06	9.51e-05	11m	down	late
+ILMN_2661650	Dp1l1	Mus musculus receptor accessory protein 6 (Reep6), mRNA.	-0.36	2.28e-06	9.54e-05	11m	down	late
+ILMN_3161225	Xkrx	Mus musculus X Kell blood group precursor related X linked (Xkrx), mRNA.	-0.36	2.32e-06	9.68e-05	11m	down	late
+ILMN_2824599	Ppapdc2	Mus musculus phosphatidic acid phosphatase type 2 domain containing 2 (Ppapdc2), mRNA.	-0.52	2.4e-06	9.94e-05	11m	down	late
+ILMN_2837179	Neto1	Mus musculus neuropilin (NRP) and tolloid (TLL)-like 1 (Neto1), mRNA.	-0.56	2.52e-06	1e-04	11m	down	late
+ILMN_2754954	Mpp3		-0.58	2.8e-06	0.00011	11m	down	late
+ILMN_1223624	Hras1		-0.49	2.62e-06	0.00011	11m	down	late
+ILMN_2681195	Hnt		-0.43	2.73e-06	0.00011	11m	down	late
+ILMN_2747792	6530418l21rik	Mus musculus RIKEN cDNA 6530418L21 gene (6530418L21Rik), mRNA.	-0.72	2.92e-06	0.00012	11m	down	late
+ILMN_2683896	Syt6		-0.63	2.83e-06	0.00012	11m	down	late
+ILMN_2675199	Ntrk3	Mus musculus neurotrophic tyrosine kinase, receptor, type 3 (Ntrk3), transcript variant 1, mRNA.	-0.55	2.95e-06	0.00012	11m	down	late
+ILMN_2690911	Cdh7		-0.54	2.94e-06	0.00012	11m	down	late
+ILMN_2879534	Extl1	Mus musculus exostoses (multiple)-like 1 (Extl1), mRNA.	-0.54	2.97e-06	0.00012	11m	down	late
+ILMN_1230498	A930005i04rik	Mus musculus RIKEN cDNA A930005I04 gene (A930005I04Rik), mRNA.	-0.47	3.11e-06	0.00012	11m	down	late
+ILMN_2725370	Map3k12	Mus musculus mitogen activated protein kinase kinase kinase 12 (Map3k12), mRNA.	-0.41	3.04e-06	0.00012	11m	down	late
+ILMN_1253414	Hes5	Mus musculus hairy and enhancer of split 5 (Drosophila) (Hes5), mRNA.	-0.93	3.13e-06	0.00013	11m	down	late
+ILMN_2645295	1110035l05rik	Mus musculus C1q domain containing 2 (C1qdc2), mRNA.	-0.56	3.19e-06	0.00013	11m	down	late
+ILMN_1224637	Foxq1	Mus musculus forkhead box Q1 (Foxq1), mRNA.	-0.56	3.4e-06	0.00013	11m	down	late
+ILMN_2757838	1810043m15rik	Mus musculus inositol 1,3,4,5,6-pentakisphosphate 2-kinase (Ippk), mRNA.	-0.46	3.17e-06	0.00013	11m	down	late
+ILMN_3112922	Hdac5	Mus musculus histone deacetylase 5 (Hdac5), transcript variant 1, mRNA.	-0.42	3.28e-06	0.00013	11m	down	late
+ILMN_2991930	Spock3	Mus musculus sparc/osteonectin, cwcv and kazal-like domains proteoglycan 3 (Spock3), mRNA.	-0.69	3.43e-06	0.00014	11m	down	late
+ILMN_2988299	Srf	Mus musculus serum response factor (Srf), mRNA.	-0.58	3.52e-06	0.00014	11m	down	late
+ILMN_2695085	Sorcs2		-0.53	3.73e-06	0.00014	11m	down	late
+ILMN_1217406	1110013l07rik		-0.46	3.58e-06	0.00014	11m	down	late
+ILMN_2958484	Nlrx1	Mus musculus NLR family member X1 (Nlrx1), mRNA.	-0.46	3.7e-06	0.00014	11m	down	late
+ILMN_2759079	Ppap2a	Mus musculus phosphatidic acid phosphatase 2a (Ppap2a), transcript variant 2, mRNA.	-0.45	3.58e-06	0.00014	11m	down	late
+ILMN_2966034	Zfp365	Mus musculus zinc finger protein 365 (Zfp365), mRNA.	-0.43	3.49e-06	0.00014	11m	down	late
+ILMN_2894266	Gpr139	Mus musculus G protein-coupled receptor 139 (Gpr139), mRNA.	-0.38	3.5e-06	0.00014	11m	down	late
+ILMN_3016674	Rreb1	Mus musculus ras responsive element binding protein 1 (Rreb1), transcript variant 1, mRNA.	-0.72	3.93e-06	0.00015	11m	down	late
+ILMN_2668260	Kcnh1		-0.53	3.91e-06	0.00015	11m	down	late
+ILMN_3150313	D330017j20rik	Mus musculus RIKEN cDNA D330017J20 gene (D330017J20Rik), transcript variant 2, mRNA. XM_899022 XM_909461 XM_921304 XM_921310 XM_921314 XM_921319 XM_921325	-0.51	3.93e-06	0.00015	11m	down	late
+ILMN_1246508	Pars2	Mus musculus prolyl-tRNA synthetase (mitochondrial)(putative) (Pars2), mRNA.	-0.51	4.03e-06	0.00015	11m	down	late
+ILMN_2750740	Flrt3	Mus musculus fibronectin leucine rich transmembrane protein 3 (Flrt3), mRNA.	-0.49	3.9e-06	0.00015	11m	down	late
+ILMN_2789948	Arhgdib	Mus musculus Rho, GDP dissociation inhibitor (GDI) beta (Arhgdib), mRNA.	-0.47	4e-06	0.00015	11m	down	late
+ILMN_2639012	Ccr6	Mus musculus chemokine (C-C motif) receptor 6 (Ccr6), mRNA.	-0.42	3.83e-06	0.00015	11m	down	late
+ILMN_3162247	Asphd2	Mus musculus aspartate beta-hydroxylase domain containing 2 (Asphd2), mRNA.	-0.35	3.9e-06	0.00015	11m	down	late
+ILMN_2650998	Erf	Mus musculus Ets2 repressor factor (Erf), mRNA.	-0.69	4.18e-06	0.00016	11m	down	late
+ILMN_1229091	Nr1d1		-0.6	4.28e-06	0.00016	11m	down	late
+ILMN_1220846	Ai842788	Mus musculus coiled-coil domain containing 85B (Ccdc85b), mRNA.	-0.58	4.26e-06	0.00016	11m	down	late
+ILMN_2660766	Cd59b	Mus musculus CD59b antigen (Cd59b), mRNA.	-0.55	4.26e-06	0.00016	11m	down	late
+ILMN_1243830	Phex		-0.54	4.12e-06	0.00016	11m	down	late
+ILMN_1242310	Camkk1	Mus musculus calcium/calmodulin-dependent protein kinase kinase 1, alpha (Camkk1), mRNA.	-0.51	4.16e-06	0.00016	11m	down	late
+ILMN_1241561	4930521e07rik	Mus musculus RIKEN cDNA 4930521E07 gene (4930521E07Rik), mRNA.	-0.43	4.56e-06	0.00017	11m	down	late
+ILMN_3048728	Centg1	Mus musculus centaurin, gamma 1 (Centg1), mRNA.	-0.55	4.83e-06	0.00018	11m	down	late
+ILMN_2602581	Gmpr	Mus musculus guanosine monophosphate reductase (Gmpr), mRNA.	-0.48	4.85e-06	0.00018	11m	down	late
+ILMN_1240256	Slc9a3r1		-0.46	4.84e-06	0.00018	11m	down	late
+ILMN_1255849	Zdhhc13	Mus musculus zinc finger, DHHC domain containing 13 (Zdhhc13), mRNA.	-0.44	5.32e-06	2e-04	11m	down	late
+ILMN_3160364	Npy2r	Mus musculus neuropeptide Y receptor Y2 (Npy2r), mRNA.	-0.39	5.31e-06	2e-04	11m	down	late
+ILMN_2768786	Ablim2		-0.52	5.89e-06	0.00021	11m	down	late
+ILMN_2659994	Gdnf		-0.49	5.65e-06	0.00021	11m	down	late
+ILMN_2825109	Zfp330	Mus musculus zinc finger protein 330 (Zfp330), mRNA.	-0.42	5.77e-06	0.00021	11m	down	late
+ILMN_2668020	Syt9	Mus musculus synaptotagmin IX (Syt9), mRNA.	-0.4	5.66e-06	0.00021	11m	down	late
+ILMN_2958417	6720456b07rik	Mus musculus RIKEN cDNA 6720456B07 gene (6720456B07Rik), mRNA.	-0.36	5.75e-06	0.00021	11m	down	late
+ILMN_1243722	Prosapip1	Mus musculus ProSAPiP1 protein (Prosapip1), mRNA.	-0.55	6.08e-06	0.00022	11m	down	late
+ILMN_1254663	Igsf4b		-0.51	6.15e-06	0.00022	11m	down	late
+ILMN_2798606	Kcnq5	Mus musculus potassium voltage-gated channel, subfamily Q, member 5 (Kcnq5), mRNA.	-0.46	5.97e-06	0.00022	11m	down	late
+ILMN_2883063	Adcy2	Mus musculus adenylate cyclase 2 (Adcy2), mRNA.	-0.45	6.71e-06	0.00024	11m	down	late
+ILMN_2908846	Iqgap2	Mus musculus IQ motif containing GTPase activating protein 2 (Iqgap2), mRNA.	-0.56	6.98e-06	0.00025	11m	down	late
+ILMN_2669146	Ap1gbp1	Mus musculus AP1 gamma subunit binding protein 1 (Ap1gbp1), mRNA.	-0.44	6.93e-06	0.00025	11m	down	late
+ILMN_1241437	Gsta3		-0.41	7.01e-06	0.00025	11m	down	late
+ILMN_2746521	Icam5	Mus musculus intercellular adhesion molecule 5, telencephalin (Icam5), mRNA.	-0.47	7.22e-06	0.00026	11m	down	late
+ILMN_2710665	Kctd4		-0.42	7.33e-06	0.00026	11m	down	late
+ILMN_2749650	Epor		-0.37	7.33e-06	0.00026	11m	down	late
+ILMN_1218471	3-sep		-0.5	7.7e-06	0.00027	11m	down	late
+ILMN_2629877	Lrrtm3	Mus musculus leucine rich repeat transmembrane neuronal 3 (Lrrtm3), mRNA.	-0.5	7.45e-06	0.00027	11m	down	late
+ILMN_1243388	Slc5a7	Mus musculus solute carrier family 5 (choline transporter), member 7 (Slc5a7), mRNA.	-0.57	7.91e-06	0.00028	11m	down	late
+ILMN_2659160	Hdac5		-0.44	8.02e-06	0.00028	11m	down	late
+ILMN_1256563	Glt25d1		-0.44	8.11e-06	0.00028	11m	down	late
+ILMN_2748165	Krt1-9		-0.56	8.15e-06	0.00029	11m	down	late
+ILMN_1230765	Tpst1	Mus musculus protein-tyrosine sulfotransferase 1 (Tpst1), mRNA.	-0.36	8.34e-06	0.00029	11m	down	late
+ILMN_2655905	G630049c14rik	Mus musculus neuritin 1-like (Nrn1l), mRNA.	-0.62	9.1e-06	0.00032	11m	down	late
+ILMN_3124885	Pdpk1	Mus musculus 3-phosphoinositide dependent protein kinase-1 (Pdpk1), transcript variant 2, mRNA.	-0.53	9.23e-06	0.00032	11m	down	late
+ILMN_2854117	2410081m15rik	Mus musculus RIKEN cDNA 2410081M15 gene (2410081M15Rik), mRNA.	-0.5	9.14e-06	0.00032	11m	down	late
+ILMN_2534253	Loc216963		-0.49	9.11e-06	0.00032	11m	down	late
+ILMN_3029727	Shf	Mus musculus Src homology 2 domain containing F (Shf), mRNA.	-0.44	9.23e-06	0.00032	11m	down	late
+ILMN_3162452	Ppm2c	Mus musculus protein phosphatase 2C, magnesium dependent, catalytic subunit (Ppm2c), mRNA. XM_919775	-0.69	9.72e-06	0.00033	11m	down	late
+ILMN_2745433	1200007d18rik		-0.38	9.69e-06	0.00033	11m	down	late
+ILMN_1254966	Rbms1		-0.46	1e-05	0.00034	11m	down	late
+ILMN_3123195	Slc1a2	Mus musculus solute carrier family 1 (glial high affinity glutamate transporter), member 2 (Slc1a2), transcript variant 1, mRNA.	-0.45	9.84e-06	0.00034	11m	down	late
+ILMN_1238608	Abcc10		-0.43	1.01e-05	0.00034	11m	down	late
+ILMN_3106819	Bag5	Mus musculus BCL2-associated athanogene 5 (Bag5), mRNA.	-0.42	9.98e-06	0.00034	11m	down	late
+ILMN_2678127	Rnf144		-0.65	1.03e-05	0.00035	11m	down	late
+ILMN_2857957	Mgll	Mus musculus monoglyceride lipase (Mgll), mRNA.	-0.55	1.01e-05	0.00035	11m	down	late
+ILMN_1233371	Sorcs3		-0.61	1.07e-05	0.00036	11m	down	late
+ILMN_1260082	A830007l07rik		-0.42	1.07e-05	0.00036	11m	down	late
+ILMN_2651005	Erf	Mus musculus Ets2 repressor factor (Erf), mRNA.	-0.58	1.1e-05	0.00037	11m	down	late
+ILMN_2812215	Plekhg5	Mus musculus pleckstrin homology domain containing, family G (with RhoGef domain) member 5 (Plekhg5), mRNA.	-0.51	1.12e-05	0.00038	11m	down	late
+ILMN_1216301	Impdh1	Mus musculus inosine 5'-phosphate dehydrogenase 1 (Impdh1), mRNA.	-0.51	1.15e-05	0.00039	11m	down	late
+ILMN_2918838	Ptms	Mus musculus parathymosin (Ptms), mRNA.	-0.47	1.27e-05	0.00042	11m	down	late
+ILMN_3006643	Abi2	Mus musculus abl-interactor 2 (Abi2), mRNA.	-0.41	1.25e-05	0.00042	11m	down	late
+ILMN_2746132	2610318i01rik	Mus musculus formin binding protein 1-like (Fnbp1l), mRNA.	-0.41	1.3e-05	0.00043	11m	down	late
+ILMN_2775005	Numbl		-0.37	1.32e-05	0.00044	11m	down	late
+ILMN_2913563	Crym	Mus musculus crystallin, mu (Crym), mRNA.	-0.92	1.37e-05	0.00045	11m	down	late
+ILMN_2767871	Pdyn	Mus musculus prodynorphin (Pdyn), mRNA.	-0.71	1.35e-05	0.00045	11m	down	late
+ILMN_1260389	Lin7b	Mus musculus lin-7 homolog B (C. elegans) (Lin7b), mRNA.	-0.51	1.41e-05	0.00047	11m	down	late
+ILMN_2942989	Mtpn	Mus musculus myotrophin (Mtpn), mRNA.	-0.47	1.43e-05	0.00047	11m	down	late
+ILMN_1245780	C130076o07rik	Mus musculus neuron-glia-CAM-related cell adhesion molecule (Nrcam), mRNA.	-0.39	1.43e-05	0.00047	11m	down	late
+ILMN_2441548	Tsga10		-0.36	1.44e-05	0.00047	11m	down	late
+ILMN_1225037	Grit	Mus musculus Rho GTPase-activating protein (Grit), mRNA.	-0.62	1.45e-05	0.00048	11m	down	late
+ILMN_1245425	Atp2a2	Mus musculus ATPase, Ca++ transporting, cardiac muscle, slow twitch 2 (Atp2a2), mRNA.	-0.4	1.47e-05	0.00048	11m	down	late
+ILMN_1233065	Rbmx		-0.56	1.58e-05	0.00051	11m	down	late
+ILMN_2593584	Homer1	Mus musculus homer homolog 1 (Drosophila) (Homer1), transcript variant L, mRNA.	-0.7	1.61e-05	0.00052	11m	down	late
+ILMN_2599858	Pbx2	Mus musculus pre B-cell leukemia transcription factor 2 (Pbx2), mRNA.	-0.46	1.62e-05	0.00053	11m	down	late
+ILMN_2726315	Sdf4		-0.47	1.67e-05	0.00054	11m	down	late
+ILMN_2693895	0610041g09rik		-0.68	1.7e-05	0.00055	11m	down	late
+ILMN_2688257	6530418l21rik	Mus musculus RIKEN cDNA 6530418L21 gene (6530418L21Rik), mRNA.	-0.66	1.71e-05	0.00055	11m	down	late
+ILMN_2604179	Lrrc3	Mus musculus leucine rich repeat containing 3 (Lrrc3), mRNA.	-0.47	1.75e-05	0.00056	11m	down	late
+ILMN_1247916	Lims2	Mus musculus LIM and senescent cell antigen like domains 2 (Lims2), mRNA.	-0.45	1.75e-05	0.00057	11m	down	late
+ILMN_3076680	Loc245297	Mus musculus predicted gene, EG245297 (EG245297), mRNA.	-0.39	1.77e-05	0.00057	11m	down	late
+ILMN_1234086	1300018l09rik	Mus musculus dihydrodiol dehydrogenase (dimeric) (Dhdh), mRNA.	-0.33	1.78e-05	0.00057	11m	down	late
+ILMN_1227874	Bc052040	Mus musculus cDNA sequence BC052040 (BC052040), mRNA.	-0.32	1.78e-05	0.00057	11m	down	late
+ILMN_1217804	Ptpn5	Mus musculus protein tyrosine phosphatase, non-receptor type 5 (Ptpn5), mRNA.	-0.59	1.8e-05	0.00058	11m	down	late
+ILMN_1219717	Sort1		-0.38	1.85e-05	0.00059	11m	down	late
+ILMN_1239592	1700012h17rik		-0.35	1.86e-05	0.00059	11m	down	late
+ILMN_2634147	Dazl	Mus musculus deleted in azoospermia-like (Dazl), mRNA.	-0.5	1.88e-05	6e-04	11m	down	late
+ILMN_3029489	Gm129	Mus musculus gene model 129, (NCBI) (Gm129), mRNA. XM_907670 XM_920513 XM_920520 XM_920527 XM_920533	-0.87	1.91e-05	0.00061	11m	down	late
+ILMN_2902228	Coro2b	Mus musculus coronin, actin binding protein, 2B (Coro2b), mRNA.	-0.57	1.98e-05	0.00063	11m	down	late
+ILMN_2840985	St6galnac5	Mus musculus ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1, 3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 5 (St6galnac5), mRNA.	-0.47	2e-05	0.00063	11m	down	late
+ILMN_2707895	Jmjd1a		-0.59	2.07e-05	0.00065	11m	down	late
+ILMN_1223963	Ank3		-0.4	2.05e-05	0.00065	11m	down	late
+ILMN_2819496	Bc072620	Mus musculus cDNA sequence BC072620 (BC072620), mRNA.	-0.65	2.15e-05	0.00067	11m	down	late
+ILMN_2949444	Lingo2	Mus musculus leucine rich repeat and Ig domain containing 2 (Lingo2), mRNA.	-0.47	2.12e-05	0.00067	11m	down	late
+ILMN_2689540	Acbd4		-0.4	2.12e-05	0.00067	11m	down	late
+ILMN_1259747	9230117n10rik	Mus musculus interleukin 33 (Il33), mRNA.	-0.8	2.2e-05	0.00068	11m	down	late
+ILMN_2733114	Sp7	Mus musculus trans-acting transcription factor 7 (Sp7), mRNA.	-0.48	2.17e-05	0.00068	11m	down	late
+ILMN_1217827	2810002n01rik	Mus musculus RIKEN cDNA 2810002N01 gene (2810002N01Rik), mRNA.	-0.36	2.17e-05	0.00068	11m	down	late
+ILMN_2679840	Htr6		-0.35	2.22e-05	0.00069	11m	down	late
+ILMN_2919263	Slc25a1	Mus musculus solute carrier family 25 (mitochondrial carrier, citrate transporter), member 1 (Slc25a1), mRNA.	-0.53	2.28e-05	7e-04	11m	down	late
+ILMN_3150296	Acbd4		-0.56	2.3e-05	0.00071	11m	down	late
+ILMN_3163001	Depdc6	Mus musculus DEP domain containing 6 (Depdc6), transcript variant 1, mRNA.	-0.51	2.32e-05	0.00071	11m	down	late
+ILMN_2753021	Rnf166		-0.49	2.33e-05	0.00071	11m	down	late
+ILMN_3158919	Prkcz	Mus musculus protein kinase C, zeta (Prkcz), transcript variant 2, mRNA.	-0.34	2.34e-05	0.00072	11m	down	late
+ILMN_2897748	Sh3md4	Mus musculus SH3 multiple domains 4 (Sh3md4), mRNA.	-0.47	2.38e-05	0.00073	11m	down	late
+ILMN_1213026	9630058j23rik	Mus musculus RIKEN cDNA 9630058J23 gene (9630058J23Rik), mRNA.	-0.54	2.44e-05	0.00074	11m	down	late
+ILMN_2695415	4930438o05rik		-0.42	2.49e-05	0.00075	11m	down	late
+ILMN_2723095	Rapsn	Mus musculus receptor-associated protein of the synapse (Rapsn), mRNA.	-0.34	2.49e-05	0.00075	11m	down	late
+ILMN_2977404	Tmod1	Mus musculus tropomodulin 1 (Tmod1), mRNA.	-0.46	2.51e-05	0.00076	11m	down	late
+ILMN_2836875	Tiam2	Mus musculus T-cell lymphoma invasion and metastasis 2 (Tiam2), mRNA.	-0.42	2.53e-05	0.00076	11m	down	late
+ILMN_2984110	Plvap	Mus musculus plasmalemma vesicle associated protein (Plvap), mRNA.	-0.39	2.52e-05	0.00076	11m	down	late
+ILMN_1217555	Mdh1b	Mus musculus malate dehydrogenase 1B, NAD (soluble) (Mdh1b), mRNA.	-0.34	2.52e-05	0.00076	11m	down	late
+ILMN_1242333	Immp2l	Mus musculus IMP2 inner mitochondrial membrane peptidase-like (S. cerevisiae) (Immp2l), mRNA.	-0.47	2.55e-05	0.00077	11m	down	late
+ILMN_2824098	Iqsec2	Mus musculus IQ motif and Sec7 domain 2 (Iqsec2), mRNA.	-0.42	2.56e-05	0.00077	11m	down	late
+ILMN_2956881	Ppp2r5d	Mus musculus protein phosphatase 2, regulatory subunit B (B56), delta isoform (Ppp2r5d), mRNA.	-0.43	2.61e-05	0.00078	11m	down	late
+ILMN_1215810	Mcts1	Mus musculus malignant T cell amplified sequence 1 (Mcts1), mRNA.	-0.38	2.68e-05	8e-04	11m	down	late
+ILMN_1230339	Slc9a8	Mus musculus solute carrier family 9 (sodium/hydrogen exchanger), member 8 (Slc9a8), transcript variant 1, mRNA.	-0.39	2.79e-05	0.00082	11m	down	late
+ILMN_2677876	Arhgap4	Mus musculus Rho GTPase activating protein 4 (Arhgap4), mRNA.	-0.38	2.79e-05	0.00082	11m	down	late
+ILMN_3089352	Rfx4	Mus musculus regulatory factor X, 4 (influences HLA class II expression) (Rfx4), transcript variant 1, mRNA.	-0.37	2.77e-05	0.00082	11m	down	late
+ILMN_1245673	1110001e17rik	Mus musculus transmembrane protein 38A (Tmem38a), mRNA.	-0.34	2.75e-05	0.00082	11m	down	late
+ILMN_2843891	Cacng3	Mus musculus calcium channel, voltage-dependent, gamma subunit 3 (Cacng3), mRNA.	-0.64	2.84e-05	0.00084	11m	down	late
+ILMN_2609073	Mgat4b	Mus musculus mannoside acetylglucosaminyltransferase 4, isoenzyme B (Mgat4b), mRNA.	-0.58	2.84e-05	0.00084	11m	down	late
+ILMN_2810301	Sec14l3	Mus musculus SEC14-like 3 (S. cerevisiae) (Sec14l3), mRNA.	-0.27	2.85e-05	0.00084	11m	down	late
+ILMN_2711523	Grm8		-0.47	2.91e-05	0.00085	11m	down	late
+ILMN_1216892	Lrrtm1	Mus musculus leucine rich repeat transmembrane neuronal 1 (Lrrtm1), mRNA.	-0.65	2.99e-05	0.00087	11m	down	late
+ILMN_2747923	Slc40a1		-0.68	3.09e-05	9e-04	11m	down	late
+ILMN_2985428	Actl6	Mus musculus actin-like 6B (Actl6b), mRNA.	-0.46	3.14e-05	0.00092	11m	down	late
+ILMN_1239380	Leprel2		-0.46	3.18e-05	0.00093	11m	down	late
+ILMN_1253467	Pgbd5		-0.42	3.25e-05	0.00094	11m	down	late
+ILMN_1258357	Dok3		-0.61	3.35e-05	0.00096	11m	down	late
+ILMN_2688213	Atp2b2		-0.48	3.34e-05	0.00096	11m	down	late
+ILMN_2883016	Nav1	Mus musculus neuron navigator 1 (Nav1), mRNA.	-0.34	3.32e-05	0.00096	11m	down	late
+ILMN_1239786	Rtn4		-0.52	3.39e-05	0.00097	11m	down	late
+ILMN_2893187	Gripap1	Mus musculus GRIP1 associated protein 1 (Gripap1), mRNA.	-0.49	3.37e-05	0.00097	11m	down	late
+ILMN_1257751	Dlgap3		-0.6	3.47e-05	0.00099	11m	down	late
+ILMN_2792028	Gpx6	Mus musculus glutathione peroxidase 6 (Gpx6), mRNA.	-0.48	3.47e-05	0.00099	11m	down	late
+ILMN_3142104	Tmprss9	Mus musculus transmembrane protease, serine 9 (Tmprss9), mRNA.	-0.37	3.52e-05	0.001	11m	down	late
+ILMN_1238542	2810405k02rik	Mus musculus RIKEN cDNA 2810405K02 gene (2810405K02Rik), mRNA.	-0.47	3.59e-05	0.00101	11m	down	late
+ILMN_1255871	Loxl1		-0.4	3.57e-05	0.00101	11m	down	late
+ILMN_2700022	Arl2bp	Mus musculus ADP-ribosylation factor-like 2 binding protein (Arl2bp), transcript variant 2, mRNA.	-0.38	3.55e-05	0.00101	11m	down	late
+ILMN_2793062	Rasl11b	Mus musculus RAS-like, family 11, member B (Rasl11b), mRNA.	-0.74	3.6e-05	0.00102	11m	down	late
+ILMN_3161785	Loc434280	Mus musculus predicted gene, EG434280 (EG434280), mRNA.	-0.44	3.67e-05	0.00103	11m	down	late
+ILMN_2998395	Zfp523	Mus musculus zinc finger protein 523 (Zfp523), mRNA.	-0.31	3.66e-05	0.00103	11m	down	late
+ILMN_2920736	Bbc3	Mus musculus Bcl-2 binding component 3 (Bbc3), mRNA.	-0.41	3.71e-05	0.00104	11m	down	late
+ILMN_2856798	Rap2ip	Mus musculus Rap2 interacting protein (Rap2ip), mRNA.	-0.38	3.72e-05	0.00104	11m	down	late
+ILMN_2728118	Aa408556	Mus musculus ribosomal RNA processing 12 homolog (S. cerevisiae) (Rrp12), mRNA.	-0.32	3.72e-05	0.00104	11m	down	late
+ILMN_2920027	Dtnb	Mus musculus dystrobrevin, beta (Dtnb), mRNA.	-0.45	3.75e-05	0.00105	11m	down	late
+ILMN_1218228	Loc280408		-0.49	3.79e-05	0.00106	11m	down	late
+ILMN_2512206	Wsb2		-0.35	3.81e-05	0.00107	11m	down	late
+ILMN_1236258	Zfp523	Mus musculus zinc finger protein 523 (Zfp523), mRNA.	-0.46	3.99e-05	0.00111	11m	down	late
+ILMN_2596479	Camk2a	Mus musculus calcium/calmodulin-dependent protein kinase II alpha (Camk2a), transcript variant 2, mRNA.	-0.39	4.01e-05	0.00111	11m	down	late
+ILMN_2773191	Gnao		-0.33	4e-05	0.00111	11m	down	late
+ILMN_1215981	Bc047219	Mus musculus N-acetyltransferase 14 (Nat14), mRNA.	-0.43	4.07e-05	0.00112	11m	down	late
+ILMN_3152476	Adra2c	Mus musculus adrenergic receptor, alpha 2c (Adra2c), mRNA.	-0.41	4.06e-05	0.00112	11m	down	late
+ILMN_1219696	Inpp4a		-0.48	4.1e-05	0.00113	11m	down	late
+ILMN_1241271	Smarcd1		-0.43	4.15e-05	0.00114	11m	down	late
+ILMN_2782663	Lsm14b	Mus musculus LSM14 homolog B (SCD6, S. cerevisiae) (Lsm14b), mRNA.	-0.45	4.32e-05	0.00118	11m	down	late
+ILMN_2618346	Gtf3c4		-0.33	4.31e-05	0.00118	11m	down	late
+ILMN_1216751	4831417l10		-0.44	4.36e-05	0.00119	11m	down	late
+ILMN_1258950	Slc16a6		-0.63	4.49e-05	0.00122	11m	down	late
+ILMN_3102736	Gm129	Mus musculus gene model 129, (NCBI) (Gm129), mRNA. XM_907670 XM_920513 XM_920520 XM_920527 XM_920533	-0.9	4.51e-05	0.00123	11m	down	late
+ILMN_2840082	P2ry12	Mus musculus purinergic receptor P2Y, G-protein coupled 12 (P2ry12), mRNA.	-0.84	4.6e-05	0.00125	11m	down	late
+ILMN_3142273	Vkorc1l1	Mus musculus vitamin K epoxide reductase complex, subunit 1-like 1 (Vkorc1l1), transcript variant 1, mRNA.	-0.44	4.68e-05	0.00127	11m	down	late
+ILMN_2598074	Fbxo16	Mus musculus F-box protein 16 (Fbxo16), mRNA.	-0.38	4.91e-05	0.00132	11m	down	late
+ILMN_2418426	Wig1		-0.4	5.02e-05	0.00135	11m	down	late
+ILMN_2962473	Sstr5	Mus musculus somatostatin receptor 5 (Sstr5), mRNA.	-0.4	5.1e-05	0.00137	11m	down	late
+ILMN_2708133	Flrt1	Mus musculus fibronectin leucine rich transmembrane protein 3 (Flrt1), mRNA.	-0.44	5.16e-05	0.00138	11m	down	late
+ILMN_1241332	Mamdc1	Mus musculus MAM domain containing glycosylphosphatidylinositol anchor 2 (Mdga2), mRNA.	-0.4	5.16e-05	0.00138	11m	down	late
+ILMN_2655058	B230374f23rik		-0.53	5.24e-05	0.00139	11m	down	late
+ILMN_2672190	Idb1		-0.41	5.22e-05	0.00139	11m	down	late
+ILMN_3161282	Dpysl5	Mus musculus dihydropyrimidinase-like 5 (Dpysl5), mRNA.	-0.4	5.28e-05	0.0014	11m	down	late
+ILMN_2647530	Drd1ip	Mus musculus dopamine receptor D1 interacting protein (Drd1ip), mRNA.	-0.44	5.34e-05	0.00141	11m	down	late
+ILMN_2908953	4930455f23rik	Mus musculus RIKEN cDNA 4930455F23 gene (4930455F23Rik), mRNA.	-0.31	5.31e-05	0.00141	11m	down	late
+ILMN_2755692	1700030e05rik	Mus musculus WD repeat domain 54 (Wdr54), mRNA.	-0.46	5.42e-05	0.00143	11m	down	late
+ILMN_1249227	Slmap		-0.61	5.47e-05	0.00144	11m	down	late
+ILMN_2675000	Tmem114	&nbsp;corresponding to mus musculus transmembrane protein 114 (Tmem114), mRNA.<br>	-0.54	5.5e-05	0.00144	11m	down	late
+ILMN_1228564	Gucy1a3		-0.47	5.49e-05	0.00144	11m	down	late
+ILMN_2610891	3110007p09rik		-0.34	5.52e-05	0.00145	11m	down	late
+ILMN_1237527	Rcl1	Mus musculus RNA terminal phosphate cyclase-like 1 (Rcl1), mRNA.	-0.32	5.53e-05	0.00145	11m	down	late
+ILMN_2496348	Tpo	Mus musculus thyroid peroxidase (Tpo), mRNA.	-0.29	5.62e-05	0.00147	11m	down	late
+ILMN_2605268	Ai663987		-0.41	5.79e-05	0.00151	11m	down	late
+ILMN_2924243	Itgb1bp1	Mus musculus integrin beta 1 binding protein 1 (Itgb1bp1), mRNA.	-0.48	5.84e-05	0.00152	11m	down	late
+ILMN_2652527	Catnd2		-0.45	5.92e-05	0.00153	11m	down	late
+ILMN_2793827	4-mar	Mus musculus membrane-associated ring finger (C3HC4) 4 (March4), mRNA.	-0.47	5.95e-05	0.00154	11m	down	late
+ILMN_2677092	Nutf2	Mus musculus nuclear transport factor 2 (Nutf2), mRNA.	-0.31	6.02e-05	0.00155	11m	down	late
+ILMN_2734391	Ramp1		-0.43	6.14e-05	0.00158	11m	down	late
+ILMN_2783873	Pdyn	Mus musculus prodynorphin (Pdyn), mRNA.	-0.63	6.23e-05	0.00161	11m	down	late
+ILMN_1217009	Rab15	Mus musculus RAB15, member RAS oncogene family (Rab15), mRNA.	-0.38	6.31e-05	0.00162	11m	down	late
+ILMN_2677393	Camk2a	Mus musculus calcium/calmodulin-dependent protein kinase II alpha (Camk2a), transcript variant 2, mRNA.	-0.53	6.36e-05	0.00163	11m	down	late
+ILMN_2748680	Fhit		-0.49	6.47e-05	0.00165	11m	down	late
+ILMN_2999354	Pcdhac2	Mus musculus protocadherin alpha subfamily C, 2 (Pcdhac2), mRNA.	-0.36	6.48e-05	0.00165	11m	down	late
+ILMN_1237019	Rab36		-0.46	6.63e-05	0.00169	11m	down	late
+ILMN_2606693	Insig1	Mus musculus insulin induced gene 1 (Insig1), mRNA.	-0.43	6.7e-05	0.0017	11m	down	late
+ILMN_2744374	Sbsn	Mus musculus suprabasin (Sbsn), mRNA.	-0.29	6.7e-05	0.0017	11m	down	late
+ILMN_1240332	Zdhhc14		-0.48	6.8e-05	0.00173	11m	down	late
+ILMN_2951682	Cobl	Mus musculus cordon-bleu (Cobl), mRNA.	-0.46	6.83e-05	0.00173	11m	down	late
+ILMN_1245489	2310067b10rik		-0.38	6.82e-05	0.00173	11m	down	late
+ILMN_2619639	Ai428936		-0.36	6.91e-05	0.00175	11m	down	late
+ILMN_1239134	2700050c12rik		-0.5	7.09e-05	0.00178	11m	down	late
+ILMN_2510383	Tnfrsf25		-0.69	7.18e-05	0.00181	11m	down	late
+ILMN_2782402	Napb	Mus musculus N-ethylmaleimide sensitive fusion protein attachment protein beta (Napb), mRNA.	-0.29	7.23e-05	0.00182	11m	down	late
+ILMN_2611431	Ppp3ca		-0.6	7.32e-05	0.00183	11m	down	late
+ILMN_2610013	Shh		-0.45	7.31e-05	0.00183	11m	down	late
+ILMN_2759952	Mxra8	Mus musculus matrix-remodelling associated 8 (Mxra8), mRNA.	-0.41	7.28e-05	0.00183	11m	down	late
+ILMN_2919201	Coch	Mus musculus coagulation factor C homolog (Limulus polyphemus) (Coch), mRNA.	-0.96	7.37e-05	0.00184	11m	down	late
+ILMN_1243836	Ttyh1	Mus musculus tweety homolog 1 (Drosophila) (Ttyh1), transcript variant 2, mRNA.	-0.42	7.34e-05	0.00184	11m	down	late
+ILMN_2709167	Papln	Mus musculus papilin, proteoglycan-like sulfated glycoprotein (Papln), mRNA.	-0.36	7.36e-05	0.00184	11m	down	late
+ILMN_2987394	C330001k17rik	Mus musculus RIKEN cDNA C330001K17 gene (C330001K17Rik), mRNA.	-0.46	7.52e-05	0.00188	11m	down	late
+ILMN_2777598	Nr2f6		-0.37	7.56e-05	0.00188	11m	down	late
+ILMN_2696110	2900041a09rik	Mus musculus tubulin polymerization promoting protein (Tppp), mRNA.	-0.33	7.54e-05	0.00188	11m	down	late
+ILMN_3160486	2310037p21rik		-0.44	7.59e-05	0.00189	11m	down	late
+ILMN_2704467	Smarcd1		-0.38	7.69e-05	0.00191	11m	down	late
+ILMN_1223598	Srebp2		-0.42	7.78e-05	0.00193	11m	down	late
+ILMN_2708107	Camk4		-0.44	7.82e-05	0.00194	11m	down	late
+ILMN_2717814	C230009h10rik		-0.31	7.97e-05	0.00196	11m	down	late
+ILMN_2620827	Neto1		-0.69	8.08e-05	0.00198	11m	down	late
+ILMN_1245272	Insig1	Mus musculus insulin induced gene 1 (Insig1), mRNA.	-0.46	8.19e-05	0.002	11m	down	late
+ILMN_1246165	8430415e04rik	Mus musculus RIKEN cDNA 8430415E04 gene (8430415E04Rik), mRNA.	-0.93	8.36e-05	0.00204	11m	down	late
+ILMN_2971286	Ppp3ca	Mus musculus protein phosphatase 3, catalytic subunit, alpha isoform (Ppp3ca), mRNA.	-0.29	8.4e-05	0.00205	11m	down	late
+ILMN_1236123	1110002e23rik		-0.41	8.58e-05	0.00208	11m	down	late
+ILMN_2769786	Smarcd1		-0.4	8.56e-05	0.00208	11m	down	late
+ILMN_2603693	B430201g11rik		-0.39	8.58e-05	0.00208	11m	down	late
+ILMN_1258360	Efcbp1	Mus musculus EF hand calcium binding protein 1 (Efcbp1), mRNA.	-0.49	8.61e-05	0.00209	11m	down	late
+ILMN_2717975	Tcf7	Mus musculus transcription factor 7, T-cell specific (Tcf7), mRNA.	-0.34	8.68e-05	0.0021	11m	down	late
+ILMN_2681474	Lmtk2		-0.38	8.86e-05	0.00214	11m	down	late
+ILMN_3007728	Heatr3	Mus musculus HEAT repeat containing 3 (Heatr3), mRNA.	-0.4	9.19e-05	0.00221	11m	down	late
+ILMN_2652187	Cutl1		-0.38	9.43e-05	0.00226	11m	down	late
+ILMN_2925433	Plch2	Mus musculus phospholipase C, eta 2 (Plch2), mRNA.	-0.44	9.48e-05	0.00227	11m	down	late
+ILMN_2796420	Kcnv1	Mus musculus potassium channel, subfamily V, member 1 (Kcnv1), mRNA.	-0.55	9.8e-05	0.00233	11m	down	late
+ILMN_1250696	Tpbg	Mus musculus trophoblast glycoprotein (Tpbg), mRNA.	-0.53	9.78e-05	0.00233	11m	down	late
+ILMN_2810963	Camk2n1	Mus musculus calcium/calmodulin-dependent protein kinase II inhibitor 1 (Camk2n1), mRNA.	-0.39	9.99e-05	0.00237	11m	down	late
+ILMN_1235047	3110009e18rik	Mus musculus RIKEN cDNA 3110009E18 gene (3110009E18Rik), mRNA.	-0.37	9.99e-05	0.00237	11m	down	late
+ILMN_2623983	Egr2		-1.66	1e-04	0.00239	11m	down	late
+ILMN_2930602	Doc2b	Mus musculus double C2, beta (Doc2b), mRNA.	-0.44	1e-04	0.0024	11m	down	late
+ILMN_2703948	Jph3		-0.39	1e-04	0.00247	11m	down	late
+ILMN_2601453	A130092j06rik	Mus musculus RIKEN cDNA A130092J06 gene (A130092J06Rik), mRNA.	-0.48	0.00011	0.00255	11m	down	late
+ILMN_2619136	Pthlh	Mus musculus parathyroid hormone-like peptide (Pthlh), mRNA.	-0.43	0.00011	0.00256	11m	down	late
+ILMN_2734624	Tdrkh		-0.37	0.00011	0.00257	11m	down	late
+ILMN_1228822	Tsga14	Mus musculus testis specific gene A14 (Tsga14), mRNA.	-0.41	0.00011	0.00259	11m	down	late
+ILMN_1229853	Arrb1		-0.35	0.00011	0.00261	11m	down	late
+ILMN_1257630	1110012j17rik	Mus musculus RIKEN cDNA 1110012J17 gene (1110012J17Rik), mRNA.	-0.37	0.00011	0.00265	11m	down	late
+ILMN_2935462	Scn2b	Mus musculus sodium channel, voltage-gated, type II, beta (Scn2b), mRNA.	-0.47	0.00012	0.00268	11m	down	late
+ILMN_2926480	Diras2	Mus musculus DIRAS family, GTP-binding RAS-like 2 (Diras2), mRNA.	-0.44	0.00012	0.00268	11m	down	late
+ILMN_1253269	6430517e21rik		-0.31	0.00012	0.00268	11m	down	late
+ILMN_2673064	Ing1l	Mus musculus inhibitor of growth family, member 2 (Ing2), mRNA.	-0.43	0.00012	0.00272	11m	down	late
+ILMN_1216568	4833446k15rik		-0.46	0.00012	0.00274	11m	down	late
+ILMN_2733185	Cdc42ep3		-0.7	0.00012	0.00277	11m	down	late
+ILMN_2600928	Ovgp1	Mus musculus oviductal glycoprotein 1 (Ovgp1), mRNA.	-0.43	0.00013	0.00293	11m	down	late
+ILMN_2608858	Insl5	Mus musculus insulin-like 5 (Insl5), mRNA.	-0.31	0.00013	0.00299	11m	down	late
+ILMN_2745993	Ece1		-0.4	0.00013	0.00303	11m	down	late
+ILMN_2672903	Ephb1	Mus musculus Eph receptor B1 (Ephb1), mRNA.	-0.37	0.00014	0.00309	11m	down	late
+ILMN_1240833	Baalc		-0.31	0.00014	0.00309	11m	down	late
+ILMN_1244989	D14ertd171e		-0.37	0.00014	0.00318	11m	down	late
+ILMN_2813186	Avpi1	Mus musculus arginine vasopressin-induced 1 (Avpi1), mRNA.	-0.37	0.00014	0.00321	11m	down	late
+ILMN_2676481	Mir16	Mus musculus membrane interacting protein of RGS16 (Mir16), mRNA.	-0.36	0.00014	0.00321	11m	down	late
+ILMN_2709179	2310005p05rik		-0.35	0.00014	0.00322	11m	down	late
+ILMN_2615559	Dab2ip		-0.31	0.00014	0.00322	11m	down	late
+ILMN_2624153	Hes5	Mus musculus hairy and enhancer of split 5 (Drosophila) (Hes5), mRNA.	-0.65	0.00014	0.00324	11m	down	late
+ILMN_1246560	Syt12	Mus musculus synaptotagmin XII (Syt12), mRNA.	-0.43	0.00015	0.00326	11m	down	late
+ILMN_1240346	Socs5	Mus musculus suppressor of cytokine signaling 5 (Socs5), mRNA.	-0.38	0.00015	0.00326	11m	down	late
+ILMN_2738825	Acta1	Mus musculus actin, alpha 1, skeletal muscle (Acta1), mRNA.	-0.37	0.00015	0.00326	11m	down	late
+ILMN_2665422	Afg3l1		-0.37	0.00015	0.00326	11m	down	late
+ILMN_1226055	Kcnk2	Mus musculus potassium channel, subfamily K, member 2 (Kcnk2), mRNA.	-0.72	0.00015	0.00336	11m	down	late
+ILMN_2753422	Gnao		-0.53	0.00015	0.00336	11m	down	late
+ILMN_3109360	Plec1	Mus musculus plectin 1 (Plec1), transcript variant 11, mRNA.	-0.37	0.00015	0.00336	11m	down	late
+ILMN_1238317	A830094i09rik		-0.43	0.00016	0.00342	11m	down	late
+ILMN_2853122	B3gat1	Mus musculus beta-1,3-glucuronyltransferase 1 (glucuronosyltransferase P) (B3gat1), mRNA.	-0.31	0.00016	0.0035	11m	down	late
+ILMN_3115242	Negr1	Mus musculus neuronal growth regulator 1 (Negr1), transcript variant 1, mRNA.	-0.49	0.00016	0.00353	11m	down	late
+ILMN_1213290	Hdac5		-0.36	0.00016	0.00354	11m	down	late
+ILMN_2706857	6720456b07rik	Mus musculus RIKEN cDNA 6720456B07 gene (6720456B07Rik), mRNA.	-0.4	0.00016	0.00355	11m	down	late
+ILMN_1226606	Hspa5bp1		-0.42	0.00016	0.00356	11m	down	late
+ILMN_2857580	Rarsl	Mus musculus arginyl-tRNA synthetase 2, mitochondrial (putative) (Rars2), mRNA.	-0.22	0.00016	0.00356	11m	down	late
+ILMN_2701948	2810465f10rik		-0.51	0.00017	0.00368	11m	down	late
+ILMN_1237518	Dgkg		-0.37	0.00017	0.00369	11m	down	late
+ILMN_2746421	4121402d02rik	Mus musculus RIKEN cDNA 4121402D02 gene (4121402D02Rik), mRNA.	-0.36	0.00017	0.00369	11m	down	late
+ILMN_1216110	Slc35d3		-0.61	0.00018	0.00379	11m	down	late
+ILMN_2691345	Bcs1l	Mus musculus BCS1-like (yeast) (Bcs1l), mRNA.	-0.45	0.00018	0.00379	11m	down	late
+ILMN_2659660	Foxp2	Mus musculus forkhead box P2 (Foxp2), transcript variant 2, mRNA.	-0.44	0.00018	0.00379	11m	down	late
+ILMN_2705747	Brdt		-0.31	0.00018	0.0038	11m	down	late
+ILMN_2695035	Pja2		-0.23	0.00018	0.00383	11m	down	late
+ILMN_2608811	Cbr3	Mus musculus carbonyl reductase 3 (Cbr3), mRNA.	-0.45	0.00018	0.00386	11m	down	late
+ILMN_1244364	Pnck	Mus musculus pregnancy upregulated non-ubiquitously expressed CaM kinase (Pnck), mRNA.	-0.37	0.00018	0.00388	11m	down	late
+ILMN_1218612	Txnl4		-0.41	0.00018	0.00389	11m	down	late
+ILMN_3057562	Adam22	Mus musculus a disintegrin and metallopeptidase domain 22 (Adam22), transcript variant 1, mRNA.	-0.34	0.00018	0.00393	11m	down	late
+ILMN_2789425	Polb	Mus musculus polymerase (DNA directed), beta (Polb), mRNA.	-0.4	0.00019	0.00398	11m	down	late
+ILMN_2803344	Tmem143	Mus musculus transmembrane protein 143 (Tmem143), mRNA.	-0.37	0.00019	0.00398	11m	down	late
+ILMN_2723931	E2f6	Mus musculus E2F transcription factor 6 (E2f6), mRNA.	-0.3	0.00019	0.00399	11m	down	late
+ILMN_1216597	Slc25a25	Mus musculus solute carrier family 25 (mitochondrial carrier, phosphate carrier), member 25 (Slc25a25), mRNA.	-0.45	0.00019	0.004	11m	down	late
+ILMN_1219643	Slc24a4		-0.42	0.00019	0.004	11m	down	late
+ILMN_2453620	Ube2g1		-0.34	0.00019	0.004	11m	down	late
+ILMN_1216142	Map19		-0.33	0.00019	0.00401	11m	down	late
+ILMN_2696270	Pnkp		-0.28	0.00019	0.00402	11m	down	late
+ILMN_2669714	Pltp		-0.72	0.00019	0.00404	11m	down	late
+ILMN_2732601	6330406p08rik		-0.56	2e-04	0.00411	11m	down	late
+ILMN_2763679	Sipa1l1		-0.4	2e-04	0.00415	11m	down	late
+ILMN_1223516	E130309f12rik	Mus musculus RIKEN cDNA E130309F12 gene (E130309F12Rik), mRNA.	-0.32	2e-04	0.00415	11m	down	late
+ILMN_3163283	Zfp533	Mus musculus zinc finger protein 533 (Zfp533), mRNA.	-0.35	2e-04	0.00417	11m	down	late
+ILMN_2898578	Atp6v1c2	Mus musculus ATPase, H+ transporting, lysosomal V1 subunit C2 (Atp6v1c2), mRNA.	-0.37	2e-04	0.00421	11m	down	late
+ILMN_3000080	1110038d17rik	Mus musculus RIKEN cDNA 1110038D17 gene (1110038D17Rik), mRNA.	-0.36	2e-04	0.00422	11m	down	late
+ILMN_1218474	E130309f12rik	Mus musculus RIKEN cDNA E130309F12 gene (E130309F12Rik), mRNA.	-0.47	0.00021	0.00429	11m	down	late
+ILMN_3163419	Shf	Mus musculus Src homology 2 domain containing F (Shf), mRNA.	-0.44	0.00021	0.0043	11m	down	late
+ILMN_2520032	Zdhhc12		-0.42	0.00021	0.00433	11m	down	late
+ILMN_3064283	Pde4dip	Mus musculus phosphodiesterase 4D interacting protein (myomegalin) (Pde4dip), transcript variant 1, mRNA.	-0.32	0.00021	0.0044	11m	down	late
+ILMN_1239494	Mbtps1	Mus musculus membrane-bound transcription factor peptidase, site 1 (Mbtps1), mRNA.	-0.4	0.00022	0.00444	11m	down	late
+ILMN_1216021	Ttyh1	Mus musculus tweety homolog 1 (Drosophila) (Ttyh1), transcript variant 2, mRNA.	-0.28	0.00022	0.00453	11m	down	late
+ILMN_1255927	Ubtf		-0.4	0.00022	0.00461	11m	down	late
+ILMN_1231468	1700030j22rik		-0.35	0.00022	0.00461	11m	down	late
+ILMN_2596412	Copg		-0.33	0.00023	0.00462	11m	down	late
+ILMN_2718204	Scgf		-0.31	0.00023	0.00462	11m	down	late
+ILMN_1246734	Osbp2		-0.41	0.00023	0.00464	11m	down	late
+ILMN_2716146	Chga	Mus musculus chromogranin A (Chga), mRNA.	-0.49	0.00023	0.00468	11m	down	late
+ILMN_3127066	Mark2	Mus musculus MAP/microtubule affinity-regulating kinase 2 (Mark2), transcript variant 1, mRNA.	-0.35	0.00023	0.00468	11m	down	late
+ILMN_1216308	Zfp574	Mus musculus zinc finger protein 574 (Zfp574), mRNA.	-0.33	0.00023	0.00476	11m	down	late
+ILMN_2914271	Araf	Mus musculus v-raf murine sarcoma 3611 viral oncogene homolog (Araf), mRNA.	-0.32	0.00024	0.00492	11m	down	late
+ILMN_1238893	2810038k19rik		-0.37	0.00024	0.00495	11m	down	late
+ILMN_2653265	H2-ke6	Mus musculus H2-K region expressed gene 6 (H2-Ke6), mRNA.	-0.31	0.00025	0.00498	11m	down	late
+ILMN_2813484	Per1	Mus musculus period homolog 1 (Drosophila) (Per1), mRNA.	-0.72	0.00025	0.00499	11m	down	late
+ILMN_2878071	Lyz	Mus musculus lysozyme (Lyz), mRNA.	2.7	2.2e-20	2.48e-16	11m	up	late
+ILMN_2470646	Wt1		1.38	4.9e-20	3.15e-16	11m	up	late
+ILMN_3074952	Copg	Mus musculus coatomer protein complex, subunit gamma (Copg), transcript variant 2, mRNA.	1.26	2.13e-19	1.09e-15	11m	up	late
+ILMN_2702303	Ch25h	Mus musculus cholesterol 25-hydroxylase (Ch25h), mRNA.	1.58	6.51e-19	2.39e-15	11m	up	late
+ILMN_1252076	Lyzs		2.62	2.24e-18	6.39e-15	11m	up	late
+ILMN_1214715	Gfap		2.14	1.24e-17	2.65e-14	11m	up	late
+ILMN_1233848	Loc381795		1.18	3.42e-17	5.86e-14	11m	up	late
+ILMN_1225376	Smoc1	Mus musculus SPARC related modular calcium binding 1 (Smoc1), mRNA.	1.25	3.37e-17	5.86e-14	11m	up	late
+ILMN_2939012	1500012f01rik	Mus musculus RIKEN cDNA 1500012F01 gene (1500012F01Rik), mRNA.	1.17	9.76e-17	1.44e-13	11m	up	late
+ILMN_3049559	C4b	Mus musculus complement component 4B (Childo blood group) (C4b), mRNA. XM_921663 XM_921673 XM_921676 XM_921678	1.8	2.03e-15	2.09e-12	11m	up	late
+ILMN_1240165	Acy3	Mus musculus aspartoacylase (aminoacylase) 3 (Acy3), mRNA.	1	2.21e-14	1.67e-11	11m	up	late
+ILMN_1223317	Lgals3	Mus musculus lectin, galactose binding, soluble 3 (Lgals3), mRNA.	1.4	2.84e-14	2.03e-11	11m	up	late
+ILMN_2960325	Ctse	Mus musculus cathepsin E (Ctse), mRNA.	0.74	3.82e-14	2.51e-11	11m	up	late
+ILMN_2631994	Clp1		1	7.51e-14	4.39e-11	11m	up	late
+ILMN_3122383	Otud7b	Mus musculus OTU domain containing 7B (Otud7b), transcript variant 1, mRNA.	0.79	2.69e-13	1.26e-10	11m	up	late
+ILMN_2925895	Bc006662	Mus musculus cDNA sequence BC006662 (BC006662), mRNA.	0.88	7.2e-13	3.08e-10	11m	up	late
+ILMN_2879759	Tagap	Mus musculus T-cell activation Rho GTPase-activating protein (Tagap), mRNA.	0.69	2.2e-12	7.77e-10	11m	up	late
+ILMN_2939681	Lyzs	Mus musculus lysozyme (Lyzs), mRNA.	1.12	3.27e-12	1.06e-09	11m	up	late
+ILMN_1223168	Cdc23		0.74	3.42e-12	1.1e-09	11m	up	late
+ILMN_1246800	Serpina3n	Mus musculus serine (or cysteine) peptidase inhibitor, clade A, member 3N (Serpina3n), mRNA.	1.4	4.82e-12	1.48e-09	11m	up	late
+ILMN_2699052	Nrn1	Mus musculus neuritin 1 (Nrn1), mRNA.	2.66	6.54e-12	2e-09	11m	up	late
+ILMN_1241695	Ms4a6d		0.91	7.21e-12	2.11e-09	11m	up	late
+ILMN_2451022	Vim	Mus musculus vimentin (Vim), mRNA.	1.19	7.88e-12	2.25e-09	11m	up	late
+ILMN_3155363	Ppl	Mus musculus periplakin (Ppl), mRNA.	0.85	1.18e-11	3.12e-09	11m	up	late
+ILMN_1217328	Hoxc6		1.01	2.27e-11	5.45e-09	11m	up	late
+ILMN_2595973	Grn	Mus musculus granulin (Grn), mRNA.	0.77	3.55e-11	8e-09	11m	up	late
+ILMN_3162060	Mgc99845	Mus musculus predicted gene, EG574403 (EG574403), mRNA.	0.94	5.79e-11	1.2e-08	11m	up	late
+ILMN_1223257	Ccl4		1.14	9.7e-11	1.89e-08	11m	up	late
+ILMN_2599794	Apoc1	Mus musculus apolipoprotein C-I (Apoc1), mRNA.	1.13	1.01e-10	1.95e-08	11m	up	late
+ILMN_2600465	Phactr4	Mus musculus phosphatase and actin regulator 4 (Phactr4), mRNA.	0.87	1.09e-10	2.07e-08	11m	up	late
+ILMN_2678421	Pcolce2		0.92	1.11e-10	2.07e-08	11m	up	late
+ILMN_3163063	Bnip2	Mus musculus BCL2/adenovirus E1B interacting protein 1, NIP2 (Bnip2), transcript variant alpha, mRNA.	0.68	1.14e-10	2.11e-08	11m	up	late
+ILMN_2696171	D830014e11rik	Mus musculus RIKEN cDNA D830014E11 gene (D830014E11Rik), mRNA.	0.6	1.47e-10	2.67e-08	11m	up	late
+ILMN_2690603	Spp1 (osteopontin)	Mus musculus secreted phosphoprotein 1 (Spp1), mRNA.	2.36	1.91e-10	3.41e-08	11m	up	late
+ILMN_2914843	Psmb10	Mus musculus proteasome (prosome, macropain) subunit, beta type 10 (Psmb10), mRNA.	0.82	2.29e-10	3.93e-08	11m	up	late
+ILMN_1253919	Ccl3		0.61	3.12e-10	5.17e-08	11m	up	late
+ILMN_2707967	Man2b1		0.88	3.49e-10	5.57e-08	11m	up	late
+ILMN_1228469	Apoc1	Mus musculus apolipoprotein C-I (Apoc1), mRNA.	0.86	5.15e-10	7.78e-08	11m	up	late
+ILMN_3154007	Copg	Mus musculus coatomer protein complex, subunit gamma (Copg), transcript variant 2, mRNA.	0.87	6.61e-10	9.7e-08	11m	up	late
+ILMN_2986309	Psme1	Mus musculus proteasome (prosome, macropain) 28 subunit, alpha (Psme1), mRNA.	0.71	6.98e-10	1.01e-07	11m	up	late
+ILMN_2913989	Aa407270	Mus musculus expressed sequence AA407270 (AA407270), mRNA.	0.54	8.6e-10	1.21e-07	11m	up	late
+ILMN_2639397	Dhrs1	Mus musculus dehydrogenase/reductase (SDR family) member 1 (Dhrs1), mRNA.	0.63	1e-09	1.31e-07	11m	up	late
+ILMN_2708203	Cdkn1c	Mus musculus cyclin-dependent kinase inhibitor 1C (P57) (Cdkn1c), mRNA.	1.13	1.27e-09	1.65e-07	11m	up	late
+ILMN_2712120	S100a6		0.93	1.28e-09	1.67e-07	11m	up	late
+ILMN_2838317	Pqlc3	Mus musculus PQ loop repeat containing (Pqlc3), mRNA.	0.72	1.5e-09	1.92e-07	11m	up	late
+ILMN_2860479	Arpc1b	Mus musculus actin related protein 2/3 complex, subunit 1B (Arpc1b), mRNA.	0.64	1.62e-09	2.04e-07	11m	up	late
+ILMN_2588249	Plin4 (s3-12)	Mus musculus plasma membrane associated protein, S3-12 (S3-12), mRNA.	2.59	1.66e-09	2.07e-07	11m	up	late
+ILMN_1245585	Nkx6-1		0.67	1.9e-09	2.32e-07	11m	up	late
+ILMN_2515784	Tm4sf6		0.59	2e-09	2.45e-07	11m	up	late
+ILMN_2600043	Slc35a5	Mus musculus solute carrier family 35, member A5 (Slc35a5), mRNA.	0.58	2.47e-09	2.91e-07	11m	up	late
+ILMN_2635229	Thbs2	Mus musculus thrombospondin 2 (Thbs2), mRNA.	0.71	2.8e-09	3.27e-07	11m	up	late
+ILMN_1250410	Prkr	Mus musculus eukaryotic translation initiation factor 2-alpha kinase 2 (Eif2ak2), mRNA.	0.69	2.86e-09	3.31e-07	11m	up	late
+ILMN_2683986	D930010j01rik	Mus musculus RIKEN cDNA D930010J01 gene (D930010J01Rik), mRNA.	0.75	3e-09	3.44e-07	11m	up	late
+ILMN_2781938	Tram1	Mus musculus translocating chain-associating membrane protein 1 (Tram1), mRNA.	0.59	3.2e-09	3.61e-07	11m	up	late
+ILMN_1240598	Bc034054		0.81	3.57e-09	3.97e-07	11m	up	late
+ILMN_2687854	1300018j18rik		0.62	3.6e-09	3.98e-07	11m	up	late
+ILMN_1215147	Fbl	Mus musculus fibrillarin (Fbl), mRNA.	0.64	3.86e-09	4.22e-07	11m	up	late
+ILMN_3090793	Nfyc	Mus musculus nuclear transcription factor-Y gamma (Nfyc), transcript variant 1, mRNA.	0.51	5.85e-09	6.18e-07	11m	up	late
+ILMN_1218761	Lzts2	Mus musculus leucine zipper, putative tumor suppressor 2 (Lzts2), mRNA.	0.82	8.07e-09	8.18e-07	11m	up	late
+ILMN_2653567	Rhoj		0.77	8.88e-09	8.86e-07	11m	up	late
+ILMN_2757870	Psmb10	Mus musculus proteasome (prosome, macropain) subunit, beta type 10 (Psmb10), mRNA.	0.83	1e-08	9.8e-07	11m	up	late
+ILMN_1237302	Pcdh20		1.14	1.22e-08	1.19e-06	11m	up	late
+ILMN_2846194	Echdc2	Mus musculus enoyl Coenzyme A hydratase domain containing 2 (Echdc2), mRNA.	0.75	1.4e-08	1.34e-06	11m	up	late
+ILMN_2749686	Cdc37l1	Mus musculus cell division cycle 37 homolog (S. cerevisiae)-like 1 (Cdc37l1), mRNA.	0.7	1.61e-08	1.51e-06	11m	up	late
+ILMN_1217309	Tax1bp3		0.57	1.65e-08	1.53e-06	11m	up	late
+ILMN_2701233	Fgf1		0.63	1.86e-08	1.71e-06	11m	up	late
+ILMN_2746000	1110064p04rik		0.45	2.1e-08	1.89e-06	11m	up	late
+ILMN_3027751	Sorbs1	Mus musculus sorbin and SH3 domain containing 1 (Sorbs1), transcript variant 5, mRNA.	0.6	2.24e-08	2.01e-06	11m	up	late
+ILMN_2680142	Anxa5	Mus musculus annexin A5 (Anxa5), mRNA.	0.57	2.29e-08	2.04e-06	11m	up	late
+ILMN_2681516	Slc39a6		0.6	2.31e-08	2.06e-06	11m	up	late
+ILMN_2707834	Rpl13a		0.53	2.33e-08	2.07e-06	11m	up	late
+ILMN_1254786	Ech1	Mus musculus enoyl coenzyme A hydratase 1, peroxisomal (Ech1), mRNA.	0.53	2.42e-08	2.13e-06	11m	up	late
+ILMN_2956932	Acadvl	Mus musculus acyl-Coenzyme A dehydrogenase, very long chain (Acadvl), mRNA.	0.56	2.84e-08	2.45e-06	11m	up	late
+ILMN_2616000	5730449l18rik	Mus musculus RIKEN cDNA 5730449L18 gene (5730449L18Rik), mRNA.	0.5	3.1e-08	2.65e-06	11m	up	late
+ILMN_1221703	Abca7	Mus musculus ATP-binding cassette, sub-family A (ABC1), member 7 (Abca7), mRNA.	0.8	3.19e-08	2.71e-06	11m	up	late
+ILMN_1250279	Serpinb6a		0.52	3.81e-08	3.18e-06	11m	up	late
+ILMN_2657516	1110020c13rik	Mus musculus proline rich 13 (Prr13), mRNA.	0.66	3.81e-08	3.18e-06	11m	up	late
+ILMN_2640883	Nde1		0.64	3.9e-08	3.23e-06	11m	up	late
+ILMN_2699556	Msrb2	Mus musculus methionine sulfoxide reductase B2 (Msrb2), mRNA.	0.54	4.09e-08	3.38e-06	11m	up	late
+ILMN_2763051	Hps6	Mus musculus Hermansky-Pudlak syndrome 6 (Hps6), mRNA.	0.47	4.35e-08	3.58e-06	11m	up	late
+ILMN_2595597	Anln	Mus musculus anillin, actin binding protein (scraps homolog, Drosophila) (Anln), mRNA.	0.76	4.44e-08	3.64e-06	11m	up	late
+ILMN_1215218	Bc008155		0.45	4.97e-08	3.98e-06	11m	up	late
+ILMN_2805339	Hspb6	Mus musculus heat shock protein, alpha-crystallin-related, B6 (Hspb6), mRNA.	0.68	5.46e-08	4.34e-06	11m	up	late
+ILMN_3159720	Rin2	Mus musculus Ras and Rab interactor 2 (Rin2), mRNA.	0.69	5.65e-08	4.47e-06	11m	up	late
+ILMN_2946901	Slc25a38	Mus musculus solute carrier family 25, member 38 (Slc25a38), mRNA.	0.48	6.13e-08	4.81e-06	11m	up	late
+ILMN_2855334	Gusb	Mus musculus glucuronidase, beta (Gusb), mRNA.	0.64	6.28e-08	4.91e-06	11m	up	late
+ILMN_3055230	Rasgrf1	Mus musculus RAS protein-specific guanine nucleotide-releasing factor 1 (Rasgrf1), transcript variant 2, mRNA.	0.6	6.88e-08	5.32e-06	11m	up	late
+ILMN_2663258	Clecsf12		0.46	7.47e-08	5.72e-06	11m	up	late
+ILMN_2990229	3300001g02rik	Mus musculus RIKEN cDNA 3300001G02 gene (3300001G02Rik), mRNA.	0.54	7.6e-08	5.78e-06	11m	up	late
+ILMN_3154820	St5		0.49	8.17e-08	6.08e-06	11m	up	late
+ILMN_2650911	Atp6v0e		0.54	8.34e-08	6.17e-06	11m	up	late
+ILMN_2726471	En2		0.56	8.8e-08	6.5e-06	11m	up	late
+ILMN_2983516	Slc11a1	Mus musculus solute carrier family 11 (proton-coupled divalent metal ion transporters), member 1 (Slc11a1), mRNA.	0.61	8.86e-08	6.51e-06	11m	up	late
+ILMN_2957113	Ercc3	Mus musculus excision repair cross-complementing rodent repair deficiency, complementation group 3 (Ercc3), mRNA.	0.57	9.47e-08	6.82e-06	11m	up	late
+ILMN_2733356	2310067e08rik	Mus musculus endonuclease domain containing 1 (Endod1), mRNA.	0.62	9.64e-08	6.88e-06	11m	up	late
+ILMN_2733733	Tlr2	Mus musculus toll-like receptor 2 (Tlr2), mRNA.	0.61	9.71e-08	6.91e-06	11m	up	late
+ILMN_1242456	D330024h06rik		0.53	1.12e-07	7.86e-06	11m	up	late
+ILMN_2610771	Net1		0.61	1.13e-07	7.88e-06	11m	up	late
+ILMN_2742075	Cd14		0.58	1.16e-07	8.06e-06	11m	up	late
+ILMN_1250001	4930583h14rik	Mus musculus RIKEN cDNA 4930583H14 gene (4930583H14Rik), mRNA.	0.43	1.21e-07	8.3e-06	11m	up	late
+ILMN_2492403	Cd151		0.61	1.32e-07	8.94e-06	11m	up	late
+ILMN_2983228	Ss18	Mus musculus synovial sarcoma translocation, Chromosome 18 (Ss18), mRNA.	0.55	1.37e-07	9.21e-06	11m	up	late
+ILMN_2945588	Nde1	Mus musculus nuclear distribution gene E homolog 1 (A nidulans) (Nde1), mRNA.	0.67	1.37e-07	9.21e-06	11m	up	late
+ILMN_2694962	Pcsk7		0.53	1.4e-07	9.35e-06	11m	up	late
+ILMN_1234930	Wbscr24	Mus musculus vacuolar protein sorting 37D (yeast) (Vps37d), mRNA.	0.56	1.47e-07	9.74e-06	11m	up	late
+ILMN_1258526	Lgals3bp		0.74	1.49e-07	9.86e-06	11m	up	late
+ILMN_2653132	Clecsf12		0.57	1.5e-07	9.89e-06	11m	up	late
+ILMN_2701543	Aw456874		0.57	1.53e-07	1.01e-05	11m	up	late
+ILMN_2623280	Osmr	Mus musculus oncostatin M receptor (Osmr), mRNA.	0.58	1.57e-07	1.02e-05	11m	up	late
+ILMN_2665008	1700093e07rik	Mus musculus RAB31, member RAS oncogene family (Rab31), mRNA.	0.56	1.63e-07	1.05e-05	11m	up	late
+ILMN_2671204	Psme1	Mus musculus proteasome (prosome, macropain) 28 subunit, alpha (Psme1), mRNA.	0.67	1.64e-07	1.06e-05	11m	up	late
+ILMN_2589790	Stat3		0.55	1.68e-07	1.08e-05	11m	up	late
+ILMN_2671436	2700091n06rik	Mus musculus coiled-coil domain containing 77 (Ccdc77), mRNA.	0.46	1.83e-07	1.16e-05	11m	up	late
+ILMN_1238227	Rpl23	Mus musculus ribosomal protein L23 (Rpl23), mRNA.	0.52	2.01e-07	1.26e-05	11m	up	late
+ILMN_1245528	M6prbp1	Mus musculus mannose-6-phosphate receptor binding protein 1 (M6prbp1), mRNA.	0.51	2.04e-07	1.27e-05	11m	up	late
+ILMN_1253304	Stmn2		0.63	2.03e-07	1.27e-05	11m	up	late
+ILMN_3048503	Nipbl	Mus musculus Nipped-B homolog (Drosophila) (Nipbl), transcript variant A, mRNA.	0.41	2.17e-07	1.34e-05	11m	up	late
+ILMN_1259322	Pdk4		0.77	2.17e-07	1.34e-05	11m	up	late
+ILMN_1260456	Hsd3b7		0.55	2.25e-07	1.36e-05	11m	up	late
+ILMN_2999447	1700123o20rik	Mus musculus RIKEN cDNA 1700123O20 gene (1700123O20Rik), mRNA.	0.58	2.23e-07	1.36e-05	11m	up	late
+ILMN_2754698	Cd84	Mus musculus CD84 antigen (Cd84), mRNA.	0.43	2.32e-07	1.4e-05	11m	up	late
+ILMN_2860480	Arpc1b	Mus musculus actin related protein 2/3 complex, subunit 1B (Arpc1b), mRNA.	0.54	2.56e-07	1.53e-05	11m	up	late
+ILMN_1255363	Fkbp14	Mus musculus FK506 binding protein 14 (Fkbp14), mRNA.	0.64	2.61e-07	1.55e-05	11m	up	late
+ILMN_2700265	Pex11a		0.34	2.69e-07	1.57e-05	11m	up	late
+ILMN_2650603	Irx5	Mus musculus Iroquois related homeobox 5 (Drosophila) (Irx5), mRNA.	0.47	2.67e-07	1.57e-05	11m	up	late
+ILMN_1259783	Mta3	Mus musculus metastasis associated 3 (Mta3), mRNA.	0.6	2.66e-07	1.57e-05	11m	up	late
+ILMN_2640971	Pafah1b3	Mus musculus platelet-activating factor acetylhydrolase, isoform 1b, alpha1 subunit (Pafah1b3), mRNA.	0.67	2.66e-07	1.57e-05	11m	up	late
+ILMN_2679037	Cklfsf3	Mus musculus CKLF-like MARVEL transmembrane domain containing 3 (Cmtm3), mRNA.	0.6	2.94e-07	1.7e-05	11m	up	late
+ILMN_1241618	Flot1		0.49	2.96e-07	1.71e-05	11m	up	late
+ILMN_2911307	Gm347	Mus musculus gene model 347, (NCBI) (Gm347), mRNA.	0.49	3.24e-07	1.85e-05	11m	up	late
+ILMN_3009225	Apoc4	Mus musculus apolipoprotein C-IV (Apoc4), mRNA.	0.72	3.32e-07	1.89e-05	11m	up	late
+ILMN_2687403	Fcgr3		0.54	3.43e-07	1.95e-05	11m	up	late
+ILMN_2717621	Rps15a	Mus musculus ribosomal protein S15a (Rps15a), mRNA.	0.64	3.44e-07	1.95e-05	11m	up	late
+ILMN_1213273	Lrig3	Mus musculus leucine-rich repeats and immunoglobulin-like domains 3 (Lrig3), mRNA.	0.53	3.49e-07	1.97e-05	11m	up	late
+ILMN_2871262	Bcap31	Mus musculus B-cell receptor-associated protein 31 (Bcap31), mRNA.	0.35	3.61e-07	2.03e-05	11m	up	late
+ILMN_1239843	Clecsf12		0.48	3.68e-07	2.06e-05	11m	up	late
+ILMN_2487517	Ssfa2		0.54	3.71e-07	2.07e-05	11m	up	late
+ILMN_2882425	Fahd2a	Mus musculus fumarylacetoacetate hydrolase domain containing 2A (Fahd2a), mRNA.	0.49	3.73e-07	2.08e-05	11m	up	late
+ILMN_3007862	Abhd14b	Mus musculus abhydrolase domain containing 14b (Abhd14b), mRNA.	0.64	3.76e-07	2.08e-05	11m	up	late
+ILMN_2731901	S100a4	Mus musculus S100 calcium binding protein A4 (S100a4), mRNA.	0.3	3.84e-07	2.11e-05	11m	up	late
+ILMN_1247710	Card4	Mus musculus nucleotide-binding oligomerization domain containing 1 (Nod1), mRNA.	0.45	3.83e-07	2.11e-05	11m	up	late
+ILMN_1256219	Sat1	Mus musculus spermidine/spermine N1-acetyl transferase 1 (Sat1), mRNA.	0.47	4.12e-07	2.24e-05	11m	up	late
+ILMN_1226662	Dleu7	Mus musculus deleted in lymphocytic leukemia, 7 (Dleu7), mRNA.	0.48	4.46e-07	2.4e-05	11m	up	late
+ILMN_1232016	Cbx8	Mus musculus chromobox homolog 8 (Drosophila Pc class) (Cbx8), mRNA.	0.53	4.72e-07	2.53e-05	11m	up	late
+ILMN_2616461	Nagk	Mus musculus N-acetylglucosamine kinase (Nagk), mRNA.	0.47	5.01e-07	2.67e-05	11m	up	late
+ILMN_2630182	Syp	Mus musculus synaptophysin (Syp), mRNA.	0.34	5.15e-07	2.71e-05	11m	up	late
+ILMN_2909211	Msrb2	Mus musculus methionine sulfoxide reductase B2 (Msrb2), mRNA.	0.55	5.12e-07	2.71e-05	11m	up	late
+ILMN_2674533	Renbp		0.43	5.18e-07	2.72e-05	11m	up	late
+ILMN_2892222	Acsl5	Mus musculus acyl-CoA synthetase long-chain family member 5 (Acsl5), mRNA.	0.43	5.29e-07	2.76e-05	11m	up	late
+ILMN_2850792	Loh11cr2a	Mus musculus loss of heterozygosity, 11, chromosomal region 2, gene A homolog (human) (Loh11cr2a), mRNA.	0.6	5.43e-07	2.83e-05	11m	up	late
+ILMN_2602352	Ms4a6d		0.43	5.46e-07	2.84e-05	11m	up	late
+ILMN_1242772	4930578f03rik		0.54	5.63e-07	2.92e-05	11m	up	late
+ILMN_2958076	1110001j03rik	Mus musculus RIKEN cDNA 1110001J03 gene (1110001J03Rik), mRNA.	0.46	5.67e-07	2.93e-05	11m	up	late
+ILMN_2983686	Trub2	Mus musculus TruB pseudouridine (psi) synthase homolog 2 (E. coli) (Trub2), mRNA.	0.47	6.09e-07	3.11e-05	11m	up	late
+ILMN_2968515	Xpa	Mus musculus xeroderma pigmentosum, complementation group A (Xpa), mRNA.	0.51	6.07e-07	3.11e-05	11m	up	late
+ILMN_2514292	Zyx		0.52	6.45e-07	3.25e-05	11m	up	late
+ILMN_1253618	Ccs		0.36	7.09e-07	3.52e-05	11m	up	late
+ILMN_2487934	Tram1	Mus musculus translocating chain-associating membrane protein 1 (Tram1), mRNA.	0.55	7.19e-07	3.55e-05	11m	up	late
+ILMN_1255513	Cdr2	Mus musculus cerebellar degeneration-related 2 (Cdr2), mRNA.	0.48	7.25e-07	3.57e-05	11m	up	late
+ILMN_3136196	Fnta	Mus musculus farnesyltransferase, CAAX box, alpha (Fnta), mRNA.	0.35	7.28e-07	3.58e-05	11m	up	late
+ILMN_3143557	Al024210		0.53	7.34e-07	3.6e-05	11m	up	late
+ILMN_2724719	5930416i19rik	Mus musculus RIKEN cDNA 5930416I19 gene (5930416I19Rik), mRNA.	0.43	7.57e-07	3.7e-05	11m	up	late
+ILMN_2747196	Kai1		0.57	7.96e-07	3.88e-05	11m	up	late
+ILMN_2971767	Myd88	Mus musculus myeloid differentiation primary response gene 88 (Myd88), mRNA.	0.53	8.01e-07	3.9e-05	11m	up	late
+ILMN_2612513	6330569m22rik	Mus musculus RIKEN cDNA 6330569M22 gene (6330569M22Rik), mRNA.	0.48	8.17e-07	3.97e-05	11m	up	late
+ILMN_1220774	Loc328644		0.62	8.19e-07	3.97e-05	11m	up	late
+ILMN_2779746	Srp9	Mus musculus signal recognition particle 9 (Srp9), mRNA.	0.53	8.25e-07	3.99e-05	11m	up	late
+ILMN_2750801	Rpa1	Mus musculus replication protein A1 (Rpa1), mRNA.	0.41	8.32e-07	4.01e-05	11m	up	late
+ILMN_2835012	5730449l18rik	Mus musculus RIKEN cDNA 5730449L18 gene (5730449L18Rik), mRNA.	0.46	8.74e-07	4.18e-05	11m	up	late
+ILMN_2792089	Srebf1	Mus musculus sterol regulatory element binding factor 1 (Srebf1), mRNA.	0.43	8.88e-07	4.23e-05	11m	up	late
+ILMN_2912170	4732479n06rik	Mus musculus RIKEN cDNA 4732479N06 gene (4732479N06Rik), mRNA.	0.6	9.06e-07	4.31e-05	11m	up	late
+ILMN_2623064	Snx24	Mus musculus sorting nexing 24 (Snx24), mRNA.	0.48	9.47e-07	4.49e-05	11m	up	late
+ILMN_3032778	Ensa	Mus musculus endosulfine alpha (Ensa), transcript variant 2, mRNA.	0.5	9.94e-07	4.68e-05	11m	up	late
+ILMN_3125606	D12ertd647e	Mus musculus DNA segment, Chr 12, ERATO Doi 647, expressed (D12Ertd647e), transcript variant 5, mRNA.	0.55	1.09e-06	5.08e-05	11m	up	late
+ILMN_2746086	Tax1bp3		0.61	1.09e-06	5.11e-05	11m	up	late
+ILMN_3147135	Akr1a4	Mus musculus aldo-keto reductase family 1, member A4 (aldehyde reductase) (Akr1a4), mRNA.	0.39	1.1e-06	5.12e-05	11m	up	late
+ILMN_3160212	Au021838	Mus musculus expressed sequence AU021838 (AU021838), mRNA.	0.58	1.22e-06	5.65e-05	11m	up	late
+ILMN_2701855	B430104h02rik		0.51	1.26e-06	5.79e-05	11m	up	late
+ILMN_1238603	Pcolce2		0.61	1.41e-06	6.44e-05	11m	up	late
+ILMN_3074259	Lamp2	Mus musculus lysosomal-associated membrane protein 2 (Lamp2), transcript variant 1, mRNA.	0.64	1.43e-06	6.52e-05	11m	up	late
+ILMN_2450096	Zfp30	Mus musculus zinc finger protein 30 (Zfp30), mRNA.	0.46	1.49e-06	6.75e-05	11m	up	late
+ILMN_1232761	Lyzl4	Mus musculus lysozyme-like 4 (Lyzl4), mRNA.	0.44	1.5e-06	6.8e-05	11m	up	late
+ILMN_1218934	Rad52b	Mus musculus RAD52 motif 1 (Rdm1), mRNA.	0.46	1.51e-06	6.84e-05	11m	up	late
+ILMN_2691567	6430559e15rik		0.49	1.54e-06	6.95e-05	11m	up	late
+ILMN_2814865	Qpct	Mus musculus glutaminyl-peptide cyclotransferase (glutaminyl cyclase) (Qpct), mRNA.	0.62	1.57e-06	7.05e-05	11m	up	late
+ILMN_3111877	Rbms2	Mus musculus RNA binding motif, single stranded interacting protein 2 (Rbms2), transcript variant 2, mRNA.	0.54	1.58e-06	7.09e-05	11m	up	late
+ILMN_3151722	Net1	Mus musculus neuroepithelial cell transforming gene 1 (Net1), transcript variant 1, mRNA.	0.75	1.6e-06	7.14e-05	11m	up	late
+ILMN_2700505	Tmem43	Mus musculus transmembrane protein 43 (Tmem43), mRNA.	0.37	1.64e-06	7.28e-05	11m	up	late
+ILMN_2687745	Pnpla2		0.75	1.65e-06	7.34e-05	11m	up	late
+ILMN_1234425	2310020h20rik	Mus musculus IscU iron-sulfur cluster scaffold homolog (E. coli) (Iscu), mRNA.	0.39	1.66e-06	7.37e-05	11m	up	late
+ILMN_2648669	Gpnmb	Mus musculus glycoprotein (transmembrane) nmb (Gpnmb), mRNA.	0.58	1.68e-06	7.43e-05	11m	up	late
+ILMN_2756435	Cebpb	Mus musculus CCAAT/enhancer binding protein (C/EBP), beta (Cebpb), mRNA.	0.52	1.7e-06	7.52e-05	11m	up	late
+ILMN_1229971	Vezf1		0.44	1.84e-06	8e-05	11m	up	late
+ILMN_2671253	Gspt2		0.44	1.92e-06	8.29e-05	11m	up	late
+ILMN_1221048	Psat1		0.34	1.94e-06	8.34e-05	11m	up	late
+ILMN_2981689	Nup133	Mus musculus nucleoporin 133 (Nup133), mRNA.	0.36	1.99e-06	8.54e-05	11m	up	late
+ILMN_2780316	Rnpep	Mus musculus arginyl aminopeptidase (aminopeptidase B) (Rnpep), mRNA.	0.46	2.02e-06	8.62e-05	11m	up	late
+ILMN_2673926	Cdc37l1	Mus musculus cell division cycle 37 homolog (S. cerevisiae)-like 1 (Cdc37l1), mRNA.	0.56	2.05e-06	8.7e-05	11m	up	late
+ILMN_2483748	Xrcc2	Mus musculus X-ray repair complementing defective repair in Chinese hamster cells 2 (Xrcc2), mRNA.	0.55	2.1e-06	8.88e-05	11m	up	late
+ILMN_2729235	6330407d12rik	Mus musculus coiled-coil domain containing 126 (Ccdc126), mRNA.	0.53	2.17e-06	9.18e-05	11m	up	late
+ILMN_1259006	D12ertd748e		0.5	2.24e-06	9.41e-05	11m	up	late
+ILMN_2667829	Prkcq		0.39	2.29e-06	9.57e-05	11m	up	late
+ILMN_2771087	Drctnnb1a		0.5	2.34e-06	9.71e-05	11m	up	late
+ILMN_2894211	8430408g22rik	Mus musculus RIKEN cDNA 8430408G22 gene (8430408G22Rik), mRNA.	1.47	2.36e-06	9.79e-05	11m	up	late
+ILMN_1235499	Pros1		0.53	2.4e-06	9.94e-05	11m	up	late
+ILMN_2516266	Ccar1		0.48	2.47e-06	1e-04	11m	up	late
+ILMN_1260219	Adipor2		0.62	2.54e-06	1e-04	11m	up	late
+ILMN_2799667	2310001a20rik	Mus musculus RIKEN cDNA 2310001A20 gene (2310001A20Rik), mRNA.	0.42	2.62e-06	0.00011	11m	up	late
+ILMN_1239922	Snrpb		0.51	2.73e-06	0.00011	11m	up	late
+ILMN_2854659	2610020o08rik	Mus musculus RIKEN cDNA 2610020O08 gene (2610020O08Rik), mRNA.	0.4	2.97e-06	0.00012	11m	up	late
+ILMN_1242472	Parva		0.41	3.1e-06	0.00012	11m	up	late
+ILMN_2773113	Capg		0.43	3.04e-06	0.00012	11m	up	late
+ILMN_2965417	Npm3-ps1	Mus musculus nucleoplasmin 3, pseudogene 1 (Npm3-ps1) on chromosome 6.	0.49	2.83e-06	0.00012	11m	up	late
+ILMN_2657175	Anxa2		0.74	2.98e-06	0.00012	11m	up	late
+ILMN_2957070	Shc1	Mus musculus src homology 2 domain-containing transforming protein C1 (Shc1), mRNA.	0.38	3.33e-06	0.00013	11m	up	late
+ILMN_2659229	Rpl22	Mus musculus ribosomal protein L22 (Rpl22), mRNA.	0.42	3.33e-06	0.00013	11m	up	late
+ILMN_1221288	Lgals8	Mus musculus lectin, galactose binding, soluble 8 (Lgals8), mRNA.	0.49	3.41e-06	0.00013	11m	up	late
+ILMN_2662508	Faf1	Mus musculus Fas-associated factor 1 (Faf1), mRNA.	0.32	3.55e-06	0.00014	11m	up	late
+ILMN_3068754	Akr1a4	Mus musculus aldo-keto reductase family 1, member A4 (aldehyde reductase) (Akr1a4), mRNA.	0.34	3.69e-06	0.00014	11m	up	late
+ILMN_2619861	Nipsnap1		0.4	3.71e-06	0.00014	11m	up	late
+ILMN_2727921	Tspo	Mus musculus translocator protein (Tspo), mRNA.	0.5	3.69e-06	0.00014	11m	up	late
+ILMN_2634083	Cdkn1a	Mus musculus cyclin-dependent kinase inhibitor 1A (P21) (Cdkn1a), mRNA.	1.2	3.51e-06	0.00014	11m	up	late
+ILMN_2767596	Sav1		0.42	3.78e-06	0.00015	11m	up	late
+ILMN_3134412	Dph3	Mus musculus DPH3 homolog (KTI11, S. cerevisiae) (Dph3), transcript variant 2, mRNA.	0.44	3.9e-06	0.00015	11m	up	late
+ILMN_1221719	Bscl2	Mus musculus Bernardinelli-Seip congenital lipodystrophy 2 homolog (human) (Bscl2), mRNA.	0.45	3.81e-06	0.00015	11m	up	late
+ILMN_2698282	Fusip1		0.47	4.02e-06	0.00015	11m	up	late
+ILMN_1220360	Unc13b		0.52	4.02e-06	0.00015	11m	up	late
+ILMN_2717045	Prdx4	Mus musculus peroxiredoxin 4 (Prdx4), mRNA.	0.53	4e-06	0.00015	11m	up	late
+ILMN_2946905	Slc25a38	Mus musculus solute carrier family 25, member 38 (Slc25a38), mRNA.	0.46	4.31e-06	0.00016	11m	up	late
+ILMN_2867147	Tyrobp	Mus musculus TYRO protein tyrosine kinase binding protein (Tyrobp), mRNA.	0.52	4.2e-06	0.00016	11m	up	late
+ILMN_2991660	Mif4gd	Mus musculus MIF4G domain containing (Mif4gd), mRNA.	0.64	4.33e-06	0.00016	11m	up	late
+ILMN_2676726	2610300b10rik		0.43	4.45e-06	0.00017	11m	up	late
+ILMN_2883414	Cenpl	Mus musculus centromere protein L (Cenpl), mRNA.	0.43	4.48e-06	0.00017	11m	up	late
+ILMN_2877069	Tspo	Mus musculus translocator protein (Tspo), mRNA.	0.45	4.41e-06	0.00017	11m	up	late
+ILMN_1242377	Ptdsr		0.46	4.42e-06	0.00017	11m	up	late
+ILMN_2865939	Ccdc100	Mus musculus coiled-coil domain containing 100 (Ccdc100), mRNA.	0.41	4.95e-06	0.00018	11m	up	late
+ILMN_2645439	Bmi1	Mus musculus Bmi1 polycomb ring finger oncogene (Bmi1), mRNA.	0.43	4.95e-06	0.00018	11m	up	late
+ILMN_2805624	Aw456874	Mus musculus protein tyrosine phosphatase domain containing 1 (Ptpdc1), mRNA.	0.52	5.52e-06	2e-04	11m	up	late
+ILMN_1225374	1110007c02rik		0.4	5.86e-06	0.00021	11m	up	late
+ILMN_3162081	Wdr6	Mus musculus WD repeat domain 6 (Wdr6), mRNA.	0.7	5.86e-06	0.00021	11m	up	late
+ILMN_2945348	Glrx	Mus musculus glutaredoxin (Glrx), mRNA.	0.5	6.1e-06	0.00022	11m	up	late
+ILMN_2753492	Ripk1	Mus musculus receptor (TNFRSF)-interacting serine-threonine kinase 1 (Ripk1), mRNA.	0.34	6.27e-06	0.00023	11m	up	late
+ILMN_1219860	Ltk	Mus musculus leukocyte tyrosine kinase (Ltk), transcript variant 4, mRNA.	0.42	6.35e-06	0.00023	11m	up	late
+ILMN_2725414	Cd9		0.64	7.3e-06	0.00026	11m	up	late
+ILMN_2913166	Serping1	Mus musculus serine (or cysteine) peptidase inhibitor, clade G, member 1 (Serping1), mRNA.	0.79	7.25e-06	0.00026	11m	up	late
+ILMN_2732695	Dscr1l2	Mus musculus Down syndrome critical region gene 1-like 2 (Dscr1l2), mRNA.	0.4	7.56e-06	0.00027	11m	up	late
+ILMN_3046773	Otud7b	Mus musculus OTU domain containing 7B (Otud7b), transcript variant 1, mRNA.	0.41	7.66e-06	0.00027	11m	up	late
+ILMN_2776603	Ccl9		0.51	7.75e-06	0.00027	11m	up	late
+ILMN_2619107	Lgals1		0.54	7.77e-06	0.00027	11m	up	late
+ILMN_2753109	1110012m11rik	Mus musculus RIKEN cDNA 1110012M11 gene (1110012M11Rik), mRNA.	0.44	7.82e-06	0.00028	11m	up	late
+ILMN_2901409	6430550h21rik	Mus musculus RIKEN cDNA 6430550H21 gene (6430550H21Rik), mRNA.	0.54	8.06e-06	0.00028	11m	up	late
+ILMN_1216042	Apoe	Mus musculus apolipoprotein E (Apoe), mRNA.	0.62	7.99e-06	0.00028	11m	up	late
+ILMN_2715840	C1qg		0.62	8.02e-06	0.00028	11m	up	late
+ILMN_1238676	Phr1		0.34	8.48e-06	3e-04	11m	up	late
+ILMN_2668927	Apod		0.95	8.49e-06	3e-04	11m	up	late
+ILMN_2712066	Pgd		0.48	9.34e-06	0.00032	11m	up	late
+ILMN_2690938	Evc2		0.56	9.27e-06	0.00032	11m	up	late
+ILMN_2681232	D12ertd647e	Mus musculus DNA segment, Chr 12, ERATO Doi 647, expressed (D12Ertd647e), transcript variant 1, mRNA.	0.58	9.06e-06	0.00032	11m	up	late
+ILMN_2768984	Anln	Mus musculus anillin, actin binding protein (scraps homolog, Drosophila) (Anln), mRNA.	0.44	9.47e-06	0.00033	11m	up	late
+ILMN_2625377	Rgs1		0.39	1.07e-05	0.00036	11m	up	late
+ILMN_2981363	Emilin2	Mus musculus elastin microfibril interfacer 2 (Emilin2), mRNA.	0.42	1.05e-05	0.00036	11m	up	late
+ILMN_2659168	Cib2	Mus musculus calcium and integrin binding family member 2 (Cib2), mRNA.	0.65	1.07e-05	0.00036	11m	up	late
+ILMN_3052430	Cd63		0.5	1.14e-05	0.00038	11m	up	late
+ILMN_3031781	Arid5b	Mus musculus AT rich interactive domain 5B (Mrf1 like) (Arid5b), mRNA.	0.64	1.14e-05	0.00038	11m	up	late
+ILMN_2655721	Stat1		0.4	1.15e-05	0.00039	11m	up	late
+ILMN_1219568	Pmm2		0.38	1.23e-05	0.00041	11m	up	late
+ILMN_2686700	Abca8a		0.58	1.24e-05	0.00042	11m	up	late
+ILMN_2930819	Acd	Mus musculus adrenocortical dysplasia (Acd), mRNA.	0.29	1.27e-05	0.00043	11m	up	late
+ILMN_3058640	Als2cr4	Mus musculus amyotrophic lateral sclerosis 2 (juvenile) chromosome region, candidate 4 (Als2cr4), transcript variant 2, mRNA. XM_909142 XM_921139 XM_921149 XM_921172 XM_921181	0.39	1.32e-05	0.00044	11m	up	late
+ILMN_2740134	Idh3a	Mus musculus isocitrate dehydrogenase 3 (NAD+) alpha (Idh3a), mRNA.	0.4	1.32e-05	0.00044	11m	up	late
+ILMN_2421431	Stx12		0.43	1.31e-05	0.00044	11m	up	late
+ILMN_1232524	Hist1h4i		0.48	1.4e-05	0.00046	11m	up	late
+ILMN_2648445	Slc27a2		0.35	1.43e-05	0.00047	11m	up	late
+ILMN_2600565	Maged2	Mus musculus melanoma antigen, family D, 2 (Maged2), mRNA.	0.43	1.42e-05	0.00047	11m	up	late
+ILMN_3132186	Pcyt1b	Mus musculus phosphate cytidylyltransferase 1, choline, beta isoform (Pcyt1b), transcript variant 2, mRNA.	0.38	1.55e-05	0.00051	11m	up	late
+ILMN_2936671	Skap2	Mus musculus src family associated phosphoprotein 2 (Skap2), mRNA.	0.48	1.59e-05	0.00052	11m	up	late
+ILMN_1247036	Ttc3	Mus musculus tetratricopeptide repeat domain 3 (Ttc3), mRNA.	0.43	1.76e-05	0.00057	11m	up	late
+ILMN_2834728	Prkcn	Mus musculus protein kinase C, nu (Prkcn), mRNA.	0.36	1.85e-05	0.00059	11m	up	late
+ILMN_3001914	Nfkbia	Mus musculus nuclear factor of kappa light chain gene enhancer in B-cells inhibitor, alpha (Nfkbia), mRNA.	0.75	1.85e-05	0.00059	11m	up	late
+ILMN_2648200	Itpkc	Mus musculus inositol 1,4,5-trisphosphate 3-kinase C (Itpkc), mRNA.	0.43	1.89e-05	6e-04	11m	up	late
+ILMN_1255823	2010110m21rik	Mus musculus HIG1 domain family, member 2A (Higd2a), mRNA.	0.31	2e-05	0.00063	11m	up	late
+ILMN_2660028	1700023o11rik	Mus musculus coiled-coil domain containing 101 (Ccdc101), mRNA.	0.45	2.03e-05	0.00064	11m	up	late
+ILMN_1242053	Ppp6c		0.38	2.05e-05	0.00065	11m	up	late
+ILMN_2772077	Bok		0.81	2.06e-05	0.00065	11m	up	late
+ILMN_2615380	A530050d06rik		0.38	2.16e-05	0.00067	11m	up	late
+ILMN_2625854	2310016c16rik	Mus musculus RIKEN cDNA 2310016C16 gene (2310016C16Rik), mRNA.	0.48	2.15e-05	0.00067	11m	up	late
+ILMN_2664319	Irf3		0.34	2.18e-05	0.00068	11m	up	late
+ILMN_3153207	Lamp2	Mus musculus lysosomal-associated membrane protein 2 (Lamp2), transcript variant 1, mRNA.	0.42	2.18e-05	0.00068	11m	up	late
+ILMN_2724530	Pmm2		0.47	2.19e-05	0.00068	11m	up	late
+ILMN_1224855	Aa175286		0.48	2.21e-05	0.00068	11m	up	late
+ILMN_2744587	Cib2	Mus musculus calcium and integrin binding family member 2 (Cib2), mRNA.	0.54	2.17e-05	0.00068	11m	up	late
+ILMN_2715546	Gpx3	Mus musculus glutathione peroxidase 3 (Gpx3), mRNA.	0.74	2.18e-05	0.00068	11m	up	late
+ILMN_2769918	Timp1		0.39	2.32e-05	0.00071	11m	up	late
+ILMN_1245115	B430104h02rik		0.47	2.31e-05	0.00071	11m	up	late
+ILMN_1256420	Slc25a38	Mus musculus solute carrier family 25, member 38 (Slc25a38), mRNA.	0.51	2.34e-05	0.00072	11m	up	late
+ILMN_2875938	Pccb	Mus musculus propionyl Coenzyme A carboxylase, beta polypeptide (Pccb), mRNA.	0.29	2.39e-05	0.00073	11m	up	late
+ILMN_1234702	Gpt2	Mus musculus glutamic pyruvate transaminase (alanine aminotransferase) 2 (Gpt2), mRNA.	0.51	2.38e-05	0.00073	11m	up	late
+ILMN_2519677	Triobp		0.39	2.44e-05	0.00074	11m	up	late
+ILMN_3020829	Npm3	Mus musculus nucleoplasmin 3 (Npm3), mRNA.	0.42	2.47e-05	0.00075	11m	up	late
+ILMN_1237773	Rhou	Mus musculus ras homolog gene family, member U (Rhou), mRNA.	0.76	2.48e-05	0.00075	11m	up	late
+ILMN_3162089	Snx4		0.35	2.52e-05	0.00076	11m	up	late
+ILMN_2950837	Mfn1	Mus musculus mitofusin 1 (Mfn1), mRNA.	0.39	2.52e-05	0.00076	11m	up	late
+ILMN_2723058	Plod3	Mus musculus procollagen-lysine, 2-oxoglutarate 5-dioxygenase 3 (Plod3), mRNA.	0.43	2.52e-05	0.00076	11m	up	late
+ILMN_3112873	Txnip	Mus musculus thioredoxin interacting protein (Txnip), transcript variant 1, mRNA.	0.55	2.5e-05	0.00076	11m	up	late
+ILMN_2724868	Appbp2		0.29	2.58e-05	0.00077	11m	up	late
+ILMN_2721980	Aw551984	Mus musculus expressed sequence AW551984 (AW551984), mRNA.	0.37	2.62e-05	0.00078	11m	up	late
+ILMN_2941840	Syap1	Mus musculus synapse associated protein 1 (Syap1), mRNA.	0.38	2.61e-05	0.00078	11m	up	late
+ILMN_2641678	Dhrs6	Mus musculus 3-hydroxybutyrate dehydrogenase, type 2 (Bdh2), mRNA.	0.41	2.73e-05	0.00081	11m	up	late
+ILMN_1245383	Sec23b		0.5	2.73e-05	0.00081	11m	up	late
+ILMN_1247317	Cct3	Mus musculus chaperonin subunit 3 (gamma) (Cct3), mRNA.	0.33	2.76e-05	0.00082	11m	up	late
+ILMN_2641229	Cd109	Mus musculus CD109 antigen (Cd109), mRNA.	0.33	2.79e-05	0.00082	11m	up	late
+ILMN_1232766	C330023f11rik	Mus musculus saccharopine dehydrogenase (putative) (Sccpdh), mRNA.	0.42	2.86e-05	0.00084	11m	up	late
+ILMN_2715558	Arhgap17	Mus musculus Rho GTPase activating protein 17 (Arhgap17), mRNA.	0.43	2.87e-05	0.00084	11m	up	late
+ILMN_1239055	Xdh		0.6	2.9e-05	0.00085	11m	up	late
+ILMN_2678431	Mns1	Mus musculus meiosis-specific nuclear structural protein 1 (Mns1), mRNA.	0.51	3.04e-05	0.00089	11m	up	late
+ILMN_2995426	Rbm43	Mus musculus RNA binding motif protein 43 (Rbm43), mRNA.	0.33	3.2e-05	0.00093	11m	up	late
+ILMN_1221007	Prkcn	Mus musculus protein kinase C, nu (Prkcn), mRNA.	0.44	3.18e-05	0.00093	11m	up	late
+ILMN_2418324	Usp54		0.48	3.2e-05	0.00093	11m	up	late
+ILMN_2614212	Mapkapk2	Mus musculus MAP kinase-activated protein kinase 2 (Mapkapk2), mRNA.	0.52	3.2e-05	0.00093	11m	up	late
+ILMN_2935012	Anxa4	Mus musculus annexin A4 (Anxa4), mRNA.	0.33	3.33e-05	0.00096	11m	up	late
+ILMN_1230730	Ate1	Mus musculus arginine-tRNA-protein transferase 1 (Ate1), transcript variant 1, mRNA.	0.46	3.34e-05	0.00096	11m	up	late
+ILMN_2682279	Gkap1	Mus musculus G kinase anchoring protein 1 (Gkap1), mRNA.	0.49	3.45e-05	0.00099	11m	up	late
+ILMN_2602588	Zc3hc1	Mus musculus zinc finger, C3HC type 1 (Zc3hc1), mRNA.	0.36	3.51e-05	0.001	11m	up	late
+ILMN_2978009	B3bp	Mus musculus Bcl3 binding protein (B3bp), mRNA.	0.35	3.55e-05	0.00101	11m	up	late
+ILMN_1215772	Polr3k	Mus musculus polymerase (RNA) III (DNA directed) polypeptide K (Polr3k), mRNA.	0.36	3.56e-05	0.00101	11m	up	late
+ILMN_1227723	0610006k04rik	Mus musculus nudix (nucleoside diphosphate linked moiety X)-type motif 22 (Nudt22), mRNA.	0.49	3.53e-05	0.00101	11m	up	late
+ILMN_3127335	Sytl2	Mus musculus synaptotagmin-like 2 (Sytl2), transcript variant 5, mRNA.	0.55	3.54e-05	0.00101	11m	up	late
+ILMN_2647921	Kif1b		0.56	3.56e-05	0.00101	11m	up	late
+ILMN_1225764	1700018o18rik		0.64	3.56e-05	0.00101	11m	up	late
+ILMN_2694917	Sap30	Mus musculus sin3 associated polypeptide (Sap30), mRNA.	0.63	3.65e-05	0.00103	11m	up	late
+ILMN_2612350	Stx18		0.39	3.72e-05	0.00104	11m	up	late
+ILMN_2991263	Ss18l1	Mus musculus synovial sarcoma translocation gene on chromosome 18-like 1 (Ss18l1), mRNA.	0.42	3.86e-05	0.00108	11m	up	late
+ILMN_2692399	Thsd6	Mus musculus ADAMTS-like 5 (Adamtsl5), mRNA.	0.37	3.96e-05	0.0011	11m	up	late
+ILMN_2820948	Dbt	Mus musculus dihydrolipoamide branched chain transacylase E2 (Dbt), mRNA.	0.32	3.98e-05	0.00111	11m	up	late
+ILMN_2721975	Aw551984	Mus musculus expressed sequence AW551984 (AW551984), mRNA.	0.36	3.98e-05	0.00111	11m	up	late
+ILMN_2678336	Ctf1	Mus musculus cardiotrophin 1 (Ctf1), mRNA.	0.36	3.99e-05	0.00111	11m	up	late
+ILMN_2870696	Hfe	Mus musculus hemochromatosis (Hfe), mRNA.	0.41	3.99e-05	0.00111	11m	up	late
+ILMN_2454880	Zcchc8		0.38	4.12e-05	0.00113	11m	up	late
+ILMN_2718815	Faf1	Mus musculus Fas-associated factor 1 (Faf1), mRNA.	0.34	4.14e-05	0.00114	11m	up	late
+ILMN_2500276	Ccng1		0.51	4.13e-05	0.00114	11m	up	late
+ILMN_2619528	Klhl6	Mus musculus kelch-like 6 (Drosophila) (Klhl6), mRNA.	0.52	4.14e-05	0.00114	11m	up	late
+ILMN_2592709	Ifngr2	Mus musculus interferon gamma receptor 2 (Ifngr2), mRNA.	0.43	4.21e-05	0.00115	11m	up	late
+ILMN_2628647	Ddc		0.63	4.42e-05	0.00121	11m	up	late
+ILMN_2600042	Slc35a5	Mus musculus solute carrier family 35, member A5 (Slc35a5), mRNA.	0.41	4.46e-05	0.00122	11m	up	late
+ILMN_2693835	Arrdc2		0.36	4.66e-05	0.00126	11m	up	late
+ILMN_2755021	Chkb		0.41	4.69e-05	0.00127	11m	up	late
+ILMN_2796429	Psip1	Mus musculus PC4 and SFRS1 interacting protein 1 (Psip1), mRNA.	0.39	4.75e-05	0.00128	11m	up	late
+ILMN_2836710	Cd151	Mus musculus CD151 antigen (Cd151), mRNA.	0.43	4.72e-05	0.00128	11m	up	late
+ILMN_1221750	Lmyc1	Mus musculus v-myc myelocytomatosis viral oncogene homolog 1, lung carcinoma derived (avian) (Mycl1), mRNA.	0.52	4.78e-05	0.00129	11m	up	late
+ILMN_1219375	6430604k15rik	Mus musculus RIKEN cDNA 6430604K15 gene (6430604K15Rik), mRNA.	0.33	4.86e-05	0.00131	11m	up	late
+ILMN_2603953	Stip1	Mus musculus stress-induced phosphoprotein 1 (Stip1), mRNA.	0.35	4.95e-05	0.00133	11m	up	late
+ILMN_2760105	Olig1		0.53	5.05e-05	0.00135	11m	up	late
+ILMN_2648991	Fnta	Mus musculus farnesyltransferase, CAAX box, alpha (Fnta), mRNA.	0.3	5.06e-05	0.00136	11m	up	late
+ILMN_1213483	B430214a04rik	Mus musculus folliculin (Flcn), mRNA.	0.33	5.07e-05	0.00136	11m	up	late
+ILMN_2720034	Btf3		0.38	5.12e-05	0.00137	11m	up	late
+ILMN_2662387	Lmna	Mus musculus lamin A (Lmna), transcript variant 2, mRNA.	0.4	5.13e-05	0.00137	11m	up	late
+ILMN_2887065	Mvp	Mus musculus major vault protein (Mvp), mRNA.	0.39	5.16e-05	0.00138	11m	up	late
+ILMN_2627566	Capn5		0.45	5.25e-05	0.00139	11m	up	late
+ILMN_2874414	Usp19	Mus musculus ubiquitin specific peptidase 19 (Usp19), mRNA.	0.43	5.35e-05	0.00141	11m	up	late
+ILMN_3020240	Hbp1	Mus musculus high mobility group box transcription factor 1 (Hbp1), transcript variant 1, mRNA.	0.34	5.39e-05	0.00142	11m	up	late
+ILMN_1251504	Cyp4v3		0.35	5.5e-05	0.00144	11m	up	late
+ILMN_2653215	Nagk	Mus musculus N-acetylglucosamine kinase (Nagk), mRNA.	0.42	5.46e-05	0.00144	11m	up	late
+ILMN_3142384	Gprasp1		0.38	5.55e-05	0.00145	11m	up	late
+ILMN_2651496	Actr5		0.35	5.57e-05	0.00146	11m	up	late
+ILMN_1239345	Asf1a		0.41	5.61e-05	0.00146	11m	up	late
+ILMN_3099741	Armc9	Mus musculus armadillo repeat containing 9 (Armc9), transcript variant 2, mRNA.	0.34	5.68e-05	0.00148	11m	up	late
+ILMN_2878430	Rpl30	Mus musculus ribosomal protein L30 (Rpl30), mRNA.	0.4	5.66e-05	0.00148	11m	up	late
+ILMN_2442075	Topors		0.37	5.88e-05	0.00152	11m	up	late
+ILMN_2893077	Rps6	Mus musculus ribosomal protein S6 (Rps6), mRNA.	0.38	5.87e-05	0.00152	11m	up	late
+ILMN_2781602	Ier3ip1	Mus musculus immediate early response 3 interacting protein 1 (Ier3ip1), mRNA.	0.39	5.84e-05	0.00152	11m	up	late
+ILMN_2840514	Klhl6	Mus musculus kelch-like 6 (Drosophila) (Klhl6), mRNA.	0.46	6.01e-05	0.00155	11m	up	late
+ILMN_1235354	Prkar1b	Mus musculus protein kinase, cAMP dependent regulatory, type I beta (Prkar1b), mRNA.	0.36	6.25e-05	0.00161	11m	up	late
+ILMN_3114124	Hsd3b7	Mus musculus hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 7 (Hsd3b7), transcript variant 1, mRNA.	0.43	6.3e-05	0.00162	11m	up	late
+ILMN_1216987	Abca2		0.36	6.46e-05	0.00165	11m	up	late
+ILMN_1235006	Slc14a1		0.41	6.43e-05	0.00165	11m	up	late
+ILMN_2846776	Cdkn1a	Mus musculus cyclin-dependent kinase inhibitor 1A (P21) (Cdkn1a), mRNA.	0.68	6.44e-05	0.00165	11m	up	late
+ILMN_2994744	Rrm2b	Mus musculus ribonucleotide reductase M2 B (TP53 inducible) (Rrm2b), mRNA.	0.41	6.6e-05	0.00168	11m	up	late
+ILMN_2731424	Bc038156		0.35	6.92e-05	0.00175	11m	up	late
+ILMN_2741629	C130036g08	&nbsp;corresponding to Tmem130<br>	0.35	6.92e-05	0.00175	11m	up	late
+ILMN_3161021	Prkra		0.39	6.97e-05	0.00176	11m	up	late
+ILMN_1239662	Slc4a2	Mus musculus solute carrier family 4 (anion exchanger), member 2 (Slc4a2), mRNA.	0.54	6.98e-05	0.00176	11m	up	late
+ILMN_1244829	Hap1		0.54	7.04e-05	0.00177	11m	up	late
+ILMN_2932660	Tmub1	Mus musculus transmembrane and ubiquitin-like domain containing 1 (Tmub1), mRNA.	0.31	7.62e-05	0.00189	11m	up	late
+ILMN_1258372	Pex11b	Mus musculus peroxisomal biogenesis factor 11b (Pex11b), mRNA.	0.32	7.59e-05	0.00189	11m	up	late
+ILMN_2838139	Zfp52	Mus musculus zinc finger protein 52 (Zfp52), mRNA.	0.33	7.64e-05	0.0019	11m	up	late
+ILMN_2695217	2810485i05rik		0.31	7.92e-05	0.00196	11m	up	late
+ILMN_2621847	Cib1	Mus musculus calcium and integrin binding 1 (calmyrin) (Cib1), mRNA.	0.32	7.92e-05	0.00196	11m	up	late
+ILMN_2668696	Il13ra1		0.4	7.93e-05	0.00196	11m	up	late
+ILMN_2611180	Ccdc3		0.62	7.96e-05	0.00196	11m	up	late
+ILMN_1259473	Fen1		0.35	8.06e-05	0.00198	11m	up	late
+ILMN_2625993	Nfya		0.35	8.13e-05	0.00199	11m	up	late
+ILMN_1215096	Entpd5		0.31	8.2e-05	0.002	11m	up	late
+ILMN_1253773	Nudt6		0.31	8.15e-05	0.002	11m	up	late
+ILMN_2996561	Gpr177	Mus musculus G protein-coupled receptor 177 (Gpr177), mRNA.	0.37	8.19e-05	0.002	11m	up	late
+ILMN_2655929	2700055k07rik	Mus musculus tubulin polymerization-promoting protein family member 3 (Tppp3), mRNA.	0.53	8.17e-05	0.002	11m	up	late
+ILMN_2620603	Smyd4	Mus musculus SET and MYND domain containing 4 (Smyd4), mRNA.	0.51	8.55e-05	0.00208	11m	up	late
+ILMN_2515349	Zfp64	Mus musculus zinc finger protein 64 (Zfp64), mRNA.	0.33	8.62e-05	0.00209	11m	up	late
+ILMN_2705097	Deadc1		0.41	8.64e-05	0.00209	11m	up	late
+ILMN_2693403	Ela1	Mus musculus elastase 1, pancreatic (Ela1), mRNA.	0.46	8.7e-05	0.0021	11m	up	late
+ILMN_2733514	Hdac1		0.37	8.74e-05	0.00211	11m	up	late
+ILMN_2710176	Kazald1		0.44	8.72e-05	0.00211	11m	up	late
+ILMN_1224770	Gprasp1		0.29	9.07e-05	0.00218	11m	up	late
+ILMN_2993455	Nedd1	Mus musculus neural precursor cell expressed, developmentally down-regulated gene 1 (Nedd1), mRNA.	0.31	9.34e-05	0.00224	11m	up	late
+ILMN_2733120	Lbr		0.44	9.34e-05	0.00224	11m	up	late
+ILMN_2656282	Chuk	Mus musculus conserved helix-loop-helix ubiquitous kinase (Chuk), mRNA.	0.36	9.4e-05	0.00225	11m	up	late
+ILMN_3140383	Hspa2		0.46	9.41e-05	0.00225	11m	up	late
+ILMN_2444316	Tpm3	Mus musculus tropomyosin 3, gamma (Tpm3), mRNA.	0.37	9.49e-05	0.00227	11m	up	late
+ILMN_2759012	Plxnb3		0.42	9.68e-05	0.00231	11m	up	late
+ILMN_2795178	Rftn2	Mus musculus raftlin family member 2 (Rftn2), mRNA. XM_920263 XM_986521 XM_986556 XM_986596 XM_986637 XM_986673	0.37	9.7e-05	0.00232	11m	up	late
+ILMN_1232495	Vil2		0.47	9.72e-05	0.00232	11m	up	late
+ILMN_2757844	2410012c07rik		0.66	9.79e-05	0.00233	11m	up	late
+ILMN_2873174	A730008l03rik	Mus musculus RIKEN cDNA A730008L03 gene (A730008L03Rik), mRNA.	0.35	9.97e-05	0.00237	11m	up	late
+ILMN_2493067	Zranb3		0.35	1e-04	0.00239	11m	up	late
+ILMN_2639809	Nucb1	Mus musculus nucleobindin 1 (Nucb1), mRNA.	0.38	1e-04	0.00239	11m	up	late
+ILMN_1250356	Gjb6	Mus musculus gap junction membrane channel protein beta 6 (Gjb6), transcript variant 1, mRNA.	0.68	1e-04	0.00243	11m	up	late
+ILMN_1212835	Ugt1a6a	Mus musculus UDP glucuronosyltransferase 1 family, polypeptide A6A (Ugt1a6a), mRNA.	0.58	1e-04	0.00245	11m	up	late
+ILMN_2856926	Gpr114	Mus musculus G protein-coupled receptor 114 (Gpr114), mRNA.	0.3	0.00011	0.00248	11m	up	late
+ILMN_3162895	Tceal3	Mus musculus transcription elongation factor A (SII)-like 3 (Tceal3), mRNA.	0.47	0.00011	0.00249	11m	up	late
+ILMN_2694960	Msn		0.4	0.00011	0.0025	11m	up	late
+ILMN_2685478	Rdh14	Mus musculus retinol dehydrogenase 14 (all-trans and 9-cis) (Rdh14), mRNA.	0.39	0.00011	0.00252	11m	up	late
+ILMN_2762944	2310061n23rik		0.43	0.00011	0.00252	11m	up	late
+ILMN_2594593	Mpp5	Mus musculus membrane protein, palmitoylated 5 (MAGUK p55 subfamily member 5) (Mpp5), mRNA.	0.4	0.00011	0.00253	11m	up	late
+ILMN_2675677	Pnma3	Mus musculus paraneoplastic antigen MA3 (Pnma3), mRNA.	0.45	0.00011	0.00256	11m	up	late
+ILMN_2852904	Ublcp1	Mus musculus ubiquitin-like domain containing CTD phosphatase 1 (Ublcp1), mRNA.	0.3	0.00011	0.00258	11m	up	late
+ILMN_1230912	Phf6	Mus musculus PHD finger protein 6 (Phf6), mRNA.	0.34	0.00011	0.0026	11m	up	late
+ILMN_2823269	Dscr1l2	Mus musculus Down syndrome critical region gene 1-like 2 (Dscr1l2), mRNA.	0.4	0.00011	0.00264	11m	up	late
+ILMN_2846775	Cdkn1a	Mus musculus cyclin-dependent kinase inhibitor 1A (P21) (Cdkn1a), mRNA.	0.75	0.00011	0.00264	11m	up	late
+ILMN_1220039	Kif4	Mus musculus kinesin family member 4 (Kif4), mRNA.	0.28	0.00011	0.00265	11m	up	late
+ILMN_2918479	Hspa8	Mus musculus heat shock protein 8 (Hspa8), mRNA.	0.55	0.00011	0.00266	11m	up	late
+ILMN_2635813	Nudt12		0.4	0.00012	0.00267	11m	up	late
+ILMN_2428388	5830411k18rik		0.38	0.00012	0.00268	11m	up	late
+ILMN_2672543	Dximx50e		0.38	0.00012	0.0027	11m	up	late
+ILMN_1237939	Prkrir	Mus musculus protein-kinase, interferon-inducible double stranded RNA dependent inhibitor, repressor of (P58 repressor) (Prkrir), mRNA.	0.32	0.00012	0.00271	11m	up	late
+ILMN_2490271	Zfp27		0.36	0.00012	0.00271	11m	up	late
+ILMN_2930203	Ugt1a10	Mus musculus UDP glycosyltransferase 1 family, polypeptide A10 (Ugt1a10), mRNA.	0.57	0.00012	0.00274	11m	up	late
+ILMN_1243752	5730449l18rik	Mus musculus RIKEN cDNA 5730449L18 gene (5730449L18Rik), mRNA.	0.38	0.00012	0.00277	11m	up	late
+ILMN_3146420	Slc12a2		0.48	0.00012	0.00282	11m	up	late
+ILMN_2620326	Cyp27a1	Mus musculus cytochrome P450, family 27, subfamily a, polypeptide 1 (Cyp27a1), mRNA.	0.4	0.00012	0.00285	11m	up	late
+ILMN_2744193	Lrrc8a	Mus musculus leucine rich repeat containing 8A (Lrrc8a), mRNA.	0.59	0.00013	0.00291	11m	up	late
+ILMN_1221684	Scp2	Mus musculus sterol carrier protein 2, liver (Scp2), mRNA.	0.35	0.00013	0.00297	11m	up	late
+ILMN_1255766	Sh3bp2		0.47	0.00013	0.00297	11m	up	late
+ILMN_2625855	2310016c16rik	Mus musculus RIKEN cDNA 2310016C16 gene (2310016C16Rik), mRNA.	0.47	0.00013	0.00301	11m	up	late
+ILMN_2697760	Nkx2-3		0.3	0.00013	0.00305	11m	up	late
+ILMN_2831283	Tmem43	Mus musculus transmembrane protein 43 (Tmem43), mRNA.	0.4	0.00014	0.00311	11m	up	late
+ILMN_2589819	Rabggtb	Mus musculus RAB geranylgeranyl transferase, b subunit (Rabggtb), mRNA.	0.41	0.00014	0.00311	11m	up	late
+ILMN_2805672	Pftk1	Mus musculus PFTAIRE protein kinase 1 (Pftk1), mRNA.	0.49	0.00014	0.00315	11m	up	late
+ILMN_1216614	Al022779		0.31	0.00014	0.00316	11m	up	late
+ILMN_1238479	Mgst3	Mus musculus microsomal glutathione S-transferase 3 (Mgst3), mRNA.	0.44	0.00014	0.00316	11m	up	late
+ILMN_2835683	H2-gs17	Mus musculus predicted gene, EG667977 (EG667977), mRNA.	0.63	0.00014	0.00316	11m	up	late
+ILMN_3016099	Dido1	Mus musculus death inducer-obliterator 1 (Dido1), transcript variant 1, mRNA.	0.34	0.00014	0.00317	11m	up	late
+ILMN_2733933	Narg1l	Mus musculus NMDA receptor regulated 1-like (Narg1l), mRNA.	0.37	0.00014	0.00322	11m	up	late
+ILMN_1259470	1810009m01rik	Mus musculus transmembrane protein 176B (Tmem176b), mRNA.	0.67	0.00015	0.00325	11m	up	late
+ILMN_1235688	Cd151		0.41	0.00015	0.00326	11m	up	late
+ILMN_1252243	0610009o03rik	Mus musculus RIKEN cDNA 0610009O03 gene (0610009O03Rik), mRNA.	0.37	0.00015	0.00327	11m	up	late
+ILMN_2776431	C1qa		0.56	0.00015	0.00327	11m	up	late
+ILMN_1223353	Hp1bp3	Mus musculus heterochromatin protein 1, binding protein 3 (Hp1bp3), mRNA.	0.28	0.00015	0.00332	11m	up	late
+ILMN_1242233	Loc230075		0.22	0.00015	0.00335	11m	up	late
+ILMN_2440530	Vat1	Mus musculus vesicle amine transport protein 1 homolog (T californica) (Vat1), mRNA.	0.33	0.00015	0.00336	11m	up	late
+ILMN_2676066	Stard7	Mus musculus START domain containing 7 (Stard7), mRNA.	0.35	0.00015	0.00336	11m	up	late
+ILMN_1236988	Rufy1	Mus musculus RUN and FYVE domain containing 1 (Rufy1), mRNA.	0.36	0.00015	0.00338	11m	up	late
+ILMN_2648170	Pdcd2		0.3	0.00015	0.00341	11m	up	late
+ILMN_2800861	Brpf1	Mus musculus bromodomain and PHD finger containing, 1 (Brpf1), mRNA.	0.28	0.00016	0.00344	11m	up	late
+ILMN_1216746	B2m	Mus musculus beta-2 microglobulin (B2m), mRNA.	0.58	0.00016	0.00344	11m	up	late
+ILMN_2821916	Nicn1	Mus musculus nicolin 1 (Nicn1), mRNA.	0.4	0.00016	0.00345	11m	up	late
+ILMN_2750905	Lrriq2		0.32	0.00016	0.00354	11m	up	late
+ILMN_2509139	Tram1	Mus musculus translocating chain-associating membrane protein 1 (Tram1), mRNA.	0.43	0.00016	0.00357	11m	up	late
+ILMN_2663249	Slamf9	Mus musculus SLAM family member 9 (Slamf9), mRNA.	0.46	0.00016	0.00357	11m	up	late
+ILMN_2943972	Cxx1c	Mus musculus CAAX box 1 homolog C (human) (Cxx1c), mRNA.	0.33	0.00016	0.00359	11m	up	late
+ILMN_2630438	Psmd7	Mus musculus proteasome (prosome, macropain) 26S subunit, non-ATPase, 7 (Psmd7), mRNA.	0.34	0.00017	0.00362	11m	up	late
+ILMN_2519673	Vwf		0.4	0.00017	0.00366	11m	up	late
+ILMN_2614494	Fah	Mus musculus fumarylacetoacetate hydrolase (Fah), mRNA.	0.41	0.00017	0.00369	11m	up	late
+ILMN_2723920	Itpk1	Mus musculus inositol 1,3,4-triphosphate 5/6 kinase (Itpk1), mRNA.	0.44	0.00017	0.00372	11m	up	late
+ILMN_2704027	Slc25a18		0.5	0.00017	0.00372	11m	up	late
+ILMN_1259956	Barx1	Mus musculus BarH-like homeobox 1 (Barx1), mRNA.	0.25	0.00017	0.00376	11m	up	late
+ILMN_3104094	2610208m17rik	Mus musculus RIKEN cDNA 2610208M17 gene (2610208M17Rik), mRNA.	0.27	0.00017	0.00376	11m	up	late
+ILMN_2700107	Rpo1-4		0.33	0.00018	0.00378	11m	up	late
+ILMN_2848463	Mthfsd	Mus musculus methenyltetrahydrofolate synthetase domain containing (Mthfsd), mRNA.	0.39	0.00018	0.00378	11m	up	late
+ILMN_2791074	Wdr60	Mus musculus WD repeat domain 60 (Wdr60), mRNA.	0.39	0.00018	0.00382	11m	up	late
+ILMN_1234337	Leng1		0.31	0.00018	0.00383	11m	up	late
+ILMN_1250182	D030051d21		0.39	0.00018	0.00383	11m	up	late
+ILMN_2896582	Snx6	Mus musculus sorting nexin 6 (Snx6), mRNA.	0.36	0.00018	0.00386	11m	up	late
+ILMN_2653166	2310016c16rik	Mus musculus RIKEN cDNA 2310016C16 gene (2310016C16Rik), mRNA.	0.37	0.00018	0.00387	11m	up	late
+ILMN_2739999	B2m	Mus musculus beta-2 microglobulin (B2m), mRNA.	0.61	0.00018	0.00387	11m	up	late
+ILMN_2803286	Tex9	Mus musculus testis expressed gene 9 (Tex9), mRNA.	0.42	0.00018	0.00389	11m	up	late
+ILMN_2870688	Anapc7	Mus musculus anaphase promoting complex subunit 7 (Anapc7), mRNA.	0.36	0.00019	0.00398	11m	up	late
+ILMN_3065164	Bex2	Mus musculus brain expressed X-linked 2 (Bex2), mRNA.	0.32	0.00019	0.004	11m	up	late
+ILMN_2737374	1500001l15rik		0.33	0.00019	0.004	11m	up	late
+ILMN_1244123	Slc38a2	Mus musculus solute carrier family 38, member 2 (Slc38a2), mRNA.	0.39	0.00019	0.004	11m	up	late
+ILMN_1225261	Uchl1	Mus musculus ubiquitin carboxy-terminal hydrolase L1 (Uchl1), mRNA.	0.35	0.00019	0.00401	11m	up	late
+ILMN_2697990	Mkln1		0.34	0.00019	0.00404	11m	up	late
+ILMN_2843403	2610019p18rik	Mus musculus RIKEN cDNA 2610019P18 gene (2610019P18Rik), mRNA.	0.33	0.00019	0.00407	11m	up	late
+ILMN_2805261	Adnp	Mus musculus activity-dependent neuroprotective protein (Adnp), mRNA.	0.33	0.00019	0.00407	11m	up	late
+ILMN_3149218	5930434b04rik	Mus musculus RIKEN cDNA 5930434B04 gene (5930434B04Rik), mRNA.	0.41	2e-04	0.00409	11m	up	late
+ILMN_2664129	Hist1h4h		0.39	2e-04	0.00415	11m	up	late
+ILMN_2893321	Ai847670	Mus musculus expressed sequence AI847670 (AI847670), mRNA.	0.34	2e-04	0.0042	11m	up	late
+ILMN_2893992	Lass2	Mus musculus longevity assurance homolog 2 (S. cerevisiae) (Lass2), mRNA.	0.48	2e-04	0.00422	11m	up	late
+ILMN_2800358	Ep300	Mus musculus E1A binding protein p300 (Ep300), mRNA.	0.31	2e-04	0.00423	11m	up	late
+ILMN_2834696	Snap23	Mus musculus synaptosomal-associated protein 23 (Snap23), mRNA.	0.41	0.00021	0.00441	11m	up	late
+ILMN_3092653	Palld	Mus musculus palladin, cytoskeletal associated protein (Palld), mRNA.	0.26	0.00021	0.00443	11m	up	late
+ILMN_2956092	Rassf4	Mus musculus Ras association (RalGDS/AF-6) domain family 4 (Rassf4), mRNA.	0.48	0.00021	0.00443	11m	up	late
+ILMN_1225712	Iap		0.4	0.00022	0.00449	11m	up	late
+ILMN_2960108	Cyp27a1	Mus musculus cytochrome P450, family 27, subfamily a, polypeptide 1 (Cyp27a1), mRNA.	0.47	0.00022	0.00455	11m	up	late
+ILMN_2616164	Itga3	Mus musculus integrin alpha 3 (Itga3), mRNA.	0.36	0.00022	0.00461	11m	up	late
+ILMN_2714796	Coro1a	Mus musculus coronin, actin binding protein 1A (Coro1a), mRNA.	0.32	0.00023	0.00462	11m	up	late
+ILMN_1250011	Tob1		0.36	0.00022	0.00462	11m	up	late
+ILMN_1224768	Ehd4		0.4	0.00022	0.00462	11m	up	late
+ILMN_2857086	Tra2a	Mus musculus transformer 2 alpha homolog (Drosophila) (Tra2a), mRNA.	0.56	0.00023	0.00462	11m	up	late
+ILMN_3139646	Plcd4	Mus musculus phospholipase C, delta 4 (Plcd4), transcript variant 1, mRNA.	0.36	0.00023	0.00464	11m	up	late
+ILMN_2675072	Ahsa1	Mus musculus AHA1, activator of heat shock protein ATPase homolog 1 (yeast) (Ahsa1), mRNA.	0.37	0.00023	0.00468	11m	up	late
+ILMN_1229993	Dnajc12	Mus musculus DnaJ (Hsp40) homolog, subfamily C, member 12 (Dnajc12), mRNA.	0.34	0.00023	0.00472	11m	up	late
+ILMN_1223285	Hspa2		0.38	0.00023	0.00477	11m	up	late
+ILMN_2613469	Psmb5	Mus musculus proteasome (prosome, macropain) subunit, beta type 5 (Psmb5), mRNA.	0.47	0.00024	0.00478	11m	up	late
+ILMN_2633670	B830009d23rik		0.31	0.00024	0.00484	11m	up	late
+ILMN_2632206	Gnas		0.54	0.00024	0.00487	11m	up	late
+ILMN_2679063	Dctn2	Mus musculus dynactin 2 (Dctn2), mRNA.	0.21	0.00024	0.00491	11m	up	late
+ILMN_2895630	Xrcc2	Mus musculus X-ray repair complementing defective repair in Chinese hamster cells 2 (Xrcc2), mRNA.	0.39	0.00024	0.00494	11m	up	late
+ILMN_2534259	Loc237877		0.31	0.00024	0.00495	11m	up	late
+ILMN_2718791	Sphk2	Mus musculus sphingosine kinase 2 (Sphk2), transcript variant 2, mRNA.	0.44	0.00025	0.00498	11m	up	late

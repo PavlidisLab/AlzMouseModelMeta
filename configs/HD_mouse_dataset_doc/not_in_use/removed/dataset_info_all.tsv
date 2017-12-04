@@ -1,0 +1,26 @@
+# updated 2016-05-11 Huntiongton's # 2016-10-13 add GSE32417, GSE9803 and GSE9804 combined to GSE9857												
+# updated 2016-11-3 GSE62210 change to late 												
+# change GSE18551 to 19676												
+# this is the dataset information (manual input) for limma results summary and others												
+#GSE9803	12_weeks	late	13		GPL1261	R62	R62		Kuhn et al 2007	yes, kuhn	209	
+#GSE9804	12_weeks	late	14		GPL1261	R62	R62		Kuhn et al 2007	yes, kuhn	209	
+Dataset	Timepoint	Phase	Order	Extra_phase	Platform	Genotype	mouse_model	Notes	publication	used_in_Kuhn	repeats	begin
+GSE9375	12_months	early	1		GPL81	Hdh4_Q80	Hdh4_Q80	temp assignment as early	Kuhn et al 2007	yes, kuhn		
+GSE64386	2_months	early	2		GPL6885	BAC_HD	BACHD-ΔN17					
+GSE50379	3_months	early	3		GPL6246	HdhQ111	HdhQ111					
+GSE7958	3_months	early	4		GPL1261	HdhQ92_Q92	HdhQ92_Q92	bad p distribution		yes		
+GSE9038	3-10_weeks	early	5		GPL1261	HdhQ111	HdhQ111					
+GSE32417	6_months	early	6		GPL6246	HdhQ150	HdhQ150					
+GSE64386	7_months	early	7		GPL6885	BAC_HD	BACHD-ΔN17	(intermediate??)onset of movement deficits, with minimal  gait defits at 6m, significant at 8 m				
+GSE62210	8_weeks	late	8		GPL6246	R62	R62	intermediate?				
+GSE48104	10-12_weeks	late	9		GPL1261	R62	R62				 < 200 CAG repeats	8-9 weeks
+GSE64386	11_months	late	10		GPL6885	BAC_HD	BACHD-ΔN17					
+GSE19676	12_months	late	11		GPL6333	YAC128	YAC128	not using GSE18551		yes		
+GSE32417	12_months	late	12		GPL6246	HdhQ150	HdhQ150					
+GSE9857	12_weeks	late	13		GPL1261	R62	R62		Kuhn et al 2007	yes, kuhn	209	
+GSE25232	14_months	late	14		GPL6885	N171_98Q	N171_98Q	temp assignment as late				
+GSE32417	18_months	late	15		GPL6246	HdhQ150	HdhQ150					
+GSE7958	18_months	late	16		GPL1261	HdhQ92_Q92	HdhQ92_Q92	early??		yes		
+GSE10202	22_months	late	17		GPL1261	CHL2Q150_Q150	CHL2Q150_Q150		Kuhn et al 2007	yes, kuhn		
+GSE19676	24_months	late	18		GPL6333	YAC128	YAC128	not using GSE18551		yes		
+GSE26317	5_months	late	19		GPL6103	R62_300Q	R62					
