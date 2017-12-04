@@ -1,0 +1,12 @@
+adj_cell_pop: rankings are MGP adjusted
+
+
+for all probes: the background probes are not filtered (with low expressed probes/genes) which may not be representitive when the input are hippocampal samples (more brain-expressed genes than all gene of the organism)
+
+2016-02-23: GSE50521 were still in 4 groups
+
+2016-03-07: GSE50521 in 2 groups, and low expression probes are removed, background are based on the meta or jack files with low exp probes removed.
+
+
+ermineJ background must have geneID (same as geneSymbol), geneSymbol, geneNames, GOterms
+
