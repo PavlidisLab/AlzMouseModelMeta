@@ -1,0 +1,80 @@
+# 2017-02-01
+# Input score file: /home/bzhuang/ND_project_combined/AD_mouse_model_project/mixed_model_jackknife/random_intercept_include_NA_low_exp_rm_adj_cell_pop//jackknife_early_down_regulation_mixed_model_results.tsv
+# Input erminej file: /home/bzhuang/ND_project_combined/AD_mouse_model_project/ermineJ/mixed_model_jackknife/random_intercept_include_NA_low_exp_rm_adj_cell_pop_all_processes//2017-02-01_geneset_500/ermineJ_jackknife_early_down_regulation_mixed_model_results.tsv
+# only top 50 pathways
+# only top 200 genes from the score file are shown ranking in ()
+# FDR: corrected p value, []: gene member size of the pathway
+geneSymbol	rank	Count	name	sig_paths
+Irgm2	2	3	defense response to bacterium- FDR:0.55293592[50](GO:0042742); innate immune response- FDR:0.56948294[174](GO:0045087); response to biotic stimulus- FDR:0.60837404[249](GO:0009607)	NA
+Ddit3	3	27	regulation of transcription regulatory region DNA binding- FDR:0.6012006[19](GO:2000677); regulation of interleukin-8 production- FDR:0.54855706[24](GO:0032677); calcium ion transport into cytosol- FDR:0.54060696[25](GO:0060402); regulation of transcription from RNA polymerase II promoter in response to stress- FDR:0.61092128[26](GO:0043618); regulation of myoblast differentiation- FDR:0.55671[27](GO:0045661); negative regulation of DNA binding- FDR:0.56403513[27](GO:0043392); cytosolic calcium ion transport- FDR:0.5687605[27](GO:0060401); regulation of DNA-templated transcription in response to stress- FDR:0.57840051[28](GO:0043620); endoplasmic reticulum unfolded protein response- FDR:0.60309857[29](GO:0030968); anatomical structure maturation- FDR:0.57318295[31](GO:0071695); negative regulation of muscle cell differentiation- FDR:0.57475[31](GO:0051148); negative regulation of fat cell differentiation- FDR:0.5816747[31](GO:0045599); anterior/posterior axis specification- FDR:0.58876829[31](GO:0009948); cellular response to unfolded protein- FDR:0.590898[31](GO:0034620); cellular response to topologically incorrect protein- FDR:0.61354562[38](GO:0035967); response to unfolded protein- FDR:0.54648904[49](GO:0006986); response to topologically incorrect protein- FDR:0.55090292[57](GO:0035966); cell cycle arrest- FDR:0.5661348[65](GO:0007050); regulation of protein kinase B signaling- FDR:0.573419[80](GO:0051896); calcium ion homeostasis- FDR:0.56286105[170](GO:0055074); negative regulation of cell cycle- FDR:0.62395667[219](GO:0045786); response to biotic stimulus- FDR:0.60837404[249](GO:0009607); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532); cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771); blood vessel development- FDR:0.55315615[297](GO:0001568); transcription factor binding- FDR:0.57450422[355](GO:0008134)	NA
+Arap3	4	3	negative regulation of Rho protein signal transduction- FDR:0.59040882[14](GO:0035024); phosphatidylinositol-3,4,5-trisphosphate binding- FDR:0.5905063[25](GO:0005547); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532)	NA
+Eef2	5	4	translation elongation factor activity- FDR:0.5721631[13](GO:0003746); translational elongation- FDR:0.57663375[18](GO:0006414); aggresome- FDR:0.57605308[20](GO:0016235); cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Tap2	6	12	peptide antigen binding- FDR:0.57016474[10](GO:0042605); positive regulation of T cell mediated cytotoxicity- FDR:0.58034625[10](GO:0001916); MHC protein binding- FDR:0.61425913[10](GO:0042287); transport of virus- FDR:0.56516758[11](GO:0046794); multi-organism transport- FDR:0.540507[12](GO:0044766); multi-organism localization- FDR:0.540507[12](GO:1902579); antigen processing and presentation of peptide antigen via MHC class I- FDR:0.54803189[15](GO:0002474); regulation of natural killer cell mediated immunity- FDR:0.58092517[16](GO:0002715); regulation of natural killer cell mediated cytotoxicity- FDR:0.58092517[16](GO:0042269); positive regulation of leukocyte mediated cytotoxicity- FDR:0.5741518[17](GO:0001912); response to biotic stimulus- FDR:0.60837404[249](GO:0009607); regulation of defense response- FDR:0.59689528[271](GO:0031347)	NA
+Cgrrf1	10	2	cell cycle arrest- FDR:0.5661348[65](GO:0007050); negative regulation of cell cycle- FDR:0.62395667[219](GO:0045786)	NA
+Cpq	12	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Matn4	16	1	response to axon injury- FDR:0.57797667[17](GO:0048678)	NA
+Itpr2	25	1	cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Herpud1	27.5	10	endoplasmic reticulum unfolded protein response- FDR:0.60309857[29](GO:0030968); cellular response to unfolded protein- FDR:0.590898[31](GO:0034620); cellular response to topologically incorrect protein- FDR:0.61354562[38](GO:0035967); response to unfolded protein- FDR:0.54648904[49](GO:0006986); response to topologically incorrect protein- FDR:0.55090292[57](GO:0035966); calcium ion homeostasis- FDR:0.56286105[170](GO:0055074); regulation of apoptotic signaling pathway- FDR:0.58584167[272](GO:2001233); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532); cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771)	NA
+Fgfr3	31	4	response to axon injury- FDR:0.57797667[17](GO:0048678); anatomical structure maturation- FDR:0.57318295[31](GO:0071695); negative regulation of cell cycle- FDR:0.62395667[219](GO:0045786); negative regulation of cell proliferation- FDR:0.56566569[358](GO:0008285)	NA
+Pik3r3	32	1	cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Ecsit	35	1	innate immune response- FDR:0.56948294[174](GO:0045087)	NA
+Crhbp	41	1	cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Rbm3	42	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Hes5	43	1	transcription factor binding- FDR:0.57450422[355](GO:0008134)	NA
+Aplp2	45	2	cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771)	NA
+Bag6	46	1	antigen processing and presentation of peptide antigen via MHC class I- FDR:0.54803189[15](GO:0002474)	NA
+Ripk3	48	1	regulation of apoptotic signaling pathway- FDR:0.58584167[272](GO:2001233)	NA
+Lamb2	49	1	response to axon injury- FDR:0.57797667[17](GO:0048678)	NA
+Serinc3	52	1	regulation of apoptotic signaling pathway- FDR:0.58584167[272](GO:2001233)	NA
+Nupr1	54	2	negative regulation of cell cycle- FDR:0.62395667[219](GO:0045786); negative regulation of cell proliferation- FDR:0.56566569[358](GO:0008285)	NA
+Arnt	55	3	regulation of transcription from RNA polymerase II promoter in response to stress- FDR:0.61092128[26](GO:0043618); regulation of DNA-templated transcription in response to stress- FDR:0.57840051[28](GO:0043620); transcription factor binding- FDR:0.57450422[355](GO:0008134)	NA
+Gbp3	62	3	defense response to bacterium- FDR:0.55293592[50](GO:0042742); innate immune response- FDR:0.56948294[174](GO:0045087); response to biotic stimulus- FDR:0.60837404[249](GO:0009607)	NA
+Nmb	63	3	calcium ion homeostasis- FDR:0.56286105[170](GO:0055074); cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771)	NA
+Eif3f	66	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Vars2	69	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Cdk19	74	1	regulation of defense response- FDR:0.59689528[271](GO:0031347)	NA
+Notch4	75	1	blood vessel development- FDR:0.55315615[297](GO:0001568)	NA
+Bag4	81	1	regulation of protein kinase B signaling- FDR:0.573419[80](GO:0051896)	NA
+Atf6b	82	7	regulation of transcription from RNA polymerase II promoter in response to stress- FDR:0.61092128[26](GO:0043618); regulation of DNA-templated transcription in response to stress- FDR:0.57840051[28](GO:0043620); endoplasmic reticulum unfolded protein response- FDR:0.60309857[29](GO:0030968); cellular response to unfolded protein- FDR:0.590898[31](GO:0034620); cellular response to topologically incorrect protein- FDR:0.61354562[38](GO:0035967); response to unfolded protein- FDR:0.54648904[49](GO:0006986); response to topologically incorrect protein- FDR:0.55090292[57](GO:0035966)	NA
+Chil1	83	1	regulation of protein kinase B signaling- FDR:0.573419[80](GO:0051896)	NA
+Apoe	85	8	response to axon injury- FDR:0.57797667[17](GO:0048678); calcium ion homeostasis- FDR:0.56286105[170](GO:0055074); regulation of defense response- FDR:0.59689528[271](GO:0031347); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532); cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771); blood vessel development- FDR:0.55315615[297](GO:0001568); negative regulation of cell proliferation- FDR:0.56566569[358](GO:0008285)	NA
+Gatb	87	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Snw1	89	2	cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701); transcription factor binding- FDR:0.57450422[355](GO:0008134)	NA
+Src	92	5	regulation of protein kinase B signaling- FDR:0.573419[80](GO:0051896); innate immune response- FDR:0.56948294[174](GO:0045087); regulation of apoptotic signaling pathway- FDR:0.58584167[272](GO:2001233); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532); cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Fam131b	98	1	regulation of defense response- FDR:0.59689528[271](GO:0031347)	NA
+Wfdc1	99	2	regulation of defense response- FDR:0.59689528[271](GO:0031347); negative regulation of cell proliferation- FDR:0.56566569[358](GO:0008285)	NA
+Zwint	107	1	negative regulation of cell cycle- FDR:0.62395667[219](GO:0045786)	NA
+Mog	111	1	regulation of defense response- FDR:0.59689528[271](GO:0031347)	NA
+Ptk2	113	5	regulation of protein kinase B signaling- FDR:0.573419[80](GO:0051896); innate immune response- FDR:0.56948294[174](GO:0045087); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771); blood vessel development- FDR:0.55315615[297](GO:0001568); cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Il10rb	114	1	response to biotic stimulus- FDR:0.60837404[249](GO:0009607)	NA
+Med25	127	2	transcription factor binding- FDR:0.57450422[355](GO:0008134); negative regulation of cell proliferation- FDR:0.56566569[358](GO:0008285)	NA
+Syvn1	129	4	response to unfolded protein- FDR:0.54648904[49](GO:0006986); response to topologically incorrect protein- FDR:0.55090292[57](GO:0035966); regulation of apoptotic signaling pathway- FDR:0.58584167[272](GO:2001233); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532)	NA
+Alox5ap	132	1	regulation of defense response- FDR:0.59689528[271](GO:0031347)	NA
+Slc9a3r1	133	5	regulation of protein kinase B signaling- FDR:0.573419[80](GO:0051896); regulation of apoptotic signaling pathway- FDR:0.58584167[272](GO:2001233); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771); negative regulation of cell proliferation- FDR:0.56566569[358](GO:0008285)	NA
+Sars	135	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Rab8a	138	1	cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Zfp277	145	1	cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Rps14	147	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Wtip	148	1	negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532)	NA
+Mreg	149	1	anatomical structure maturation- FDR:0.57318295[31](GO:0071695)	NA
+Irf1	151	7	cell cycle arrest- FDR:0.5661348[65](GO:0007050); innate immune response- FDR:0.56948294[174](GO:0045087); negative regulation of cell cycle- FDR:0.62395667[219](GO:0045786); response to biotic stimulus- FDR:0.60837404[249](GO:0009607); regulation of defense response- FDR:0.59689528[271](GO:0031347); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532); cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Ramp3	153	1	cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Rpl8	154	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Rnf10	156	1	negative regulation of cell proliferation- FDR:0.56566569[358](GO:0008285)	NA
+Eif6	157.5	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Psmc5	157.5	1	transcription factor binding- FDR:0.57450422[355](GO:0008134)	NA
+Herc6	160	1	innate immune response- FDR:0.56948294[174](GO:0045087)	NA
+Anxa3	161	2	defense response to bacterium- FDR:0.55293592[50](GO:0042742); response to biotic stimulus- FDR:0.60837404[249](GO:0009607)	NA
+Mthfd1l	165	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Gstt3	166	1	cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Nfkbib	167	3	response to biotic stimulus- FDR:0.60837404[249](GO:0009607); negative regulation of intracellular signal transduction- FDR:0.53266889[277](GO:1902532); cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Drap1	168	1	transcription factor binding- FDR:0.57450422[355](GO:0008134)	NA
+Cln3	171	4	calcium ion homeostasis- FDR:0.56286105[170](GO:0055074); cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771); cellular amide metabolic process- FDR:0.557095[341](GO:0043603)	NA
+Ccr5	175	7	calcium ion transport into cytosol- FDR:0.54060696[25](GO:0060402); cytosolic calcium ion transport- FDR:0.5687605[27](GO:0060401); calcium ion homeostasis- FDR:0.56286105[170](GO:0055074); regulation of defense response- FDR:0.59689528[271](GO:0031347); cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771); negative regulation of cell proliferation- FDR:0.56566569[358](GO:0008285)	NA
+Itpr3	177	6	calcium ion transport into cytosol- FDR:0.54060696[25](GO:0060402); cytosolic calcium ion transport- FDR:0.5687605[27](GO:0060401); calcium ion homeostasis- FDR:0.56286105[170](GO:0055074); cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771); cellular response to oxygen-containing compound- FDR:0.54878015[348](GO:1901701)	NA
+Madd	178	1	regulation of apoptotic signaling pathway- FDR:0.58584167[272](GO:2001233)	NA
+Trpv6	179	3	calcium ion homeostasis- FDR:0.56286105[170](GO:0055074); cation homeostasis- FDR:0.54615418[288](GO:0055080); inorganic ion homeostasis- FDR:0.53932725[295](GO:0098771)	NA
+Ppp3r1	184	1	blood vessel development- FDR:0.55315615[297](GO:0001568)	NA
+Hdac8	185	1	transcription factor binding- FDR:0.57450422[355](GO:0008134)	NA
+Mapk12	192.5	1	negative regulation of cell cycle- FDR:0.62395667[219](GO:0045786)	NA
+Cideb	198.5	1	regulation of apoptotic signaling pathway- FDR:0.58584167[272](GO:2001233)	NA
