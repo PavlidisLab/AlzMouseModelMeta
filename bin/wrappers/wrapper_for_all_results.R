@@ -12,13 +12,13 @@ source("./ermineJ_preprocess/get_all_gene_annotation.R")
 
 #### get all platforms from all diseases
 platform_ls <- NULL
-for(disease in c('AD')){
-    source('config_wrappers.R')
-    md_info <- paste0('../configs/', disease,'_mouse_dataset_doc/dataset_info_mixed_model.tsv')
-    df_info <- read.delim(md_info, comment.char = '#')
-    platform <- unique(as.character(df_info$Platform))
-    platform_ls <- sort(unique(c(platform_ls, platform)))
-}
+
+source('config_wrappers.R')
+md_info <- paste0('../configs/', disease,'_mouse_dataset_doc/dataset_info_mixed_model.tsv')
+df_info <- read.delim(md_info, comment.char = '#')
+platform <- unique(as.character(df_info$Platform))
+platform_ls <- sort(unique(c(platform_ls, platform)))
+
 
 ## define platform_folder in the config file
 platform_folder <- platform_folder_biological_pathway_only
@@ -43,13 +43,13 @@ source("./ermineJ_preprocess/get_all_gene_annotation.R")
 
 #### get all platforms 
 platform_ls <- NULL
-for(disease in c('AD')){
-    source('config_wrappers.R')
-    md_info <- paste0('../configs/', disease,'_mouse_dataset_doc/dataset_info_mixed_model.tsv')
-    df_info <- read.delim(md_info, comment.char = '#')
-    platform <- unique(as.character(df_info$Platform))
-    platform_ls <- sort(unique(c(platform_ls, platform)))
-}
+
+source('config_wrappers.R')
+md_info <- paste0('../configs/', disease,'_mouse_dataset_doc/dataset_info_mixed_model.tsv')
+df_info <- read.delim(md_info, comment.char = '#')
+platform <- unique(as.character(df_info$Platform))
+platform_ls <- sort(unique(c(platform_ls, platform)))
+
 platform_folder <- platform_folder_biological_all_GO ## all disease linked to the same folder
 
 f_out<-paste0(home_dir, '/ND_results/gene_annotation/')
@@ -70,7 +70,6 @@ cat("
 #***************************************************************************#\n")
 
 rm(list=setdiff(ls(),'home_dir'))
-disease='AD'
  
 source('config_wrappers.R')
 
@@ -120,7 +119,8 @@ setwd('bin/')
 source('config_wrappers.R')
 source('batchCorrection.R')
 
-dataset_ls <- batch_correction_config  # datasets for batch correction
+(dataset_ls <- batch_correction_config)  # datasets for batch correction
+
 data_folder <- paste0(disease_dir, 'data_and_QC/all_data/explore_data/analysis_mode/')
 for(dataset in dataset_ls){
     object_dir = paste0(data_folder, dataset, '/results/')
@@ -645,10 +645,12 @@ cat("
     #' cell type profiles are used for the mixed model
     #---------------------------------------------------------------------------#\n")
 
-
-## recorded done the cell type markers for future heatmaps, save in git/doc/
+## output: '/MGP_estimation/all_sample_estimation/
+## recorded done the cell type markers for future heatmaps
 library(markerGeneProfile)
 library(ogbox)
+library(HelperFunctions)
+
 rm(list=setdiff(ls(),'home_dir'))
 
 source('config_wrappers.R')

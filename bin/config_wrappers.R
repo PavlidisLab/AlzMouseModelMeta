@@ -44,9 +44,7 @@ f_sanity_check_genes <-paste0('../configs/AD_mouse_dataset_doc/gene_list_for_san
 # ##***********************
 # ## which dataset need batch correction
 # ##***********************
-batch_correction_config <- c('GSE64398.1', 'GSE50521') ## for AD datasets #GSE36237 is removed from analysis
-
-batch_correction_config <- 'GSE36237'
+batch_correction_config <- c('GSE64398.1', 'GSE50521','GSE36237') 
 
 ##***********************
 ## define limma dir based on brain region

@@ -11,7 +11,7 @@ cat("
     #**************************#
     # PART 11.0 Rdata for all jacknife results for all disease
     #**************************#\n")
-#' make all mm jack results into a r data, and save to 
+#' make all mixed model jackknife results into a r data, and save to 
 #' 'ND_results/mm_results/mm_jack_each_disease.Rdata'
 
 rm(list=setdiff(ls(),'home_dir'))
@@ -40,7 +40,7 @@ cat("
     #**************************#\n")
 cat("
     #-------------#
-    # PART 11.3.1 make the heatmap for top jackknife genes (top genes of the phase)
+    # PART 11.3.1 make the heatmap for top jackknife genes (top genes of the phase)- with cell population corrected
     # and top mixed model genes (not used in thesis)
     # expression are corrected to the corresponding gene list (corrected for study or corrected for celltypes)
     # also plot the top genes of the opposite phase expression
@@ -53,16 +53,16 @@ source('mixed_models/plot_up_down_genes_thesis_figure_corrected_value.R')
 
 
 phase_ls <- c('early','late')
-result_rank_ls <- c('mixed_model', 'mixed_model_jackknife')  ## which rank list to get genes from
-#result_rank_ls <- c('mixed_model_jackknife')  ## which rank list to get genes from
+# result_rank_ls <- c('mixed_model', 'mixed_model_jackknife')  ## which rank list to get genes from
+result_rank_ls <- c('mixed_model_jackknife')  ## which rank list to get genes from
 plot_dir <- paste0(home_dir,'/ND_results/top_gene_heatmaps/')
 
 #legend_ls <- list(c('Genotype', 'Study'), c('Genotype', 'Original_genotype', 'Study'),c('Genotype', 'Model_types'))
 legend_ls= list(c('Genotype', 'Model_types'))
 
 model_ls <- c('random_intercept')
-mm_rdata_keyword_ls <- c('_include_NA_low_exp_rm','_include_NA_low_exp_rm_adj_cell_pop')  ## choose which top genes for plotting 
-#mm_rdata_keyword_ls <- c('_include_NA_low_exp_rm_adj_cell_pop') 
+# mm_rdata_keyword_ls <- c('_include_NA_low_exp_rm','_include_NA_low_exp_rm_adj_cell_pop')  ## choose which top genes for plotting 
+mm_rdata_keyword_ls <- c('_include_NA_low_exp_rm_adj_cell_pop')
 
 
 regulation_ls <- c('up', 'down')

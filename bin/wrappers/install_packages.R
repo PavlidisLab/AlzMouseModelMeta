@@ -1,7 +1,8 @@
 # install required packages
 
 ## CRAN packages:
-cran_pack <- c('plyr', 'dplyr','ggplot2', 'RColorBrewer', 'reshape2', 'influence.ME','dendextend','tidyr','MetaDE', 'lme4')
+cran_pack <- c('plyr', 'dplyr','ggplot2', 'RColorBrewer', 'reshape2', 'influence.ME','dendextend','tidyr','MetaDE', 'lme4',
+               'glue')
 
 (cran_pack=setdiff(cran_pack, rownames(installed.packages())))
 
@@ -22,9 +23,8 @@ for(i in bio_packs){
 }
 
 
-## install Github R packages
+## install
 ## see https://github.com/oganm/markerGeneProfile
 
 devtools::install_github('oganm/markerGeneProfile')
-
-devtools::install_github("BerylZhuang/helper_functions")
+devtools::install_github('oganm/ogbox')
