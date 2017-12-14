@@ -1,0 +1,22 @@
+2017-12-06: Model testing: random_intercept
+2017-12-06: combined study expressions. 
+PHASE: early
+INPUT: 8 Rdata files; 
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE48622/no_subset/results/GSE48622_2_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE64398.1/batch_corrected_subset/Timepoint_2_months/results/GSE64398.1_2_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE63617.1/subset/Timepoint_3_months_OrganismPart_Hippocampus/results/GSE63617.1_3_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE63617.2/subset/Timepoint_6_months_OrganismPart_Hippocampus/results/GSE63617.2_6_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE64398.1/batch_corrected_subset/Timepoint_4_months/results/GSE64398.1_4_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE36237/batch_corrected_subset/Treatment_reference/results/GSE36237_5_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE64398.1/batch_corrected_subset/Timepoint_8_months/results/GSE64398.1_8_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE64398.1/batch_corrected_subset/Timepoint_18_months/results/GSE64398.1_18_months_limma_objects.Rdata
+
+TOTAL SAMPLES: 129; from 4 studies: GSE48622,GSE64398,GSE63617,GSE36237
+STAT: 
+ NA filter method: remove genes presented in less than 2/3 of the studies
+   Original genes: 20183
+   NA genes removed: 3336
+REMOVE lowly expressed genes, threshold = 6; filter method = median
+   Genes removed: 5991
+ Remove 0 genes in the mixed model due to ERROR, profiling detected new, lower deviance
+
