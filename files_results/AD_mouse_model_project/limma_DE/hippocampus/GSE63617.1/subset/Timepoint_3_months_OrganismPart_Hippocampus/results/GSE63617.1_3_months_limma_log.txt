@@ -1,0 +1,94 @@
+2017-12-06
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is C:/new//platforms//GPL7042.an.txt.gz
+No probes removed from annotation.
+Expression data file: C:/new/AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE63617.1_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 41189
+number of samples: 50
+Factor: Genotype (2 levels): AD11: n=25, WT: n=25
+Factor: OrganismPart (3 levels): Basal_forebrain: n=20, Cortex: n=20, Hippocampus: n=10
+Factor: Batch (5 levels): Batch_01_24_11_06: n=10, Batch_02_01_12_06: n=10, Batch_03_31_01_07: n=10, Batch_04_02_02_07: n=10, Batch_05_09_02_07: n=10
+Factor: Gender (1 levels): F: n=50
+Factor: Timepoint (2 levels): 15_months: n=20, 3_months: n=30
+
+
+## Model test for factor: Genotype
+p-value: 0.0157179134404236; Statistic: 4.1149528560935; Expected: 2.04081632653061; Std.dev: 0.746286812669692; #Cov: 41189
+## Model test for factor: OrganismPart
+p-value: 2.74177487558571e-25; Statistic: 13.0450998610008; Expected: 2.08226861093095; Std.dev: 0.536247222755816; #Cov: 41189
+## Model test for factor: Batch
+p-value: 1.58515128009048e-29; Statistic: 9.67522345071798; Expected: 2.08237292007648; Std.dev: 0.367862559956812; #Cov: 41189
+## Model test for factor: Timepoint
+p-value: 5.13424070480717e-08; Statistic: 9.91578934259565; Expected: 2.04081632653061; Std.dev: 0.746286812669692; #Cov: 41189
+#-------------------------------#
+## REMOVED SAMPLES
+#-------------------------------#
+1 sample(s) removed: 15m_bfb_AD11_rep3
+Reason for removal: sample correlation outlier
+number of samples after removal: 49
+Factor: Genotype (2 levels): AD11: n=24, WT: n=25
+Factor: OrganismPart (3 levels): Basal_forebrain: n=19, Cortex: n=20, Hippocampus: n=10
+Factor: Batch (5 levels): Batch_01_24_11_06: n=9, Batch_02_01_12_06: n=10, Batch_03_31_01_07: n=10, Batch_04_02_02_07: n=10, Batch_05_09_02_07: n=10
+Factor: Gender (1 levels): F: n=49
+Factor: Timepoint (2 levels): 15_months: n=19, 3_months: n=30
+
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. OrganismPart: c('Hippocampus') are kept for analysis. 
+New dataset contains 10 samples. Original sample size: 49
+Factor: Genotype (2 levels): AD11: n=5, WT: n=5
+Factor: OrganismPart (1 levels): Hippocampus: n=10
+Factor: Batch (1 levels): Batch_05_09_02_07: n=10
+Factor: Gender (1 levels): F: n=10
+Factor: Timepoint (1 levels): 3_months: n=10
+
+## Model test for factor: Genotype
+p-value: 0.376853702901385; Statistic: 11.3344670298505; Expected: 11.1111111111111; Std.dev: 4.54769949507731; #Cov: 41189
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected
+#-------------------------------#
+## LIMMA DE ANALYSIS
+#-------------------------------#
+2017-12-06----Dataset: GSE63617.1
+Imported R objects: C:/new/AD_mouse_model_project/data_and_QC/all_data/explore_data/analysis_mode/GSE63617.1/results/GSE63617.1_objects.Rdata
+
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Timepoint: c('3_months'), and OrganismPart: c('Hippocampus') are kept for analysis. 
+New dataset contains 10 samples. Original sample size: 10
+Factor: Genotype (2 levels): WT: n=5, AD11: n=5
+Factor: OrganismPart (1 levels): Hippocampus: n=10
+Factor: Batch (1 levels): Batch_05_09_02_07: n=10
+Factor: Gender (1 levels): F: n=10
+Factor: Timepoint (1 levels): 3_months: n=10
+
+## Model test for factor: Genotype
+p-value: 0.376853702901385; Statistic: 11.3344670298505; Expected: 11.1111111111111; Std.dev: 4.54769949507731; #Cov: 41189
+
+#-------------------------------#
+ MODEL INFO
+#-------------------------------#
+Factors for limma analysis: Genotype
+Model: model.matrix( ~ Genotype, data = array_design)
+10 samples, 41189 probes
+coefficients: (Intercept), GenotypeAD11
+q value threshold:0.1
+
+#-------------------------------#
+ DE ANALYSIS
+#-------------------------------#
+Factor: Genotype; baseline: WT, coefficient: GenotypeAD11
+  DE genes: 85, up: 60, down: 25
+

@@ -1,0 +1,7 @@
+#2017-12-06----Dataset: GSE64398.1
+dataset	Genotype	Timepoint	control_n	case_n	gender	platform	probes	genes	sample_size_all	batch_correction	expr_min	expr_max	expr_median	limma_model	Genotype_all	Timepoint_all	OrganismPart_all	Gender_all
+GSE64398.1	het_TASTPM	18_months	7	4	M(11)	GPL6885	25697	17339	22	Yes	3.84828118203115	15.3441860747674	5.79921971922159	model.matrix( ~ Genotype, data = array_design)	WT(7); het_TASTPM(4); het_TPM(3); ho_TASTPM(3); TAS10(4); TAU(1)	18_months(22)	Hippocampus(22)	M(22)
+GSE64398.1	het_TPM	18_months	7	3	M(10)	GPL6885	25697	17339	22	Yes	3.84828118203115	15.3441860747674	5.79921971922159	model.matrix( ~ Genotype, data = array_design)	WT(7); het_TASTPM(4); het_TPM(3); ho_TASTPM(3); TAS10(4); TAU(1)	18_months(22)	Hippocampus(22)	M(22)
+GSE64398.1	ho_TASTPM	18_months	7	3	M(10)	GPL6885	25697	17339	22	Yes	3.84828118203115	15.3441860747674	5.79921971922159	model.matrix( ~ Genotype, data = array_design)	WT(7); het_TASTPM(4); het_TPM(3); ho_TASTPM(3); TAS10(4); TAU(1)	18_months(22)	Hippocampus(22)	M(22)
+GSE64398.1	TAS10	18_months	7	4	M(11)	GPL6885	25697	17339	22	Yes	3.84828118203115	15.3441860747674	5.79921971922159	model.matrix( ~ Genotype, data = array_design)	WT(7); het_TASTPM(4); het_TPM(3); ho_TASTPM(3); TAS10(4); TAU(1)	18_months(22)	Hippocampus(22)	M(22)
+GSE64398.1	TAU	18_months	7	1	M(8)	GPL6885	25697	17339	22	Yes	3.84828118203115	15.3441860747674	5.79921971922159	model.matrix( ~ Genotype, data = array_design)	WT(7); het_TASTPM(4); het_TPM(3); ho_TASTPM(3); TAS10(4); TAU(1)	18_months(22)	Hippocampus(22)	M(22)
