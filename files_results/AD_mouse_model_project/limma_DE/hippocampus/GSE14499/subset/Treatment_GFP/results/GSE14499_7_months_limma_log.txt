@@ -1,0 +1,95 @@
+2017-12-06
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is C:/new//platforms//GPL1261.an.txt.gz
+No probes removed from annotation.
+Expression data file: C:/new/AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE14499_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 45101
+number of samples: 26
+Factor: Genotype (2 levels): J20: n=16, WT: n=10
+Factor: Treatment (3 levels): BDNF: n=8, GFP: n=12, reference: n=6
+Factor: OrganismPart (2 levels): Entorhinal_cortex: n=13, Hippocampus: n=13
+Factor: Batch (2 levels): Batch_01_9_7_07: n=13, Batch_02_9_28_07: n=13
+Factor: Gender (2 levels): F: n=18, M: n=8
+Factor: Timepoint (1 levels): 7_months: n=26
+
+
+## Model test for factor: Genotype
+p-value: 0.39884762963321; Statistic: 3.76787769694097; Expected: 4; Std.dev: 2.21219254458864; #Cov: 45101
+## Model test for factor: Treatment
+p-value: 0.197222876076456; Statistic: 5.23053660456673; Expected: 4.15965971873789; Std.dev: 1.64553362018826; #Cov: 45101
+## Model test for factor: OrganismPart
+p-value: 1.3843199118837e-24; Statistic: 40.2504407356622; Expected: 4; Std.dev: 2.21219254458864; #Cov: 45101
+## Model test for factor: Batch
+p-value: 1.3843199118837e-24; Statistic: 40.2504407356622; Expected: 4; Std.dev: 2.21219254458864; #Cov: 45101
+## Model test for factor: Gender
+p-value: 0.201932787828312; Statistic: 5.15725356394512; Expected: 4; Std.dev: 2.21219254458864; #Cov: 45101
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Treatment: c('GFP','reference'), and OrganismPart: c('Hippocampus') are kept for analysis. 
+New dataset contains 9 samples. Original sample size: 26
+Factor: Genotype (2 levels): J20: n=4, WT: n=5
+Factor: Treatment (2 levels): GFP: n=6, reference: n=3
+Factor: OrganismPart (1 levels): Hippocampus: n=9
+Factor: Batch (1 levels): Batch_02_9_28_07: n=9
+Factor: Gender (2 levels): F: n=7, M: n=2
+Factor: Timepoint (1 levels): 7_months: n=9
+
+## Model test for factor: Genotype
+p-value: 0.666940205369526; Statistic: 10.8520391352193; Expected: 12.5; Std.dev: 3.55901499450273; #Cov: 45101
+## Model test for factor: Treatment
+p-value: 0.0124949791446433; Statistic: 21.8255730510677; Expected: 12.5; Std.dev: 3.55901499450273; #Cov: 45101
+## Model test for factor: Gender
+p-value: 0.551217336242757; Statistic: 11.6157720183703; Expected: 12.5; Std.dev: 3.55901499450273; #Cov: 45101
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected
+#-------------------------------#
+## LIMMA DE ANALYSIS
+#-------------------------------#
+2017-12-06----Dataset: GSE14499
+Imported R objects: C:/new/AD_mouse_model_project/data_and_QC/all_data/explore_data/analysis_mode/GSE14499/results/GSE14499_objects.Rdata
+
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Treatment: c('GFP') are kept for analysis. 
+New dataset contains 6 samples. Original sample size: 9
+Factor: Genotype (2 levels): WT: n=2, J20: n=4
+Factor: Treatment (1 levels): GFP: n=6
+Factor: OrganismPart (1 levels): Hippocampus: n=6
+Factor: Batch (1 levels): Batch_02_9_28_07: n=6
+Factor: Gender (2 levels): F: n=4, M: n=2
+Factor: Timepoint (1 levels): 7_months: n=6
+
+## Model test for factor: Genotype
+p-value: 0.782324492790907; Statistic: 17.3292942107809; Expected: 20; Std.dev: 3.94237049591117; #Cov: 45101
+## Model test for factor: Gender
+p-value: 0.595095997558036; Statistic: 19.2956590954634; Expected: 20; Std.dev: 3.94237049591117; #Cov: 45101
+
+#-------------------------------#
+ MODEL INFO
+#-------------------------------#
+Factors for limma analysis: Genotype, Gender
+Model: model.matrix( ~ Genotype + Gender, data = array_design)
+6 samples, 45101 probes
+coefficients: (Intercept), GenotypeJ20, GenderM
+q value threshold:0.1
+
+#-------------------------------#
+ DE ANALYSIS
+#-------------------------------#
+Factor: Genotype; baseline: WT, coefficient: GenotypeJ20
+  DE genes: 6, up: 2, down: 4
+Factor: Gender; baseline: F, coefficient: GenderM
+  DE genes: 45, up: 40, down: 5
+

@@ -1,0 +1,49 @@
+2017-12-06
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is C:/new//platforms//GPL81.an.txt.gz
+No probes removed from annotation.
+Expression data file: C:/new//AD_mouse_model_project/data_and_QC/gemma_data/unfiltered_exp_data//27_GSE1556_expmat.unfilt.data.txt.gz
+No probes removed due to missing value.
+
+number of rows: 12488
+number of samples: 4
+Factor: Genotype (2 levels): Tg2576: n=2, WT: n=2
+Factor: OrganismPart (1 levels): Hippocampus: n=4
+Factor: Gender (1 levels): F: n=4
+Factor: Timepoint (1 levels): 12_months: n=4
+
+Log2 tranformation performed
+Before transformation range: 0.8 to 230476
+After log2 transformation: -0.321928094887362 to 17.8142570017348
+## Model test for factor: Genotype
+p-value: 0.029177938236557; Statistic: 36.3576506079682; Expected: 33.3333333333333; Std.dev: 2.04295163058691; #Cov: 12488
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected
+#-------------------------------#
+## LIMMA DE ANALYSIS
+#-------------------------------#
+2017-12-06----Dataset: GSE1556
+Imported R objects: C:/new/AD_mouse_model_project/data_and_QC/all_data/explore_data/analysis_mode/GSE1556/results/GSE1556_objects.Rdata
+
+
+#-------------------------------#
+ MODEL INFO
+#-------------------------------#
+Factors for limma analysis: Genotype
+Model: model.matrix( ~ Genotype, data = array_design)
+4 samples, 12488 probes
+coefficients: (Intercept), GenotypeTg2576
+q value threshold:0.1
+
+#-------------------------------#
+ DE ANALYSIS
+#-------------------------------#
+Factor: Genotype; baseline: WT, coefficient: GenotypeTg2576
+  DE genes: 0, up: 0, down: 0
+
