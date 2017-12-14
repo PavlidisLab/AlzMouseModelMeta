@@ -1,0 +1,3 @@
+#2017-12-06----Dataset: GSE52022
+dataset	Genotype	Timepoint	control_n	case_n	gender	platform	probes	genes	sample_size_all	batch_correction	expr_min	expr_max	expr_median	limma_model	Genotype_all	Timepoint_all	OrganismPart_all	Gender_all
+GSE52022	5xFAD	4_months	2	2	F(4)	GPL1261	45101	18118	4	No	0.947637457708736	12.8875895687766	2.46851707044913	model.matrix( ~ Genotype, data = array_design)	WT(2); 5xFAD(2)	4_months(4)	Hippocampus(4)	F(4)
