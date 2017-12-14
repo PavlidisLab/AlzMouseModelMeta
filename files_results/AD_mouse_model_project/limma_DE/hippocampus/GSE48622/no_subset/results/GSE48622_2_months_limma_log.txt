@@ -1,0 +1,51 @@
+2017-12-06
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is C:/new//platforms//GPL1261.an.txt.gz
+No probes removed from annotation.
+Expression data file: C:/new/AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE48622_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 45101
+number of samples: 16
+Factor: Genotype (4 levels): APLP2_KO: n=4, APP_KO: n=4, N_dC_KO: n=4, WT: n=4
+Factor: OrganismPart (1 levels): Hippocampus: n=16
+Factor: Gender (1 levels): M: n=16
+Factor: Timepoint (1 levels): 2_months: n=16
+
+
+## Model test for factor: Genotype
+p-value: 0.00185810259135405; Statistic: 10.6778138012036; Expected: 7.10935249061112; Std.dev: 1.02109576229459; #Cov: 45101
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected
+#-------------------------------#
+## LIMMA DE ANALYSIS
+#-------------------------------#
+2017-12-06----Dataset: GSE48622
+Imported R objects: C:/new/AD_mouse_model_project/data_and_QC/all_data/explore_data/analysis_mode/GSE48622/results/GSE48622_objects.Rdata
+
+
+#-------------------------------#
+ MODEL INFO
+#-------------------------------#
+Factors for limma analysis: Genotype
+Model: model.matrix( ~ Genotype, data = array_design)
+16 samples, 45101 probes
+coefficients: (Intercept), GenotypeAPLP2_KO, GenotypeAPP_KO, GenotypeN_dC_KO
+q value threshold:0.1
+
+#-------------------------------#
+ DE ANALYSIS
+#-------------------------------#
+Factor: Genotype; baseline: WT, coefficient: GenotypeAPLP2_KO
+  DE genes: 58, up: 25, down: 33
+Factor: Genotype; baseline: WT, coefficient: GenotypeAPP_KO
+  DE genes: 4, up: 1, down: 3
+Factor: Genotype; baseline: WT, coefficient: GenotypeN_dC_KO
+  DE genes: 254, up: 58, down: 196
+
