@@ -1,0 +1,4 @@
+2017-12-07
+Input meta files: C:/new/AD_mouse_model_project/meta_analysis/meta_jack/
+Input mixed model files: C:/new/AD_mouse_model_project/mixed_model_jackknife/random_intercept_include_NA_low_exp_rm_adj_cell_pop//late//run2//late/
+

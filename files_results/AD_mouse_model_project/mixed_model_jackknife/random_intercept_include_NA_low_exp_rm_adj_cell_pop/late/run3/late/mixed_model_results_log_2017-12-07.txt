@@ -1,0 +1,27 @@
+2017-12-07: Model testing: random_intercept
+2017-12-07: combined study expressions. 
+PHASE: late
+INPUT: 10 Rdata files; 
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE1556/no_subset/results/GSE1556_12_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE50521/batch_corrected_no_subset/results/GSE50521_14-15_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE63617.2/subset/Timepoint_15_months_OrganismPart_Hippocampus/results/GSE63617.2_15_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE64398.1/batch_corrected_subset/Timepoint_18_months/results/GSE64398.1_18_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE52022/subset/Timepoint_4_months/results/GSE52022_4_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE64398.1/batch_corrected_subset/Timepoint_4_months/results/GSE64398.1_4_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE14499/subset/Treatment_GFP/results/GSE14499_7_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE64398.1/batch_corrected_subset/Timepoint_8_months/results/GSE64398.1_8_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE15056/no_subset/results/GSE15056_17_months_limma_objects.Rdata
+    C:/new/AD_mouse_model_project//limma_DE/hippocampus/prioritized_limma//GSE53480/no_subset/results/GSE53480_4_months_limma_objects.Rdata
+
+TOTAL SAMPLES: 105; from 8 studies: GSE1556,GSE50521,GSE63617,GSE64398,GSE52022,GSE14499,GSE15056,GSE53480
+STAT: 
+ NA filter method: remove genes presented in less than 2/3 of the studies
+   Original genes: 20436
+   NA genes removed: 5160
+REMOVE lowly expressed genes, threshold = 6; filter method = median
+   Genes removed: 4909
+2017-12-07
+ Study removed: GSE63617
+ keep studies (7): GSE1556, GSE50521, GSE64398, GSE52022, GSE14499, GSE15056, GSE53480
+ Remove 0 genes in the mixed model due to ERROR, profiling detected new, lower deviance
+
