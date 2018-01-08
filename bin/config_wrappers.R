@@ -6,8 +6,7 @@
 disease ='AD'
 disease_ls <- c('AD')
 
-## use absolute path
-home_dir <- 'C:/Users/bzhuang/Documents/AD/'
+home_dir <- file.path(here::here(),'files_results')
 
 
 dir.create(home_dir,showWarnings = F)
