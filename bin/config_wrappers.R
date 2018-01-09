@@ -6,19 +6,18 @@
 disease ='AD'
 disease_ls <- c('AD')
 
-## use absolute path
-home_dir <- 'C:/Users/bzhuang/Documents/AD/'
+home_dir <- file.path(here::here(),'files_results')
 
 
 dir.create(home_dir,showWarnings = F)
 
-disease_dir <- paste0(home_dir, 'AD_mouse_model_project/')
+disease_dir <- file.path(home_dir, 'AD_mouse_model_project/')
 
-platform_folder_biological_pathway_only <- paste0(home_dir,'/platforms/biological_pathway_only/')
+platform_folder_biological_pathway_only <- file.path(home_dir,'/platforms/biological_pathway_only/')
 
-platform_folder_biological_all_GO <- paste0(home_dir, '/platforms/')
+platform_folder_biological_all_GO <- file.path(home_dir, '/platforms/')
 
-(gemma_data <- paste0(home_dir, '/AD_mouse_model_project/data_and_QC/gemma_data/unfiltered_exp_data/'))
+(gemma_data <- file.path(home_dir, '/AD_mouse_model_project/data_and_QC/gemma_data/unfiltered_exp_data/'))
 
 
 #####
@@ -31,10 +30,10 @@ xml = '/home/bzhuang/ermineJ.data/go_daily-termdb.rdf-xml.gz'
 ######
 ## experimental design info for all datasets
 
-f_design <- paste0('../configs/AD_mouse_dataset_doc/shorten_experimental_design_sample_names.tsv')
+f_design <- file.path(here::here(),'configs/AD_mouse_dataset_doc/shorten_experimental_design_sample_names.tsv')
 
 ## a gene list for sanity heatmap check
-f_sanity_check_genes <-paste0('../configs/AD_mouse_dataset_doc/gene_list_for_sanity_check.tsv')
+f_sanity_check_genes <-file.path(here::here(),'configs/AD_mouse_dataset_doc/gene_list_for_sanity_check.tsv')
 
 ## must have home_dir defined
 ## define disease main dir
@@ -53,8 +52,8 @@ brain_region <- list(AD = 'hippocampus',
                      HD = 'striatum',
                      PD = 'striatum')
 
-limma_dir <- paste0(disease_dir, '/limma_DE/',brain_region[disease], '/')
-limma_dir_FG <- paste0(disease_dir, '/limma_DE_FG/',brain_region[disease], '/')
+limma_dir <- file.path(disease_dir, '/limma_DE/',brain_region[disease], '/')
+limma_dir_FG <- file.path(disease_dir, '/limma_DE_FG/',brain_region[disease], '/')
 
 
 # ##***********************
