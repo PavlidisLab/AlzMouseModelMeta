@@ -1,4 +1,3 @@
-## for plots and tables
 
 setwd(file.path(here::here(),'bin'))
 
@@ -118,7 +117,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 cat("
     #-------------#
-    # PART 11.3.2 make the heatmap for cell type marker genes
+    # PART 11.3.2 make the heatmap for cell type marker genes ## just to explore, not included in thesis
     # input expression is corrected for study only
     #-------------#\n")
 
@@ -153,9 +152,9 @@ for (disease in disease_ls){## loop 1 for disease
     
     ## the cell marker folder
     if(disease == 'AD'){
-        (folder=max(grep('201.*Hippocampus', list.dirs('../../doc/cell_type_markers/',recursive = T, full.names = T), value = T)))
+        (folder=max(grep('201.*Hippocampus', list.dirs('../config/cell_type_markers/',recursive = T, full.names = T), value = T)))
     }else{
-        (folder=max(grep('201.*Striatum', list.dirs('../../doc/cell_type_markers/',recursive = T, full.names = T), value = T)))
+        (folder=max(grep('201.*Striatum', list.dirs('../../config/cell_type_markers/',recursive = T, full.names = T), value = T)))
     }
     
     ## get all the cell type markers
