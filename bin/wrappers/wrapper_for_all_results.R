@@ -566,7 +566,6 @@ model_ls <- c('random_intercept')
 phase_ls <- c('early', 'late')
 model_keyword <- '_include_NA_low_exp_rm'  ## if with NA: model_keyword = '_include_NA'  ## to specify which model folder
 
-f =mm_dir_p[1]
 
 for (disease in disease_ls){## loop 1 for disease
     source('config_wrappers.R')
@@ -609,8 +608,8 @@ regulation_ls= c('up', 'down')
 for (disease in disease_ls){## loop 1 for disease
     source('config_wrappers.R')
     for (model in model_ls){## loop2 for models
-        (mm_jack_dir = paste0(disease_dir, 'mixed_model_jackknife/random_intercept',model_keyword,'/')) ## jackknife MM parent dir
-        (mm_dir = paste0(disease_dir, 'mixed_model/random_intercept',model_keyword,'/')) ## MM parent dir
+        (mm_jack_dir = paste0(disease_dir, '/mixed_model_jackknife/random_intercept',model_keyword,'/')) ## jackknife MM parent dir
+        (mm_dir = paste0(disease_dir, '/mixed_model/random_intercept',model_keyword,'/')) ## MM parent dir
         for(phase in phase_ls){
             df_out_dir <- paste0(home_dir, '/results/ND_results/jackknife_rank_tables/')
             df_all <- compareJackMM(mm_jack_dir,mm_dir, phase, regulation_ls, return_df = T, df_out_dir=df_out_dir, 
@@ -1131,7 +1130,7 @@ for (disease in disease_ls){## loop 1 for disease
     for (model in model_ls){## loop2 for models
         (jack_meta_folder_ls <- c(paste0(disease_dir, 'meta_analysis/low_exp_rm/'),
                                   paste0(disease_dir, 'meta_analysis/meta_jack/')))
-        (mm_dir = paste0(disease_dir, 'mixed_model_jackknife/',model,model_keyword,'/')) ## mixed model dir(parent dir)
+        (mm_dir = paste0(disease_dir, '/mixed_model_jackknife/',model,model_keyword,'/')) ## mixed model dir(parent dir)
         for(phase in phase_ls){
             mm_dir_p <- paste0(mm_dir, '/', phase,'/')
             (mm_dir_p <- paste0(grep('done|run', list.dirs(mm_dir_p, recursive = F), value = T), '/'))
@@ -1164,8 +1163,8 @@ regulation_ls= c('up', 'down')
 for (disease in disease_ls){## loop 1 for disease
     source('config_wrappers.R')
     for (model in model_ls){## loop2 for models
-        (mm_jack_dir = paste0(disease_dir, 'mixed_model_jackknife/random_intercept',model_keyword,'/')) ## jackknife MM parent dir
-        (mm_dir = paste0(disease_dir, 'mixed_model/random_intercept',model_keyword,'/')) ## MM parent dir
+        (mm_jack_dir = paste0(disease_dir, '/mixed_model_jackknife/random_intercept',model_keyword,'/')) ## jackknife MM parent dir
+        (mm_dir = paste0(disease_dir, '/mixed_model/random_intercept',model_keyword,'/')) ## MM parent dir
         for(phase in phase_ls){
             df_out_dir <- paste0(home_dir, '/ND_results/jackknife_rank_tables_adj_cell_pop/')
             df_all <- compareJackMM(mm_jack_dir,mm_dir, phase, regulation_ls, return_df = T, df_out_dir=df_out_dir,
