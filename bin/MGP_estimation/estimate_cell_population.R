@@ -256,7 +256,7 @@ dir.create(outDir, showWarnings = F, recursive = T)
 #'      if T, remove genes with PC1<0
 #' @param outDir is dir for plots and rotation table
 #' @param geneTransform if using mouse datasets, = NULL, if using human, then need to ask Ogan...
-#' 
+#' @param  removeMinority previously removeNegatives
 
 
 ## make the plot....    (Ogan's violin plots) only compare against WT, 
@@ -273,8 +273,10 @@ fullEstimate(exprData = array_dat,
              estimateFile = paste0(outDir,'estimatefile.tsv'), ## the estimatefile is needed for plots
              pAdjMethod = "BH",
              outlierSampleRemove=F,
-             seekConsensus=F  # remove probes when PC1 is negative (neg corr)
+             seekConsensus=F,  # remove probes when PC1 is negative (neg corr)
+             removeMinority =removeNegatives
              # removeNegatives = removeNegatives
+             
 )
 
 
