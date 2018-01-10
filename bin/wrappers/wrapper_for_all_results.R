@@ -343,6 +343,34 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 
+cat("
+    #***************************************************************************#
+    # PART 6.1.4 prepare the ermineJ files for up and down gene lists
+    # for random intercept
+    #***************************************************************************#\n")
+
+
+rm(list=setdiff(ls(),'home_dir'))
+source('config_wrappers.R')
+source('mixed_models/compare_mm_meta.R')
+
+
+model_ls <- c('random_intercept')
+phase_ls <- c('early','late')
+model_keyword <- '_include_NA_low_exp_rm'  ## if with NA: model_keyword = '_include_NA'  ## to specify which model folder
+
+
+for (disease in disease_ls){## loop 1 for disease
+    source('config_wrappers.R')
+    for (model in model_ls){## loop2 for models
+        (jack_meta_folder_ls <- c(paste0(disease_dir, 'meta_analysis/low_exp_rm/'),
+                                  paste0(disease_dir, 'meta_analysis/meta_jack/')))
+        mm_dir = paste0(disease_dir, '/mixed_model/',model,model_keyword,'/') ## mixed model dir(parent dir)
+        mainCompareMM(jack_meta_folder_ls, mm_dir, phase_ls=phase_ls, compare_fisher =F)
+    }## loop2 end
+}##loop1
+
+
 
 cat("
     #---------------------------------------------------------------------------#
@@ -525,7 +553,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 cat("
     #***************************************************************************#
-    # PART 6C.2 JACKKNIFE: get the up and down list of genes for all the runs
+    # PART 6C.2 JACKKNIFE: get the up and down list of genes per jackknife run
     #***************************************************************************#\n")
 ## get the up, down regulation mixed model results
 
@@ -538,13 +566,17 @@ model_ls <- c('random_intercept')
 phase_ls <- c('early', 'late')
 model_keyword <- '_include_NA_low_exp_rm'  ## if with NA: model_keyword = '_include_NA'  ## to specify which model folder
 
+f =mm_dir_p[1]
 
 for (disease in disease_ls){## loop 1 for disease
     source('config_wrappers.R')
     for (model in model_ls){## loop2 for models
+        
         (jack_meta_folder_ls <- c(paste0(disease_dir, 'meta_analysis/low_exp_rm/'),
                                   paste0(disease_dir, 'meta_analysis/meta_jack/')))
-        (mm_dir = paste0(disease_dir, 'mixed_model_jackknife/',model,model_keyword,'/')) ## mixed model dir(parent dir)
+        
+        
+        (mm_dir = paste0(disease_dir, '/mixed_model_jackknife/',model,model_keyword,'/')) ## mixed model dir(parent dir)
         for(phase in phase_ls){
             mm_dir_p <- paste0(mm_dir, '/', phase,'/')
             (mm_dir_p <- paste0(grep('done|run', list.dirs(mm_dir_p, recursive = F), value = T), '/'))
