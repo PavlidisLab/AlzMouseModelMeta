@@ -28,6 +28,7 @@ GEO <- c(GEO,'GSE64398') ## illumina idat
 
 
 (CEL_dir <- paste0(disease_dir, 'data_and_QC/GEO_data/CEL_raw/'))
+dir.create(CEL_dir, recursive = T, showWarnings = F)
 
 ## download raw data
 downloadCEL(GEO, CEL_dir, meta_data = F)
