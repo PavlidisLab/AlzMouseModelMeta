@@ -19,7 +19,7 @@ for(disease in disease_ls){
   }
 }
 
-out_dir <- paste0(home_dir, 'ND_results/mm_results/')
+out_dir <- file.path(home_dir, 'ND_results/mm_results/')
 dir.create(out_dir, showWarnings = F)
 (f_out <- paste0(out_dir, output_r))
 (cmd <- paste0('save(', 
