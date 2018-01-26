@@ -18,14 +18,15 @@ rm(list=setdiff(ls(),'home_dir'))
 source('config_wrappers.R')
 
 regulation_ls = c('up', 'down')
-
 phase_ls =c('early', 'late')
+
+## for results of mixed models without MGP
 variable_prefix =''
 input_dir = 'mixed_model_jackknife/random_intercept_include_NA_low_exp_rm/'  # where to grab the mixed_model_results.tsv
 output_r ='mm_jack_each_disease.Rdata'  ## output r data name
 source('summary_tables/summary_rdata/mm_jack_summary_each_disease.R')
 
-
+## for results of mixed models with MGP
 variable_prefix = '_adj_cell'
 input_dir = 'mixed_model_jackknife/random_intercept_include_NA_low_exp_rm_adj_cell_pop/'  # where to grab the mixed_model_results.tsv
 output_r ='mm_jack_each_disease_adj_cell.Rdata'  ## output r data name

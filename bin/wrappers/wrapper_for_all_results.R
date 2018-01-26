@@ -641,7 +641,7 @@ process_ls <- c('', '_all_processes')  # '' is the biolofical process only, and 
 
 for (disease in disease_ls){## loop 1 for disease
     source('config_wrappers.R')
-    (mm_jack_dir = paste0(disease_dir, 'mixed_model_jackknife/random_intercept',model_keyword,'/')) ## jackknife MM parent dir
+    (mm_jack_dir = paste0(disease_dir, '/mixed_model_jackknife/random_intercept',model_keyword,'/')) ## jackknife MM parent dir
     
     
     for(process_keyword in process_ls){
