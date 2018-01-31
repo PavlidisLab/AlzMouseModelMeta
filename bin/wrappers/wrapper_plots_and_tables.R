@@ -215,7 +215,7 @@ x_angle <- 90  ## rotation of x labels
 plot_indi <- F ## whether to plot individual studies in a separate plot
 for(disease in disease_ls){
     source('config_wrappers.R')
-    df_info <- paste0('../config/', disease,'_mouse_dataset_doc/dataset_info_all.tsv')
+    df_info <- paste0('../configs/', disease,'_mouse_dataset_doc/dataset_info_all.tsv')
     df <- mainPlotIndiStudyCellEstimates(disease, phase_ls, disease_dir,df_info, original_genotype =F,
                                          write_df =T,
                                          f_out_dir = f_out_dir,
