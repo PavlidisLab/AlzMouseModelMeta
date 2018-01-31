@@ -64,7 +64,7 @@ processCellPopDf <- function(disease, disease_dir,df_info, original_genotype =F,
     #' df_info: e.g. dataset_info_all.tsv to add the disease phase info for each sample (by study and timepoint)
     #' 
     ## get the genotypes (including combined, but will be replaced later from the orginal genotype files)
-    folder = paste0(disease_dir, '/results/Cell_population_estimates_Genotype/')
+    folder = paste0(disease_dir, '/MGP_estimation/')
     (folder = max(list.dirs(folder, recursive=F)))
     (f_ls = grep('_cell_proportion_estimation_scaled.tsv',list.files(folder, recursive=T), value=T))
     (f_estimate_ls = grep('estimatefile.tsv',list.files(folder, recursive=T), value=T))

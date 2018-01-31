@@ -88,8 +88,8 @@ for (disease in disease_ls){## loop 1 for disease
             for(opposite_phase in opposite_phase_ls){ ## loop4 produce which set of heatmaps
                 for(mm_rdata_keyword in mm_rdata_keyword_ls){ # loop5: correct for celltype or not
                     ## where the mixed model result files
-                    mm_rdata_dir <- paste0(disease_dir, 'mixed_model/', model,mm_rdata_keyword,'/') ## where the expression results
-                    mm_dir <- paste0(disease_dir,result_rank,'/', model,mm_rdata_keyword,'/') ## where the ranked results
+                    mm_rdata_dir <- paste0(disease_dir, '/mixed_model/', model,mm_rdata_keyword,'/') ## where the expression results
+                    mm_dir <- paste0(disease_dir,'/',result_rank,'/', model,mm_rdata_keyword,'/') ## where the ranked results
                     if(opposite_phase){
                         (plt_out <- paste0(plot_dir,disease,'/', result_rank,'/opposite/',model,mm_rdata_keyword,'/', Sys.Date(), '/'))
                     }else{
@@ -130,7 +130,7 @@ source('helper_functions.R')
 source('mixed_models/plot_up_down_genes_thesis_figure_corrected_value.R')
 source('config_wrappers.R')
 
-legend_ls <- list(c('Genotype', 'Study'), c('Genotype', 'Original_genotype', 'Study'))
+legend_ls <- list(c('Genotype', 'Study'), c('Genotype', 'Study'))
 
 
 model <- c('random_intercept')
@@ -153,9 +153,9 @@ for (disease in disease_ls){## loop 1 for disease
     
     ## the cell marker folder
     if(disease == 'AD'){
-        (folder=max(grep('201.*Hippocampus', list.dirs('../config/cell_type_markers/',recursive = T, full.names = T), value = T)))
-    }else{
-        (folder=max(grep('201.*Striatum', list.dirs('../../config/cell_type_markers/',recursive = T, full.names = T), value = T)))
+        (folder=max(grep('201.*Hippocampus', list.dirs('../configs/cell_type_markers/',recursive = T, full.names = T), value = T)))
+    }else{ ## for HD
+        (folder=max(grep('201.*Striatum', list.dirs('../configs/cell_type_markers/',recursive = T, full.names = T), value = T)))
     }
     
     ## get all the cell type markers
@@ -171,10 +171,10 @@ for (disease in disease_ls){## loop 1 for disease
         
         
         ## where the mixed model result files
-        mm_rdata_dir <- paste0(disease_dir, 'mixed_model/', model,model_keyword,'/') ## where the rdata
-        mm_dir <- paste0(disease_dir,result_rank,'/', model,model_keyword,'/') ## where the ranked results
+        mm_rdata_dir <- paste0(disease_dir, '/mixed_model/', model,model_keyword,'/') ## where the rdata
+        mm_dir <- paste0(disease_dir,'/',result_rank,'/', model,model_keyword,'/') ## where the ranked results
         # plot out dir (a sub folder of 'gene_heatmaps' will be created)
-        plt_out <- paste0(home_dir,'ND_results/gene_heatmaps_explore/cell_markers/', disease, '/', Sys.Date(), '/', cell_type, '/')
+        plt_out <- paste0(home_dir,'/ND_results/gene_heatmaps_explore/cell_markers/', disease, '/', Sys.Date(), '/', cell_type, '/')
         
         
         
@@ -195,35 +195,6 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 
-
-cat(" # updated 2017-02-20
-    #**************************#
-    # PART 11.5.1 plot the cell population changes for all diseases for indi study
-    #**************************#\n")
-#' must run part 3.3.2a and 3.3.2b
-
-rm(list=setdiff(ls(),'home_dir'))
-source('MGP_estimation/estimate_cell_population_summary_and_plots.R')
-source('config_wrappers.R')
-phase_ls =c('early', 'late')
-
-
-(f_out_dir = paste0(home_dir, '/ND_results/cell_population_plots_indi_studies/', Sys.Date(), '/'))
-
-font_size <- 30
-x_angle <- 90  ## rotation of x labels
-plot_indi <- F ## whether to plot individual studies in a separate plot
-for(disease in disease_ls){
-    source('config_wrappers.R')
-    df_info <- paste0('../configs/', disease,'_mouse_dataset_doc/dataset_info_all.tsv')
-    df <- mainPlotIndiStudyCellEstimates(disease, phase_ls, disease_dir,df_info, original_genotype =F,
-                                         write_df =T,
-                                         f_out_dir = f_out_dir,
-                                         plot_indi= plot_indi,
-                                         font_size=font_size,
-                                         x_angle=x_angle)
-}
-# source('summary_tables/cell_pop_rotation_rdata.R')
 
 cat("
     #**************************#
@@ -246,9 +217,9 @@ poster_font_size = 24  ## poster font size
 
 
 ## output of the plots and table
-in_dir = paste0(disease_dir, '/MGP_estimation/all_sample_estimation/')
+in_dir = paste0(disease_dir, '/MGP_estimation/')
 
-out_dir = paste0(disease_dir, '/MGP_estimation/all_sample_estimation/plots/')
+out_dir = paste0(disease_dir, '/MGP_estimation/plots/')
 
 
 cellPopPlots(disease_ls, phase_ls, in_dir, out_dir,x_angle = x_angle,one_plot_font_size = one_plot_font_size,
