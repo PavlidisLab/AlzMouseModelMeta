@@ -20,7 +20,7 @@ jackknifeRunCorr <- function(disease, model_keyword,input_folder, out_folder=inp
     ## input files 
     (f_ls <- paste0(folder, '/', list.files(folder, pattern = 'jackknife.*.tsv')))
     
-    dir.create(out_folder, showWarnings = F)
+    dir.create(out_folder, showWarnings = F, recursive = T)
     f_out <- paste0(out_folder, '/', disease, model_keyword, '_rank_corr_for_runs_', Sys.Date(), '.tsv')
     writeTable(df=NULL, f_out = f_out, msg = paste0('# ', Sys.Date()))
     
