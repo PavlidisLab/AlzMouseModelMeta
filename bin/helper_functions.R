@@ -167,7 +167,7 @@ plotHeatmap <- function(x, title = "", size_r = 5, size_c = 15,
                         cluster_cols = FALSE,
                         annotation_row = F,
                         array_design_df = array_design,
-                        colour_scheme = "YlOrRd",
+                        color = colorRampPalette(rev(brewer.pal(n = 7, name ="YlOrRd")))(100),
                         default_border_color = NA,
                         NA_color = "grey",
                         scale_row = F,
@@ -196,34 +196,37 @@ plotHeatmap <- function(x, title = "", size_r = 5, size_c = 15,
     }
   (annotation <- array_design_df[legend])
     ## for annotation, 
-  
-  cmd_base <- paste0("pheatmapNA(x, colour_scheme = colour_scheme,
-               NA_color = NA_color,
-               cluster_rows = cluster_rows, 
-                     cluster_cols = cluster_cols,
-                     fontsize_row = size_r,
-                     fontsize_col = size_c,
-                     show_rownames = show_rownames,
-                     show_colnames = show_colnames,
-                     main = title,
-                     border_color = default_border_color, ")
-  
-  if(annotation_row){
-      cmd_base <- paste0(cmd_base,
-                         "annotation_col = annotation,
-                         annotation_row = annotation,")
-      
-  } else{
-      cmd_base <- paste0(cmd_base,
-                         "annotation = annotation,")
-  }
-  if(scale_row){
-      title <- paste(title," (z-score)")
-      cmd_base <- paste0(cmd_base,
-                         "scale ='row', ")
-  }
-  (cmd <- paste0(cmd_base, "...)"))
-  eval(parse(text = cmd))
+
+    if(annotation_row){
+        annotation_col = annotation
+        annotation_row = annotation
+        annotation = NA
+    } else{
+        annotation_col = NA
+        annotation_row = NA
+        annotation = annotation
+    }
+    if(scale_row){
+        title <- paste(title," (z-score)")
+        scale = 'row'
+    } else{
+        scale = 'none'
+    }
+    pheatmap(x,color = color,
+             na_col = NA_color,
+             cluster_rows = cluster_rows, 
+             cluster_cols = cluster_cols,
+             fontsize_row = size_r,
+             fontsize_col = size_c,
+             show_rownames = show_rownames,
+             show_colnames = show_colnames,
+             main = title,
+             border_color = default_border_color,
+             annotation = annotation,
+             annotation_col = annotation_col,
+             annotation_row = annotation_row,
+             scale = scale,
+             ...)
 #   if(annotation_row){
 #     pheatmapNA(x, colour_scheme = colour_scheme,
 #                NA_color = NA_color,
