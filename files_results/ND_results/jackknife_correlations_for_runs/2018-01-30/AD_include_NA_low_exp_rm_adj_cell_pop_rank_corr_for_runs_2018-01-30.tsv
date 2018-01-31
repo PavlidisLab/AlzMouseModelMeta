@@ -1,0 +1,142 @@
+# 2018-01-30
+
+
+# INPUT files C:/AD/files_results/AD_mouse_model_project/mixed_model_jackknife//random_intercept_include_NA_low_exp_rm_adj_cell_pop/jackknife_early_down_regulation_mixed_model_results.tsv
+# run_1:  Study removed: GSE48622
+# run_2:  Study removed: GSE64398
+# run_3:  Study removed: GSE63617
+# run_4:  Study removed: GSE36237
+disease	phase	V1	V2	spearman_correlation
+AD	early	run_2_down_rank	run_3_down_rank	0.218712057620196
+AD	early	run_2_down_rank	run_4_down_rank	0.362191333680138
+AD	early	run_1_down_rank	run_2_down_rank	0.51894929887059
+AD	early	run_3_down_rank	run_4_down_rank	0.700125891822979
+AD	early	run_1_down_rank	run_3_down_rank	0.769848438867421
+AD	early	run_1_down_rank	run_4_down_rank	0.772015606499514
+
+# summary of correlations of each run
+value	n	Mean	SD	Min	Max	Median
+run_2_down_rank	3	0.366617563390308	0.150167552721942	0.218712057620196	0.51894929887059	0.362191333680138
+run_3_down_rank	3	0.562895462770199	0.300103266688451	0.218712057620196	0.769848438867421	0.700125891822979
+run_4_down_rank	3	0.61144427733421	0.218831682370797	0.362191333680138	0.772015606499514	0.700125891822979
+run_1_down_rank	3	0.686937781412508	0.1454863287527	0.51894929887059	0.772015606499514	0.769848438867421
+
+# INPUT files C:/AD/files_results/AD_mouse_model_project/mixed_model_jackknife//random_intercept_include_NA_low_exp_rm_adj_cell_pop/jackknife_early_up_regulation_mixed_model_results.tsv
+# run_1:  Study removed: GSE48622
+# run_2:  Study removed: GSE64398
+# run_3:  Study removed: GSE63617
+# run_4:  Study removed: GSE36237
+disease	phase	V1	V2	spearman_correlation
+AD	early	run_2_up_rank	run_3_up_rank	0.218712057620196
+AD	early	run_2_up_rank	run_4_up_rank	0.362191333680138
+AD	early	run_1_up_rank	run_2_up_rank	0.51894929887059
+AD	early	run_3_up_rank	run_4_up_rank	0.700125891822979
+AD	early	run_1_up_rank	run_3_up_rank	0.769848438867421
+AD	early	run_1_up_rank	run_4_up_rank	0.772015606499514
+
+# summary of correlations of each run
+value	n	Mean	SD	Min	Max	Median
+run_2_up_rank	3	0.366617563390308	0.150167552721942	0.218712057620196	0.51894929887059	0.362191333680138
+run_3_up_rank	3	0.562895462770199	0.300103266688451	0.218712057620196	0.769848438867421	0.700125891822979
+run_4_up_rank	3	0.61144427733421	0.218831682370797	0.362191333680138	0.772015606499514	0.700125891822979
+run_1_up_rank	3	0.686937781412508	0.1454863287527	0.51894929887059	0.772015606499514	0.769848438867421
+
+# INPUT files C:/AD/files_results/AD_mouse_model_project/mixed_model_jackknife//random_intercept_include_NA_low_exp_rm_adj_cell_pop/jackknife_late_down_regulation_mixed_model_results.tsv
+# run_1:  Study removed: GSE1556
+# run_2:  Study removed: GSE50521
+# run_3:  Study removed: GSE63617
+# run_4:  Study removed: GSE64398
+# run_5:  Study removed: GSE52022
+# run_6:  Study removed: GSE14499
+# run_7:  Study removed: GSE15056
+# run_8:  Study removed: GSE53480
+disease	phase	V1	V2	spearman_correlation
+AD	late	run_3_down_rank	run_4_down_rank	0.306048730184093
+AD	late	run_4_down_rank	run_6_down_rank	0.47858522619118
+AD	late	run_1_down_rank	run_4_down_rank	0.487723936128429
+AD	late	run_4_down_rank	run_5_down_rank	0.529043723134887
+AD	late	run_4_down_rank	run_7_down_rank	0.538747540305965
+AD	late	run_2_down_rank	run_4_down_rank	0.553221113694883
+AD	late	run_4_down_rank	run_8_down_rank	0.560622241716341
+AD	late	run_3_down_rank	run_8_down_rank	0.82722496192521
+AD	late	run_3_down_rank	run_6_down_rank	0.835039574044157
+AD	late	run_1_down_rank	run_3_down_rank	0.842869076860966
+AD	late	run_3_down_rank	run_5_down_rank	0.856246263460575
+AD	late	run_2_down_rank	run_3_down_rank	0.862799260880207
+AD	late	run_3_down_rank	run_7_down_rank	0.871820333088384
+AD	late	run_6_down_rank	run_8_down_rank	0.898965345303074
+AD	late	run_1_down_rank	run_6_down_rank	0.909701310598435
+AD	late	run_1_down_rank	run_8_down_rank	0.918126047669846
+AD	late	run_5_down_rank	run_6_down_rank	0.920051477093693
+AD	late	run_5_down_rank	run_8_down_rank	0.925626563952736
+AD	late	run_1_down_rank	run_5_down_rank	0.928442586305441
+AD	late	run_2_down_rank	run_8_down_rank	0.928878609235589
+AD	late	run_2_down_rank	run_6_down_rank	0.934218982946283
+AD	late	run_1_down_rank	run_2_down_rank	0.936151665304857
+AD	late	run_6_down_rank	run_7_down_rank	0.942963630994322
+AD	late	run_7_down_rank	run_8_down_rank	0.944107100614872
+AD	late	run_2_down_rank	run_5_down_rank	0.946969777943639
+AD	late	run_1_down_rank	run_7_down_rank	0.953255859666805
+AD	late	run_5_down_rank	run_7_down_rank	0.960054106849769
+AD	late	run_2_down_rank	run_7_down_rank	0.968570041447406
+
+# summary of correlations of each run
+value	n	Mean	SD	Min	Max	Median
+run_4_down_rank	7	0.493427501622254	0.0882953925441213	0.306048730184093	0.560622241716341	0.529043723134887
+run_3_down_rank	7	0.771721171491942	0.205937810020999	0.306048730184093	0.871820333088384	0.842869076860966
+run_6_down_rank	7	0.845646506738735	0.165652353323755	0.47858522619118	0.942963630994322	0.909701310598435
+run_1_down_rank	7	0.853752926076397	0.165145759626182	0.487723936128429	0.953255859666805	0.918126047669846
+run_8_down_rank	7	0.857650124345381	0.136433525021788	0.560622241716341	0.944107100614872	0.918126047669846
+run_5_down_rank	7	0.866633499820106	0.152430369068419	0.529043723134887	0.960054106849769	0.925626563952736
+run_2_down_rank	7	0.875829921636124	0.14592806935554	0.553221113694883	0.968570041447406	0.934218982946283
+run_7_down_rank	7	0.882788373281075	0.155005158751464	0.538747540305965	0.968570041447406	0.944107100614872
+
+# INPUT files C:/AD/files_results/AD_mouse_model_project/mixed_model_jackknife//random_intercept_include_NA_low_exp_rm_adj_cell_pop/jackknife_late_up_regulation_mixed_model_results.tsv
+# run_1:  Study removed: GSE1556
+# run_2:  Study removed: GSE50521
+# run_3:  Study removed: GSE63617
+# run_4:  Study removed: GSE64398
+# run_5:  Study removed: GSE52022
+# run_6:  Study removed: GSE14499
+# run_7:  Study removed: GSE15056
+# run_8:  Study removed: GSE53480
+disease	phase	V1	V2	spearman_correlation
+AD	late	run_3_up_rank	run_4_up_rank	0.306048730184093
+AD	late	run_4_up_rank	run_6_up_rank	0.47858522619118
+AD	late	run_1_up_rank	run_4_up_rank	0.487723936128429
+AD	late	run_4_up_rank	run_5_up_rank	0.529043723134887
+AD	late	run_4_up_rank	run_7_up_rank	0.538747540305965
+AD	late	run_2_up_rank	run_4_up_rank	0.553221113694883
+AD	late	run_4_up_rank	run_8_up_rank	0.560622241716341
+AD	late	run_3_up_rank	run_8_up_rank	0.82722496192521
+AD	late	run_3_up_rank	run_6_up_rank	0.835039574044157
+AD	late	run_1_up_rank	run_3_up_rank	0.842869076860966
+AD	late	run_3_up_rank	run_5_up_rank	0.856246263460575
+AD	late	run_2_up_rank	run_3_up_rank	0.862799260880207
+AD	late	run_3_up_rank	run_7_up_rank	0.871820333088384
+AD	late	run_6_up_rank	run_8_up_rank	0.898965345303074
+AD	late	run_1_up_rank	run_6_up_rank	0.909701310598435
+AD	late	run_1_up_rank	run_8_up_rank	0.918126047669846
+AD	late	run_5_up_rank	run_6_up_rank	0.920051477093693
+AD	late	run_5_up_rank	run_8_up_rank	0.925626563952736
+AD	late	run_1_up_rank	run_5_up_rank	0.928442586305441
+AD	late	run_2_up_rank	run_8_up_rank	0.928878609235589
+AD	late	run_2_up_rank	run_6_up_rank	0.934218982946283
+AD	late	run_1_up_rank	run_2_up_rank	0.936151665304857
+AD	late	run_6_up_rank	run_7_up_rank	0.942963630994322
+AD	late	run_7_up_rank	run_8_up_rank	0.944107100614872
+AD	late	run_2_up_rank	run_5_up_rank	0.946969777943639
+AD	late	run_1_up_rank	run_7_up_rank	0.953255859666805
+AD	late	run_5_up_rank	run_7_up_rank	0.960054106849769
+AD	late	run_2_up_rank	run_7_up_rank	0.968570041447406
+
+# summary of correlations of each run
+value	n	Mean	SD	Min	Max	Median
+run_4_up_rank	7	0.493427501622254	0.0882953925441213	0.306048730184093	0.560622241716341	0.529043723134887
+run_3_up_rank	7	0.771721171491942	0.205937810020999	0.306048730184093	0.871820333088384	0.842869076860966
+run_6_up_rank	7	0.845646506738735	0.165652353323755	0.47858522619118	0.942963630994322	0.909701310598435
+run_1_up_rank	7	0.853752926076397	0.165145759626182	0.487723936128429	0.953255859666805	0.918126047669846
+run_8_up_rank	7	0.857650124345381	0.136433525021788	0.560622241716341	0.944107100614872	0.918126047669846
+run_5_up_rank	7	0.866633499820106	0.152430369068419	0.529043723134887	0.960054106849769	0.925626563952736
+run_2_up_rank	7	0.875829921636124	0.14592806935554	0.553221113694883	0.968570041447406	0.934218982946283
+run_7_up_rank	7	0.882788373281075	0.155005158751464	0.538747540305965	0.968570041447406	0.944107100614872
