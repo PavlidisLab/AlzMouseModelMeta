@@ -668,6 +668,45 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 
+cat("
+    #**************************#
+    # PART 6D save the results of top genes (pvalue is raw p, not up or down p)
+    # mixed model : no MGP correction
+    #**************************#\n")
+#' rdata in mm_results_cell_adj
+#' summerized top genes, top jack genes after cell type corrections
+
+rm(list=setdiff(ls(),'home_dir'))
+
+source('summary_tables/summary_MM_top_genes.R')
+source('config_wrappers.R')
+mgi_info <- paste0('../configs/ND_files/mgi_annotation_precessed_omim.tsv')
+
+model_ls <- c('mixed_model_jackknife')  ## specify which mixed model results
+
+f_out <- paste0(home_dir, '/ND_results/ND_summary/doc_tables/top_genes_non_adj/')
+f_rdata_out <- paste0(home_dir, '/ND_results/mm_results/', Sys.Date(), '/')  ## save the r data
+threshold =50
+phase_ls <- c('early', 'late')
+
+mm_folder ='random_intercept_include_NA_low_exp_rm'
+
+## must run this for the mixed model first (because the estimate and std are from full mixed model)
+for(phase in phase_ls){
+    summarizeTopGenes(disease_ls, phase =phase, f_out,f_rdata_out = f_rdata_out, threshold =threshold, top_genes = T, mm_folder= mm_folder,
+                      mgi_info =mgi_info )
+}
+
+## get the top genes for jackknife, and save rdata
+(f_out <- paste0(home_dir, '/ND_results/ND_summary/doc_tables/jack_top_genes_non_adj/'))
+mm_jack_folder ='random_intercept_include_NA_low_exp_rm'
+threshold =50
+for(phase in phase_ls){
+    summarizeTopJackGenes(disease_ls, phase =phase, f_out,f_rdata_out = f_rdata_out, threshold =threshold, top_genes = T, 
+                          mm_jack_folder=mm_jack_folder)
+}
+
+
 
 cat("
     #---------------------------------------------------------------------------#
