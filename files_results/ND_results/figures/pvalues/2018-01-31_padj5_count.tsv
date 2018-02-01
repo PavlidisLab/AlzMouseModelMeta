@@ -1,0 +1,9 @@
+disease	phase	regulation	Freq	Count	correction
+AD	early	up	6	6(0.06%)	Before
+AD	late	up	740	740(7.14%)	Before
+AD	early	down	2	2(0.02%)	Before
+AD	late	down	675	675(6.51%)	Before
+AD	early	up	12	12(0.11%)	After
+AD	late	up	11	11(0.11%)	After
+AD	early	down	4	4(0.04%)	After
+AD	late	down	6	6(0.06%)	After

@@ -1,0 +1,25 @@
+# 2018-01-31
+#####
+# DISEASE: AD
+#####
+# PHASE: early
+# File dir: C:/AD/files_results/AD_mouse_model_project/MGP_estimation//early/2017-01-31
+# PHASE: late
+# File dir: C:/AD/files_results/AD_mouse_model_project/MGP_estimation//late/2017-01-31
+cell_type	disease	phase	Freq	pos_rotation	neg_rotation	pos_diff	neg_diff
+A1	AD	early	8	7	1	4	4
+A2	AD	early	5	3	2	1	4
+Astrocyte	AD	early	114	73	41	53	61
+DentateGranule	AD	early	20	18	2	9	11
+GabaSSTReln	AD	early	42	33	9	16	26
+Microglia	AD	early	106	79	27	64	42
+Oligo	AD	early	41	41	0	20	21
+Pyramidal_Thy1	AD	early	17	15	2	8	9
+A1	AD	late	7	5	2	2	5
+A2	AD	late	4	4	0	2	2
+Astrocyte	AD	late	68	55	13	32	36
+DentateGranule	AD	late	16	14	2	6	10
+GabaSSTReln	AD	late	29	26	3	9	20
+Microglia	AD	late	82	70	12	45	37
+Oligo	AD	late	21	21	0	11	10
+Pyramidal_Thy1	AD	late	11	11	0	6	5

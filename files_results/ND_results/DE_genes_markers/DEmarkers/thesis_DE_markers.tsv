@@ -1,0 +1,14 @@
+cell_type_before	count_before	geneSymbol_before	regulation_before	cell_type_after	count_after	geneSymbol_after	regulation_after	disease	phase
+Astrocytes	3	Cyp2d22, Hsd11b1, Slc15a2	down	Astrocytes	3	Cpq, Fgfr3, Lamb2	down	AD	early
+Dentate granule cells	1	Trpc6	down	NA	NA	NA	NA	AD	early
+GABAergic cells	1	Entpd4	down	GABAergic cells	1	Entpd4	down	AD	early
+Microglia	1	Irgm2	down	Microglia	3	Cd52, Herpud1, Irgm2	down	AD	early
+NA	NA	NA	NA	Microglia	1	C1qc	up	AD	early
+NA	NA	NA	NA	Oligodendrocytes	1	Ugt8a	up	AD	early
+cell_type_before	count_before	geneSymbol_before	regulation_before	cell_type_after	count_after	geneSymbol_after	regulation_after	disease	phase
+Astrocytes	1	Slc14a1	up	Astrocytes	1	Slc14a1	up	AD	late
+Astrocytes	1	Fjx1	down	Astrocytes	3	Atp1a2, Mfge8, Slc1a3	down	AD	late
+GABAergic cells	2	Cort, Igfbp4	down	NA	NA	NA	NA	AD	late
+Microglia	16	Anxa3, C1qc, Cd52, Cd68, Ctsh, Ctsz, Cyba, Grn, Gusb, Havcr2, Ifngr1, Lag3, Ly86, Slc11a1, Tgfbr2, Tyrobp	up	Microglia	2	Cd68, Tyrobp	up	AD	late
+Pyramidal cells	1	Nr4a2	down	NA	NA	NA	NA	AD	late
+NA	NA	NA	NA	Microglia	1	Crybb1	down	AD	late
