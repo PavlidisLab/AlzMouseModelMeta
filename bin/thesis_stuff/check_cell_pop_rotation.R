@@ -15,12 +15,6 @@ library(HelperFunctions)
 library(dplyr)
 library(pheatmap)
 
-(outdir <- paste0(home_dir, '/ND_results/DE_genes_markers/rotations/', Sys.Date(), '/'))
-(plotdir <- paste0(outdir, 'plots/')) ## for heatmaps of cell markers (study corrected value,, per cell type, disease and phase)
-(f_rdata_out <- paste0(home_dir, '/ND_results/DE_genes_markers/cell_marker_summary_', Sys.Date(), '.Rdata'))
-
-
-
 
 source('mixed_models/plot_up_down_genes_thesis_figure_corrected_value.R')
 
