@@ -374,45 +374,14 @@ for(phase in phase_ls){
 }
 
 
-#+++++++++++++++++++
-# plot pvalue distribution
-#+++++++++++++++++++
-##############
-## thesis plot - histo plot for pvalues before and after cell type correction
-##############
 
-## plot pvalues
-df <- all_ranks[, c('disease', 'phase','pvalue')]%>%droplevels()
-df$correction <- 'Before'
-df2 <- all_ranks_adj[, c('disease', 'phase','pvalue')]%>%droplevels()
-df2$correction <- 'After'
-df <- rbind(df,df2)
-df$phase <- paste0(df$disease, ' ', df$phase)
-df <- as.data.frame(unclass(df))
-df$correction <- factor(df$correction, levels= c('Before', 'After'))
-
-
-plot_dir <- '../../results/ND_results/figures/pvalues/'
-dir.create(plot_dir, recursive = T,showWarnings = F)
-for(disease in c("AD", "HD")){
-    df2 <- filterContain(df, column = 'disease', value = disease)
-    f_out <-paste0(plot_dir,Sys.Date(),'_', disease, '_pvalue.png') 
-    plotPvalue(df2, one_plot_font_size =14, f_out)
-}
-
-## save as svg for later modification
-for(disease in c("AD", "HD")){
-    df2 <- filterContain(df, column = 'disease', value = disease)
-    f_out <-paste0(plot_dir,Sys.Date(),'_', disease, '_pvalue.svg') 
-    plotPvalue(df2, one_plot_font_size =14, f_out)
-}
 
 
 #+++++++++++++++++++
 ##### get the enriched GO terms and cross disease overlap terms -thesis
 #' 
 #+++++++++++++++++++
-outdir <- '../../results/ND_results/sig_go_terms/'
+outdir <- paste0(home_dir, '/ND_results/figures/sig_go_terms/')
 dir.create(outdir,recursive = T, showWarnings = F)
 df <- GO_adj
 df <- df[, c(1:3,19, 5:9, 11, 15:16)]

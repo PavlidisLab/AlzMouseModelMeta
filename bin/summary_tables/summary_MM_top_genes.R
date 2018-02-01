@@ -62,8 +62,8 @@ summarizeTopGenes <- function(disease_ls, phase, f_out, f_rdata_out=f_out, thres
     for(i in 1:length(disease_ls)){
         disease <- disease_ls[i]
         print(disease)
-        disease_dir <- paste0(home_dir, disease, '_mouse_model_project/')
-        result_dir <- paste0(disease_dir, 'mixed_model/', mm_folder,'/', phase,'/')  ## mixed model only
+        disease_dir <- paste0(home_dir, '/',disease, '_mouse_model_project/')
+        result_dir <- paste0(disease_dir, '/mixed_model/', mm_folder,'/', phase,'/')  ## mixed model only
         print(result_dir)
         
         # if(is.na(f_dir)){ ## if the mixed_model_results is not provided, search the given disease dir and phase
@@ -261,20 +261,20 @@ summarizeTopJackGenes <- function(disease_ls, phase, f_out, f_rdata_out=f_out, t
     (rdata <- grep(paste0(phase, "_mm_results.Rdata"), list.files(f_rdata_out, full.names = T) , value = T))
     (rdata <- grep('jackknife', rdata, value = T, invert = T)) ## grep not the jackknife result
     load(rdata)
-    print(rdata)
+    print(paste0('INPUT RDATA: ', rdata))
     
     
     for(i in 1:length(disease_ls)){
         disease <- disease_ls[i]
         print(disease)
         (disease_dir <- paste0(home_dir, disease, '_mouse_model_project/'))
-        ## get the variable with diease and phase
+        ## get the variable with disease and phase
         (r_obj <- grep(paste0(disease, '_', phase,'_mm_variable'), ls(), value = T))
         (cmd <- paste0('df <- ', r_obj))
         eval(parse(text = cmd))
         
         ## get the jackknife results of the phase and regulation
-        disease_dir <- paste0(home_dir, disease, '_mouse_model_project/')
+        disease_dir <- paste0(home_dir,'/' ,disease, '_mouse_model_project/')
         (jack_dir <- paste0(disease_dir, 'mixed_model_jackknife/',mm_jack_folder,'/'))
         print(jack_dir)
         

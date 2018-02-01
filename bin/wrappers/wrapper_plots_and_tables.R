@@ -1,16 +1,15 @@
 
 setwd(file.path(here::here(),'bin'))
 
-cat("
-    #---------------------------------------------------------------------------#
-    # PART 11 thesis tables, figures, rdata for easy comparison
-    #---------------------------------------------------------------------------#\n")
+
+#****************
+## PART 11 thesis tables, figures, rdata for easy comparison ----
+#****************
 
 
-cat("
-    #**************************#
-    # PART 11.0 Rdata for all jacknife results for all disease
-    #**************************#\n")
+#**************************#
+# PART 11.0 Rdata for all jacknife results for all disease-----
+#**************************
 #' make all mixed model jackknife results into a r data, and save to 
 #' 'ND_results/mm_results/mm_jack_each_disease.Rdata'
 
@@ -35,17 +34,18 @@ source('summary_tables/summary_rdata/mm_jack_summary_each_disease.R')
 
 
 
-cat("
-    #**************************#
-    # PART 11.3 plot Heatmaps
-    #**************************#\n")
-cat("
-    #-------------#
-    # PART 11.3.1 make the heatmap for top jackknife genes (top genes of the phase)- with cell population corrected
-    # and top mixed model genes (not used in thesis)
-    # expression are corrected to the corresponding gene list (corrected for study or corrected for celltypes)
-    # also plot the top genes of the opposite phase expression
-    #-------------#\n")
+
+#**************************#
+# PART 11.3 plot Heatmaps for top genes----
+#**************************
+
+#**************
+# PART 11.3.1 make the heatmap for top jackknife genes MGP corrected ----
+# (top genes of the phase)- with cell population corrected
+# and top mixed model genes (not used in thesis)
+# expression are corrected to the corresponding gene list (corrected for study or corrected for celltypes)
+# also plot the top genes of the opposite phase expression
+#**************
 ## wrapper
 rm(list=setdiff(ls(),'home_dir'))
 source('config_wrappers.R')
@@ -116,11 +116,12 @@ for (disease in disease_ls){## loop 1 for disease
 }##loop1
 
 
-cat("
-    #-------------#
-    # PART 11.3.2 make the heatmap for cell type marker genes ## just to explore, not included in thesis
-    # input expression is corrected for study only
-    #-------------#\n")
+
+#**************
+# PART 11.3.2 make the heatmap for cell type marker genes ----
+## just to explore, not included in thesis
+# input expression is corrected for study only
+#**************
 
 #' with model_keyword_ls <- c('_include_NA_low_exp_rm')  ## this correct all the genes if intercept is provided
 
@@ -196,10 +197,11 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 
-cat("
-    #**************************#
-    # PART 11.5.2 plot the cell population changes for all diseases (input in mixed model cell types)
-    #**************************#\n")
+
+#**************************#
+# PART 11.5.2 plot the cell population changes ----
+# for all diseases (input in mixed model cell types)
+#**************************
 
 #' after all the estimate cell populations
 #' get a summary table for all and plots
@@ -230,10 +232,10 @@ cellPopPlots(disease_ls, phase_ls, in_dir, out_dir,x_angle = x_angle,one_plot_fo
 #              outlier_rm_from_box = F,poster =T)
 
 
-cat("
-    #**************************#
-    # PART 11.5.3 get the correlation for each jackknife run to other runs
-    #**************************#\n")
+
+#**************************#
+# PART 11.5.3 get the correlation for each jackknife run to other runs ----
+#**************************
 
 
 rm(list=setdiff(ls(),'home_dir'))
@@ -242,7 +244,6 @@ source('thesis_stuff/jackknife_run_correlation.R')
 
 #model_keyword = '_include_NA_low_exp_rm'  ## to specify which model folder
 model_keyword = '_include_NA_low_exp_rm_adj_cell_pop'  ## to specify which model folder
-disease_ls =c('AD', 'HD')
 out_folder=paste0(home_dir, '/ND_results/jackknife_correlations_for_runs/', Sys.Date(), '/')
 
 for(disease in disease_ls){
@@ -251,38 +252,94 @@ for(disease in disease_ls){
 }
 
 
-cat("
-    #**************************#
-    # PART 12 thesis plots thesis tables
-    #**************************#\n")
-# rm(list=setdiff(ls(),'home_dir'))
-#  
-# mm_dir <- paste0(home_dir, "/ND_results/mm_results/2017-02-02/")
-# mm_adj_dir <- paste0(home_dir, "/ND_results/mm_results_cell_adj/2017-02-02/")
-# # # make the all_ranks and all_ranks_adj
-# source('./thesis_stuff/mk_all_ranks_all_ranks_adj.R')
-# save(all_ranks, all_ranks_adj,file = '../../results/ranks_paths_2017-02-02.Rdata')
 
-##############
-## summary cell marker rotation estimations and plots
+#**************************#
+# PART 12 thesis plots and tables ----
+#**************************
+
+
+#**************************#
+# PART 12.1 gather ranking results ----
+# gene ranks and pvalues
+# enrichment results
+# save as a Rdata for plots and tables
+#**************************
+
+## gather all the jackknife ranking results for before MGP and after MGP (adj),
+## mark the genes that are used as cell type markers
+## a table for jackknife rankings before MGP (`all_ranks`)
+## a table  for jackknife rankings after MGP (`all_ranks_adj`)
+
+rm(list=setdiff(ls(),'home_dir'))
+source('config_wrappers.R')
+(mm_dir <- max(list.dirs(paste0(home_dir, "/ND_results/mm_results/"))))
+(mm_adj_dir <- max(list.dirs(paste0(home_dir, "/ND_results/mm_results_cell_adj/"))))
+# # make the all_ranks and all_ranks_adj
+source('thesis_stuff/mk_all_ranks_all_ranks_adj.R')
+
+## make GO_non_adj and GO_adj for mixed models:
+folder_pre = 'ermineJ/mixed_model_jackknife/random_intercept_include_NA_low_exp_rm'
+f_result_out =paste0(home_dir, "/ND_results/ermineJ/", Sys.Date(),'.Rdata')
+go_plot_out <- paste0(home_dir, "/ND_results/ermineJ_enrichment/")
+source('thesis_stuff/Go_enrichment_summary.R')
+
+save(all_ranks, all_ranks_adj, GO_adj, GO_non_adj, 
+     file = paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
+
+
+#**************
+## PART 12.2 summary cell marker rotation estimations and plots ----
 # saved r objects: cell_marker_freq, cell_marker_rotations, cell_marker_msg
-##############
+#**************
 #'summary of cell markers and estimation of rotations and variations
 #' results in /results/ND_results/DE_genes_markers/
+#' 
+source('config_wrappers.R')
+
+(outdir <- paste0(home_dir, '/ND_results/DE_genes_markers/rotations/', Sys.Date(), '/'))
+(plotdir <- paste0(outdir, 'plots/')) ## for heatmaps of cell markers (study corrected value,, per cell type, disease and phase)
+(f_rdata_out <- paste0(home_dir, '/ND_results/DE_genes_markers/cell_marker_summary_', Sys.Date(), '.Rdata'))
+
 source('thesis_stuff/check_cell_pop_rotation.R')
-#+++++++++++++++++++
-## get which DE genes are also cell type markers before and after correction
-#+++++++++++++++++++
-## thesis tables /results/ND_results/DE_genes_markers/'
+
+#*******************
+##PART 12.3 get which DE genes are also cell type markers before and after correction ----
+#*******************
+
+## thesis tables '
+source('./thesis_stuff/check_genes_helpers.R')
+(outdir <- paste0(home_dir, '/ND_results/DE_genes_markers/DEmarkers/'))
+
+## need to load all_rank, all_rank_adj
+load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
+
+threshold = 50
+
+phase_ls =c('early','late')
+dir.create(outdir,recursive = T, showWarnings = F)
+
+f <- paste0(outdir, "thesis_DE_markers.tsv")
+#if(file.exists(f)){file.remove(f)}
+for(disease in disease_ls){
+    for(phase in phase_ls){
+        print(paste0(disease, '_', phase))
+        df_m <- getCellMarkers(disease, phase, threshold)
+        noWarnings(writeTable(df_m, f_out = f, file_append =T))
+    }
+}
 
 
 ## see check_genes.R for plots and tables
 
 
 source('./thesis_stuff/check_genes_helpers.R')
-####################################
-#### check correlations of ranks early and late
-####################################
+#**************************
+#### PART 12.4 Plot pvalue changes before and after MGP ----
+## check correlations of ranks early and late ----
+#**************************
+## need to load all_rank, all_rank_adj
+load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
+
 df_all_el <- NULL
 source('config_wrappers.R')
 for (disease in disease_ls){
@@ -320,13 +377,12 @@ for (disease in disease_ls){
 
 
 
-
-outdir <- pasete0(home_dir, '/ND_results/early_late_corr/')
+(outdir <- paste0(home_dir, '/ND_results/early_late_corr/'))
 dir.create(outdir,recursive = T, showWarnings = F)
 
 f <- paste0(outdir, Sys.Date(), "_early_late_corr.tsv")
 writeTable(df_all_el, f_out = f)
-################################
+
 
 threshold <- 0.05
 df <- upDownCount(all_ranks, threshold)
@@ -347,13 +403,11 @@ df <- left_join(df, df_all_count)
 df <- as.data.frame(unclass(df))
 df$correction <- factor(df$correction, levels= c('Before', 'After'))
 
-plot_dir <- pasete0(home_dir, '/ND_results/figures/pvalues/')
+plot_dir <- paste0(home_dir, '/ND_results/figures/pvalues/')
 dir.create(plot_dir, recursive = T,showWarnings = F)
 writeTable(df, f_out = paste0(plot_dir, Sys.Date(), '_padj5_count.tsv'))
 
-########
 ## thesis bar plot DE genes before and after cell type correction
-########
 source('config_wrappers.R')
 for(disease in disease_ls){
     df2 <- filterContain(df, column = 'disease', value = disease)
@@ -369,12 +423,37 @@ for(disease in disease_ls){
 
 
 
+#+++++++++++++++++++
+# PART 12.5 plot pvalue distribution ----
+#+++++++++++++++++++
+##############
+## thesis plot - histo plot for pvalues before and after cell type correction
+##############
+plot_dir <- paste0(home_dir, '/ND_results/figures/pvalues/')
+dir.create(plot_dir, recursive = T,showWarnings = F)
+
+## need to load all_rank, all_rank_adj
+load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
 
 
-#+++++++++++++++++++
-## thesis tables: get which DE genes are also cell type markers before and after correction
-#+++++++++++++++++++
-## thesis tables /results/ND_results/DE_genes_markers/'
+## plot pvalues
+df <- all_ranks[, c('disease', 'phase','pvalue')]%>%droplevels()
+df$correction <- 'Before'
+df2 <- all_ranks_adj[, c('disease', 'phase','pvalue')]%>%droplevels()
+df2$correction <- 'After'
+df <- rbind(df,df2)
+df$phase <- paste0(df$disease, ' ', df$phase)
+df <- as.data.frame(unclass(df))
+df$correction <- factor(df$correction, levels= c('Before', 'After'))
+
+for(disease in disease_ls){
+    df2 <- filterContain(df, column = 'disease', value = disease)
+    f_out <-paste0(plot_dir,Sys.Date(),'_', disease, '_pvalue.png')  ## or use svg
+    plotPvalue(df2, one_plot_font_size =14, f_out)
+}
+
+
+
 
 #+++++++++++++++++++
 ##### get the enriched GO terms and cross disease overlap terms -thesis

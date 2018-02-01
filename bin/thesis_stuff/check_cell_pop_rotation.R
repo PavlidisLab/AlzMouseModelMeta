@@ -13,13 +13,18 @@
 #  
 library(HelperFunctions)
 library(dplyr)
+library(pheatmap)
+
+(outdir <- paste0(home_dir, '/ND_results/DE_genes_markers/rotations/', Sys.Date(), '/'))
+(plotdir <- paste0(outdir, 'plots/')) ## for heatmaps of cell markers (study corrected value,, per cell type, disease and phase)
+(f_rdata_out <- paste0(home_dir, '/ND_results/DE_genes_markers/cell_marker_summary_', Sys.Date(), '.Rdata'))
+
+
+
+
 source('mixed_models/plot_up_down_genes_thesis_figure_corrected_value.R')
 
-f_dir <- paste0(home_dir, '/ND_results/cell_population/all_sample_estimation/')
-disease_ls <- c('AD', 'HD')
 phase_ls <- c('early', 'late')
-outdir <- paste0(home_dir, '/git/results/ND_results/DE_genes_markers/rotations/', Sys.Date(), '/')
-plotdir <- paste0(outdir, 'plots/') ## for heatmaps of cell markers (study corrected value,, per cell type, disease and phase)
 dir.create(plotdir,recursive = T,showWarnings = F)
 
 
@@ -32,8 +37,8 @@ msg <- paste0('# ', Sys.Date())
 
 for(disease in disease_ls){## loop disease
     print(disease)
-    source('config/config_wrappers.R')
     msg <- paste0(msg, "\n#####\n# DISEASE: ", disease,"\n#####")
+    (f_dir <- paste0(disease_dir, '/MGP_estimation/')) ## results of MGP estimation as input
     
     
     for(phase in phase_ls){ ## loop phase
@@ -51,13 +56,13 @@ for(disease in disease_ls){## loop disease
         top_genes = F
         rdata_keyword = 'mixed_model_results_exp_corrected.Rdata'  # choose which rdata to get from
         ## where the mixed model result files
-        mm_rdata_dir <- paste0(disease_dir, 'mixed_model/', model,mm_rdata_keyword,'/') ## where the expression results
-        mm_dir <- paste0(disease_dir,result_rank,'/', model,mm_rdata_keyword,'/') ## where the ranked results
+        mm_rdata_dir <- paste0(disease_dir, '/mixed_model/', model,mm_rdata_keyword,'/') ## where the expression results
+        mm_dir <- paste0(disease_dir,'/',result_rank,'/', model,mm_rdata_keyword,'/') ## where the ranked results
         
         
         ## input cell marker files
         print(phase)
-        (file_dir <- max(list.dirs(paste0(f_dir, disease, '/',phase))))
+        (file_dir <- max(list.dirs(paste0(f_dir, '/',phase))))
         cat(paste0('\n Input marker gene profiles, rotTables: ', file_dir, '\n'))
         ## list of rotation tables
         f_ls <- list.files(file_dir,pattern = 'rotTable.tsv')
@@ -164,37 +169,14 @@ writeTable(df_all, f_out = paste0(outdir, 'Rotations_', Sys.Date(), '.tsv'), msg
 writeTable(df_ca, f_out = paste0(outdir, 'marker_counts_', Sys.Date(), '.tsv'), msg = msg)
 
 ## save r object
-f_out <- paste0('../../results/cell_marker_summary_', Sys.Date(), '.Rdata')
-
 cell_marker_rotations <- df_all
 cell_marker_freq <- df_ca
 cell_marker_msg <- msg
 save(cell_marker_freq, cell_marker_rotations, cell_marker_msg, 
-     file = f_out )
+     file = f_rdata_out )
 
 cat(paste0('\n#############\nR object out: ', f_out, '\n Tables out: ', outdir, '\n Plots : ', plotdir, 
            '\n need to run getCellMarkers(disease, phase, threshold) and load all_rank, all_ranks_adj to 
            create thesis_DE_markers.tsv file'))
 
-#+++++++++++++++++++
-## get which DE genes are also cell type markers before and after correction
-#+++++++++++++++++++
-## thesis tables /results/ND_results/DE_genes_markers/'
-source('./thesis_stuff/check_genes_helpers.R')
 
-## need to load all_rank, all_rank_adj
-threshold = 50
-disease_ls=c('AD', 'HD')
-phase_ls =c('early','late')
-# outdir <- '../../results/ND_results/DE_genes_markers/'
-# dir.create(outdir,recursive = T, showWarnings = F)
-
-f <- paste0(outdir, "thesis_DE_markers.tsv")
-#if(file.exists(f)){file.remove(f)}
-for(disease in disease_ls){
-    for(phase in phase_ls){
-        print(paste0(disease, '_', phase))
-        df_m <- getCellMarkers(disease, phase, threshold)
-        noWarnings(writeTable(df_m, f_out = f, file_append =T))
-    }
-}

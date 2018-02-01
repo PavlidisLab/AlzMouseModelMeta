@@ -16,7 +16,7 @@
 ## read the go terms downloaded from MGI
 library(HelperFunctions)
 library(dplyr)
-f <- paste0(home_dir, '/ND_results/MGI_info/gene_association.mgi.gz')
+(f <- '../configs/GO_annotation/gene_association.mgi.gz')
     
 df <-read.delim(f, comment.char = '!',header = F) 
 
@@ -69,7 +69,7 @@ goTermsAspect <- function(go_aspect,disease_ls,phase_ls,regulation_ls,adj_cell_p
     f_ls_all <- NULL
     for(disease in disease_ls){
         print(disease)
-        folder <- paste0(home_dir,disease, '_mouse_model_project/', folder_pre, adj_cell_pop, keyword,'/')
+        folder <- paste0(home_dir,'/',disease, '_mouse_model_project/', folder_pre, adj_cell_pop, keyword,'/')
         (folder <- max(list.dirs(folder)))
         print(paste0('folder ', folder))
         
@@ -180,7 +180,6 @@ keyword ='_all_processes'      ## folder name contains
 fdr = 0.05
 
 ## get AD, HD  top 50
-disease_ls =c('AD', 'HD')
 phase_ls = c('early', 'late')
 regulation_ls = c('up', 'down')
 
@@ -200,8 +199,7 @@ keyword ='_all_processes'      ## folder name contains
 
 fdr = 0.05
 
-## get AD, HD  top 50
-disease_ls =c('AD', 'HD')
+## get top 50
 phase_ls = c('early', 'late')
 regulation_ls = c('up', 'down')
 
@@ -212,7 +210,7 @@ go_fdr_non_adj <- tmp[[2]]
 dir.create(outdir, showWarnings = F, recursive = T)
 plotGo(go_fdr_non_adj, outdir, start_i = 1)
 
-save(GO_non_adj, GO_adj, go_fdr_non_adj, go_fdr_adj, file = f_result_out)
+# save(GO_non_adj, GO_adj, go_fdr_non_adj, go_fdr_adj, file = f_result_out)
 
 
 ########################
