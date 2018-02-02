@@ -1,8 +1,6 @@
 #2016-11-12
 
-# home_dir <- 'C:/Users/User/Documents/lab_results/ND_project_combined/'
-# rm(list=setdiff(ls(),'home_dir'))
-# 
+
 #  
 # run the function in check_gene.R
 cat(paste0('\n#############\n Must load all_ranks, all_ranks_adj\n'))

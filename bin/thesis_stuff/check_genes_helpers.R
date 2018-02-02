@@ -283,3 +283,103 @@ getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
     return(df1)
 }
 
+enrichedGOTerms <- function(outdir, GO_adj,phase_ls =c('early', 'late')){
+    
+    ## input the GO_adj rdata, output a clean table with top 20 significant GO terms
+    ## and the associated top genes
+    
+    dir.create(outdir,recursive = T, showWarnings = F)
+    df <- GO_adj
+    df <- df[, c(1:3,19, 5:9, 11, 15:16)]
+    ## get the ranking of the top genes in the gene sets
+    
+    countTop <- function(x, threshold=100,return_count=T, return_gene=F){
+        x <- as.character(x)
+        x_char <- unlist(strsplit(x, ', '))
+        x <- strsplit(x_char, '\\(|\\)')
+        y=NULL
+        for(i in 1:length(x)){
+            y <- c(y, as.numeric(x[[i]][2]))
+        }
+        y_len <- length(which(y <= threshold))
+        
+        if(return_count) return(y_len)
+        if(return_gene) return(paste0(x_char[1:y_len],collapse = ', '))
+        
+    }
+    
+    
+    df$top_count_20 <- apply(as.matrix(df$top_genes), 1, function(x) countTop(x, threshold =20))
+    df$top_count_20_gene <- apply(as.matrix(df$top_genes), 1, function(x) countTop(x, threshold =20, return_count = F, return_gene = T))
+    df$top_20 <- paste0(df$NumGenes, ' (',df$top_count_20, ')')
+    
+    
+    ## remove pathways if there's no top 20 genes involved
+    df <- df[which(df$top_count_20 >=2), ]%>%droplevels()
+    
+    
+    ## get the repeated top 20 genes
+    overlap_term <- data.frame(top_count_20_gene=df$top_count_20_gene[duplicated(as.character(df$top_genes))])
+    overlap_term$overlap_top_20 = 'overlap_20'
+    overlap_term <- rmDup(overlap_term)
+    
+    df_out <- noWarnings(left_join(df,overlap_term))
+    
+    
+    
+    ## if top genes are overlapped, maybe select the lowest multifunctionality
+    tmp <- df_out[,c('Multifunctionality', 'Name','overlap_top_20', 'top_count_20_gene', 'NumGenes' )]
+    tmp$agg <- paste0(tmp$top_count_20_gene, tmp$overlap_top_20)
+    
+    df2 <- aggregate(Multifunctionality ~ agg, tmp[,c(1:4,6)], function(x) min(x, na.rm = T))
+    df2$min_multi <- 'yes'
+    tmp <- noWarnings(left_join(tmp, df2))
+    
+    ## get the pathways with min gene set number
+    df3 <- aggregate(NumGenes ~ agg, tmp[,c(1:3,5:6)], function(x) min(x, na.rm = T))
+    df3$min_n_genes <- ''
+    tmp <- noWarnings(left_join(tmp, df3))
+    
+    df_out <- noWarnings(left_join(df_out,tmp))
+    
+    ## final filter:: remove pathways has the same top 20 genes with higher multifunctionality
+    df_min <- df_out[which(!is.na(df_out$min_multi)),]
+    df_min <- orderCol(df_min, c('disease', 'phase', 'regulation', 'Multifunctionality','min_n_genes'))
+    ## replace NA with ''
+    index <- which(is.na(df_min$min_n_genes))
+    df_min$min_n_genes[index] <- 'No'
+    index <- which(is.na(df_min$overlap_top_20))
+    df_min$overlap_top_20[index] <- ''
+    
+    df_min$regulation = paste0(df_min$phase, ': ', df_min$regulation, '-regulated')
+    df_min$tmp <- as.factor(paste0(df_min$disease,df_min$regulation))
+    
+    index <- NULL
+    for(keep in levels(df_min$tmp)){
+        index <- c(index, which(df_min$tmp == keep)[1])
+    }
+    
+    
+    
+    ## save tables
+    df_min$disease <- as.character(df_min$disease)
+    df_min$disease[setdiff(1:nrow(df_min),index)] <- ''
+    df_min$regulation <- as.character(df_min$regulation)
+    df_min$regulation[setdiff(1:nrow(df_min),index)] <- ''
+    
+    
+    need_col <- c('disease','regulation','phase','ID','Name','P_adj','Multifunctionality','top_20',
+                  'top_count_20_gene')
+    new_col <- c('Disease','Regulation','phase', 'GO Term ID','GO Term Description','FDR','Multifunctionality Score','Number of Genes',
+                 'Top Hits')
+    
+    
+    df_min <- df_min[,need_col]
+    colnames(df_min) <- new_col
+    
+    f <- paste0(outdir, Sys.Date(), "_sig_go_terms.tsv")
+    writeTable(df_min, f_out = f)
+    print(paste0('File out: ', f))
+    return(df_min)
+}
+

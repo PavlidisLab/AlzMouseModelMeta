@@ -426,9 +426,10 @@ for(disease in disease_ls){
 #+++++++++++++++++++
 # PART 12.5 plot pvalue distribution ----
 #+++++++++++++++++++
-##############
-## thesis plot - histo plot for pvalues before and after cell type correction
-##############
+#******
+# histo plot for pvalues before and after MGP correction ----
+#******
+
 plot_dir <- paste0(home_dir, '/ND_results/figures/pvalues/')
 dir.create(plot_dir, recursive = T,showWarnings = F)
 
@@ -456,34 +457,72 @@ for(disease in disease_ls){
 
 
 #+++++++++++++++++++
-##### get the enriched GO terms and cross disease overlap terms -thesis
+##PART 12.6 get the enriched GO terms and the top genes in the gene set [TABLE]----
 #+++++++++++++++++++
 
-#+++++++++++++++++++
-# compare my top genes and the reported genes (thesis tables)
-#+++++++++++++++++++
+source('thesis_stuff/check_genes_helpers.R')
+outdir <- paste0(home_dir, '/ND_results/tables/sig_go_terms/')
+
+# 'GO Term ID':
+# 'GO Term Description'
+# 'FDR'
+# 'Multifunctionality Score'
+# 'Number of Genes': number of genes in the gene set, in brackets are number of genes that are top ranked after MGP correction
+# 'Top Hits': top hit genes, in brackets are the ranking of the genes
+
+df <- enrichedGOTerms(outdir, GO_adj,phase_ls =c('early', 'late'))
+
 
 #+++++++++++++++++++
-# get the gender gene non-expression median (reason for the threshold) # must use the expression.R in the 
-# /mixed_model/random_intercept_include_NA/
-# source('thesis_stuff/sex_gene_threshold.R')
+# PART 12.7 compare my top genes and the reported genes [TABLE] ----
 #+++++++++++++++++++
+
+outdir <- paste0(home_dir, '/ND_results/tables/compare_to_original_study/')
+load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
+
+source('thesis_stuff/compare_pub_thesis.R')
+source('config_wrappers.R')
+threshold_ls =c(20,50)
+phase_ls = c('early', 'late')
+
+for(phase in phase_ls){
+    for(threshold in threshold_ls){
+        for(disease in disease_ls){
+            
+            ## get the reported genes from repo
+            (gene_list_dir <- paste0('../configs/original_publication_gene_list/',disease, '/'))
+            ## get the most recent results from MGP adj
+            keyword='_adj_cell_pop'
+            (input_dir <- max(list.dirs(paste0(home_dir,'/ND_results/top_gene_heatmaps/', disease, 
+                                               '/mixed_model_jackknife/random_intercept_include_NA_low_exp_rm',keyword, '/'), recursive = F)))
+            (f_exp_adj <- grep(paste0(disease, '_', phase, '_inputdata.tsv'), 
+                               list.files(input_dir, recursive = T, full.names = T),
+                               value = T))
+            
+            print(paste0('INPUT file: ', f_exp_adj))
+            y <- comparePublication(df = all_ranks_adj, threshold, phase, disease, gene_list_dir, prefix ='_adj', 
+                                    out_dir = outdir,
+                                    write_out = T, f_exp = f_exp_adj)
+        }
+    }
+}
+
+
+
+
 
 #+++++++++++++++++++ thesis table
-#' summary of all samples and genes counts for input data
-#' genes are after filter: input data from mixed_model/random_intercept_include_NA_low_exp_rm/
+#' PART 12.8 summary of all samples and genes counts for input data ----
+#' # of genes are after filter: input data from mixed_model/random_intercept_include_NA_low_exp_rm/
+#+++++++++++++++++++
+source('config_wrappers.R')
+
+f_out <- paste0(home_dir, '/ND_results/tables/input_data_summary_', Sys.Date(), '.tsv')
 source('summary_tables/summary_mm_input_data.R')
-#+++++++++++++++++++
 
-#+++++++++++++++++++
-##### get the enriched GO terms and cross disease overlap terms -thesis
-#' 
-#+++++++++++++++++++
 
-#+++++++++++++++++++
-########## thesis plot
-####### summary of each mouse model is in how many studies
-#+++++++++++++++++++
+
+
 
 #+++++++++++++++++++ 
 # 2017-03-01 # thesis plots

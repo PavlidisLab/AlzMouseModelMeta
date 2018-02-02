@@ -83,7 +83,7 @@ for (disease in c('AD', 'HD')){
     print(disease)
     for(phase in c('early', 'late')){
         print(phase)
-        r_obj <- paste0(home_dir, disease, "_mouse_model_project/mixed_model/random_intercept_include_NA/", phase, "/expression.Rdata")
+        r_obj <- paste0(home_dir,'/', disease, "_mouse_model_project/mixed_model/random_intercept_include_NA/", phase, "/expression.Rdata")
         df_exp <- probeExpGender(r_obj, df_gene)
         if(is.null(df_all)){
             df_all <- df_exp
@@ -137,6 +137,5 @@ p + geom_hline(yintercept = threshold, show.legend = T)+
     theme(axis.text.x = element_text(colour=as.character(label_col))) +
     scale_x_discrete(labels = df_exp$Gender)
 
-p_out <- paste0('../../results/ND_results/scatterplot_by_gender_genes_', Sys.Date(), '.png')
 ggsave(filename= p_out,width = 6, height = 5)
 print(p_out)

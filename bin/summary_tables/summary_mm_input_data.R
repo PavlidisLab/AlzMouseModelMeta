@@ -1,8 +1,7 @@
 #' 2017-01-16
 #' summary of all samples and genes counts for input data
 #' genes are after filter
-rm(list=setdiff(ls(),'home_dir'))
- 
+
 
 library(HelperFunctions)
 library(dplyr)
@@ -24,7 +23,7 @@ summaryDf <- function(array_design, array_dat, phase){
 summaryDisease <- function(disease){
     phase ='early'
     
-    robj <- paste0(home_dir, disease, "_mouse_model_project/mixed_model/random_intercept_include_NA_low_exp_rm/", phase,"/mixed_model_results_exp_corrected.Rdata")
+    robj <- paste0(home_dir,'/', disease, "_mouse_model_project/mixed_model/random_intercept_include_NA_low_exp_rm/", phase,"/mixed_model_results_exp_corrected.Rdata")
     
     load(robj)
     df <- summaryDf(array_design, array_dat,phase)
@@ -32,7 +31,7 @@ summaryDisease <- function(disease){
     array_dat_e <- array_dat
     
     phase ='late'
-    robj <- paste0(home_dir, disease, "_mouse_model_project/mixed_model/random_intercept_include_NA_low_exp_rm/", phase,"/mixed_model_results_exp_corrected.Rdata")
+    robj <- paste0(home_dir, '/',disease, "_mouse_model_project/mixed_model/random_intercept_include_NA_low_exp_rm/", phase,"/mixed_model_results_exp_corrected.Rdata")
     
     load(robj)
     df_l <- summaryDf(array_design, array_dat,phase)
@@ -62,29 +61,31 @@ summaryDisease <- function(disease){
 }
 
 
-disease='AD'
+
 x <- summaryDisease(disease)
 df <- x[[1]]
 study <- x[[2]]
 gene_count <- x[[3]]
 
-disease='HD'
-x <- summaryDisease(disease)
-df2 <- x[[1]]
-study2 <- x[[2]]
-gene_count2 <- x[[3]]
+if('HD' %in% disease_ls){
 
-df <- rbind(df, df2)
+    x <- summaryDisease('HD')
+    df2 <- x[[1]]
+    study2 <- x[[2]]
+    gene_count2 <- x[[3]]
+
+    df <- rbind(df, df2)
 
 
-df2 <- data.frame(disease ='Total', phase ='', 
-           n_studies = study+study2, control = sum(df$control),
-           disease_samples = sum(df$disease_samples),
-           total = sum(df$total),
-           total_genes= length(union(gene_count, gene_count2)))
-df <- rbind(df, df2)
+    df2 <- data.frame(disease ='Total', phase ='',
+               n_studies = study+study2, control = sum(df$control),
+               disease_samples = sum(df$disease_samples),
+               total = sum(df$total),
+               total_genes= length(union(gene_count, gene_count2)))
+    df <- rbind(df, df2)
+}
+
 
 # save file
-f_out <- paste0('../../results/ND_results/input_data_summary_', Sys.Date(), '.tsv')
 writeTable(df=df, f_out= f_out)
-print(f_out)
+print(paste0('OUTPUT file: ', f_out))
