@@ -1,0 +1,42 @@
+geneSymbol	pvalue_adj	Rank	regulation	GSE14499	GSE15056	GSE1556	GSE50521	GSE52022	GSE63617	GSE64398	total_studies
+Man2b1	0.00169217194346631	1	up				up				1
+Idh1	0.00633090837290209	2	up								0
+Cd68	0.00579293360949636	3	up				up				1
+Msmo1	0.000469678254596663	4	up								0
+Sqle	0.00579293360949636	5	up	up							1
+Nsdhl	0.0314391739935396	6	up	up							1
+Fdps	0.0415919777074135	7	up	up		up					2
+Cidea	0.00480185476002901	8	up								0
+Wdr82	0.00695398056674256	9	up				no expression			no expression	0
+Trem2	0.0567331510654059	10	up			no expression	up			up	2
+Reep1	0.0415919777074135	11	up								0
+Slc22a4	0.063165485909105	12	up			no expression					0
+Thy1	0.00579293360949636	13	up	up							1
+Slc14a1	0.055146709473592	14	up			no expression	up				1
+Twsg1	0.0652207425528298	15	up								0
+Tpst1	0.0755557790393729	16	up								0
+Brix1	0.0727232331488867	17	up								0
+Fahd1	0.0725374985996843	18	up								0
+Tyrobp	0.0652207425528298	19	up				up				1
+0610007P14Rik	0.0652207425528298	20	up								0
+Inppl1	0.00800160901974558	1	down								0
+Vars2	0.0119082943204643	2	down			no expression					0
+Map3k5	0.0415919777074135	3	down							no expression	0
+Gucy1a3	0.0547379215894823	4	down			no expression					0
+Sema5b	0.063165485909105	5	down								0
+Camkk2	0.0725374985996843	6	down			no expression					0
+Crybb1	0.063165485909105	7	down			no expression					0
+Atrnl1	0.0415919777074135	8	down			no expression				no expression	0
+Sppl2b	0.0652207425528298	9	down								0
+Sfxn1	0.0652207425528298	10	down								0
+Matn4	0.0837910370409288	11	down								0
+Meis2	0.0727232331488867	12	down								0
+Galt	0.0837910370409288	13	down								0
+Smagp	0.063165485909105	14	down				no expression				0
+Mfge8	0.0652207425528298	15	down								0
+Fzd9	0.0725374985996843	16	down				no expression			no expression	0
+Arhgef19	0.0837910370409288	17	down			no expression					0
+Ang	0.0694329967863561	18	down				no expression				0
+Cox8a	0.0727232331488867	19	down			no expression	no expression				0
+Pdyn	0.0547379215894823	20	down								0
+NA	NA	NA	NA	141	8	88	88	10	12	24	NA
