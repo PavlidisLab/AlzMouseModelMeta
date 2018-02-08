@@ -34,7 +34,7 @@
 
 
 ## load packages
-package_ls <- c('plyr', 'dplyr','ggplot2', 'limma', 'RColorBrewer', 'reshape2', 'globaltest', 'grid', 'scales','gtable', 'VennDiagram')
+package_ls <- c('plyr', 'dplyr','ggplot2', 'limma', 'RColorBrewer', 'reshape2', 'globaltest', 'grid', 'scales','gtable', 'VennDiagram','pheatmap')
 for(i in package_ls){
   cmd <- paste0("if('package:", i, "' %in% search() == FALSE){library(", i, ")}")
   eval(parse(text =cmd))
