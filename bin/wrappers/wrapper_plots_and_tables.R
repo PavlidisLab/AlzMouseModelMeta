@@ -209,6 +209,7 @@ for (disease in disease_ls){## loop 1 for disease
 rm(list=setdiff(ls(),'home_dir'))
 source('MGP_estimation/estimate_cell_population_summary_and_plots_for_disease.R')
 source('config_wrappers.R')
+source('helper_functions.R')
 
 phase_ls =c('early', 'late')
 geno_f = '../configs/AD_HD_samples_model_types.tsv'

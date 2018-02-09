@@ -2,7 +2,7 @@
 
 ## CRAN packages:
 cran_pack <- c('plyr', 'dplyr','ggplot2', 'RColorBrewer', 'reshape2', 'influence.ME','dendextend','tidyr','MetaDE', 'lme4',
-               'glue','here','viridis')
+               'glue','here','viridis','cowplot')
 
 (cran_pack=setdiff(cran_pack, rownames(installed.packages())))
 

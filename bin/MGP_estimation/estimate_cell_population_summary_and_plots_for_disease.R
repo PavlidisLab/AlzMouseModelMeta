@@ -259,11 +259,23 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             
             
             #### plot each cell type and each phase as a indi plot
+            theme_MGP = function(fontSize,x_angle){
+                list(cowplot::theme_cowplot(fontSize),
+                     ylab('Marker Gene Profiles'),
+                     coord_cartesian(ylim = c(-0.03, 1.10)),
+                     theme(axis.text.x = element_text(angle = x_angle),
+                           axis.title.x = element_blank()),
+                     geom_violin( # color="#C4C4C4"# ,
+                                  #fill="#C4C4C4"
+                     ),
+                     geom_boxplot(color= 'black',width=0.1,fill = 'lightblue')
+                )
+            }
+            
             
             f_out_dir_indi <- paste0(f_out_dir, 'indi/')
             dir.create(f_out_dir_indi)
             indi_font_size = 14
-            
             for(x1 in levels(df_brain$cell_type)){#loop for each cell type
                 for(x2 in levels(df_brain$keyword)){ # for each phase
                     
@@ -272,35 +284,46 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
                                                              sig_label_df$plot_title == paste0(disease, ' ', x2) &
                                                              sig_label_df$x == disease), ]%>% droplevels()
                     
-                    p_indi <- ggplot(df_x,aes_string(x = 'group', y = 'PC1_scaled', colour='group_colour')) + 
-                        theme_bw() + 
-                        ylab('Relative marker gene profiles')+
-                        ylim(-0.1, 1.1) +
-                        scale_y_continuous(breaks = seq(0,1,by = 0.2)) +
-                        theme(axis.title.x=element_blank(),
-                              axis.title.y=element_text(size = indi_font_size),
-                              title = element_text(size = indi_font_size, colour = 'black'),
-                              axis.text.x = element_text(size = indi_font_size, angle = x_angle), ## vjust 0.5 put x labels in the middle
-                              axis.text.y=element_text(size = indi_font_size),
-                              strip.text.x = element_text(size = indi_font_size),
-                              strip.text.y = element_text(size = indi_font_size))+
-                        geom_boxplot(lwd=0.8, outlier.shape = NA)+
-                        geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
-                        theme(legend.position="none")+
+                    p_indi = ggplot(df_x,aes_string(x = 'group', y = 'PC1_scaled',color = 'group_colour', fill='group_colour')) + 
+                        theme_MGP(fontSize = indi_font_size,
+                                  x_angle = x_angle) + 
+                        theme(legend.position="none") +  
                         scale_colour_manual(values = box_colour) + 
-                        geom_text(aes(x,y, label=significance), data=sig_label_df_x, size = 10, color = "black") ## add the significance dots
+                        scale_fill_manual(values = box_colour) + 
+                        geom_text(aes(x,y, label=significance), data=sig_label_df_x, size = 10,inherit.aes = FALSE) 
+                    
+                    # p_indi <- ggplot(df_x,aes_string(x = 'group', y = 'PC1_scaled', color='group_colour')) + 
+                    #     ylab('Relative marker gene profiles')+
+                    #     ylim(-0.1, 1.1) +
+                    #     scale_y_continuous(breaks = seq(0,1,by = 0.2)) +
+                    #     theme(axis.title.x=element_blank(),
+                    #           axis.title.y=element_text(size = indi_font_size),
+                    #           title = element_text(size = indi_font_size, colour = 'black'),
+                    #           axis.text.x = element_text(size = indi_font_size, angle = x_angle), ## vjust 0.5 put x labels in the middle
+                    #           axis.text.y=element_text(size = indi_font_size),
+                    #           strip.text.x = element_text(size = indi_font_size),
+                    #           strip.text.y = element_text(size = indi_font_size))+
+                    #     geom_boxplot(lwd=0.8, outlier.shape = NA)+
+                    #     geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
+                    #     theme(legend.position="none")+
+                    #     scale_colour_manual(values = box_colour) + 
+                    #     geom_text(aes(x,y, label=significance), data=sig_label_df_x, size = 10, color = "black") ## add the significance dots
                     (f_plot <- paste0(f_out_dir_indi,disease,'_', x2,'_',x1, '.', plot_type))
                     ggsave(filename = f_plot, plot = p_indi, width = 3, height =4 , units ='in')
                     
                 } # for each phase
                 
             }#loop for each cell type
-            
-            
+
+
             #### plot cell type and phase in 1 plot
+            p_one_plot = ggplot(df_brain,aes_string(x = 'group', y = 'PC1_scaled',color = 'group_colour', fill='group_colour')) + 
+                theme_MGP(fontSize = one_plot_font_size,
+                          x_angle = x_angle) + 
+                facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free')
+            
             p_one_plot <- ggplot(df_brain,aes_string(x = 'group', y = 'PC1_scaled', colour='group_colour')) + 
-                facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free') + 
-                theme_bw() + 
+                facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free')+ 
                 ylab('Marker gene profiles')+
                 ylim(-0.1, 1.1) +
                 theme(text=element_text(family = 'Arial'),
@@ -316,7 +339,6 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             
             p_one_poster <- ggplot(df_brain,aes_string(x = 'group', y = 'PC1_scaled', colour='group_colour')) + 
                 facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free') + 
-                theme_bw() + 
                 ylab('Marker gene profiles')+
                 ylim(-0.1, 1.1) +
                 theme(text=element_text(family = 'Arial'),
@@ -471,7 +493,6 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
                 
                 p_one_plot <- ggplot(df,aes_string(x = 'group', y = 'PC1_scaled', colour='group_colour')) + 
                     facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free') + 
-                    theme_bw() + 
                     ylab('Marker gene profiles')+
                     ylim(-0.1, 1.1) +
                     theme(text=element_text(family = 'Arial'),
