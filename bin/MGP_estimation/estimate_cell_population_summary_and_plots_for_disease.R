@@ -320,6 +320,8 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             p_one_plot = ggplot(df_brain,aes_string(x = 'group', y = 'PC1_scaled',color = 'group_colour', fill='group_colour')) + 
                 theme_MGP(fontSize = one_plot_font_size,
                           x_angle = x_angle) + 
+                scale_colour_manual(values = box_colour) + 
+                scale_fill_manual(values = box_colour) + 
                 facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free')
             
             p_one_plot <- ggplot(df_brain,aes_string(x = 'group', y = 'PC1_scaled', colour='group_colour')) + 
@@ -355,7 +357,7 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             
             
             ## plot 1: plain box plot with points
-            p_box <- p_one_plot + geom_boxplot(lwd=0.3, outlier.shape = NA)+
+            p_box <- p_one_plot +
                 geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
                 theme(legend.position="none")+
                 scale_colour_manual(values = box_colour) # customize color
