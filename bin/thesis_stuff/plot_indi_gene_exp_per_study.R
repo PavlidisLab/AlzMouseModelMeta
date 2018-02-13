@@ -121,6 +121,20 @@ plotGeneExprMGP <- function(df,
                          facet_2,
                          box_size = 0.3,
                          dot_size = 0.8){
+    
+
+    theme_MGP = function(fontSize,x_angle){
+        list(cowplot::theme_cowplot(fontSize),
+             ylab('Marker Gene Profiles'),
+             coord_cartesian(ylim = c(-0.03, 1.10)),
+             theme(axis.text.x = element_text(angle = x_angle),
+                   axis.title.x = element_blank()),
+             geom_violin( # color="#C4C4C4"# ,
+                 #fill="#C4C4C4"
+             ),
+             geom_boxplot(color= 'black',width=0.1,fill = 'lightblue')
+        )
+    }
     #' box plot gene expression with input df, before or after MGP (can be multiple genes), separated by study or not
     #' box plot gene expression with input df, before and after MGP (only 1 gene), separated by study or not
     
@@ -170,7 +184,6 @@ mainPlot <- function(gene_ls, array_dat_raw, array_dat_MGP,
     
 
     # ... more arguments in plotGeneExprMGP()
-    
     df_raw <- processDF(array_dat_raw, gene_ls, disease,array_design)
     df_mgp <- processDF(array_dat_MGP, gene_ls, disease,array_design)
     df_raw$mgp <- 'before MGP'
@@ -183,9 +196,10 @@ mainPlot <- function(gene_ls, array_dat_raw, array_dat_MGP,
         df <- df_gene[which(df_gene$gene == gene), ]%>%droplevels()
         
         
-        facet_1_ls = c('mgp', 'mgp')
-        facet_2_ls = c('Study', 'Model_types')
-        
+        # facet_1_ls = c('mgp', 'mgp')
+        facet_1_ls = 'mgp'
+        facet_2_ls = 'Study'
+        # facet_2_ls = c('Study', 'Model_types')
         for(i in 1: length(facet_1_ls)){ # plot for different facet for mgp
             facet_1 <- facet_1_ls[i]
             facet_2 <- facet_2_ls[i]
@@ -204,8 +218,10 @@ mainPlot <- function(gene_ls, array_dat_raw, array_dat_MGP,
         
         ## plot only before or after
         
-        facet_1_ls = c('.', '.')
-        facet_2_ls = c('Study', 'Model_types')
+        # facet_1_ls = c('.', '.')
+        # facet_2_ls = c('Study', 'Model_types')
+        facet_1_ls = '.'
+        facet_2_ls = 'Study'
         
         for(x in c("after MGP", "before MGP")){
             if(x == 'after MGP'){ylab_title_x = 'Corrected Expression'
