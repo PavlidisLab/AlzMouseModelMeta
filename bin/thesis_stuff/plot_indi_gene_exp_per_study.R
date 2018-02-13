@@ -25,7 +25,7 @@ arrayData <- function(disease, phase, kuhn =F, geno_f=NULL){
     ## load R data (before correction)
     model_keyword = '_include_NA_low_exp_rm_adj_cell_pop'  ## to specify which model folder
     rdata_keyword <- 'expression'
-    (rdata <- paste0(home_dir, disease, '_mouse_model_project/mixed_model/random_intercept', 
+    (rdata <- paste0(home_dir, '/',disease, '_mouse_model_project/mixed_model/random_intercept', 
                      model_keyword, '/', phase, 
                      '/',rdata_keyword,'.Rdata'))
     load(rdata)
@@ -36,7 +36,7 @@ arrayData <- function(disease, phase, kuhn =F, geno_f=NULL){
     model_keyword = '_include_NA_low_exp_rm_adj_cell_pop'  ## to specify which model folder
     rdata_keyword <- 'mixed_model_results_exp_corrected'
     
-    (rdata <- paste0(home_dir, disease, '_mouse_model_project/mixed_model/random_intercept', 
+    (rdata <- paste0(home_dir,'/', disease, '_mouse_model_project/mixed_model/random_intercept', 
                      model_keyword, '/', phase, 
                      '/',rdata_keyword,'.Rdata'))
     load(rdata)
@@ -46,7 +46,7 @@ arrayData <- function(disease, phase, kuhn =F, geno_f=NULL){
     ## load R data (before correction)
     model_keyword = '_include_NA_low_exp_rm'  ## to specify which model folder
     rdata_keyword <- 'mixed_model_results_exp_corrected'
-    (rdata <- paste0(home_dir, disease, '_mouse_model_project/mixed_model/random_intercept', 
+    (rdata <- paste0(home_dir,'/', disease, '_mouse_model_project/mixed_model/random_intercept', 
                      model_keyword, '/', phase, 
                      '/',rdata_keyword,'.Rdata'))
     load(rdata)
@@ -62,10 +62,11 @@ arrayData <- function(disease, phase, kuhn =F, geno_f=NULL){
     
     ## if add info like model types and repeat length
     if(!is.null(geno_f)){
-        print('add model types and repeat lengths')
+        print('add model types (AD and HD models) and repeat lengths (for HD models)')
+        print(geno_f)
         df_geno <- read.delim(geno_f, comment.char = '#')
         
-        need_col <- intersect(c('Sample', 'Model_types', 'repeat_length'), colnames(df_geno))
+        need_col <- intersect(c('Sample', 'Model_types', 'repeat_length','Study'), colnames(df_geno))
         
         array_design <- noWarnings(left_join(array_design, df_geno[, need_col ]))
     }
@@ -98,6 +99,7 @@ processDF <- function(array_dat, gene_ls, disease,array_design){
     df$Disease_stage <- as.character(df$Disease_stage)
     df$Disease_stage[which(df$Disease_stage =='Disease')] <- disease
     df$Disease_stage <- factor(df$Disease_stage, levels = c('WT', disease))
+    df$Study <- as.factor(df$Study)
     ## order studies
     df$Study <- factor(df$Study, levels = sort(levels(df$Study)))
     ## order genes
@@ -199,11 +201,10 @@ mainPlot <- function(gene_ls, array_dat_raw, array_dat_MGP,
         print(gene)
         df <- df_gene[which(df_gene$gene == gene), ]%>%droplevels()
         
-        
-        # facet_1_ls = c('mgp', 'mgp')
-        facet_1_ls = 'mgp'
-        facet_2_ls = 'Study'
-        # facet_2_ls = c('Study', 'Model_types')
+        # facet_1_ls = 'mgp'
+        # facet_2_ls = 'Study'
+        facet_1_ls = c('mgp', 'mgp')
+        facet_2_ls = c('Study', 'Model_types')
         for(i in 1: length(facet_1_ls)){ # plot for different facet for mgp
             facet_1 <- facet_1_ls[i]
             facet_2 <- facet_2_ls[i]
