@@ -25,7 +25,7 @@ arrayData <- function(disease, phase, kuhn =F, geno_f=NULL){
     ## load R data (before correction)
     model_keyword = '_include_NA_low_exp_rm_adj_cell_pop'  ## to specify which model folder
     rdata_keyword <- 'expression'
-    (rdata <- paste0(home_dir, disease, '_mouse_model_project/mixed_model/random_intercept', 
+    (rdata <- paste0(home_dir, '/',disease, '_mouse_model_project/mixed_model/random_intercept', 
                      model_keyword, '/', phase, 
                      '/',rdata_keyword,'.Rdata'))
     load(rdata)
@@ -36,7 +36,7 @@ arrayData <- function(disease, phase, kuhn =F, geno_f=NULL){
     model_keyword = '_include_NA_low_exp_rm_adj_cell_pop'  ## to specify which model folder
     rdata_keyword <- 'mixed_model_results_exp_corrected'
     
-    (rdata <- paste0(home_dir, disease, '_mouse_model_project/mixed_model/random_intercept', 
+    (rdata <- paste0(home_dir,'/', disease, '_mouse_model_project/mixed_model/random_intercept', 
                      model_keyword, '/', phase, 
                      '/',rdata_keyword,'.Rdata'))
     load(rdata)
@@ -46,7 +46,7 @@ arrayData <- function(disease, phase, kuhn =F, geno_f=NULL){
     ## load R data (before correction)
     model_keyword = '_include_NA_low_exp_rm'  ## to specify which model folder
     rdata_keyword <- 'mixed_model_results_exp_corrected'
-    (rdata <- paste0(home_dir, disease, '_mouse_model_project/mixed_model/random_intercept', 
+    (rdata <- paste0(home_dir,'/', disease, '_mouse_model_project/mixed_model/random_intercept', 
                      model_keyword, '/', phase, 
                      '/',rdata_keyword,'.Rdata'))
     load(rdata)
