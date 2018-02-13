@@ -125,14 +125,14 @@ plotGeneExprMGP <- function(df,
 
     theme_MGP = function(fontSize,x_angle){
         list(cowplot::theme_cowplot(fontSize),
-             ylab('Marker Gene Profiles'),
-             coord_cartesian(ylim = c(-0.03, 1.10)),
+             ylab(ylab_title),
              theme(axis.text.x = element_text(angle = x_angle),
                    axis.title.x = element_blank()),
-             geom_violin( # color="#C4C4C4"# ,
-                 #fill="#C4C4C4"
+             geom_violin( # color="#C4C4C4" ,
+                 # fill="#C4C4C4"
              ),
-             geom_boxplot(color= 'black',width=0.1,fill = 'lightblue')
+             geom_boxplot(color = 'black',width=0.3,fill = 'lightblue',outlier.size = 0,alpha = 0.5,lwd = 0.3),
+             geom_jitter(color = 'black',fill = 'black',size = 0.3,width = 0.1)
         )
     }
     #' box plot gene expression with input df, before or after MGP (can be multiple genes), separated by study or not
@@ -143,26 +143,30 @@ plotGeneExprMGP <- function(df,
     box_colour <- c('indianred1','dodgerblue')
     (names(box_colour) <- c(levels(df$Disease_stage)))
     
-    p_one_plot <- ggplot(df,aes_string(x = 'Disease_stage', y = 'expression', colour='Disease_stage')) + 
-        theme_bw() + 
-        ylab(ylab_title)+
-        # scale_y_continuous(breaks = seq(from = -2, to =14, by=1)) +
-        theme(axis.title.x=element_blank(),
-              axis.title.y=element_text(size = one_plot_font_size),
-              title = element_text(size = one_plot_font_size, colour = 'black'),
-              axis.text.x = element_text(size = one_plot_font_size, angle = x_angle), ## vjust 0.5 put x labels in the middle
-              axis.text.y=element_text(size = one_plot_font_size),
-              strip.text.x = element_text(size = one_plot_font_size),
-              strip.text.y = element_text(size = one_plot_font_size))
+    p_one_plot <- ggplot(df,aes_string(x = 'Disease_stage', y = 'expression', colour='Disease_stage',fill = 'Disease_stage')) + 
+        theme_MGP(one_plot_font_size,0)
+    
+    # p_one_plot <- ggplot(df,aes_string(x = 'Disease_stage', y = 'expression', colour='Disease_stage')) + 
+    #     theme_bw() + 
+    #     ylab(ylab_title)+
+    #     # scale_y_continuous(breaks = seq(from = -2, to =14, by=1)) +
+    #     theme(axis.title.x=element_blank(),
+    #           axis.title.y=element_text(size = one_plot_font_size),
+    #           title = element_text(size = one_plot_font_size, colour = 'black'),
+    #           axis.text.x = element_text(size = one_plot_font_size, angle = x_angle), ## vjust 0.5 put x labels in the middle
+    #           axis.text.y=element_text(size = one_plot_font_size),
+    #           strip.text.x = element_text(size = one_plot_font_size),
+    #           strip.text.y = element_text(size = one_plot_font_size))
     if(y_axis_null){
         p_one_plot <- p_one_plot + theme(axis.title.y=element_blank())
     }
 
     ## plot 1: plain box plot with points
-    p_box <- p_one_plot + geom_boxplot(lwd=box_size, outlier.shape = NA)+
-        geom_jitter(width = jitter_w, height = jitter_h,size = dot_size, alpha = 0.5) +
+    p_box <- p_one_plot + # geom_boxplot(lwd=box_size, outlier.shape = NA)+
+        # geom_jitter(width = jitter_w, height = jitter_h,size = dot_size, alpha = 0.5) +
         theme(legend.position="none")+
-        scale_colour_manual(values = box_colour)
+        scale_colour_manual(values = box_colour) + 
+        scale_fill_manual(values= box_colour)
     
     
     
