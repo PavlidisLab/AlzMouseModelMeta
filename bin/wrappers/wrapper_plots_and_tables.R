@@ -538,7 +538,13 @@ dir.create(f_out_dir, showWarnings = F,recursive = T)
 disease <- 'AD'
 phase <- 'late'
 #++
-x <- arrayData(disease,phase)
+## the design file that have the Study and the Model_types
+(geno_f <- list.files(paste0('../configs/',disease, '_mouse_dataset_doc/'), 
+                pattern = paste0('dataset_info_genotypes.tsv'),
+                full.names = T))
+
+
+x <- arrayData(disease,phase,kuhn =F, geno_f=geno_f)
 array_dat_raw <- x[[1]]
 array_dat_MGP <- x[[2]]
 array_dat_study <- x[[3]]
