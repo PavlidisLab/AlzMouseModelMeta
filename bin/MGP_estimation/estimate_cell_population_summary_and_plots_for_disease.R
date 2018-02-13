@@ -322,22 +322,23 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
                           x_angle = x_angle) + 
                 scale_colour_manual(values = box_colour) + 
                 scale_fill_manual(values = box_colour) + 
-                facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free')
+                facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free') + 
+                geom_text(aes(x,y, label=significance,group=NULL), data=sig_label_df, size = 10, color = "black",,inherit.aes = FALSE)
             
-            p_one_plot <- ggplot(df_brain,aes_string(x = 'group', y = 'PC1_scaled', colour='group_colour')) + 
-                facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free')+ 
-                ylab('Marker gene profiles')+
-                ylim(-0.1, 1.1) +
-                theme(text=element_text(family = 'Arial'),
-                      #legend.position="none",
-                      axis.title.x=element_blank(),
-                      axis.title.y=element_text(size = one_plot_font_size),
-                      title = element_text(size = one_plot_font_size, colour = 'black'),
-                      axis.text.x = element_text(size = one_plot_font_size, angle = x_angle), ## vjust 0.5 put x labels in the middle
-                      axis.text.y=element_text(size = one_plot_font_size),
-                      strip.text.x = element_text(size = one_plot_font_size),
-                      strip.text.y = element_text(size = one_plot_font_size)) + 
-                geom_text(aes(x,y, label=significance,group=NULL), data=sig_label_df, size = 10, color = "black") ## add the significance dots
+            # p_one_plot <- ggplot(df_brain,aes_string(x = 'group', y = 'PC1_scaled', colour='group_colour')) + 
+            #     facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free')+ 
+            #     ylab('Marker gene profiles')+
+            #     ylim(-0.1, 1.1) +
+            #     theme(text=element_text(family = 'Arial'),
+            #           #legend.position="none",
+            #           axis.title.x=element_blank(),
+            #           axis.title.y=element_text(size = one_plot_font_size),
+            #           title = element_text(size = one_plot_font_size, colour = 'black'),
+            #           axis.text.x = element_text(size = one_plot_font_size, angle = x_angle), ## vjust 0.5 put x labels in the middle
+            #           axis.text.y=element_text(size = one_plot_font_size),
+            #           strip.text.x = element_text(size = one_plot_font_size),
+            #           strip.text.y = element_text(size = one_plot_font_size)) + 
+            #     geom_text(aes(x,y, label=significance,group=NULL), data=sig_label_df, size = 10, color = "black") ## add the significance dots
             
             p_one_poster <- ggplot(df_brain,aes_string(x = 'group', y = 'PC1_scaled', colour='group_colour')) + 
                 facet_grid(cell_type~plot_title,drop = TRUE,scale="free", space='free') + 
@@ -353,29 +354,27 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
                       strip.text.x = element_text(size = poster_font_size),
                       strip.text.y = element_text(size = poster_font_size)) + 
                 geom_text(aes(x,y, label=significance,group=NULL), data=sig_label_df, size = 10, color = "black") ## add the significance dots
-            
-            
-            
+
             ## plot 1: plain box plot with points
             p_box <- p_one_plot +
-                geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
-                theme(legend.position="none")+
-                scale_colour_manual(values = box_colour) # customize color
+                # geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
+                theme(legend.position="none")
+                # scale_colour_manual(values = box_colour) # customize color
             #             p_box <- p_one_plot + geom_boxplot(lwd=0.3, outlier.shape = NA)+
             #                 geom_jitter(aes(colour = Study),width = 0.2, height = 0.2,size = 0.8, alpha = 0.5)
             (f_plot <- paste0(f_out_dir,disease,'_', brain_cells,'_','box.', plot_type))
             ggsave(filename = f_plot, plot = p_box, width = 6, height =9 , units ='in')
             
             ## plot 2: plain violin plot with points
-            if(violin){
-                p_violin <- p_one_plot + geom_violin(lwd=0.3)+ geom_boxplot(width = 0.1,lwd=0.3, outlier.shape = NA)+
-                    geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5)+
-                    theme(legend.position="none")+
-                    scale_colour_manual(values = box_colour) # customize color
-                
-                (f_plot <- paste0(f_out_dir,disease,'_', brain_cells,'_','violin.', plot_type))
-                ggsave(filename = f_plot, plot = p_violin, width = 6, height =9 , units ='in')
-            }
+            # if(violin){
+            #     p_violin <- p_one_plot + geom_violin(lwd=0.3)+ geom_boxplot(width = 0.1,lwd=0.3, outlier.shape = NA)+
+            #         geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5)+
+            #         theme(legend.position="none")+
+            #         scale_colour_manual(values = box_colour) # customize color
+            #     
+            #     (f_plot <- paste0(f_out_dir,disease,'_', brain_cells,'_','violin.', plot_type))
+            #     ggsave(filename = f_plot, plot = p_violin, width = 6, height =9 , units ='in')
+            # }
             
             if(outlier_p){
                 ## plot 3. box plot with outliers labelled
@@ -396,7 +395,7 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             (palette <- c(ggColorHue(length(study)), box_colour))
             
             (names(palette) <- c(study, levels(df_brain$group_colour)))
-            p <- p_one_plot + geom_boxplot(lwd=0.3, outlier.shape = NA)+
+            p <- p_one_plot +#  geom_boxplot(lwd=0.3, outlier.shape = NA)+
                 geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
                 geom_line(stat="summary", fun.y="median", aes(group=as.character(Study), colour = Study), 
                           size =0.7,alpha = 0.5) +
@@ -404,13 +403,13 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             (f_plot <- paste0(f_out_dir,disease,'_', brain_cells,'_','box_indi_studies.', plot_type))
             ggsave(filename = f_plot, plot = p, width = 8, height =9 , units ='in')
             # colour by indi studies
-            p <- p_one_plot + geom_boxplot(lwd=0.3, outlier.shape = NA)+
+            p <- p_one_plot + # geom_boxplot(lwd=0.3, outlier.shape = NA)+
                 geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5, aes(colour= Study)) +
                 scale_colour_manual(values = palette) # customize color
             (f_plot <- paste0(f_out_dir,disease,'_', brain_cells,'_','box_color_studies.', plot_type))
             ggsave(filename = f_plot, plot = p, width = 8, height =9 , units ='in')
             if(poster){ ## plot for poster (thicker lines)
-                p <- p_one_poster + geom_boxplot(lwd=0.8, outlier.shape = NA)+
+                p <- p_one_poster + # geom_boxplot(lwd=0.8, outlier.shape = NA)+
                     geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5, aes(colour= Study)) +
                     scale_colour_manual(values = palette) # customize color
                 (f_plot <- paste0(f_out_dir,disease,'_', brain_cells,'_','box_color_studies_poster.', plot_type))
@@ -424,7 +423,7 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             
             ## plot 5 by mouse model type
             (palette <- c(model_palette, box_colour))
-            p <- p_one_plot + geom_boxplot(lwd=0.3, outlier.shape = NA)+
+            p <- p_one_plot + # geom_boxplot(lwd=0.3, outlier.shape = NA)+
                 geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
                 geom_line(stat="summary", fun.y="median", aes(group=as.character(Model_types), colour = Model_types), 
                           size =0.7,alpha = 0.5) +
@@ -432,14 +431,14 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             (f_plot <- paste0(f_out_dir,disease,'_', brain_cells,'_','box_indi_models.', plot_type))
             ggsave(filename = f_plot, plot = p, width = 8, height =9 , units ='in')
             # color dots by mouse models
-            p <- p_one_plot + geom_boxplot(lwd=0.3, outlier.shape = NA)+
+            p <- p_one_plot + # geom_boxplot(lwd=0.3, outlier.shape = NA)+
                 geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5,aes(colour = Model_types)) +
                 scale_colour_manual(values = palette) # customize color for each model type
             (f_plot <- paste0(f_out_dir,disease,'_', brain_cells,'_','box_color_models.', plot_type))
             ggsave(filename = f_plot, plot = p, width = 8, height =9 , units ='in')
             
             if(poster){ ## plot for poster (thicker lines)
-                p <- p_one_poster + geom_boxplot(lwd=0.8, outlier.shape = NA)+
+                p <- p_one_poster + # geom_boxplot(lwd=0.8, outlier.shape = NA)+
                     geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
                     geom_line(stat="summary", fun.y="median", aes(group=as.character(Model_types), colour = Model_types), 
                               size =0.7,alpha = 0.5) +
@@ -448,7 +447,7 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
                 ggsave(filename = f_plot, plot = p, width = 8, height =9 , units ='in')
                 
                 
-                p_box <- p_one_poster + geom_boxplot(lwd=0.8, outlier.shape = NA)+
+                p_box <- p_one_poster + # geom_boxplot(lwd=0.8, outlier.shape = NA)+
                     geom_jitter(width = jitter_w, height = jitter_h,size = 0.8, alpha = 0.5) +
                     theme(legend.position="none")+
                     scale_colour_manual(values = box_colour) # customize color
