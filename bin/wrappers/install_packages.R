@@ -29,3 +29,4 @@ for(i in bio_packs){
 devtools::install_github('oganm/markerGeneProfile')
 devtools::install_github('oganm/ogbox')
 devtools::install_github('raivokolde/pheatmap')
+devtools::install_github('BerylZhuang/helper_functions')
