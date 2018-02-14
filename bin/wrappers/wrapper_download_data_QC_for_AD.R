@@ -46,8 +46,8 @@ for(unzip_f in unzip_files){
     if(length(tar_f)>0){
         print(tar_f)
         
-        (msg <- paste0('\ncd ', unzip_f,'/',
-                       '\ntar -xvf ', tar_f,
+        (msg <- paste0('\ncd ', shQuote(unzip_f),'/',
+                       '\ntar -xvf ', shQuote(tar_f),
                        '\ngunzip *.gz'
         ))
     }else{msg =''}
@@ -154,15 +154,15 @@ for(i in file_dir_ls){
 }
 
 
-
-GEO <- c('GSE50521')  ## affy exon array, NUSE and RLE not available, 
-#' this will output a warning, but a normalized expression table will be done
-(file_dir_ls <- grep(paste0(GEO, collapse="|"), list.dirs(file_dir), value=T))
-
-for(i in file_dir_ls){
-    dataQC(i, design_f=design_f, out_dir = out_dir, data_dir =data_dir, 
-           result_dir =out_dir, chip_img = F, nuse_rle =F)
-}
+# hope this isn't important. Do not ignore warnings, they can become errors.
+# GEO <- c('GSE50521')  ## affy exon array, NUSE and RLE not available, 
+# this will output a warning, but a normalized expression table will be done
+# (file_dir_ls <- grep(paste0(GEO, collapse="|"), list.dirs(file_dir), value=T))
+# 
+# for(i in file_dir_ls){
+#     dataQC(i, design_f=design_f, out_dir = out_dir, data_dir =data_dir, 
+#            result_dir =out_dir, chip_img = F, nuse_rle =F)
+# }
 
 #*****************************#
 #### PART 0C.1.2 Affy exon platforms
