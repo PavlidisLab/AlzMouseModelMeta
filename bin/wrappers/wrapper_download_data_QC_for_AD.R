@@ -12,7 +12,7 @@
 # PART 0A: DOWNLOAD CEL and OTHER RAW FILES
 # annotation files should be downloaded from https://gemma.msl.ubc.ca/home.html
 #---------------------------------------------------------------------------#
-setwd("bin/")
+setwd(file.path(here::here(),'bin'))
 source('config_wrappers.R')
 rm(list=setdiff(ls(),'home_dir'))
 disease ='AD'
