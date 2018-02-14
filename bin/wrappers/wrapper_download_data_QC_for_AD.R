@@ -60,7 +60,7 @@ sink(file = f_out, type = 'output')
 writeLines(msg_all)
 sink()
 
-(cmd <- paste0('sh ', f_out))
+(cmd <- paste0('sh ', shQuote(f_out)))
 system(cmd)
 
 (tar_files <-list.files(CEL_dir, recursive = T, full.names = T, pattern = 'tar'))
