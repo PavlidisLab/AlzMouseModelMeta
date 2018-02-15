@@ -12,6 +12,10 @@
 # PART 0A: DOWNLOAD CEL and OTHER RAW FILES
 # annotation files should be downloaded from https://gemma.msl.ubc.ca/home.html
 #---------------------------------------------------------------------------#
+
+
+
+
 print('PART 0A: DOWNLOAD CEL and OTHER RAW FILES')
 
 setwd(file.path(here::here(),'bin'))
@@ -19,6 +23,24 @@ source('config_wrappers.R')
 rm(list=setdiff(ls(),'home_dir'))
 disease ='AD'
 disease_dir <- paste0(home_dir, disease, '_mouse_model_project/')
+
+
+# download platforms
+dir.create(platform_folder_biological_all_GO)
+dir.create(platform_folder_biological_pathway_only)
+library(ogbox)
+c("GPL1261",
+  "GPL6885",
+  "GPL7042",
+  "GPL7202",
+  "GPL81",
+  "GPL6096") %>% sapply(function(x){
+      getGemmaAnnot(x,file.path(platform_folder_biological_all_GO,x),annotType = 'noParents')
+      getGemmaAnnot(x,file.path(platform_folder_biological_pathway_only,x),annotType = 'bioProcess')
+      
+  })
+
+
 
 source('preprocess/GEO_download_CEL.R')
 
