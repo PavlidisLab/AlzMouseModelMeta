@@ -19,6 +19,9 @@
 
 ## need to detach oligo package (some function names overlapped)
 if('package:oligo' %in% search()){
+    if('package:pd.moex.1.0.st.v1' %in% search()){
+        detach("package:pd.moex.1.0.st.v1", unload=TRUE)
+    }
     detach('package:oligo', unload = TRUE, character.only = T) 
 }
 
