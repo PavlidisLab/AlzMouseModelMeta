@@ -12,6 +12,8 @@
 # PART 0A: DOWNLOAD CEL and OTHER RAW FILES
 # annotation files should be downloaded from https://gemma.msl.ubc.ca/home.html
 #---------------------------------------------------------------------------#
+print('PART 0A: DOWNLOAD CEL and OTHER RAW FILES')
+
 setwd(file.path(here::here(),'bin'))
 source('config_wrappers.R')
 rm(list=setdiff(ls(),'home_dir'))
@@ -70,6 +72,7 @@ system(cmd)
 #---------------------------------------------------------------------------#
 # PART 0B: PREPARE GSE63617
 #---------------------------------------------------------------------------#
+print('PART 0B: PREPARE GSE63617')
 
 # GSE63617 -> split to GSE63617.1 and GSE63617.2 due to samples using different platforms
 source("helper_functions.R") ## for saveSampleInfo()
@@ -99,7 +102,7 @@ for (gse in c('GSE63617.1', 'GSE63617.2')){
 #---------------------------------------------------------------------------#
 # PART 0B: PREPARE GSE64398
 #---------------------------------------------------------------------------#
-
+print('PART 0B: PREPARE GSE64398')
 # GSE64398 -> split to GSE64398.1 and GSE64398.2, GSE64398.3 due to samples using different platforms
 # GSE64398.1 is the Hippocampal samples
 
@@ -131,10 +134,12 @@ for (gse in c('GSE64398.1', 'GSE64398.2', 'GSE64398.3')){
 #---------------------------------------------------------------------------#
 # PART 0C: Quality check and normalized data
 #---------------------------------------------------------------------------#
+print('PART 0C: Quality check and normalized data')
 
 #*****************************#
 #### PART 0C.1.1 Affy platforms
 #*****************************#
+print('PART 0C.1.1 Affy platforms')
 
 rm(list=setdiff(ls(),'home_dir'))
 
@@ -167,6 +172,8 @@ for(i in file_dir_ls){
 #*****************************#
 #### PART 0C.1.2 Affy exon platforms
 #*****************************#
+print('PART 0C.1.2 Affy exon platforms')
+
 #### Exon affy arrays: GPL6096
 rm(list=setdiff(ls(),'home_dir'))
 
@@ -194,6 +201,8 @@ for(i in file_dir_ls){
 ########
 #### # preprocess GSE15056, 1 color, only Cy3; no dye-swaps 
 ########
+print('PART 0C.2.1 Aligent platforms, green only ## need to retart session')
+
 source("preprocess/data_QC_agilent.R")
 
 GEO <- c( 'GSE15056')
@@ -238,6 +247,7 @@ for(i in file_dir_ls){
 #*****************************#
 #### PART 0C.3.1 Illumnia platforms  --iDat data
 #*****************************#
+print('PART 0C.3.1 Illumnia platforms  --iDat data')
 
 rm(list=setdiff(ls(),'home_dir'))
 
@@ -263,7 +273,6 @@ for(file_dir in file_dir_ls){
 #---------------------------------------------------------------------------#
 # PART 1A: EXPLORE Gemma and CEL
 #---------------------------------------------------------------------------#
-
 # to do general data explore for one or multiple datasets with output folder defined, f_dataset_ls , 
 # otherwise defaults are
 #' default output folder is output_folder <- '/home/bzhuang/AD_mouse_model_project/data_and_QC/gemma_data/explore_data/'
