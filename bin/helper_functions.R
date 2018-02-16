@@ -881,7 +881,7 @@ processPlatformAnnotation <- function(platform, platform_folder){
     stop(paste0("Input platform is a ", class(platform), ". A string is required, e.g. 'GPL1261'."))
   }
   
-  x <- grep(paste0(platform, "."), 
+  x <- grep(platform, 
             list.files(platform_folder), value=T)
 
   if(length(x) == 0){
