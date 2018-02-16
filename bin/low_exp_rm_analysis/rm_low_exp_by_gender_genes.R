@@ -38,7 +38,6 @@ probeExp <- function(r_obj, df_gene){
     ###-------------------------
     ## probe expression
     ###-------------------------
-    
     ## get the probes
     load(r_obj)
     df_gene <- na.omit(noWarnings(left_join(df_gene, annotation)))
@@ -50,7 +49,8 @@ probeExp <- function(r_obj, df_gene){
     ## get the probes and expression
     (df_exp <- array_dat[probe_ls, ] %>% droplevels)
     df_exp$ProbeName <- row.names(df_exp)
-    df_exp <- gather(df_exp, ProbeName, Expression)
+    # df_exp <- gather(df_exp, ProbeName, Expression)
+    df_exp = melt(df_exp)
     colnames(df_exp) <- c("ProbeName", "Sample", "Expression")
     
     ## combine with the array_design, and gene names
@@ -195,7 +195,6 @@ findThreshold <- function(method_t, df_exp_t, dataset,platform, array_dat, array
 ## check threshold for different methods for a dataset
 expThreshold <-function(method_t_ls, r_obj, df_gene,
                             plot_dir, width=1000, height=800){
-    
     x <- probeExp(r_obj, df_gene)
     df_exp_t <- x[[1]]
     dataset <- x[[2]]
@@ -220,7 +219,6 @@ expThreshold <-function(method_t_ls, r_obj, df_gene,
 ## and plot
 loopExpThreshold <- function(method_t_ls, r_obj_ls,
                          plot_dir, width=1000, height=800, df_return =F){
-    
     dir.create(plot_dir, showWarnings=F,recursive=T)
     
     ## define gender genes
