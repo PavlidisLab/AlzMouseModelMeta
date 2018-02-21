@@ -1277,8 +1277,6 @@ for (disease in disease_ls){## loop 1 for disease
     #***************************************************************************#
     # PART 8.4.2 JACKKNIFE: make ermineJ sh: correct for cell types ----
     #***************************************************************************#
-#' sh files are run externally, assuming you have the ErmineJ command line interface. 
-#' define $ERMINEJ_HOME after install ErmineJ command line interface. the .sh filew will call $ERMINEJ_HOME/bin/ermineJ.sh
 #' This will generate all the enrichment results.
 #' define variable `xml` in the `config_wrappers.R` 
 #' `go_daily-termdb.rdf-xml.gz` is the gene ontology database, 
@@ -1298,7 +1296,7 @@ maxsize = 500
 iteration= '200000'
 ## get both biological and all process enrichment
 process_ls <- c('', '_all_processes')  # '' is the biolofical process only, and '_all_processes' are with all 3 pathway categories
-
+ermineJShs = c()
 for (disease in disease_ls){## loop 1 for disease
     print(disease)
     for (model in model_ls){## loop2 for models
@@ -1307,12 +1305,23 @@ for (disease in disease_ls){## loop 1 for disease
             bg_folder <- paste0(input_folder, '/ermineJ_background',process,'/')
             erminej_dir <- paste0(disease_dir,'/ermineJ/mixed_model_jackknife/',model,model_keyword,process, '/', Sys.Date(),'_geneset_', maxsize, '/')
             y = mkErminejSH(disease,input_folder, bg_folder, erminej_dir,xml=xml, maxsize=maxsize,iteration = iteration)
+            ermineJShs = c(ermineJShs,y)
         }
         
     }## loop2 end
 }##loop1
 
 
+
+### run ermineJ sh files
+# set java stuff
+ermineR:::findJava()
+# ermineJHome = system.file("ermineJ-3.1", package = "ermineR")
+Sys.setenv(ERMINEJ_HOME = here::here('ermineJ-3.0.2'))
+
+ermineJShs %>% lapply(function(x){
+    system2(x)
+})
 
 
     #***************************************************************************#

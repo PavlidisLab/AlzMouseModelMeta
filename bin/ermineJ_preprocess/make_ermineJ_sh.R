@@ -79,7 +79,7 @@ mkErminejSH <- function(disease,input_folder, bg_folder, erminej_dir,
                       '\ninfile=', shQuote(infile),
                       '\noutfile=', shQuote(outfile),
                       '\nscorecol=', scorecol, '\n\n',
-                      "\nsh \"$ERMINEJ_HOME/bin/ermineJ.sh\" -a $background -c $xml -n $testmethod -o $outfile -s $infile -e $scorecol -g BEST -x $maxsize -y $minsize -j -i $iteration -m $gsrmethod -t $ORAthreshold -l")
+                      "\nsh \"$ERMINEJ_HOME/bin/ermineJ.sh\" -a \"$background\" -c $xml -n \"$testmethod\" -o \"$outfile\" -s \"$infile\" -e \"$scorecol\" -g BEST -x $maxsize -y $minsize -j -i $iteration -m $gsrmethod -t $ORAthreshold -l")
         
     }
     file_name <- paste0(erminej_dir, '/', disease, '_erminej_script.sh')
