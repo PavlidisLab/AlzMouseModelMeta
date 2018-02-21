@@ -75,9 +75,9 @@ mkErminejSH <- function(disease,input_folder, bg_folder, erminej_dir,
         
         cmd <- paste0(cmd, '\n\n\n############\n# ', mj_f,
                       '\n############\n\n',
-                      '\nbackground=', background,
-                      '\ninfile=', infile,
-                      '\noutfile=', outfile,
+                      '\nbackground=', shQuote(background),
+                      '\ninfile=', shQuote(infile),
+                      '\noutfile=', shQuote(outfile),
                       '\nscorecol=', scorecol, '\n\n',
                       "\nsh $ERMINEJ_HOME/bin/ermineJ.sh -a $background -c $xml -n $testmethod -o $outfile -s $infile -e $scorecol -g BEST -x $maxsize -y $minsize -j -i $iteration -m $gsrmethod -t $ORAthreshold -l")
         
