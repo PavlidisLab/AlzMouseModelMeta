@@ -1275,8 +1275,16 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 8.4.2 JACKKNIFE: make ermineJ sh: correct for cell types
+    # PART 8.4.2 JACKKNIFE: make ermineJ sh: correct for cell types ----
     #***************************************************************************#
+#' sh files are run externally, assuming you have the ErmineJ command line interface. 
+#' define $ERMINEJ_HOME after install ErmineJ command line interface. the .sh filew will call $ERMINEJ_HOME/bin/ermineJ.sh
+#' This will generate all the enrichment results.
+#' define variable `xml` in the `config_wrappers.R` 
+#' `go_daily-termdb.rdf-xml.gz` is the gene ontology database, 
+#' the latest `go_daily-termdb.rdf-xml.gz` can be downloaded from http://archive.geneontology.org/latest-termdb/
+
+
 ## make the sh script to run from meta and jack files with lowly expressed genes removed as background
 rm(list=setdiff(ls(),'home_dir'))
 print('PART 8.4.2 JACKKNIFE: make ermineJ sh: correct for cell types')
@@ -1293,9 +1301,8 @@ process_ls <- c('', '_all_processes')  # '' is the biolofical process only, and 
 
 for (disease in disease_ls){## loop 1 for disease
     print(disease)
-    source('config_wrappers.R')
     for (model in model_ls){## loop2 for models
-        (input_folder <- paste0(disease_dir, 'mixed_model_jackknife/', model, model_keyword, '/'))
+        (input_folder <- paste0(disease_dir, '/mixed_model_jackknife/', model, model_keyword, '/'))
         for(process in process_ls){
             bg_folder <- paste0(input_folder, '/ermineJ_background',process,'/')
             erminej_dir <- paste0(disease_dir,'/ermineJ/mixed_model_jackknife/',model,model_keyword,process, '/', Sys.Date(),'_geneset_', maxsize, '/')
@@ -1309,7 +1316,8 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 8.4.3 JACKKNIFE: after MM ermineJ results, look at the top genes in the top pathways: correct for cell types
+    # PART 8.4.3 JACKKNIFE: after MM ermineJ results ----
+    # look at the top genes in the top pathways: correct for cell types
     # see part 11 for the cell pop adj
     #***************************************************************************#
 rm(list=setdiff(ls(),'home_dir'))

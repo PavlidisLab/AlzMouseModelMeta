@@ -21,7 +21,10 @@ platform_folder_biological_all_GO <- file.path(home_dir, '/platforms/')
 
 
 #####
-## emineJ files
+## ermineJ files
+# ermineJ is run externally thru ErmineJ command line interface, see http://erminej.msl.ubc.ca/ for installation
+## Geneontology database
+## latest go_daily-termdb.rdf-xml.gz can be downloaded from http://archive.geneontology.org/latest-termdb/
 xml = '/home/bzhuang/ermineJ.data/go_daily-termdb.rdf-xml.gz'
 
 
