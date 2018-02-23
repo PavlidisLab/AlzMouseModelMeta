@@ -8,7 +8,7 @@ setwd(file.path(here::here(),'bin'))
 
 
 #**************************#
-# PART 11.0 Rdata for all jacknife results for all disease-----
+# PART 11.0 [Preperation]Rdata for all jacknife results for all disease-----
 #**************************
 #' make all mixed model jackknife results into a r data, and save to 
 #' 'ND_results/mm_results/mm_jack_each_disease.Rdata'
@@ -40,7 +40,15 @@ source('summary_tables/summary_rdata/mm_jack_summary_each_disease.R')
 #**************************
 
 #**************
-# PART 11.3.1 make the heatmap for top jackknife genes MGP corrected ----
+# PART 11.3.1a [Figure 2]. Top 20 up and down-regulated genes for AD early phase after MGPs correction. ----
+# PART 11.3.1b [Figure 3]. Top 20 up and down-regulated genes for AD late phase after MGPs correction. ----
+#' OUTPUT: 
+#' [early AD]
+#' paste0(home_dir,'/ND_results/top_gene_heatmaps/AD/mixed_model_jackknife/random_intercept_include_NA_low_exp_rm_adj_cell_pop/*/early/AD_early_Genotype_Model_types.png')
+#' [late AD]
+#' paste0(home_dir,'/ND_results/top_gene_heatmaps/AD/mixed_model_jackknife/random_intercept_include_NA_low_exp_rm_adj_cell_pop/*/AD_late_Genotype_Model_types.png')
+
+# make the heatmap for top jackknife genes MGP corrected
 # (top genes of the phase)- with cell population corrected
 # and top mixed model genes (not used in thesis)
 # expression are corrected to the corresponding gene list (corrected for study or corrected for celltypes)
@@ -118,7 +126,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 #**************
-# PART 11.3.2 make the heatmap for cell type marker genes ----
+# PART 11.3.2 [PLOT NOT USED]make the heatmap for cell type marker genes ----
 ## just to explore, not included in thesis
 # input expression is corrected for study only
 #**************
@@ -199,8 +207,15 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 #**************************#
-# PART 11.5.2 plot the cell population changes ----
+# PART 11.5.2a [Figure 1A.] MGPs of neurons in AD mouse models. ----
+# PART 11.5.2b [Figure 1B.] MGPs of glial cells in AD mouse models. ----
+
+#' plot the cell population changes (generate a lot of figures but only 2 are used in the paper)
+
 # for all diseases (input in mixed model cell types)
+# OUTPUT:
+#[Figure 1A] 'files_results/AD_mouse_model_project/MGP_estimation/plots/*[date]/AD_neurons_box.png'
+#[Figure 1B] 'files_results/AD_mouse_model_project/MGP_estimation/plots/*[date]/AD_glia_box.png'
 #**************************
 
 #' after all the estimate cell populations
@@ -235,7 +250,7 @@ cellPopPlots(disease_ls, phase_ls, in_dir, out_dir,x_angle = x_angle,one_plot_fo
 
 
 #**************************#
-# PART 11.5.3 get the correlation for each jackknife run to other runs ----
+# PART 11.5.3 [TABLE NOT USED]get the correlation for each jackknife run to other runs ----
 #**************************
 
 
@@ -255,12 +270,7 @@ for(disease in disease_ls){
 
 
 #**************************#
-# PART 12 thesis plots and tables ----
-#**************************
-
-
-#**************************#
-# PART 12.1 gather ranking results ----
+# PART 12.1 [Preperation] gather ranking results ----
 # gene ranks and pvalues
 # enrichment results
 # save as a Rdata for plots and tables
@@ -289,7 +299,7 @@ save(all_ranks, all_ranks_adj, GO_adj, GO_non_adj,
 
 
 #**************
-## PART 12.2 summary cell marker rotation estimations and plots ----
+## PART 12.2 [TABLE NOT USED]summary cell marker rotation estimations and plots ----
 # saved r objects: cell_marker_freq, cell_marker_rotations, cell_marker_msg
 #**************
 #'summary of cell markers and estimation of rotations and variations
@@ -303,11 +313,14 @@ source('config_wrappers.R')
 
 source('thesis_stuff/check_cell_pop_rotation.R')
 
-#*******************
-##PART 12.3 get which DE genes are also cell type markers before and after correction ----
+#*******************thesis table
+##PART 12.3 [Table S3]. Top-ranked cell-type marker genes before and after marker gene profiles correction. ----
+#' OUTPUT: paste0(home_dir, '/ND_results/DE_genes_markers/DEmarkers/thesis_DE_markers.tsv'
+#' Some formatting needed for a neat table (e.g. change NA to --)
+#' get which DE genes are also cell type markers before and after MGP correction
+#' 
 #*******************
 
-## thesis tables '
 source('./thesis_stuff/check_genes_helpers.R')
 (outdir <- paste0(home_dir, '/ND_results/DE_genes_markers/DEmarkers/'))
 
@@ -330,18 +343,16 @@ for(disease in disease_ls){
 }
 
 
-## see check_genes.R for plots and tables
-
-
-source('./thesis_stuff/check_genes_helpers.R')
 #**************************
-#### PART 12.4 Plot pvalue changes before and after MGP ----
-## check correlations of ranks early and late ----
+## PART 12.4.1 [NOT USED]check correlations of ranks early and late ----
+# OUTPUT in paste0(home_dir, '/ND_results/early_late_corr/')
 #**************************
 ## need to load all_rank, all_rank_adj
 load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
 
 df_all_el <- NULL
+source('./thesis_stuff/check_genes_helpers.R')
+
 source('config_wrappers.R')
 for (disease in disease_ls){
     print('compare cell early and late correclations ')
@@ -385,51 +396,92 @@ f <- paste0(outdir, Sys.Date(), "_early_late_corr.tsv")
 writeTable(df_all_el, f_out = f)
 
 
+#**************************
+## PART 12.4.2 [Figure S2]. Number of differentially expressed genes (FDR < 0.05) in AD mouse models before and after marker gene profiles correction. ----
+# OUTPUT: paste0(home_dir, '/ND_results/figures/pvalues/.[Date]_AD_pvalue_bar_no_dir.png')
+#**************************
+
+## need to load all_rank, all_rank_adj
+source('./thesis_stuff/check_genes_helpers.R')
+source('config_wrappers.R')
+load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
+
+plot_dir <- paste0(home_dir, '/ND_results/figures/pvalues/')
+
+df_all_count <- NULL
+for(phase in c('early', 'late') ){
+    for(regulation in c('up', 'down')){
+        print('compare cell adj vs non cell adj correclations ')
+        df <- compareAdjCor(disease, phase, regulation)
+        if(is.null(df_all_count)){
+            df_all_count <- df
+        }else{
+            df_all_count <- rbind(df_all_count,df)
+        }
+    }
+}
+
+
 threshold <- 0.05
 df <- upDownCount(all_ranks, threshold)
-df$Count <- paste0(df$Freq, '(', round(df$ratio*100,2), '%)')
-df <- df[,c('disease','phase', 'regulation', 'Freq','Count')]
+df <- df[,c('disease','phase', 'regulation', 'Freq', 'ratio')]
 df$correction <- 'Before'
 df_before <- df
 
 df <- upDownCount(all_ranks_adj, threshold)
 
-df$Count <- paste0(df$Freq, '(', round(df$ratio*100,2), '%)')
-df <- df[,c('disease','phase', 'regulation', 'Freq','Count')]
+
+df <- df[,c('disease','phase', 'regulation', 'Freq', 'ratio')]
 df$correction <- 'After'
 df_after <- df
 
 df <- rbind(df_before, df_after)
+df$Count <- paste0(df$Freq, '(', round(df$ratio*100,2), '%)')
 df <- left_join(df, df_all_count)
 df <- as.data.frame(unclass(df))
 df$correction <- factor(df$correction, levels= c('Before', 'After'))
 
-plot_dir <- paste0(home_dir, '/ND_results/figures/pvalues/')
+# get no direction
+df1 <- aggregate(Freq ~ disease + phase +correction , data = df, FUN = sum)
+df2 <- aggregate(ratio ~ disease + phase +correction , data = df, FUN = sum)
+df_no_reg_dir <- left_join(df1, df2)
+df_no_reg_dir$Count <- paste0(df_no_reg_dir$Freq, '(', round(df_no_reg_dir$ratio*100,2), '%)')
+
+
 dir.create(plot_dir, recursive = T,showWarnings = F)
 writeTable(df, f_out = paste0(plot_dir, Sys.Date(), '_padj5_count.tsv'))
+writeTable(df_no_reg_dir, f_out = paste0(plot_dir, Sys.Date(), '_padj5_count_no_dir.tsv'))
 
 ## thesis bar plot DE genes before and after cell type correction
-source('config_wrappers.R')
-for(disease in disease_ls){
-    df2 <- filterContain(df, column = 'disease', value = disease)
-    f_out <-paste0(plot_dir,Sys.Date(),'_',disease,'_pvalue_bar.png') 
-    plotBarDE(df2, one_plot_font_size=10, f_out)
-}
 
-for(disease in disease_ls){
-    df2 <- filterContain(df, column = 'disease', value = disease)
-    f_out <-paste0(plot_dir,Sys.Date(),'_',disease,'_pvalue_bar.svg') 
-    plotBarDE(df2, one_plot_font_size=10, f_out)
-}
+## x label is regulation (up or down, facet by phase) - not used
+df2 <- filterContain(df, column = 'disease', value = disease)
+f_out <-paste0(plot_dir,Sys.Date(),'_',disease,'_pvalue_bar.png') 
+p <- plotBarDE(df2, one_plot_font_size=10, f_out, x_col = 'regulation',
+               y_col = 'Freq' ,
+               x_label = 'Regulation',
+               y_label = 'Count',
+               return_p = T)
+
+
+
+
+## Figure S2
+df2 <- filterContain(df_no_reg_dir, column = 'disease', value = disease)
+f_out <-paste0(plot_dir,Sys.Date(),'_',disease,'_pvalue_bar_no_dir.png') 
+p <- plotBarDE(df2, one_plot_font_size=14, f_out, x_col = 'phase',
+               y_col = 'Freq' ,
+               x_label = 'Disease Phase',
+               y_label = 'DE Gene Count',
+               return_p = T, facet_phase =F, save_p = T)
 
 
 
 #+++++++++++++++++++
-# PART 12.5 plot pvalue distribution ----
+# PART 12.5 [PLOT NOT USED]plot pvalue distribution before and after MGP correction ----
+# OUTPUT: paste0(home_dir, '/ND_results/figures/pvalues/.[Date]_AD_pvalue.png')
 #+++++++++++++++++++
-#******
-# histo plot for pvalues before and after MGP correction ----
-#******
+
 
 plot_dir <- paste0(home_dir, '/ND_results/figures/pvalues/')
 dir.create(plot_dir, recursive = T,showWarnings = F)
@@ -438,7 +490,7 @@ dir.create(plot_dir, recursive = T,showWarnings = F)
 load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
 
 
-## plot pvalues
+## plot pvalue distribution
 df <- all_ranks[, c('disease', 'phase','pvalue')]%>%droplevels()
 df$correction <- 'Before'
 df2 <- all_ranks_adj[, c('disease', 'phase','pvalue')]%>%droplevels()
@@ -458,7 +510,10 @@ for(disease in disease_ls){
 
 
 #+++++++++++++++++++
-##PART 12.6 get the enriched GO terms and the top genes in the gene set [TABLE]----
+##PART 12.6 [TABLE NOT USED]get the enriched GO terms and the top genes in the gene set ----
+#' OUTPUT: paste0(home_dir, '/ND_results/tables/sig_go_terms/2018-.*_sig_go_terms.tsv'
+#' 
+#' In the paper, top enriched GO terms are specified in the context, without a table
 #+++++++++++++++++++
 
 source('thesis_stuff/check_genes_helpers.R')
@@ -474,8 +529,18 @@ outdir <- paste0(home_dir, '/ND_results/tables/sig_go_terms/')
 df <- enrichedGOTerms(outdir, GO_adj,phase_ls =c('early', 'late'))
 
 
-#+++++++++++++++++++
-# PART 12.7 compare my top genes and the reported genes [TABLE] ----
+#+++++++++++++++++++ thesis table
+# PART 12.7 [Table S4]. Comparisons between top genes and top hits reported in original studies for the late AD phase. ----
+#' 
+#' Only the table with late AD phase with the top 20 genes is used in Table S4
+#' OUTPUT: paste0(home_dir, '/ND_results/tables/compare_to_original_study/AD_late_20_comparison__adj.*.tsv'
+#' 
+#' Some formatting needed for a neat table: e.g. change 'no expression' to '--' etc
+#' 
+#' compare my top genes and the reported genes
+#' tables are made for both early and late phases.
+
+
 #+++++++++++++++++++
 
 outdir <- paste0(home_dir, '/ND_results/tables/compare_to_original_study/')
@@ -513,7 +578,11 @@ for(phase in phase_ls){
 
 
 #+++++++++++++++++++ thesis table
-#' PART 12.8 summary of all samples and genes counts for input data ----
+#PART 12.8 [Table 1]. Summary of selected gene expression profiling studies for AD ----
+# OUTPUT: paste0(home_dir, '/ND_results/tables/input_data_summary_', Sys.Date(), '.tsv')
+#' summary of all samples and genes counts for input data for early and late phase
+#' Need manual summary of the total counts
+#' 
 #' # of genes are after filter: input data from mixed_model/random_intercept_include_NA_low_exp_rm/
 #+++++++++++++++++++
 source('config_wrappers.R')
@@ -525,9 +594,17 @@ source('summary_tables/summary_mm_input_data.R')
 
 
 
-#+++++++++++++++++++ 
-# 2017-03-01 # thesis plots
-# plot the expression of a gene (or gene list) from each study
+#+++++++++++++++++++ thesis plot
+# PART 12.9.1 [Figure 4A]. Expression of Trem2 in the late AD phase before (top row) and after (bottom row) MGPs correction. ----  
+# PART 12.9.2 [Figure 4B]. Expressions of Msmo1 in the late AD phase before and after MGPs correction. ----
+
+# OUTPUT: Fig 4A: paste0(home_dir, '/ND_results/gene_expr_before_after_MGP/.[date]/AD_late_Trem2_mgp_Study.png')
+#'This plot need to add red boxes to highlight: Studies (data sets) that are highlighted by a red box have 
+#' reported the gene as top hit in the original publications. 
+
+# OUTPUT: Fig 4B: paste0(home_dir, '/ND_results/gene_expr_before_after_MGP/.[date]/AD_late_Msmo1_mgp_Study.png')
+
+# plot the expression of a gene (or gene list) from each study (Trem2 and Msmo1 in late AD are selected as examples in the paper)
 # with raw expression, study corrected or study and MGP corrected
 source('thesis_stuff/plot_indi_gene_exp_per_study.R')
 #+++++++++++++++++++ 
@@ -571,3 +648,37 @@ mainPlot(gene_ls, array_dat_raw, array_dat_MGP, disease, array_design,f_out_dir)
 # 
 # 
 # 
+
+#+++++++++++++++++++ thesis table
+#PART 12.10 [Table 2]. Summary of selected AD mouse model studies. ----
+# This table is manually produced.
+#+++++++++++++++++++
+
+#+++++++++++++++++++ thesis table
+#PART 12.11 [Table S1]. Summary of Alzheimer’s disease mouse models analyzed. ----
+# This table is manually produced.
+#+++++++++++++++++++
+
+#+++++++++++++++++++ thesis table
+#PART 12.12 [Table S2]. Samples and data sets removed from analysis. ----
+# This table is manually produced.
+#+++++++++++++++++++
+
+
+
+#+++++++++++++++++++ thesis table
+# Part 12.13.1 [Table S5]. Top 50 up-regulated genes for AD mouse models in the early phase after marker gene profiles correction. ----
+# Part 12.13.2 [Table S6]. Top 50 down-regulated genes for AD mouse models in the early phase after marker gene profiles correction. ----
+# OUTPUT: paste0(home_dir, '/ND_results/tables/top_genes/top_genes_cell_adj/jackknife_early_top_50_genes_.*.tsv')
+# the output table contains both top 50 up and top 50 down-regulated genes
+#+++++++++++++++++++
+
+#' run the `wrapper_for_all_results.R` run part 8.6.1
+#**************************#
+# PART 8.6.1 save the results of top genes (pvalue is raw p, not up or down p)
+# mixed model and jackknife results :corrected for cell types
+#**************************#
+
+paste0(home_dir, '/ND_results/mm_results/', Sys.Date(), '/')  ## save the r data
+threshold =50
+PART 6D save the results of top genes

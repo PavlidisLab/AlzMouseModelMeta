@@ -174,6 +174,7 @@ plotBarDE <- function(df, one_plot_font_size=10, f_out, x_col = 'regulation',
     }
     
     if(save_p){
+        print(f_out)
         ggsave(filename = f_out, plot=p, width = 6.45, height =3.15, units = "in")  
     }
     
