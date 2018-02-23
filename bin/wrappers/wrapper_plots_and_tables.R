@@ -127,6 +127,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 #**************
 # PART 11.3.2 [PLOT NOT USED]make the heatmap for cell type marker genes ----
+# OUTPUT: paste0(home_dir,'/ND_results/gene_heatmaps_explore/cell_markers/', disease, '/', Sys.Date(), '/', cell_type, '/')
 ## just to explore, not included in thesis
 # input expression is corrected for study only
 #**************
@@ -134,6 +135,10 @@ for (disease in disease_ls){## loop 1 for disease
 #' with model_keyword_ls <- c('_include_NA_low_exp_rm')  ## this correct all the genes if intercept is provided
 
 rm(list=setdiff(ls(),'home_dir'))
+
+## load the cell type markers rdata: variable `mouseMarkerGenes`
+load('../configs/cell_type_markers/2017-02-27/mouseMarkerGenes.Rdata')
+
 
 source('helper_functions.R')
 source('mixed_models/plot_up_down_genes_thesis_figure_corrected_value.R')
@@ -156,26 +161,25 @@ cell_type_ls = c('Microglia', 'Astrocyte', 'DentateGranule', 'GabaSTTReln', 'Oli
 mm_rdata_keyword_ls <- c('_include_NA_low_exp_rm')  ## choose which top genes for plotting 
 rdata_keyword = 'mixed_model_results_exp_corrected.Rdata'  # choose which rdata to get from: corrected for study only
 
+
+
 for (disease in disease_ls){## loop 1 for disease
     print(disease)
     source('config_wrappers.R')
     
-    ## the cell marker folder
+    ## the cell markers for the brain region
     if(disease == 'AD'){
-        (folder=max(grep('201.*Hippocampus', list.dirs('../configs/cell_type_markers/',recursive = T, full.names = T), value = T)))
+        cell_marker <- mouseMarkerGenes$Hippocampus
     }else{ ## for HD
-        (folder=max(grep('201.*Striatum', list.dirs('../configs/cell_type_markers/',recursive = T, full.names = T), value = T)))
+        cell_marker <- mouseMarkerGenes$Striatum
     }
     
-    ## get all the cell type markers
-    f_marker_ls <- grep(paste0(cell_type_ls,  collapse = '.tsv|'), list.files(folder, full.names = T), value = T)
-    for(f in f_marker_ls){ ## loop 2 for each cell type files
+    ## get all the cell type markers that apply
+    final_cell_type_ls <- intersect(cell_type_ls, names(cell_marker))
+    for(cell_type in final_cell_type_ls){ ## loop 2 for each cell type files
         
-        ## get the gene list from the cell type markers
-        df <- read.delim(f, comment.char = '#')
-        cell_type <- as.character(levels(df$cell_type))
         print(cell_type)
-        gene_list <- sort(as.character(df$geneSymbol))
+        gene_list <- sort(unlist(cell_marker[cell_type]))
         gene_list <- grep('\\|', gene_list, invert = T, value = T) ## rm multiple genes
         
         
