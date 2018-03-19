@@ -1,0 +1,5 @@
+disease	phase	correction	Freq	ratio	Count
+AD	early	Before	8	0.000736919675755343	8(0.07%)
+AD	late	Before	1415	0.136490788077554	1415(13.65%)
+AD	early	After	16	0.00147383935151069	16(0.15%)
+AD	late	After	17	0.0016398186553487	17(0.16%)
