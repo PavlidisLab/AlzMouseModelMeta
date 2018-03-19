@@ -731,8 +731,8 @@ rm(list=setdiff(ls(),'home_dir'))
 source('config_wrappers.R')
 
 # load('../configs/mouseMarkerGenes.Rdata') ## load the markergenes
-load('../configs/mouseMarkerGenes.rda') ## load the markergenes
-
+load('../configs/mouseMarkerGenesCombined.rda') ## load the markergenes
+mouseMarkerGenes = mouseMarkerGenesCombined
 
 phase_ls = c('early', 'late')
 
