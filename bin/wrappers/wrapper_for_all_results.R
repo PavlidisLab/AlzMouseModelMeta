@@ -689,7 +689,7 @@ mgi_info <- paste0('../configs/ND_files/mgi_annotation_precessed_omim.tsv')
 
 model_ls <- c('mixed_model_jackknife')  ## specify which mixed model results
 
-f_out <- paste0(home_dir, '/ND_results/ND_summary/doc_tables/top_genes_non_adj/')
+f_out <- paste0(home_dir, '/ND_results/tables/top_genes/top_genes_non_adj/')
 f_rdata_out <- paste0(home_dir, '/ND_results/mm_results/', Sys.Date(), '/')  ## save the r data
 threshold =50
 phase_ls <- c('early', 'late')
@@ -703,7 +703,7 @@ for(phase in phase_ls){
 }
 
 ## get the top genes for jackknife, and save rdata
-(f_out <- paste0(home_dir, '/ND_results/ND_summary/doc_tables/jack_top_genes_non_adj/'))
+(f_out <- paste0(home_dir, '/ND_results/tables/top_genes/jack_top_genes_non_adj/'))
 mm_jack_folder ='random_intercept_include_NA_low_exp_rm'
 threshold =50
 for(phase in phase_ls){
@@ -733,7 +733,7 @@ source('config_wrappers.R')
 # load('../configs/mouseMarkerGenes.Rdata') ## load the markergenes
 # load('../configs/mouseMarkerGenes.rda') ## load the markergenes
 load('../configs/mouseMarkerGenesCombined.rda') ## load the markergenes
-ogbox::loadGithub('oganm/neuroExpressoAnalysis/data/mouseMarkerGenesCombined.rda')
+# ogbox::loadGithub('oganm/neuroExpressoAnalysis/data/mouseMarkerGenesCombined.rda')
 mouseMarkerGenes = mouseMarkerGenesCombined
 
 phase_ls = c('early', 'late')
@@ -1388,7 +1388,7 @@ mgi_info <- paste0('../configs/ND_files/mgi_annotation_precessed_omim.tsv')
 
 model_ls <- c('mixed_model_jackknife')  ## specify which mixed model results
 
-f_out <- paste0(home_dir, '/ND_results/ND_summary/doc_tables/top_genes_cell_adj/')
+f_out <- paste0(home_dir, '/ND_results/tables/top_genes/top_genes_cell_adj/')
 f_rdata_out <- paste0(home_dir, 'ND_results/mm_results_cell_adj/', Sys.Date(), '/')  ## save the r data
 threshold =50
 phase_ls <- c('early', 'late')
@@ -1402,7 +1402,7 @@ for(phase in phase_ls){
 }
 
 ## get the top genes for jackknife, and save rdata
-(f_out <- paste0(home_dir, '/ND_results/ND_summary/doc_tables/jack_top_genes_cell_adj/'))
+(f_out <- paste0(home_dir, '/ND_results/tables/top_genes/jack_top_genes_cell_adj/'))
 mm_jack_folder ='random_intercept_include_NA_low_exp_rm_adj_cell_pop'
 
 threshold =50
