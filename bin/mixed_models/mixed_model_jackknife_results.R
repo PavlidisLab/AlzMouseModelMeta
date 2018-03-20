@@ -127,10 +127,9 @@ compareJackMM <- function(mm_jack_dir,mm_dir, phase, regulation_ls = c('up', 'do
             
             (random_effects <- grep('_intercept',colnames(df), value = T))
             (jack <- grep('run',colnames(df), value = T))
-            
             ## add the cell type FE columns
             cell_type <- c('Oligo', 'Astrocyte', "Microglia","DentateGranule",'GabaSSTReln', 'StriatumCholin',
-                           'Pyramidal_Thy1', 'ForebrainCholin', 'Spiny')
+                           'Pyramidal', 'ForebrainCholin', 'Spiny')
             (cell_col_index <- grep(paste0(cell_type, collapse = '|'),colnames(df)))
             if(length(cell_col_index) >0 ){
                 cell_col <- c('Oligodendrocytes','Astrocytes',"Microglia", "Dentate_granule_cells" ,'GABAergic_cells','Cholinergic_neurons', 
