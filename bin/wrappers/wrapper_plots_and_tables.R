@@ -137,7 +137,9 @@ for (disease in disease_ls){## loop 1 for disease
 rm(list=setdiff(ls(),'home_dir'))
 
 ## load the cell type markers rdata: variable `mouseMarkerGenes`
-load('../configs/cell_type_markers/2017-02-27/mouseMarkerGenes.Rdata')
+# load('../configs/cell_type_markers/2017-02-27/mouseMarkerGenes.Rdata')
+load('../configs/mouseMarkerGenesCombined.rda') ## load the markergenes
+mouseMarkerGenes = mouseMarkerGenesCombined
 
 
 source('helper_functions.R')
@@ -156,7 +158,7 @@ opposite_phase = F
 top_genes = F
 
 ## all cell types (hippocampus and striatum)
-cell_type_ls = c('Microglia', 'Astrocyte', 'DentateGranule', 'GabaSTTReln', 'Oligo', 'Pyramidal_Thy1',
+cell_type_ls = c('Microglia', 'Astrocyte', 'DentateGranule', 'GabaSSTReln', 'Oligo', 'Pyramidal',
                  'ForebrainCholin', 'Spiny')
 mm_rdata_keyword_ls <- c('_include_NA_low_exp_rm')  ## choose which top genes for plotting 
 rdata_keyword = 'mixed_model_results_exp_corrected.Rdata'  # choose which rdata to get from: corrected for study only
@@ -208,7 +210,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 
-
+####
 
 #**************************#
 # PART 11.5.2a [Figure 1A.] MGPs of neurons in AD mouse models. ----

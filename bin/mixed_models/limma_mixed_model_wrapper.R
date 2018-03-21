@@ -13,7 +13,7 @@ limmaModelJack <- function(model_keyword,
                            model_ls =c('random_intercept'),
                            regulation_ls= c('up', 'down'),
                            xml = '/home/bzhuang/ermineJ.data/go_daily-termdb.rdf-xml.gz',
-                           AD_cell_types = c("Astrocyte" ,"DentateGranule", 'GabaSSTReln',"Microglia", 'Oligo', 'Pyramidal_Thy1',
+                           AD_cell_types = c("Astrocyte" ,"DentateGranule", 'GabaSSTReln',"Microglia", 'Oligo',
                                              "GABAergic",  "Pyramidal"),
                            HD_cell_types = c("Astrocyte","Cholinergic" ,"Microglia" ,"Spiny", 'Oligo','ForebrainCholin')){
     

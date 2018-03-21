@@ -210,7 +210,7 @@ overlapGenes <- function(df1, disease1, phase1, rank1, df2, disease2, phase2, ra
 getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
     need_col <- c('disease', 'phase', 'geneSymbol', 'cell_type', 'P_adj', 'Estimate') 
     
-    full_name <- c('Oligo', 'Astrocyte', "Microglia","DentateGranule",'GabaSSTReln', 'StriatumCholin','Pyramidal_Thy1', 'ForebrainCholin', 'Spiny', 'Microglia_deactivation', 'Microglia_activation')
+    full_name <- c('Oligo', 'Astrocyte', "Microglia","DentateGranule",'GabaSSTReln', 'StriatumCholin','Pyramidal', 'ForebrainCholin', 'Spiny', 'Microglia_deactivation', 'Microglia_activation')
     new_name <- c('Oligodendrocytes','Astrocytes',"Microglia", "Dentate granule cells" ,'GABAergic cells','Cholinergic neurons', 'Pyramidal cells','Cholinergic neurons', 'Medium spiny neurons','Microglia_deactivation', 'Microglia_activation')
     
     

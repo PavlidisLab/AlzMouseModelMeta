@@ -953,7 +953,7 @@ for (disease in disease_ls){## loop 1 for disease
     source('config_wrappers.R')
     
     if(disease == 'AD'){
-        cell_types = c("Astrocyte" ,"DentateGranule", 'GabaSSTReln',"Microglia", 'Oligo', 'Pyramidal_Thy1')
+        cell_types = c("Astrocyte" ,"DentateGranule", 'GabaSSTReln',"Microglia", 'Oligo', 'Pyramidal')
     }else if(disease =='HD'){
         cell_types = c("Astrocyte","ForebrainCholin" ,"Microglia" ,"Spiny",'Oligo')
     }

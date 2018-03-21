@@ -27,7 +27,7 @@ data_dir <- paste0(disease_dir,'/mixed_model/random_intercept_include_NA_low_exp
 load(marker)
 
 if(disease == 'AD'){
-    cell_types = c("Astrocyte" ,"DentateGranule", 'GabaSSTReln',"Microglia", 'Oligo', 'Pyramidal_Thy1',
+    cell_types = c("Astrocyte" ,"DentateGranule", 'GabaSSTReln',"Microglia", 'Oligo',
                    "GABAergic",  "Pyramidal")
 }else if(disease =='HD'){
     cell_types = c("Astrocyte","Cholinergic" ,"Microglia" ,"Spiny", 'Oligo','ForebrainCholin')

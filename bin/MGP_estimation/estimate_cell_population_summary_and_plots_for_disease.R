@@ -114,7 +114,7 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
     ###
     ## add cell type category, and reorder cell types (and rename)
     ###
-    full_name <- c('Oligo', 'Astrocyte', "Microglia","DentateGranule",'GabaSSTReln', 'StriatumCholin','Pyramidal_Thy1', 'ForebrainCholin', 'Spiny', 'Microglia_deactivation', 'Microglia_activation', 
+    full_name <- c('Oligo', 'Astrocyte', "Microglia","DentateGranule",'GabaSSTReln', 'StriatumCholin','Pyramidal', 'ForebrainCholin', 'Spiny', 'Microglia_deactivation', 'Microglia_activation', 
                    'A1','A2')
     new_name <- c('Oligodendrocytes','Astrocytes',"Microglia", "Dentate granule cells" ,'GABAergic cells','Cholinergic neurons', 'Pyramidal cells','Cholinergic neurons', 'Medium spiny neurons','Microglia_deactivation', 'Microglia_activation',
                   'A1_astrocyte','A2_astrocyte')
