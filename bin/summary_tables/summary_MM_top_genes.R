@@ -181,7 +181,7 @@ summarizeTopPathways <- function(disease_ls, f_out,model_ls,
             print(result_dir)
             
             ## get the most recent result folder and sub folder with the key word
-            (f_dir_ls <- grep('mixed_model.tsv$', list.files(result_dir, full.names = T), value = T))
+            (f_dir_ls <- grep('(?<!top_genes)_mixed_model.tsv$', list.files(result_dir, full.names = T), value = T, perl = TRUE))
             if(length(f_dir_ls) !=4){
                 stop(paste0(result_dir, 'doesnt contain 4 mixed_model.tsv files'))
             }
