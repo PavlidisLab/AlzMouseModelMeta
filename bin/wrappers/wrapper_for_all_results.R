@@ -715,12 +715,12 @@ for(phase in phase_ls){
 
 
     #---------------------------------------------------------------------------#
-    ### PART 7 (previously 3.3.2c)  MGP estimation, Cell population estimation from mixed model
+    ### PART 7 (previously 3.3.2c)  MGP estimation, Cell population estimation from mixed model----
     #' array must be study (intercept)corrected data
     #' cell type profiles are used for the mixed model
     #---------------------------------------------------------------------------#
 print('PART 7 (previously 3.3.2c)  MGP estimation, Cell population estimation from mixed model')
-## output: '/MGP_estimation/all_sample_estimation/
+## output: '/MGP_estimation/
 ## recorded done the cell type markers for future heatmaps
 library(markerGeneProfile)
 library(ogbox)
@@ -761,7 +761,7 @@ for (disease in disease_ls){
             
         }
         
-        (file_ls <- paste0(disease_dir, '/MGP_estimation/all_sample_estimation/', phase,'/'))
+        (file_ls <- paste0(disease_dir, '/MGP_estimation/', phase,'/'))
         
         
         (r_ob <- list.files(paste0(disease_dir, '/mixed_model/random_intercept_include_NA_low_exp_rm/', phase,'/'), 
@@ -870,7 +870,7 @@ for (disease in disease_ls){## loop 1 for disease
         for (phase in phase_ls){ ## loop3 by phase
             (exprdata <- paste0(data_dir, phase, '/expression.Rdata'))
             ## get the cell marker files
-            cell_markers_f=max(list.files(paste0(disease_dir, '/MGP_estimation/all_sample_estimation/', phase,'/'), 
+            cell_markers_f=max(list.files(paste0(disease_dir, '/MGP_estimation/', phase,'/'), 
                                           recursive = T, full.names = T,
                                           pattern ='mixed_model_cell_proportion_estimation_scaled.tsv' ))
             
@@ -963,7 +963,7 @@ for (disease in disease_ls){## loop 1 for disease
             ## where the mixed model result files
             for(phase in phase_ls){
                 print(phase)
-                cell_markers_f=max(list.files(paste0(disease_dir, '/MGP_estimation/all_sample_estimation/', phase,'/'), 
+                cell_markers_f=max(list.files(paste0(disease_dir, '/MGP_estimation/', phase,'/'), 
                                               recursive = T, full.names = T,
                                               pattern ='mixed_model_cell_proportion_estimation_scaled.tsv' ))
                 print(cell_markers_f)
@@ -1130,7 +1130,7 @@ for (disease in disease_ls){## loop 1 for disease
         (data_dir_all <- paste0(disease_dir,'/mixed_model_jackknife/', model,model_keyword, '/', phase, '/')) ## where the mixed model input expression
         
         ## get the cell marker files
-        cell_markers_f=max(list.files(paste0(disease_dir, '/MGP_estimation/all_sample_estimation/', phase,'/'), 
+        cell_markers_f=max(list.files(paste0(disease_dir, '/MGP_estimation/', phase,'/'), 
                                       recursive = T, full.names = T,
                                       pattern ='mixed_model_cell_proportion_estimation_scaled.tsv' ))
         print(cell_markers_f)
