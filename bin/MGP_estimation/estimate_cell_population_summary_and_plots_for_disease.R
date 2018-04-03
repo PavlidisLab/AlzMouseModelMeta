@@ -40,7 +40,6 @@ assignSig <- function(df, adj_p){
 
 processCellInput <- function(disease_ls, phase_ls, in_dir){
     df_disease_all = NULL
-    
     for(disease in disease_ls){## loop 1 for disease
         
         ## get the estimated for early and late phases
@@ -77,7 +76,9 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
                 df_e$Sample = rownames(df_e)
                 df_e <- reshape2::melt(df_e, id.vars = c('Sample', 'groups'), variable.name="cell_type", value.name = 'PC1')
                 
+                
                 df = read.delim(f, comment= '#')
+                assertthat::assert_that(assertthat::are_equal(as.character(df$Sample),as.character(df_e$Sample)))
                 df = noWarnings(left_join(df, df_e))
                 
                 df$keyword = keyword_ls[i]
@@ -89,7 +90,7 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
             }
         }## loop2 for phase
         df_all$disease = disease
-        
+
         
         df_disease = df_all
         
@@ -101,8 +102,7 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
     }## loop 1 for disease
     df_disease_all <- rmDup(df_disease_all) ## gseGSE64398.1_4_months WT will be duplicated for early and late
     # because they had been used in both phases
-    
-    
+    df_disease_all %<>% filter(!cell_type %in% 'Pyramidal Thy1 Hipp')
     
     ## assign the significance
     #' <0.01: ***
@@ -121,6 +121,7 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
     
     df_disease_all[, 'cell_type'] <- plyr::mapvalues(df_disease_all[, 'cell_type'], from = full_name, 
                                                      to = new_name, warn_missing = F)
+    
  
     new_type <- c(rep('glia', 3), rep('neurons', 6), rep('microglia_act', 2),rep('astrocyte_type', 2))
     
@@ -221,8 +222,7 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
         ## get the disease, and phase
         index <- Reduce(intersect, list(which(df_disease_all$disease == disease)))
         df_cell <- df_disease_all[index, ]%>%droplevels()
-        
-        df_cell$group <- as.factor(gsub('Disease', disease, df_cell$group))
+        df_cell$group <- as.factor(gsub('Disease', disease, as.character(df_cell$group)))
         
         ## relevel
         (new_levels <- c('WT', setdiff(unique(df_cell$group), 'WT')))
@@ -236,7 +236,6 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
         #####
         ## for thesis, plot all studies, and all cell types in glia and neurons
         #####
-        
         for(brain_cells in levels(df_cell$brain_cells)){ ## loop 2 for brain cell types
             df_brain <- df_cell[which(df_cell$brain_cells == brain_cells), ]%>% droplevels()
             df_brain$group_colour <- as.factor(df_brain$group_colour)
@@ -462,7 +461,6 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
         
         ## here to plot for each mouse types
         print('plot each mouse models')
-        
         for(mouse_type in intersect(model_order, levels(df_cell$Model_types))){ ## for loop to creat individual plots for each mouse type (wilcox test redone)
             df_brain_model <- df_cell[which(df_cell$Model_types == mouse_type), ]%>% droplevels()
             
@@ -470,8 +468,8 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             df <- df_brain_model
             df_p <- NULL
             for(c_t in levels(df$cell_type)){ #loop wilcox test
-                disease_estimates <- df[which(df$cell_type == c_t & df$groups == 'Disease'), 'PC1_scaled']
-                wt_estimates <- df[which(df$cell_type == c_t & df$groups == 'WT'), 'PC1_scaled']
+                disease_estimates <- df[which(df$cell_type == c_t & df$group == 'AD'), 'PC1_scaled']
+                wt_estimates <- df[which(df$cell_type == c_t & df$group == 'WT'), 'PC1_scaled']
                 (p_v <- as.numeric(wilcox.test(disease_estimates, wt_estimates)[3]))
                 df_tmp <- data.frame(cell_type = c_t, p=p_v)
                 if(is.null(df_p)){df_p <- df_tmp} else {df_p <- rbind(df_p, df_tmp)}
