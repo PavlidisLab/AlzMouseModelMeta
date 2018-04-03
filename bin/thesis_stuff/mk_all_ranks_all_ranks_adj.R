@@ -48,9 +48,9 @@ cell_df2 = reshape2::melt(mouseMarkerGenes$Hippocampus) %>%
     data.frame(region = 'Hippocampus',hippocampus = 'yes', disease  ='HD')
 
 cell_df <- noWarnings(full_join(cell_df[, c(1,2,4,5)], cell_df2[, c(1,2,4,5)]))
+names(cell_df) = c('geneSymbols','cell_type','striatum','disease','hippocampus')
 colnames(cell_df)[1]='geneSymbol'
 rm(cell_df2)
-
 
 #+++++++++++++++++++ 
 # add cell type info
@@ -139,3 +139,4 @@ all_ranks$P_adj <- round(all_ranks$pvalue_adj, digits = 3)
 all_ranks_adj$P_adj <- round(all_ranks_adj$pvalue_adj, digits = 3)
 all_ranks <- all_ranks[, colnames(all_ranks)[c(1:6, 27, 9:19, 7:8, 20:26)]]
 all_ranks_adj <- all_ranks_adj[, c(1:6, 9:19, 7:8, 20:ncol(all_ranks_adj))]
+
