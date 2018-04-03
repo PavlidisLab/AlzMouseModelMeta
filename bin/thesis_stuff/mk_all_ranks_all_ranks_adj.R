@@ -37,32 +37,15 @@ for(f in f_ls){
 #+++++++++++++++++++ 
 ## check cell type markers in the top genes
 cell_df <- NULL
-(cell_f <-max(grep('20.*Striatum', list.dirs('../configs/cell_type_markers/',recursive = T, full.names = T), value = T)))
-(f_ls <- grep('activation', list.files(cell_f, full.names = T), value = T, invert = T))
-for(f in f_ls){
-    tmp <- read.delim(f, comment.char = '#')
-    tmp$striatum ='yes'
-    tmp$disease ='HD'
-    if(is.null(cell_df)){
-        cell_df <- tmp
-    }else{
-        cell_df <- rbind(cell_df, tmp)
-    }
-}
 
-cell_df2 <- NULL
-(cell_f <- max(grep('20.*Hippocampus', list.dirs('../configs/cell_type_markers/',recursive = T, full.names = T), value = T)))
-(f_ls <- grep('activation', list.files(cell_f, full.names = T), value = T, invert = T))
-for(f in f_ls){
-    tmp <- read.delim(f, comment.char = '#')
-    tmp$hippocampus ='yes'
-    tmp$disease ='AD'
-    if(is.null(cell_df2)){
-        cell_df2 <- tmp
-    }else{
-        cell_df2 <- rbind(cell_df2, tmp)
-    }    
-}
+cell_df = reshape2::melt(mouseMarkerGenes$Striatum) %>% 
+    filter(!grepl('activation',L1)) %>% 
+    data.frame(region = 'Striatum',striatum = 'yes', disease  ='HD')
+
+
+cell_df2 = reshape2::melt(mouseMarkerGenes$Hippocampus) %>% 
+    filter(!grepl('activation',L1)) %>% 
+    data.frame(region = 'Hippocampus',hippocampus = 'yes', disease  ='HD')
 
 cell_df <- noWarnings(full_join(cell_df[, c(1,2,4,5)], cell_df2[, c(1,2,4,5)]))
 colnames(cell_df)[1]='geneSymbol'
