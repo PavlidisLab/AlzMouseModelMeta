@@ -687,4 +687,4 @@ mainPlot(gene_ls, array_dat_raw, array_dat_MGP, disease, array_design,f_out_dir)
 
 paste0(home_dir, '/ND_results/mm_results/', Sys.Date(), '/')  ## save the r data
 threshold =50
-PART 6D save the results of top genes
+# PART 6D save the results of top genes
