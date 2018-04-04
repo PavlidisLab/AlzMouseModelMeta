@@ -13,6 +13,8 @@ setwd(file.path(here::here(),'bin'))
 #' make all mixed model jackknife results into a r data, and save to 
 #' 'ND_results/mm_results/mm_jack_each_disease.Rdata'
 
+print('PART 11')
+
 rm(list=setdiff(ls(),'home_dir'))
 source('config_wrappers.R')
 
@@ -38,6 +40,7 @@ source('summary_tables/summary_rdata/mm_jack_summary_each_disease.R')
 #**************************#
 # PART 11.3 plot Heatmaps for top genes----
 #**************************
+print('PART 11.3')
 
 #**************
 # PART 11.3.1a [Figure 2]. Top 20 up and down-regulated genes for AD early phase after MGPs correction. ----
@@ -131,6 +134,7 @@ for (disease in disease_ls){## loop 1 for disease
 ## just to explore, not included in thesis
 # input expression is corrected for study only
 #**************
+print('PART 11.3.2')
 
 #' with model_keyword_ls <- c('_include_NA_low_exp_rm')  ## this correct all the genes if intercept is provided
 
@@ -215,6 +219,7 @@ for (disease in disease_ls){## loop 1 for disease
 #**************************#
 # PART 11.5.2a [Figure 1A.] MGPs of neurons in AD mouse models. ----
 # PART 11.5.2b [Figure 1B.] MGPs of glial cells in AD mouse models. ----
+print('PART 11.5.2')
 
 #' plot the cell population changes (generate a lot of figures but only 2 are used in the paper)
 
@@ -259,6 +264,7 @@ cellPopPlots(disease_ls, phase_ls, in_dir, out_dir,x_angle = x_angle,one_plot_fo
 # PART 11.5.3 [TABLE NOT USED]get the correlation for each jackknife run to other runs ----
 #**************************
 
+print('PART 11.5.3')
 
 rm(list=setdiff(ls(),'home_dir'))
 source('config_wrappers.R')
@@ -281,6 +287,7 @@ for(disease in disease_ls){
 # enrichment results
 # save as a Rdata for plots and tables
 #**************************
+print('PART 12')
 
 ## gather all the jackknife ranking results for before MGP and after MGP (adj),
 ## mark the genes that are used as cell type markers
@@ -288,6 +295,9 @@ for(disease in disease_ls){
 ## a table  for jackknife rankings after MGP (`all_ranks_adj`)
 
 rm(list=setdiff(ls(),'home_dir'))
+load('../configs/mouseMarkerGenesCombined.rda') ## load the markergenes
+mouseMarkerGenes = mouseMarkerGenesCombined
+
 source('config_wrappers.R')
 (mm_dir <- max(list.dirs(paste0(home_dir, "/ND_results/mm_results/"))))
 (mm_adj_dir <- max(list.dirs(paste0(home_dir, "/ND_results/mm_results_cell_adj/"))))
@@ -311,6 +321,8 @@ save(all_ranks, all_ranks_adj, GO_adj, GO_non_adj,
 #'summary of cell markers and estimation of rotations and variations
 #' results in /results/ND_results/DE_genes_markers/
 #' 
+print('PART 12.2')
+
 source('config_wrappers.R')
 
 (outdir <- paste0(home_dir, '/ND_results/DE_genes_markers/rotations/', Sys.Date(), '/'))
@@ -326,6 +338,7 @@ source('thesis_stuff/check_cell_pop_rotation.R')
 #' get which DE genes are also cell type markers before and after MGP correction
 #' 
 #*******************
+print('PART 12.3')
 
 source('./thesis_stuff/check_genes_helpers.R')
 (outdir <- paste0(home_dir, '/ND_results/DE_genes_markers/DEmarkers/'))
@@ -354,6 +367,8 @@ for(disease in disease_ls){
 # OUTPUT in paste0(home_dir, '/ND_results/early_late_corr/')
 #**************************
 ## need to load all_rank, all_rank_adj
+print('PART 12.4.1')
+
 load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
 
 df_all_el <- NULL
@@ -406,6 +421,7 @@ writeTable(df_all_el, f_out = f)
 ## PART 12.4.2 [Figure S2]. Number of differentially expressed genes (FDR < 0.05) in AD mouse models before and after marker gene profiles correction. ----
 # OUTPUT: paste0(home_dir, '/ND_results/figures/pvalues/.[Date]_AD_pvalue_bar_no_dir.png')
 #**************************
+print('PART 12.4.2')
 
 ## need to load all_rank, all_rank_adj
 source('./thesis_stuff/check_genes_helpers.R')
@@ -488,6 +504,7 @@ p <- plotBarDE(df2, one_plot_font_size=14, f_out, x_col = 'phase',
 # OUTPUT: paste0(home_dir, '/ND_results/figures/pvalues/.[Date]_AD_pvalue.png')
 #+++++++++++++++++++
 
+print('PART 12.5')
 
 plot_dir <- paste0(home_dir, '/ND_results/figures/pvalues/')
 dir.create(plot_dir, recursive = T,showWarnings = F)
@@ -521,6 +538,7 @@ for(disease in disease_ls){
 #' 
 #' In the paper, top enriched GO terms are specified in the context, without a table
 #+++++++++++++++++++
+print('PART 12.6')
 
 source('thesis_stuff/check_genes_helpers.R')
 outdir <- paste0(home_dir, '/ND_results/tables/sig_go_terms/')
@@ -548,6 +566,7 @@ df <- enrichedGOTerms(outdir, GO_adj,phase_ls =c('early', 'late'))
 
 
 #+++++++++++++++++++
+print('PART 12.7')
 
 outdir <- paste0(home_dir, '/ND_results/tables/compare_to_original_study/')
 load(paste0(home_dir, "/ND_results/ranks_tables.Rdata"))
@@ -592,6 +611,8 @@ for(phase in phase_ls){
 #' # of genes are after filter: input data from mixed_model/random_intercept_include_NA_low_exp_rm/
 #+++++++++++++++++++
 source('config_wrappers.R')
+print('PART 12.8')
+
 
 f_out <- paste0(home_dir, '/ND_results/tables/input_data_summary_', Sys.Date(), '.tsv')
 source('summary_tables/summary_mm_input_data.R')
@@ -612,6 +633,8 @@ source('summary_tables/summary_mm_input_data.R')
 
 # plot the expression of a gene (or gene list) from each study (Trem2 and Msmo1 in late AD are selected as examples in the paper)
 # with raw expression, study corrected or study and MGP corrected
+print('PART 12.9')
+
 source('thesis_stuff/plot_indi_gene_exp_per_study.R')
 #+++++++++++++++++++ 
 f_out_dir <- paste0(home_dir, '/ND_results/gene_expr_before_after_MGP/', Sys.Date(), '/')
