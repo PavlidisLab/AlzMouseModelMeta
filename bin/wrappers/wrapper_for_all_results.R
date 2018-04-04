@@ -70,7 +70,7 @@ df <- geneAnno(platform_ls, platform_folder, f_out, ermineJ_format = T, df_retur
 print('PART 1B: PROCESS gemma and CEL(normalized files) for limma DEA ')
 
 #***************************************************************************#
-#**1B.a  for preparing datasets for limma -- from gemma & CEL -- results in all data ----
+#1B.a  for preparing datasets for limma -- from gemma & CEL -- results in all data ----
 #***************************************************************************#
 
 rm(list=setdiff(ls(),'home_dir'))
@@ -178,7 +178,7 @@ df <- loopExpThreshold(method_t_ls, r_obj_ls, plot_dir, width=1000, height=800, 
     # PART 3.1 LIMMA DEA
     #---------------------------------------------------------------------------#
     #---------------------------------------------------------------------------#
-    # PART 3.1A LIMMA DEA for gemma and CEL and illumina
+    # PART 3.1A LIMMA DEA for gemma and CEL and illumina ----
     #---------------------------------------------------------------------------#
 ## output put all limma (gemma and CEL) in 1 folder
 
@@ -208,12 +208,12 @@ source('limma_DEA.R')
 ## 
 
     #---------------------------------------------------------------------------#
-    # PART 6: Mixed Models include NAs
+    # PART 6: Mixed Models include NAs ----
     #---------------------------------------------------------------------------#
 
 
     #***************************************************************************#
-    # PART 6.1 get MM results (random intercept)
+    # PART 6.1 get MM results (random intercept) ----
     #***************************************************************************#
 ## see 'mixed_models/mixed_model.R' for more examples
 ## no rm genes, run all genes
@@ -264,7 +264,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 #*********************#
-### 6.1.2 run mixed models: random intercept, NA removed (all genes), lowly expressed rm
+### 6.1.2 run mixed models: random intercept, NA removed (all genes), lowly expressed rm ----
 #*********************#
 # see more examples in ('mixed_models/mixed_model.R')
 print('6.1.2 run mixed models: random intercept, NA removed (all genes), lowly expressed rm')
@@ -309,12 +309,12 @@ for (disease in disease_ls){## loop 1 for disease
     }## loop2 end
 }##loop1
 
-#####
+
 
 # see below to get an array with study (i.e. intercept) corrected
 
     #*********************#
-    # PART 6.1.3 save a corrected array expression for gender and intercept (not plotting yet), see 11.3.2 for heatmap plotting
+    # PART 6.1.3 save a corrected array expression for gender and intercept (not plotting yet), see 11.3.2 for heatmap plotting ----
     #*********************#
 rm(list=setdiff(ls(),'home_dir'))
 source('config_wrappers.R')
@@ -349,7 +349,7 @@ for (disease in disease_ls){## loop 1 for disease
 ####
 
     #***************************************************************************#
-    # PART 6.1.4 prepare the ermineJ files for up and down gene lists
+    # PART 6.1.4 prepare the ermineJ files for up and down gene lists ----
     # for random intercept
     #***************************************************************************#
 
@@ -375,22 +375,22 @@ for (disease in disease_ls){## loop 1 for disease
 }##loop1
 
 
-####
+###
 
     #---------------------------------------------------------------------------#
-    # PART 6C: JACKKNIFE: Mixed Models include NAs, low exp rm
+    # PART 6C: JACKKNIFE: Mixed Models include NAs, low exp rm ----
     #---------------------------------------------------------------------------#
 
 
     #***************************************************************************#
-    # PART 6C.1 JACKKNIFE: create expression Rdata for all studies
+    # PART 6C.1 JACKKNIFE: create expression Rdata for all studies ----
     #***************************************************************************#
 ## see 'mixed_models/mixed_model.R' for more examples
 ## no rm genes, run all genes
 
 
 #*********************#
-### 6C.1.1 JACKKNIFE: prepare combined expression data
+### 6C.1.1 JACKKNIFE: prepare combined expression data ----
 #*********************#
 print('6C.1.1 JACKKNIFE: prepare combined expression data')
 rm(list=setdiff(ls(),'home_dir'))
@@ -433,10 +433,10 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 
-#####
+
 
 #*********************#
-### 6C.1.2 JACKKNIFE: creat expression.Rdata when 1 of the study is removed, in subfolder, run1...runX
+### 6C.1.2 JACKKNIFE: creat expression.Rdata when 1 of the study is removed, in subfolder, run1...runX ----
 #*********************#
 # see more examples in ('mixed_models/mixed_model.R')
 print('6C.1.2 JACKKNIFE: creat expression.Rdata when 1 of the study is removed, in subfolder, run1...runX')
@@ -504,7 +504,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 #*********************#
-### 6C.1.3 JACKKNIFE:  run mixed models: random intercept (fast mode)
+### 6C.1.3 JACKKNIFE:  run mixed models: random intercept (fast mode) ----
 #*********************#
 # see more examples in ('mixed_models/mixed_model.R')
 print('6C.1.3 JACKKNIFE:  run mixed models: random intercept (fast mode)')
@@ -556,9 +556,9 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 
-####
+###
     #***************************************************************************#
-    # PART 6C.2 JACKKNIFE: get the up and down list of genes per jackknife run
+    # PART 6C.2 JACKKNIFE: get the up and down list of genes per jackknife run ----
     #***************************************************************************#
 ## get the up, down regulation mixed model results
 print('6C.2 JACKKNIFE: get the up and down list of genes per jackknife run')
@@ -596,7 +596,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 6C.3 JACKKNIFE: summary of jackknife ranks and prep for ermineJ results
+    # PART 6C.3 JACKKNIFE: summary of jackknife ranks and prep for ermineJ results ----
     #***************************************************************************#
 print('PART 6C.3 JACKKNIFE: summary of jackknife ranks and prep for ermineJ results')
 rm(list=setdiff(ls(),'home_dir'))
@@ -630,7 +630,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 6C.4.1 JACKKNIFE: use the genes in jaccknife as background
+    # PART 6C.4.1 JACKKNIFE: use the genes in jackknife as background ----
     #***************************************************************************#
 #' background is the same as input jaccknife genes (low expr rm, and inclusing NAs)
 print('PART 6C.4.1 JACKKNIFE: use the genes in jaccknife as background')
@@ -675,8 +675,9 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #**************************#
-    # PART 6D save the results of top genes (pvalue is raw p, not up or down p)
-    # mixed model : no MGP correction
+    # PART 6D save the results of top genes mixed model : no MGP correction ----
+    # (pvalue is raw p, not up or down p)
+    # 
     #**************************#
 #' rdata in mm_results_cell_adj
 #' summerized top genes, top jack genes after cell type corrections
@@ -776,19 +777,19 @@ for (disease in disease_ls){
 
 
     #---------------------------------------------------------------------------#
-    # PART 8: mixed model, and JACCKNIFE mixed model: correct for cell types
+    # PART 8: mixed model, and JACCKNIFE mixed model: correct for cell types----
     #---------------------------------------------------------------------------#
 #' for late HD and late AD
 
 
     #***************************************************************************#
-    # PART 8.1 get MM results (random intercept) for all samples : correct for cell types
+    # PART 8.1 get MM results (random intercept) for all samples : correct for cell types ----
     # saved in 'mixed_model/random_intercept_include_NA_adj_cell_pop'
     #***************************************************************************#
 ## see 'mixed_models/mixed_model.R' for more examples
 ## no rm genes, run all genes
 #*********************#
-### 8.1.1 prepare combined expression data: correct for cell types, filter lowly expressed
+### 8.1.1 prepare combined expression data: correct for cell types, filter lowly expressed ----
 #*********************#
 
 print('8.1.1 prepare combined expression data: correct for cell types, filter lowly expressed')
@@ -832,7 +833,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 #*********************#
 # correct for cell types
-### 8.1.2 run mixed models: random intercept, NA removed (all genes): correct for cell types
+### 8.1.2 run mixed models: random intercept, NA removed (all genes): correct for cell types ----
 #' updated 2016-10-30: use the new population estimation from study corrected expressions of all samples in the phase
 #' input MGP estimations 
 #*********************#
@@ -898,7 +899,7 @@ for (disease in disease_ls){## loop 1 for disease
 
     #***************************************************************************#
     # -- lowly expressed genes removed : correct for cell types
-    # PART 8.1.4 prepare the ermineJ files for up and down gene lists
+    # PART 8.1.4 prepare the ermineJ files for up and down gene lists ----
     # for random intercept
     #***************************************************************************#
 
@@ -927,7 +928,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 8.1.5 correct for cell types and intercept (not plotting yet)
+    # PART 8.1.5 correct for cell types and intercept (not plotting yet) ----
     #***************************************************************************#
 
 print('PART 8.1.5 correct for cell types and intercept (not plotting yet)')
@@ -981,7 +982,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 8.2 JACKKNIFE: create expression Rdata for all studies : correct for cell types
+    # PART 8.2 JACKKNIFE: create expression Rdata for all studies : correct for cell types ----
     #***************************************************************************#
 ## see 'mixed_models/mixed_model.R' for more examples
 ## no rm genes, run all genes
@@ -1032,8 +1033,9 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 #*********************#
-### 8.2.2 JACKKNIFE: creat expression.Rdata when 1 of the study is removed, in subfolder, run1...runX
-# correct for cell types
+### 8.2.2 JACKKNIFE: correct for cell types: creat expression.Rdata ----
+# when 1 of the study is removed, in subfolder, run1...runX
+# 
 #*********************#
 # see more examples in ('mixed_models/mixed_model.R')
 print(' 8.2.2 JACKKNIFE: creat expression.Rdata when 1 of the study is removed, in subfolder, run1...runX')
@@ -1102,7 +1104,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
 #*********************#
-### 8.2.3 JACKKNIFE:  run mixed models: random intercept (fast mode): correct for cell types
+### 8.2.3 JACKKNIFE:  run mixed models: random intercept (fast mode): correct for cell types ----
 #*********************#
 # see more examples in ('mixed_models/mixed_model.R')
 print(' 8.2.3 JACKKNIFE:  run mixed models: random intercept (fast mode): correct for cell types')
@@ -1161,7 +1163,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 8.3.1 JACKKNIFE: get the up and down list of genes for all the runs: correct for cell types
+    # PART 8.3.1 JACKKNIFE: get the up and down list of genes for all the runs: correct for cell types ----
     #***************************************************************************#
 ## get the up, down regulation mixed model results
 print(' PART 8.3.1 JACKKNIFE: get the up and down list of genes for all the runs: correct for cell types')
@@ -1195,7 +1197,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 8.3.2 JACKKNIFE: summary of jackknife ranks and prep for ermineJ results: correct for cell types
+    # PART 8.3.2 JACKKNIFE: summary of jackknife ranks and prep for ermineJ results: correct for cell types ----
     #***************************************************************************#
 print(' PART 8.3.2 JACKKNIFE: summary of jackknife ranks and prep for ermineJ results: correct for cell types')
 rm(list=setdiff(ls(),'home_dir'))
@@ -1228,7 +1230,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #***************************************************************************#
-    # PART 8.4.1 JACKKNIFE: use the genes in jaccknife as background: corrected for cell types
+    # PART 8.4.1 JACKKNIFE: use the genes in jaccknife as background: corrected for cell types ----
     #***************************************************************************#
 #' background is the same as input jaccknife genes (low expr rm, and inclusing NAs)
 print(' PART 8.4.1 JACKKNIFE: use the genes in jaccknife as background: corrected for cell types')
@@ -1374,7 +1376,7 @@ for (disease in disease_ls){## loop 1 for disease
 
 
     #**************************#
-    # PART 8.6.1 save the results of top genes (pvalue is raw p, not up or down p)
+    # PART 8.6.1 save the results of top genes (pvalue is raw p, not up or down p) ----
     # mixed model and jackknife results :corrected for cell types
     #**************************#
 #' rdata in mm_results_cell_adj
@@ -1414,7 +1416,7 @@ for(phase in phase_ls){
 
 
     #**************************#
-    # PART 8.6.2 get the top pathways:correct for cell types
+    # PART 8.6.2 get the top pathways:correct for cell types ----
     #**************************#
 #' top pathways in doc_tables/pathways_cell_adj
 print('PART 8.6.2 get the top pathways:correct for cell types')
