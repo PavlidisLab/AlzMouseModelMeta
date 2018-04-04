@@ -54,11 +54,11 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
             if(is.na(folder)){
                 (folder = folder_1) ## grep any folder
             }
-            (f = grep('_cell_proportion_estimation_scaled.tsv',list.files(folder, recursive=T, full.names = T), value=T))
+            (f_ls = grep('_cell_proportion_estimation_scaled.tsv',list.files(folder, recursive=T, full.names = T), value=T))
             print(f)
-            (f_estimate = grep('estimatefile.tsv',list.files(folder, recursive=T, full.names = T), value=T))
-            f_ls=c(f_ls, f)
-            f_estimate_ls=c(f_estimate_ls, f_estimate)
+            # (f_estimate = grep('estimatefile.tsv',list.files(folder, recursive=T, full.names = T), value=T))
+            # f_ls=c(f_ls, f)
+            # f_estimate_ls=c(f_estimate_ls, f_estimate)
             keyword_ls =c(keyword_ls, phase)
             
             
@@ -69,18 +69,18 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
                 print(i)
                 print(keyword_ls[i])
                 print(f)
-                (f_e= f_estimate_ls[i])
-                print(f_e)
+                # (f_e= f_estimate_ls[i])
+                # print(f_e)
                 
                 ## get the samples names
-                df_e <- read.delim(f_e, comment.char = '#')
-                df_e$Sample = rownames(df_e)
-                df_e <- reshape2::melt(df_e, id.vars = c('Sample', 'groups'), variable.name="cell_type", value.name = 'PC1')
+                # df_e <- read.delim(f_e, comment.char = '#')
+                # df_e$Sample = rownames(df_e)
+                # df_e <- reshape2::melt(df_e, id.vars = c('Sample', 'groups'), variable.name="cell_type", value.name = 'PC1')
                 
                 
                 df = read.delim(f, comment= '#')
-                assertthat::assert_that(assertthat::are_equal(as.character(df$Sample),as.character(df_e$Sample)))
-                df = noWarnings(left_join(df, df_e))
+                # assertthat::assert_that(assertthat::are_equal(as.character(df$Sample),as.character(df_e$Sample)))
+                # df = noWarnings(left_join(df, df_e))
                 
                 df$keyword = keyword_ls[i]
                 if(is.null(df_all)){
@@ -131,7 +131,7 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
                                                        to = new_type, warn_missing = F)
     
     df_disease_all$plot_title <- paste0(df_disease_all$disease, ' ', df_disease_all$keyword)  ## make the timepoint in the second line
-    df_disease_all$Study <- as.factor(grep('GSE', unlist(strsplit(df_disease_all$Sample, split = '_')), value =T))
+    df_disease_all$Study <- as.factor(grep('GSE', unlist(strsplit(as.character(df_disease_all$Sample), split = '_')), value =T))
     
     df_disease_all  <- as.data.frame(unclass(df_disease_all ))
     ### define outlier values of pc1 scaled:
