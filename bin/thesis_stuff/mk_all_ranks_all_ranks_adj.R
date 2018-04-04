@@ -38,6 +38,12 @@ for(f in f_ls){
 ## check cell type markers in the top genes
 cell_df <- NULL
 
+# load the markers from the configs
+cell_type_rdata <- max(list.files('../configs/cell_type_markers/', recursive = T,
+           pattern = 'mouseMarkerGenes.Rdata', full.names = T))
+print(paste0('loading cell type data: ', cell_type_rdata))
+load(cell_type_rdata)
+
 cell_df = reshape2::melt(mouseMarkerGenes$Striatum) %>% 
     filter(!grepl('activation',L1)) %>% 
     data.frame(region = 'Striatum',striatum = 'yes', disease  ='HD')
