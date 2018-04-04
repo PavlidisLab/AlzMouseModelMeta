@@ -161,7 +161,7 @@ for(disease in disease_ls){## loop disease
 
 writeTable(df_all, f_out = paste0(outdir, 'Rotations_', Sys.Date(), '.tsv'), msg = msg)
 writeTable(df_ca, f_out = paste0(outdir, 'marker_counts_', Sys.Date(), '.tsv'), msg = msg)
-
+f_out =  paste0(outdir, 'Rotations_', Sys.Date(), '.tsv')
 ## save r object
 cell_marker_rotations <- df_all
 cell_marker_freq <- df_ca
