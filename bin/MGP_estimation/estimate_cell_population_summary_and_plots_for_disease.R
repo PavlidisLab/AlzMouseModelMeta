@@ -55,7 +55,7 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
                 (folder = folder_1) ## grep any folder
             }
             (f_ls = grep('_cell_proportion_estimation_scaled.tsv',list.files(folder, recursive=T, full.names = T), value=T))
-            print(f)
+            # print(f)
             # (f_estimate = grep('estimatefile.tsv',list.files(folder, recursive=T, full.names = T), value=T))
             # f_ls=c(f_ls, f)
             # f_estimate_ls=c(f_estimate_ls, f_estimate)
@@ -68,7 +68,7 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
                 (f= f_ls[i])
                 print(i)
                 print(keyword_ls[i])
-                print(f)
+                # print(f)
                 # (f_e= f_estimate_ls[i])
                 # print(f_e)
                 
