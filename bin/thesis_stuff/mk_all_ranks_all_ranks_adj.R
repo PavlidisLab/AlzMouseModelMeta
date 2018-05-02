@@ -42,18 +42,19 @@ cell_df <- NULL
 load('../configs/mouseMarkerGenesCombined.rda') ## load the markergenes
 mouseMarkerGenes = mouseMarkerGenesCombined
 
+mouseMarkerGenes$Hippocampus = mouseMarkerGenes$Hippocampus[!names(mouseMarkerGenes$Hippocampus) %in% 'Pyramidal Thy1 Hipp']
 
 cell_df = reshape2::melt(mouseMarkerGenes$Striatum) %>% 
     filter(!grepl('activation',L1)) %>% 
-    data.frame(region = 'Striatum',striatum = 'yes', disease  ='HD')
+    data.frame(region = 'Striatum',striatum = 'yes')
 
 
 cell_df2 = reshape2::melt(mouseMarkerGenes$Hippocampus) %>% 
     filter(!grepl('activation',L1)) %>% 
-    data.frame(region = 'Hippocampus',hippocampus = 'yes', disease  ='HD')
+    data.frame(region = 'Hippocampus',hippocampus = 'yes')
 
-cell_df <- noWarnings(full_join(cell_df[, c(1,2,4,5)], cell_df2[, c(1,2,4,5)]))
-names(cell_df) = c('geneSymbols','cell_type','striatum','disease','hippocampus')
+cell_df <- noWarnings(full_join(cell_df[, c(1,2,4)], cell_df2[, c(1,2,4)]))
+names(cell_df) = c('geneSymbols','cell_type','striatum','hippocampus')
 colnames(cell_df)[1]='geneSymbol'
 rm(cell_df2)
 

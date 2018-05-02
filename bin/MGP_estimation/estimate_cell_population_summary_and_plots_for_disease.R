@@ -47,6 +47,7 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
         f_ls=NULL
         f_estimate_ls=NULL
         keyword_ls=NULL
+        df_all = NULL
         for(phase in phase_ls){ ## loop2 for phase
             print(phase)
             (folder_1 = grep(phase, list.dirs(in_dir), value=T))
@@ -63,7 +64,6 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
             
             
             ## for phase in the disease
-            df_all = NULL
             for(i in 1:length(f_ls)){
                 (f= f_ls[i])
                 print(i)
@@ -82,7 +82,8 @@ processCellInput <- function(disease_ls, phase_ls, in_dir){
                 # assertthat::assert_that(assertthat::are_equal(as.character(df$Sample),as.character(df_e$Sample)))
                 # df = noWarnings(left_join(df, df_e))
                 
-                df$keyword = keyword_ls[i]
+                # df$keyword = keyword_ls[i]
+                df$keyword = phase
                 if(is.null(df_all)){
                     df_all = df
                 }else{
@@ -185,10 +186,9 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
     #####
     ## save disease all table
     #####
-    
     ## get the processed df of cell pop info
     df_disease_all <- processCellInput(disease_ls, phase_ls, in_dir)
-    
+
     
     #' do not remove duplicates, in AD early and late GSE64398, some WT are used in both early and late phases
     df_geno <- read.delim(geno_f, comment.char = '#') 
@@ -204,7 +204,6 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
     
     df <- df_geno[c('Sample', 'Model_types', 'Phase')]%>%droplevels()
     colnames(df)[3] = 'keyword'
-    
     df_disease_all <- noWarnings(left_join(df_disease_all, df))
     
     ## save table
@@ -257,7 +256,6 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
             box_colour <- c('dodgerblue','indianred1')
             (names(box_colour) <- c(levels(df_brain$group_colour)))
             
-            
             #### plot each cell type and each phase as a indi plot
             theme_MGP = function(fontSize,x_angle){
                 list(cowplot::theme_cowplot(fontSize),
@@ -265,10 +263,13 @@ cellPopPlots <- function(disease_ls, phase_ls, in_dir, out_dir, x_angle = 0,one_
                      coord_cartesian(ylim = c(-0.03, 1.10)),
                      theme(axis.text.x = element_text(angle = x_angle),
                            axis.title.x = element_blank()),
-                     geom_violin( # color="#C4C4C4"# ,
-                                  #fill="#C4C4C4"
-                     ),
-                     geom_boxplot(color= 'black',width=0.1,fill = 'lightblue')
+                     geom_boxplot(color= 'black',fill = 'white',
+                                  outlier.shape = NA),
+                     geom_jitter(width = jitter_w,
+                                 height = jitter_h,
+                                 alpha = 0.5# color="#C4C4C4"# ,
+                                 #fill="#C4C4C4"
+                     )
                 )
             }
             

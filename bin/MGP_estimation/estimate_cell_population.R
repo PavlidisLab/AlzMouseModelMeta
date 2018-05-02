@@ -274,10 +274,12 @@ fullEstimate(exprData = array_dat,
              pAdjMethod = "BH",
              outlierSampleRemove=F,
              seekConsensus=F,  # remove probes when PC1 is negative (neg corr)
-             removeMinority =removeNegatives
+             # removeMinority =removeNegatives
              # removeNegatives = removeNegatives
              
 )
+
+
 
 
 ## get the estimates etc

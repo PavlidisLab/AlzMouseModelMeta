@@ -127,14 +127,16 @@ plotGeneExprMGP <- function(df,
 
     theme_MGP = function(fontSize,x_angle){
         list(cowplot::theme_cowplot(fontSize),
-             ylab(ylab_title),
+             ylab('Marker Gene Profiles'),
              theme(axis.text.x = element_text(angle = x_angle),
                    axis.title.x = element_blank()),
-             geom_violin( # color="#C4C4C4" ,
-                 # fill="#C4C4C4"
-             ),
-             geom_boxplot(color = 'black',width=0.3,fill = 'lightblue',outlier.size = 0,alpha = 0.5,lwd = 0.3),
-             geom_jitter(color = 'black',fill = 'black',size = 0.3,width = 0.1)
+             geom_boxplot(color= 'black',fill = 'white',
+                          outlier.shape = NA),
+             geom_jitter(width = jitter_w,
+                         height = jitter_h,
+                         alpha = 0.5# color="#C4C4C4"# ,
+                         #fill="#C4C4C4"
+             )
         )
     }
     #' box plot gene expression with input df, before or after MGP (can be multiple genes), separated by study or not

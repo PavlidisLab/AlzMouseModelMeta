@@ -253,7 +253,7 @@ out_dir = paste0(disease_dir, '/MGP_estimation/plots/')
 
 cellPopPlots(disease_ls, phase_ls, in_dir, out_dir,x_angle = x_angle,one_plot_font_size = one_plot_font_size,
              geno_f, violin =F, outlier_p = F,plot_type = 'png', poster_font_size =poster_font_size, 
-             outlier_rm_from_box = F,poster =T)
+             outlier_rm_from_box = F,poster =T,jitter_w = 0.2)
 # cellPopPlots(disease_ls, phase_ls, in_dir, out_dir,x_angle = x_angle,one_plot_font_size = one_plot_font_size,
 #              geno_f, violin =F, outlier_p = F,plot_type = 'svg', poster_font_size =poster_font_size, 
 #              outlier_rm_from_box = F,poster =T)
@@ -339,6 +339,7 @@ source('thesis_stuff/check_cell_pop_rotation.R')
 #' 
 #*******************
 print('PART 12.3')
+source('config_wrappers.R')
 
 source('./thesis_stuff/check_genes_helpers.R')
 (outdir <- paste0(home_dir, '/ND_results/DE_genes_markers/DEmarkers/'))
@@ -352,11 +353,11 @@ phase_ls =c('early','late')
 dir.create(outdir,recursive = T, showWarnings = F)
 
 f <- paste0(outdir, "thesis_DE_markers.tsv")
-#if(file.exists(f)){file.remove(f)}
+if(file.exists(f)){file.remove(f)}
 for(disease in disease_ls){
     for(phase in phase_ls){
         print(paste0(disease, '_', phase))
-        df_m <- getCellMarkers(disease, phase, threshold)
+        df_m<- getCellMarkers(disease, phase, threshold)
         noWarnings(writeTable(df_m, f_out = f, file_append =T))
     }
 }

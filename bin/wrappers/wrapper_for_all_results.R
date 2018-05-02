@@ -747,7 +747,7 @@ wt_only = T  ## only compare disease to WT
 
 threshold = -10 # filter probes exp less than threshold (input is study corrected value, and low expression filtered)
 mixed_model =T
-removeNegatives = F  ## ogan suggested use F, the new version don't use this argument (sets the param (markerGeneProfile::fullEstimate(removeMinority = )
+# removeNegatives = T  ## ogan suggested use F, the new version don't use this argument (sets the param (markerGeneProfile::fullEstimate(removeMinority = )
 
 for (disease in disease_ls){
     for(phase in phase_ls){

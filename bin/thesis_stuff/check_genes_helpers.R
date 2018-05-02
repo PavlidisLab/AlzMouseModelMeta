@@ -148,16 +148,16 @@ plotBarDE <- function(df, one_plot_font_size=10, f_out, x_col = 'regulation',
                       return_p = F, 
                       facet_phase = T,
                       save_p =T){
-
     
     p <- ggplot(df, aes_string(x = x_col, fill = 'correction')) +
         geom_bar(stat="identity", aes_string(y= y_col), position="dodge") +
         geom_text(aes_string(x=x_col, y=y_col, label='Count'),
-                  position = position_dodge(width=0.9), size =3.5) +
+                  position = position_dodge(width=0.9), size =3.5, vjust = -0.5) +
+        coord_cartesian(ylim = c(0,max(df$Freq) + max(df$Freq)*.08)) + 
+        theme_cowplot() + 
 
         xlab(x_label) +
         ylab(y_label) +
-        theme_bw() +
         theme(text=element_text(family = 'Arial'),
               #legend.position="none",
               axis.title.x=element_text(size = one_plot_font_size),
@@ -209,7 +209,6 @@ overlapGenes <- function(df1, disease1, phase1, rank1, df2, disease2, phase2, ra
 
 getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
     need_col <- c('disease', 'phase', 'geneSymbol', 'cell_type', 'P_adj', 'Estimate') 
-    
     full_name <- c('Oligo', 'Astrocyte', "Microglia","DentateGranule",'GabaSSTReln', 'StriatumCholin','Pyramidal', 'ForebrainCholin', 'Spiny', 'Microglia_deactivation', 'Microglia_activation')
     new_name <- c('Oligodendrocytes','Astrocytes',"Microglia", "Dentate granule cells" ,'GABAergic cells','Cholinergic neurons', 'Pyramidal cells','Cholinergic neurons', 'Medium spiny neurons','Microglia_deactivation', 'Microglia_activation')
     
@@ -285,7 +284,6 @@ getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
 }
 
 enrichedGOTerms <- function(outdir, GO_adj,phase_ls =c('early', 'late')){
-    
     ## input the GO_adj rdata, output a clean table with top 20 significant GO terms
     ## and the associated top genes
     
