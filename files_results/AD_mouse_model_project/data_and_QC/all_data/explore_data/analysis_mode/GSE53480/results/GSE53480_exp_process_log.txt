@@ -1,0 +1,48 @@
+2018-03-29
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///platforms//GPL1261
+No probes removed from annotation.
+Expression data file: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE53480_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 45101
+number of samples: 16
+Factor: Genotype (2 levels): Tg4510: n=8, WT: n=8
+Factor: Treatment (2 levels): reference: n=8, TFEB: n=8
+Factor: OrganismPart (1 levels): Hippocampus: n=16
+Factor: Batch (1 levels): batch1_2012-06-13: n=16
+Factor: Gender (2 levels): F: n=8, M: n=8
+Factor: Timepoint (1 levels): 4_months: n=16
+
+
+## Model test for factor: Genotype
+p-value: 0.000558845880720304; Statistic: 15.9423699299177; Expected: 6.66666666666666; Std.dev: 2.33741165707064; #Cov: 45101
+## Model test for factor: Treatment
+p-value: 0.222007239530428; Statistic: 8.18568052608392; Expected: 6.66666666666667; Std.dev: 2.33741165707064; #Cov: 45101
+## Model test for factor: Gender
+p-value: 0.00406743990994901; Statistic: 14.1014919443624; Expected: 6.66666666666667; Std.dev: 2.33741165707064; #Cov: 45101
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Treatment: c('reference') are kept for analysis. 
+New dataset contains 8 samples. Original sample size: 16
+Factor: Genotype (2 levels): Tg4510: n=4, WT: n=4
+Factor: Treatment (1 levels): reference: n=8
+Factor: OrganismPart (1 levels): Hippocampus: n=8
+Factor: Batch (1 levels): batch1_2012-06-13: n=8
+Factor: Gender (2 levels): F: n=3, M: n=5
+Factor: Timepoint (1 levels): 4_months: n=8
+
+## Model test for factor: Genotype
+p-value: 0.0123479410833419; Statistic: 26.2875498730228; Expected: 14.2857142857143; Std.dev: 5.70273119089526; #Cov: 45101
+## Model test for factor: Gender
+p-value: 0.0225675891116936; Statistic: 25.0672514177958; Expected: 14.2857142857143; Std.dev: 5.70273119089526; #Cov: 45101
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected

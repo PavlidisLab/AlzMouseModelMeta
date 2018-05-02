@@ -1,0 +1,2 @@
+Bioassay	ExternalID	Batch	Genotype	OrganismPart	Treatment	Gender	Timepoint	Sample	Dataset	category	notes
+GSE36237_Biomat_6___BioAssayImplId=298330Name=HippPDE9_TG_1	GSM884874	Batch_03_04_03_08	Tg2576	Hippocampus	phosphodiesterase_9A	F	5_months	HippPDE9_TG_1	GSE36237	outlier	Possibly a sample swamp(should be prefrontal cortex sample) or a mixture of hippocampus and prefrontal cortex sample (sample correlation outlier)

@@ -1,0 +1,5 @@
+Bioassay	ExternalID	Batch	Genotype	OrganismPart	Gender	Timepoint	Sample	Dataset	Age_in_weeks	Section	Grown_with	Scan_batch	Dataset_assigned	category	notes
+GSE64398_Biomat_0___BioAssayImplId=99999Name=TPM_2m_Hipp_rep4	GSM1570447	Batch_03_2013-06-26	het_TPM	Hippocampus	M	2_months	TPM_2m_Hipp_rep4	GSE64398.1	8_weeks	C	het_TPM	Batch6_6/28/2013	GSE64398.1	outlier	TPM_2m_Hipp_rep4 is the only one belongs batch3
+GSE64398_Biomat_0___BioAssayImplId=99999Name=TAU_18m_Hipp_rep1	GSM1570269	Batch_01_2012-02-25	TAU	Hippocampus	M	18_months	TAU_18m_Hipp_rep1	GSE64398.1	72_weeks	D	TAU	Batch1_2/26/2013	GSE64398.1	outlier	sample correlation outliers
+GSE64398_Biomat_0___BioAssayImplId=99999Name=TAU_18m_Hipp_rep2	GSM1570366	Batch_01_2012-02-25	TAU	Hippocampus	M	18_months	TAU_18m_Hipp_rep2	GSE64398.1	72_weeks	E	TAU	Batch2_2/27/2013	GSE64398.1	outlier	sample correlation outliers
+GSE64398_Biomat_0___BioAssayImplId=99999Name=TAU_2m_Hipp_rep1	GSM1570292	Batch_01_2012-02-25	TAU	Hippocampus	M	2_months	TAU_2m_Hipp_rep1	GSE64398.1	8_weeks	E	TAU	Batch1_2/26/2013	GSE64398.1	outlier	sample correlation outliers

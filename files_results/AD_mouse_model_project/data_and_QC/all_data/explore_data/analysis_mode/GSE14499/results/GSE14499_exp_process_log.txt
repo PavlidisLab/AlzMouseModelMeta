@@ -1,0 +1,54 @@
+2018-03-29
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///platforms//GPL1261
+No probes removed from annotation.
+Expression data file: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE14499_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 45101
+number of samples: 26
+Factor: Genotype (2 levels): J20: n=16, WT: n=10
+Factor: Treatment (3 levels): BDNF: n=8, GFP: n=12, reference: n=6
+Factor: OrganismPart (2 levels): Entorhinal_cortex: n=13, Hippocampus: n=13
+Factor: Batch (2 levels): Batch_01_9_7_07: n=13, Batch_02_9_28_07: n=13
+Factor: Gender (2 levels): F: n=18, M: n=8
+Factor: Timepoint (1 levels): 7_months: n=26
+
+
+## Model test for factor: Genotype
+p-value: 0.398847629633211; Statistic: 3.76787769694097; Expected: 4; Std.dev: 2.21219254458863; #Cov: 45101
+## Model test for factor: Treatment
+p-value: 0.197222876077291; Statistic: 5.23053660455976; Expected: 4.15965971873797; Std.dev: 1.64553362018754; #Cov: 45101
+## Model test for factor: OrganismPart
+p-value: 1.38431991188446e-24; Statistic: 40.2504407356622; Expected: 4; Std.dev: 2.21219254458863; #Cov: 45101
+## Model test for factor: Batch
+p-value: 1.38431991188446e-24; Statistic: 40.2504407356622; Expected: 4; Std.dev: 2.21219254458863; #Cov: 45101
+## Model test for factor: Gender
+p-value: 0.201932787828312; Statistic: 5.15725356394512; Expected: 4; Std.dev: 2.21219254458863; #Cov: 45101
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Treatment: c('GFP','reference'), and OrganismPart: c('Hippocampus') are kept for analysis. 
+New dataset contains 9 samples. Original sample size: 26
+Factor: Genotype (2 levels): J20: n=4, WT: n=5
+Factor: Treatment (2 levels): GFP: n=6, reference: n=3
+Factor: OrganismPart (1 levels): Hippocampus: n=9
+Factor: Batch (1 levels): Batch_02_9_28_07: n=9
+Factor: Gender (2 levels): F: n=7, M: n=2
+Factor: Timepoint (1 levels): 7_months: n=9
+
+## Model test for factor: Genotype
+p-value: 0.666940205369522; Statistic: 10.8520391352193; Expected: 12.5; Std.dev: 3.55901499450276; #Cov: 45101
+## Model test for factor: Treatment
+p-value: 0.0124949791446431; Statistic: 21.8255730510677; Expected: 12.5; Std.dev: 3.55901499450276; #Cov: 45101
+## Model test for factor: Gender
+p-value: 0.551217336242001; Statistic: 11.6157720183703; Expected: 12.5; Std.dev: 3.55901499450276; #Cov: 45101
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected

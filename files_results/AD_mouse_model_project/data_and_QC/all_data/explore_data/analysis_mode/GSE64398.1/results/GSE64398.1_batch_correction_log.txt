@@ -1,0 +1,54 @@
+2018-03-29
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///platforms//GPL6885
+No probes removed from annotation.
+Expression data file: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE64398.1_neqc_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 25697
+number of samples: 112
+Factor: Genotype (6 levels): het_TASTPM: n=16, het_TPM: n=15, ho_TASTPM: n=15, TAS10: n=13, TAU: n=15, WT: n=38
+Factor: OrganismPart (1 levels): Hippocampus: n=112
+Factor: Batch (3 levels): Batch_01_2012-02-25: n=33, Batch_02_2013-03-04: n=78, Batch_03_2013-06-26: n=1
+Factor: Gender (1 levels): M: n=112
+Factor: Timepoint (4 levels): 18_months: n=24, 2_months: n=32, 4_months: n=27, 8_months: n=29
+
+
+## Model test for factor: Genotype
+p-value: 0.0244722851065837; Statistic: 1.44878723355293; Expected: 0.909000791576573; Std.dev: 0.221706554875654; #Cov: 25697
+## Model test for factor: Batch
+p-value: 4.20889513975337e-29; Statistic: 19.1481006227809; Expected: 0.908948626581019; Std.dev: 0.454022979505226; #Cov: 25697
+## Model test for factor: Timepoint
+p-value: 0.00803129149744232; Statistic: 1.82961689319919; Expected: 0.908992657887118; Std.dev: 0.271350267850959; #Cov: 25697
+#-------------------------------#
+## REMOVED SAMPLES
+#-------------------------------#
+4 sample(s) removed: TPM_2m_Hipp_rep4, TAU_18m_Hipp_rep1, TAU_18m_Hipp_rep2, TAU_2m_Hipp_rep1
+Reason for removal: TPM_2m_Hipp_rep4 is the only one belongs batch3; sample correlation outliers; sample correlation outliers; sample correlation outliers
+number of samples after removal: 108
+Factor: Genotype (6 levels): het_TASTPM: n=16, het_TPM: n=14, ho_TASTPM: n=15, TAS10: n=13, TAU: n=12, WT: n=38
+Factor: OrganismPart (1 levels): Hippocampus: n=108
+Factor: Batch (2 levels): Batch_01_2012-02-25: n=30, Batch_02_2013-03-04: n=78
+Factor: Gender (1 levels): M: n=108
+Factor: Timepoint (4 levels): 18_months: n=22, 2_months: n=30, 4_months: n=27, 8_months: n=29
+
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected
+#-------------------------------#
+## Batch correction
+#-------------------------------#
+2018-03-29
+number of rows: 25697
+number of samples: 108
+## Model test for factor: Genotype
+p-value: 1.11026000906088e-06; Statistic: 1.93569837117945; Expected: 0.943298789165126; Std.dev: 0.134662287771227; #Cov: 25697
+## Model test for factor: Batch
+p-value: 0.99999999995869; Statistic: 0.282013883764099; Expected: 0.934579439252336; Std.dev: 0.291091146623718; #Cov: 25697
+## Model test for factor: Timepoint
+p-value: 3.28159146071282e-06; Statistic: 2.04317003911872; Expected: 0.943291613329555; Std.dev: 0.16366871160103; #Cov: 25697

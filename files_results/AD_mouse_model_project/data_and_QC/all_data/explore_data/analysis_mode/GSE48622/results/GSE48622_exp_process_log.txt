@@ -1,0 +1,25 @@
+2018-03-29
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///platforms//GPL1261
+No probes removed from annotation.
+Expression data file: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE48622_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 45101
+number of samples: 16
+Factor: Genotype (4 levels): APLP2_KO: n=4, APP_KO: n=4, N_dC_KO: n=4, WT: n=4
+Factor: OrganismPart (1 levels): Hippocampus: n=16
+Factor: Gender (1 levels): M: n=16
+Factor: Timepoint (1 levels): 2_months: n=16
+
+
+## Model test for factor: Genotype
+p-value: 0.00185810259124436; Statistic: 10.6778138012394; Expected: 7.10935249061018; Std.dev: 1.0210957622975; #Cov: 45101
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected

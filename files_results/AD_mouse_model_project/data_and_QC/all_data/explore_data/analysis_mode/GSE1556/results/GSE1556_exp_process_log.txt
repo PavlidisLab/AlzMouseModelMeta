@@ -1,0 +1,27 @@
+2018-03-29
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///platforms//GPL81
+No probes removed from annotation.
+Expression data file: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///AD_mouse_model_project/data_and_QC/gemma_data/unfiltered_exp_data//27_GSE1556_expmat.unfilt.data.txt.gz
+No probes removed due to missing value.
+
+number of rows: 12488
+number of samples: 4
+Factor: Genotype (2 levels): Tg2576: n=2, WT: n=2
+Factor: OrganismPart (1 levels): Hippocampus: n=4
+Factor: Gender (1 levels): F: n=4
+Factor: Timepoint (1 levels): 12_months: n=4
+
+Log2 tranformation performed
+Before transformation range: 0.8 to 230476
+After log2 transformation: -0.321928094887362 to 17.8142570017348
+## Model test for factor: Genotype
+p-value: 0.0126279687734396; Statistic: 36.3576506079683; Expected: 33.3333333333333; Std.dev: 2.04295163058703; #Cov: 12488
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected

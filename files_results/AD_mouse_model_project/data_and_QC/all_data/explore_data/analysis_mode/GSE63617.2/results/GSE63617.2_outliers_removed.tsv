@@ -1,0 +1,3 @@
+Bioassay	ExternalID	Batch	Genotype	OrganismPart	Gender	Timepoint	Sample	Dataset	category	notes
+ModeledafterGSE63617_Biomat_48___BioAssayImplId=380319Name=6m_ctx_VH[NFND_251486811420_S01_GE2.v4_91_1_4]	GSM1553810	Batch_06_30_05_07	WT	Cortex	F	6_months	6m_ctx_VH_rep3	GSE63617.2	outlier	sample correlation outlier
+ModeledafterGSE63617_Biomat_25___BioAssayImplId=380341Name=1m_hp_AD11[NFND_251486812127_S01_GE2.v4_91_1_4]	GSM1553758	Batch_08_11_07_07	AD11	Hippocampus	F	1_month	1m_hp_AD11_rep5	GSE63617.2	outlier	sample correlation outlier

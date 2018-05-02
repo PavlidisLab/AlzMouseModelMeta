@@ -1,0 +1,2 @@
+Bioassay	ExternalID	Batch	Genotype	OrganismPart	Gender	Timepoint	Sample	Dataset	category	notes
+ModeledafterGSE63617_Biomat_33___BioAssayImplId=380383Name=15m_bfb_AD11[NFND_251269422935_S01_GE2.v4_91]	GSM1553825	Batch_01_24_11_06	AD11	Basal_forebrain	F	15_months	15m_bfb_AD11_rep3	GSE63617.1	outlier	sample correlation outlier

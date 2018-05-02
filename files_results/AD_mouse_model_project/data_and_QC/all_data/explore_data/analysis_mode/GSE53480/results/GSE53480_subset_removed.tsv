@@ -1,0 +1,9 @@
+Bioassay	ExternalID	Batch	Genotype	OrganismPart	Treatment	Gender	Timepoint	Sample	Dataset	notes	category
+GSE53480_Biomat_8___BioAssayImplId=339826Name=Tg4510mouseinjectedwithAAVTFEBrep1	GSM1294372	batch1_2012-06-13	Tg4510	Hippocampus	TFEB	M	4_months	Tg4510_TFEB_rep1	GSE53480	Removed due to subset	removed by subset
+GSE53480_Biomat_5___BioAssayImplId=339825Name=Tg4510mouseinjectedwithAAVTFEBrep2	GSM1294373	batch1_2012-06-13	Tg4510	Hippocampus	TFEB	F	4_months	Tg4510_TFEB_rep2	GSE53480	Removed due to subset	removed by subset
+GSE53480_Biomat_15___BioAssayImplId=339823Name=Tg4510mouseinjectedwithAAVTFEBrep3	GSM1294375	batch1_2012-06-13	Tg4510	Hippocampus	TFEB	M	4_months	Tg4510_TFEB_rep3	GSE53480	Removed due to subset	removed by subset
+GSE53480_Biomat_11___BioAssayImplId=339820Name=Tg4510mouseinjectedwithAAVTFEBrep4	GSM1294378	batch1_2012-06-13	Tg4510	Hippocampus	TFEB	M	4_months	Tg4510_TFEB_rep4	GSE53480	Removed due to subset	removed by subset
+GSE53480_Biomat_10___BioAssayImplId=339827Name=Wild.typemouseinjectedwithAAVTFEBrep1	GSM1294371	batch1_2012-06-13	WT	Hippocampus	TFEB	F	4_months	WT_TFEB_rep1	GSE53480	Removed due to subset	removed by subset
+GSE53480_Biomat_14___BioAssayImplId=339822Name=Wild.typemouseinjectedwithAAVTFEBrep2	GSM1294376	batch1_2012-06-13	WT	Hippocampus	TFEB	F	4_months	WT_TFEB_rep2	GSE53480	Removed due to subset	removed by subset
+GSE53480_Biomat_13___BioAssayImplId=339821Name=Wild.typemouseinjectedwithAAVTFEBrep3	GSM1294377	batch1_2012-06-13	WT	Hippocampus	TFEB	F	4_months	WT_TFEB_rep3	GSE53480	Removed due to subset	removed by subset
+GSE53480_Biomat_9___BioAssayImplId=339814Name=Wild.typemouseinjectedwithAAVTFEBrep4	GSM1294384	batch1_2012-06-13	WT	Hippocampus	TFEB	F	4_months	WT_TFEB_rep4	GSE53480	Removed due to subset	removed by subset
