@@ -1,0 +1,66 @@
+2018-03-29
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///platforms//GPL6096
+No probes removed from annotation.
+Expression data file: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE50521_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 16743
+number of samples: 12
+Factor: Genotype (2 levels): 5xFAD: n=6, WT: n=6
+Factor: OrganismPart (1 levels): Hippocampus: n=12
+Factor: Batch (2 levels): batch_1_09_08_12: n=4, batch_2_10_08_12: n=8
+Factor: Gender (2 levels): F: n=4, M: n=8
+Factor: Timepoint (1 levels): 14-15_months: n=12
+
+
+## Model test for factor: Genotype
+p-value: 2.21766760319381e-06; Statistic: 25.7448021215338; Expected: 9.09090909090909; Std.dev: 3.34104135665215; #Cov: 16743
+## Model test for factor: Batch
+p-value: 0.971703961477877; Statistic: 4.9740649591946; Expected: 9.09090909090909; Std.dev: 3.34104135665215; #Cov: 16743
+## Model test for factor: Gender
+p-value: 0.241450059946462; Statistic: 10.9229039087372; Expected: 9.09090909090909; Std.dev: 3.34104135665215; #Cov: 16743
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected
+#-------------------------------#
+## Batch correction
+#-------------------------------#
+2018-03-29
+number of rows: 16743
+number of samples: 12
+## Model test for factor: Genotype
+p-value: 9.63642180561954e-08; Statistic: 29.1789614196051; Expected: 9.09090909090909; Std.dev: 3.69715185914815; #Cov: 16743
+## Model test for factor: Batch
+p-value: 0.999999643303353; Statistic: 1.78211733966326; Expected: 9.09090909090909; Std.dev: 3.69715185914816; #Cov: 16743
+## Model test for factor: Gender
+p-value: 0.143799650218865; Statistic: 12.7595417497692; Expected: 9.09090909090909; Std.dev: 3.69715185914816; #Cov: 16743
+#-------------------------------#
+## LIMMA DE ANALYSIS
+#-------------------------------#
+2018-03-29----Dataset: GSE50521
+Imported R objects: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/all_data/explore_data/analysis_mode/GSE50521/results/GSE50521_objects_after_batch_correction.Rdata
+
+Input experssion matrix is batch corrected.
+
+
+#-------------------------------#
+ MODEL INFO
+#-------------------------------#
+Factors for limma analysis: Genotype
+Model: model.matrix( ~ Genotype, data = array_design)
+12 samples, 16743 probes
+coefficients: (Intercept), Genotype5xFAD
+q value threshold:0.1
+
+#-------------------------------#
+ DE ANALYSIS
+#-------------------------------#
+Factor: Genotype; baseline: WT, coefficient: Genotype5xFAD
+  DE genes: 1336, up: 915, down: 421
+

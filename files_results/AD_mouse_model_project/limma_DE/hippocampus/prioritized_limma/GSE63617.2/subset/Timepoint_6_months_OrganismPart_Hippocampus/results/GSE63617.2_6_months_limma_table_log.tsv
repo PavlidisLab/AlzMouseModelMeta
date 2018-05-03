@@ -1,0 +1,3 @@
+#2018-03-29----Dataset: GSE63617.2
+dataset	Genotype	Timepoint	control_n	case_n	gender	platform	probes	genes	sample_size_all	batch_correction	expr_min	expr_max	expr_median	limma_model	Genotype_all	Timepoint_all	OrganismPart_all	Gender_all
+GSE63617.2	AD11	6_months	5	5	F(10)	GPL7202	41267	19551	10	No	5.71609306522706	18.4064551187616	7.30864003069998	model.matrix( ~ Genotype, data = array_design)	WT(5); AD11(5)	6_months(10)	Hippocampus(10)	F(10)

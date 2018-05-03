@@ -1,0 +1,116 @@
+2018-03-29
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///platforms//GPL1261
+No probes removed from annotation.
+Expression data file: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE36237_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 45101
+number of samples: 64
+Factor: Genotype (2 levels): Tg2576: n=32, WT: n=32
+Factor: Treatment (2 levels): phosphodiesterase_9A: n=32, reference: n=32
+Factor: OrganismPart (2 levels): Hippocampus: n=32, Prefrontal_cortex: n=32
+Factor: Batch (3 levels): Batch_01_27_02_08: n=31, Batch_02_29_02_08: n=8, Batch_03_04_03_08: n=25
+Factor: Gender (1 levels): F: n=64
+Factor: Timepoint (1 levels): 5_months: n=64
+
+
+## Model test for factor: Genotype
+p-value: 0.442344614208903; Statistic: 1.44527205328023; Expected: 1.58730158730159; Std.dev: 0.869494823044442; #Cov: 45101
+## Model test for factor: Treatment
+p-value: 0.492745857901269; Statistic: 1.35791055044511; Expected: 1.58730158730159; Std.dev: 0.869494823044442; #Cov: 45101
+## Model test for factor: OrganismPart
+p-value: 2.73903874768802e-36; Statistic: 33.3051980809472; Expected: 1.58730158730159; Std.dev: 0.869494823044442; #Cov: 45101
+## Model test for factor: Batch
+p-value: 1.42949548466383e-22; Statistic: 22.4131032873212; Expected: 1.61246726828211; Std.dev: 0.683145090849827; #Cov: 45101
+#-------------------------------#
+## REMOVED SAMPLES
+#-------------------------------#
+1 sample(s) removed: HippPDE9_TG_1
+Reason for removal: Possibly a sample swamp(should be prefrontal cortex sample) or a mixture of hippocampus and prefrontal cortex sample (sample correlation outlier)
+number of samples after removal: 63
+Factor: Genotype (2 levels): Tg2576: n=31, WT: n=32
+Factor: Treatment (2 levels): phosphodiesterase_9A: n=31, reference: n=32
+Factor: OrganismPart (2 levels): Hippocampus: n=31, Prefrontal_cortex: n=32
+Factor: Batch (3 levels): Batch_01_27_02_08: n=31, Batch_02_29_02_08: n=8, Batch_03_04_03_08: n=24
+Factor: Gender (1 levels): F: n=63
+Factor: Timepoint (1 levels): 5_months: n=63
+
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Treatment: c('reference'), and OrganismPart: c('Hippocampus') are kept for analysis. 
+New dataset contains 16 samples. Original sample size: 63
+Factor: Genotype (2 levels): Tg2576: n=8, WT: n=8
+Factor: Treatment (1 levels): reference: n=16
+Factor: OrganismPart (1 levels): Hippocampus: n=16
+Factor: Batch (2 levels): Batch_02_29_02_08: n=8, Batch_03_04_03_08: n=8
+Factor: Gender (1 levels): F: n=16
+Factor: Timepoint (1 levels): 5_months: n=16
+
+## Model test for factor: Genotype
+p-value: 0.264992240981195; Statistic: 7.58138322820547; Expected: 6.66666666666666; Std.dev: 1.96835364539471; #Cov: 45101
+## Model test for factor: Batch
+p-value: 2.75357276305899e-05; Statistic: 17.4509573112421; Expected: 6.66666666666667; Std.dev: 1.96835364539471; #Cov: 45101
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected
+#-------------------------------#
+## Batch correction
+#-------------------------------#
+2018-03-29
+number of rows: 45101
+number of samples: 16
+## Model test for factor: Genotype
+p-value: 0.0541418705161415; Statistic: 9.83947988825121; Expected: 6.66666666666667; Std.dev: 1.85170076249589; #Cov: 45101
+## Model test for factor: Batch
+p-value: 0.998904750442668; Statistic: 3.04275046015512; Expected: 6.66666666666667; Std.dev: 1.85170076249589; #Cov: 45101
+#-------------------------------#
+## LIMMA DE ANALYSIS
+#-------------------------------#
+2018-03-29----Dataset: GSE36237
+Imported R objects: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/all_data/explore_data/analysis_mode/GSE36237/results/GSE36237_objects_after_batch_correction.Rdata
+
+Input experssion matrix is batch corrected.
+
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Treatment: c('reference') are kept for analysis. 
+New dataset contains 16 samples. Original sample size: 16
+Factor: Genotype (2 levels): WT: n=8, Tg2576: n=8
+Factor: Treatment (1 levels): reference: n=16
+Factor: OrganismPart (1 levels): Hippocampus: n=16
+Factor: Batch (2 levels): Batch_02_29_02_08: n=8, Batch_03_04_03_08: n=8
+Factor: Gender (1 levels): F: n=16
+Factor: Timepoint (1 levels): 5_months: n=16
+
+## Model test for factor: Genotype
+p-value: 0.0541418705161415; Statistic: 9.83947988825121; Expected: 6.66666666666667; Std.dev: 1.85170076249589; #Cov: 45101
+## Model test for factor: Batch
+p-value: 0.998904750442668; Statistic: 3.04275046015512; Expected: 6.66666666666667; Std.dev: 1.85170076249589; #Cov: 45101
+
+#-------------------------------#
+ MODEL INFO
+#-------------------------------#
+Factors for limma analysis: Genotype, Batch
+Model: model.matrix( ~ Genotype + Batch, data = array_design)
+16 samples, 45101 probes
+coefficients: (Intercept), GenotypeTg2576, BatchBatch_03_04_03_08
+q value threshold:0.1
+
+#-------------------------------#
+ DE ANALYSIS
+#-------------------------------#
+Factor: Genotype; baseline: WT, coefficient: GenotypeTg2576
+  DE genes: 11, up: 7, down: 4
+Factor: Batch; baseline: Batch_02_29_02_08, coefficient: BatchBatch_03_04_03_08
+  DE genes: 0, up: 0, down: 0
+

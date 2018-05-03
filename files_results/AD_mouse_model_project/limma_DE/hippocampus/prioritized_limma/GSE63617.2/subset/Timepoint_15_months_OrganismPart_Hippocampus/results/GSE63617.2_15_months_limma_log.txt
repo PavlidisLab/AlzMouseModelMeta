@@ -1,0 +1,98 @@
+2018-03-29
+
+#-------------------------------#
+## GENERAL INFO
+#-------------------------------#
+Annotation file is /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results///platforms//GPL7202
+No probes removed from annotation.
+Expression data file: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/GEO_data/normalized_matrix//GSE63617.2_RMA_normalized.data.tsv
+No probes removed due to missing value.
+
+number of rows: 41267
+number of samples: 69
+Factor: Genotype (2 levels): AD11: n=35, WT: n=34
+Factor: OrganismPart (3 levels): Basal_forebrain: n=19, Cortex: n=20, Hippocampus: n=30
+Factor: Batch (4 levels): Batch_06_30_05_07: n=20, Batch_07_04_07_07: n=19, Batch_08_11_07_07: n=15, Batch_09_19_07_07: n=15
+Factor: Gender (1 levels): F: n=69
+Factor: Timepoint (3 levels): 1_month: n=30, 15_months: n=10, 6_months: n=29
+
+
+## Model test for factor: Genotype
+p-value: 0.0069116100118643; Statistic: 3.44810047875099; Expected: 1.47058823529412; Std.dev: 0.538343288131556; #Cov: 41267
+## Model test for factor: OrganismPart
+p-value: 1.08289360705999e-26; Statistic: 12.97824825227; Expected: 1.49216335642119; Std.dev: 0.382860984645648; #Cov: 41267
+## Model test for factor: Batch
+p-value: 1.09764164514092e-07; Statistic: 4.74078715958789; Expected: 1.49218061828742; Std.dev: 0.31167307155257; #Cov: 41267
+## Model test for factor: Timepoint
+p-value: 1.39010970244891e-10; Statistic: 8.53426269209353; Expected: 1.49215644915161; Std.dev: 0.40788078202743; #Cov: 41267
+#-------------------------------#
+## REMOVED SAMPLES
+#-------------------------------#
+2 sample(s) removed: 6m_ctx_VH_rep3, 1m_hp_AD11_rep5
+Reason for removal: sample correlation outlier; sample correlation outlier
+number of samples after removal: 67
+Factor: Genotype (2 levels): AD11: n=34, WT: n=33
+Factor: OrganismPart (3 levels): Basal_forebrain: n=19, Cortex: n=19, Hippocampus: n=29
+Factor: Batch (4 levels): Batch_06_30_05_07: n=19, Batch_07_04_07_07: n=19, Batch_08_11_07_07: n=14, Batch_09_19_07_07: n=15
+Factor: Gender (1 levels): F: n=67
+Factor: Timepoint (3 levels): 1_month: n=29, 15_months: n=10, 6_months: n=28
+
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Timepoint: c('6_months', '15_months'), and OrganismPart: c('Hippocampus') are kept for analysis. 
+New dataset contains 20 samples. Original sample size: 67
+Factor: Genotype (2 levels): AD11: n=10, WT: n=10
+Factor: OrganismPart (1 levels): Hippocampus: n=20
+Factor: Batch (2 levels): Batch_06_30_05_07: n=10, Batch_07_04_07_07: n=10
+Factor: Gender (1 levels): F: n=20
+Factor: Timepoint (2 levels): 15_months: n=10, 6_months: n=10
+
+## Model test for factor: Genotype
+p-value: 0.0736929407089424; Statistic: 8.07034057854891; Expected: 5.26315789473684; Std.dev: 1.86283110405601; #Cov: 41267
+## Model test for factor: Batch
+p-value: 1.28495969420328e-09; Statistic: 23.4410705060223; Expected: 5.26315789473684; Std.dev: 1.86283110405601; #Cov: 41267
+## Model test for factor: Timepoint
+p-value: 1.28495969420328e-09; Statistic: 23.4410705060223; Expected: 5.26315789473684; Std.dev: 1.86283110405601; #Cov: 41267
+#-------------------------------#
+## Sample Outliers
+#-------------------------------#
+Sample outlier defined by 2 sd away from mean sample to sample correlation. 
+No outliers detected
+#-------------------------------#
+## LIMMA DE ANALYSIS
+#-------------------------------#
+2018-03-29----Dataset: GSE63617.2
+Imported R objects: /home/omancarci/git repos/forks/AlzMouseModelMeta/files_results//AD_mouse_model_project/data_and_QC/all_data/explore_data/analysis_mode/GSE63617.2/results/GSE63617.2_objects.Rdata
+
+#-------------------------------#
+## SUBSET SAMPLES
+#-------------------------------#
+
+Data is subseted. Timepoint: c('15_months'), and OrganismPart: c('Hippocampus') are kept for analysis. 
+New dataset contains 10 samples. Original sample size: 20
+Factor: Genotype (2 levels): WT: n=5, AD11: n=5
+Factor: OrganismPart (1 levels): Hippocampus: n=10
+Factor: Batch (1 levels): Batch_07_04_07_07: n=10
+Factor: Gender (1 levels): F: n=10
+Factor: Timepoint (1 levels): 15_months: n=10
+
+## Model test for factor: Genotype
+p-value: 0.0909067505259128; Statistic: 15.2179425492366; Expected: 11.1111111111111; Std.dev: 3.09812116084429; #Cov: 41267
+
+#-------------------------------#
+ MODEL INFO
+#-------------------------------#
+Factors for limma analysis: Genotype
+Model: model.matrix( ~ Genotype, data = array_design)
+10 samples, 41267 probes
+coefficients: (Intercept), GenotypeAD11
+q value threshold:0.1
+
+#-------------------------------#
+ DE ANALYSIS
+#-------------------------------#
+Factor: Genotype; baseline: WT, coefficient: GenotypeAD11
+  DE genes: 316, up: 205, down: 111
+
