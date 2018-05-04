@@ -1,0 +1,102 @@
+geneSymbol	pvalue_adj	Rank	regulation	GSE14499	GSE15056	GSE1556	GSE50521	GSE52022	GSE63617	GSE64398	total_studies
+Man2b1	0.0042724189256693	1	up				up				1
+Idh1	0.0155863123909687	2	up								0
+Twsg1	0.0260660232007263	3	up								0
+Sqle	0.0155863123909687	4	up	up							1
+Cd68	0.0236053987305194	5	up				up				1
+Wdr82	0.0155863123909687	6	up				no expression			no expression	0
+Msmo1	0.0042724189256693	7	up								0
+Reep1	0.064624934955228	8	up								0
+Nsdhl	0.0804623368966684	9	up	up							1
+Slc22a4	0.0491652629884294	10	up			no expression					0
+Kctd6	0.108549096005379	11	up			no expression					0
+Fdps	0.110404703379764	12	up	up		up					2
+Slc14a1	0.0550400771642603	13	up			no expression	up				1
+Syap1	0.0793971532157021	14	up			no expression					0
+Trem2	0.110404703379764	15	up			no expression	up			up	2
+Cidea	0.0220816998281186	16	up								0
+Cpne7	0.148102476713907	17.5	up			no expression					0
+Tpst1	0.111752859927333	17.5	up								0
+Apex1	0.107348743272584	19.5	up								0
+C1ql2	0.111752859927333	19.5	up			no expression					0
+Thy1	0.0284538277323837	21	up	up							1
+Cntn1	0.118738638922547	22	up								0
+Pak2	0.107348743272584	23	up								0
+Fahd1	0.111752859927333	24	up								0
+Arcn1	0.0983460777119271	25	up								0
+Serinc2	0.111752859927333	26	up								0
+Telo2	0.167786131012273	27	up								0
+Ptpre	0.158615497347009	28	up								0
+March8	0.171176497131021	29.5	up								0
+Rnf14	0.168115826988752	29.5	up								0
+Mvk	0.111752859927333	31	up								0
+0610007P14Rik	0.125203814495692	32	up								0
+Ttc39c	0.0635627488554294	33	up								0
+Cdk4	0.159484275823061	34	up								0
+Tceal8	0.152643809712617	35	up								0
+Hmgcs1	0.132146907013147	36	up	up							1
+Rab6a	0.159484275823061	37	up			up					1
+Polr2h	0.17593758095629	38	up								0
+Brix1	0.159484275823061	39	up								0
+Stambpl1	0.127141808861065	40	up								0
+Jun	0.171176497131021	41	up								0
+Smyd4	0.110404703379764	42	up								0
+Fbxo21	0.160609556061581	43	up								0
+Slit1	0.206684712660387	44	up								0
+Fam210b	0.186395186717876	45	up								0
+Tcf3	0.154837344884438	46	up								0
+Pqlc1	0.154837344884438	47	up								0
+Tyrobp	0.154146009073832	48	up				up				1
+Ostm1	0.144464299297237	49	up								0
+Ppat	0.215316202352705	50	up								0
+Sema5b	0.046207772813142	1	down								0
+Camkk2	0.0635627488554294	2	down			no expression					0
+Gucy1a3	0.0491652629884294	3	down			no expression					0
+Crybb1	0.0491652629884294	4	down			no expression					0
+Vars2	0.0236053987305194	5	down			no expression					0
+Nrxn3	0.0416692598582579	6	down			no expression					0
+Inppl1	0.0155863123909687	7	down								0
+Sppl2b	0.0804623368966684	8	down								0
+Cdh6	0.046207772813142	9	down								0
+Ang	0.0737184157158935	10	down				no expression				0
+Atrnl1	0.064624934955228	11	down			no expression				no expression	0
+Cox8a	0.0804623368966684	12	down			no expression	no expression				0
+Phactr1	0.1458151498886	13	down	down		no expression					1
+Fstl4	0.1458151498886	14	down			no expression					0
+Pdyn	0.046207772813142	15	down								0
+Pramef8	0.125203814495692	16	down			no expression					0
+Lrrc58	0.110404703379764	17	down							no expression	0
+Sfxn1	0.111752859927333	18	down								0
+Smagp	0.125203814495692	19	down				no expression				0
+Il17d	0.111752859927333	20	down			no expression					0
+Cdh4	0.109469861143235	21	down								0
+Dus1l	0.159484275823061	22	down								0
+Slc1a3	0.111752859927333	23	down								0
+Extl3	0.111752859927333	24	down								0
+Galt	0.111752859927333	25	down								0
+Map3k5	0.1458151498886	26	down								0
+Arhgef19	0.1458151498886	27	down								0
+Col5a3	0.109469861143235	28	down								0
+Matn4	0.167786131012273	29	down								0
+Etv5	0.169387672514214	30	down								0
+Zfp91	0.111752859927333	31	down								0
+Rapgef4	0.168115826988752	32	down			down					1
+Gpt	0.159484275823061	33	down								0
+Fzd9	0.1458151498886	34	down								0
+Hspb11	0.154146009073832	35	down								0
+Pstpip1	0.111752859927333	36	down								0
+Fam120a	0.1458151498886	37	down								0
+Ppp6r1	0.201428024859009	38	down								0
+Tjap1	0.159484275823061	39	down								0
+Dot1l	0.167786131012273	40	down								0
+Gabrd	0.0308984338600975	41	down								0
+Parp14	0.173604511706727	42	down								0
+Bub1b	0.215316202352705	43	down								0
+Ppme1	0.127690878813625	44	down								0
+Vcp	0.199474126131601	45	down								0
+Lmcd1	0.216388647672579	46	down								0
+Bcl7b	0.166174306887827	47	down								0
+Slc30a9	0.125203814495692	48	down								0
+Ddhd1	0.153420381903506	49	down								0
+Cacna1b	0.160600290879054	50	down								0
+NA	NA	NA	NA	141	8	88	88	10	12	24	NA
