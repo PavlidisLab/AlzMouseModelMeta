@@ -1,0 +1,101 @@
+Disease	Regulation	Rank	Gene	Name	P-value	Adj. p	Slope estimate	Std. error
+AD	early phase: up-regulated	1	Slc29a1	solute carrier family 29 (nucleoside transporters), member 1	5.67e-05	0.069	0.1632	0.0392
+		2	Sqle	squalene epoxidase	1.68e-05	0.0266	0.1888	0.0422
+		3	Selenoh	NA	1.28e-04	0.1069	0.1659	0.042
+		4	Prokr2	prokineticin receptor 2	4.16e-04	0.181	0.2328	0.0643
+		5	Ccdc160	coiled-coil domain containing 160	4.75e-06	0.0172	0.1884	0.0391
+		6	Msmo1	methylsterol monoxygenase 1	1.06e-05	0.0253	0.1844	0.0402
+		7	Nsdhl	NAD(P) dependent steroid dehydrogenase-like	5.28e-04	0.1867	0.1822	0.0513
+		8	Dhx35	DEAH (Asp-Glu-Ala-His) box polypeptide 35	1.85e-04	0.1419	0.1195	0.0311
+		9	Gm5617	predicted gene 5617	6.34e-05	0.069	0.3461	0.0783
+		10	Fam229b	family with sequence similarity 229, member B	2.90e-04	0.1539	0.1171	0.0315
+		11	Glra2	glycine receptor, alpha 2 subunit	3.25e-04	0.1539	0.2432	0.0659
+		12	Smarcb1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1	8.92e-04	0.2206	0.067	0.0197
+		13	Tonsl	tonsoku-like, DNA repair protein	3.75e-04	0.17	0.1415	0.0387
+		14	Acat2	acetyl-Coenzyme A acetyltransferase 2	2.11e-04	0.1419	0.1556	0.0407
+		15	Myadml2	myeloid-associated differentiation marker-like 2	2.43e-03	0.353	0.1821	0.057
+		16	Ring1	ring finger protein 1	3.06e-06	0.0166	0.1756	0.036
+		17	Trim45	tripartite motif-containing 45	2.10e-03	0.3469	0.099	0.0316
+		18	Inpp5e	inositol polyphosphate-5-phosphatase E	8.10e-04	0.2195	0.0874	0.0255
+		19	Rnase1	ribonuclease, RNase A family, 1 (pancreatic)	2.87e-04	0.1539	0.235	0.063
+		20	Nsd2	NA	2.38e-03	0.353	0.2797	0.088
+		21	Pycrl	pyrroline-5-carboxylate reductase-like	2.18e-03	0.3509	0.088	0.0282
+		22	Tmem91	transmembrane protein 91	4.09e-03	0.394	0.2715	0.0929
+		23	Prtn3	proteinase 3	8.82e-03	0.4656	0.1752	0.066
+		24	Dbnl	drebrin-like	4.55e-03	0.4087	0.071	0.0246
+		25	Trpm2	transient receptor potential cation channel, subfamily M, member 2	2.49e-03	0.3558	0.104	0.0337
+		26	Rasal2	RAS protein activator like 2	2.28e-03	0.353	0.1436	0.0448
+		27	Tmem43	transmembrane protein 43	3.88e-03	0.394	0.0788	0.0268
+		28	Thtpa	thiamine triphosphatase	1.64e-03	0.2973	0.08	0.0249
+		29	Ldhd	lactate dehydrogenase D	4.22e-03	0.394	0.1214	0.0417
+		30	Tmsb10	thymosin, beta 10	5.12e-03	0.419	0.1603	0.0564
+		31	Map6	microtubule-associated protein 6	5.75e-03	0.4396	0.0938	0.0334
+		32	Ptpn5	protein tyrosine phosphatase, non-receptor type 5	6.94e-03	0.4396	0.1196	0.0436
+		33	Dbndd1	dysbindin (dystrobrevin binding protein 1) domain containing 1	4.31e-03	0.394	0.1425	0.0491
+		34	Stmn2	stathmin-like 2	2.43e-03	0.353	0.0855	0.0277
+		35	Prmt2	protein arginine N-methyltransferase 2	4.05e-03	0.394	0.0941	0.0321
+		36	Dcx	doublecortin	7.00e-03	0.4396	0.1627	0.0595
+		37	Gtf2ird1	general transcription factor II I repeat domain-containing 1	3.65e-03	0.394	0.1545	0.0522
+		38	Nacad	NAC alpha domain containing	4.22e-03	0.394	0.0898	0.0309
+		39	Mrps10	mitochondrial ribosomal protein S10	5.79e-03	0.4396	0.1031	0.0368
+		40	Kbtbd3	kelch repeat and BTB (POZ) domain containing 3	9.49e-03	0.4735	0.0797	0.0303
+		41	Ndufaf5	NADH dehydrogenase (ubiquinone) complex I, assembly factor 5	2.19e-03	0.3509	0.0749	0.024
+		42	F2r	coagulation factor II (thrombin) receptor	9.21e-03	0.4733	0.1498	0.0568
+		43	Zfp330	zinc finger protein 330	1.01e-04	0.1001	0.1058	0.0264
+		44	Gale	galactose-4-epimerase, UDP	8.74e-03	0.4642	0.1146	0.0431
+		45	Rab7b	NA	1.21e-03	0.2433	0.1995	0.0603
+		46	Snhg11	small nucleolar RNA host gene 11	7.21e-03	0.4396	0.1464	0.0537
+		47	Dhx57	DEAH (Asp-Glu-Ala-Asp/His) box polypeptide 57	9.27e-03	0.4733	0.0646	0.0245
+		48	Ccdc159	coiled-coil domain containing 159	4.12e-03	0.394	0.1115	0.0382
+		49	Mid1	midline 1	5.50e-03	0.4333	0.3456	0.1225
+		50	Tango2	transport and golgi organization 2	6.18e-03	0.4396	0.0642	0.0231
+	early phase: down-regulated	1	Ttyh2	tweety family member 2	5.84e-04	0.1867	-0.1583	0.0449
+		2	Matn4	matrilin 4	3.25e-04	0.1539	-0.133	0.0361
+		3	Irgm2	immunity-related GTPase family M member 2	1.71e-05	0.0266	-0.2247	0.0503
+		4	Decr1	2,4-dienoyl CoA reductase 1, mitochondrial	5.58e-04	0.1867	-0.1338	0.0379
+		5	Svip	small VCP/p97-interacting protein	1.20e-04	0.1069	-0.1091	0.0263
+		6	Pdia4	protein disulfide isomerase associated 4	7.31e-04	0.2149	-0.1612	0.0466
+		7	Fam53b	family with sequence similarity 53, member B	7.07e-04	0.2138	-0.153	0.0442
+		8	Gbp3	guanylate binding protein 3	7.75e-04	0.2195	-0.18	0.0523
+		9	Tap2	transporter 2, ATP-binding cassette, sub-family B (MDR/TAP)	5.11e-04	0.1867	-0.1532	0.043
+		10	Snhg5	small nucleolar RNA host gene 5	4.52e-04	0.1867	-0.1518	0.0406
+		11	Hsd11b1	hydroxysteroid 11-beta dehydrogenase 1	3.08e-03	0.3902	-0.1338	0.0444
+		12	Wbp11	WW domain binding protein 11	2.58e-04	0.1539	-0.1625	0.0433
+		13	Acadl	acyl-Coenzyme A dehydrogenase, long-chain	4.05e-03	0.394	-0.1054	0.0361
+		14	Itpr2	inositol 1,4,5-triphosphate receptor 2	2.86e-03	0.3776	-0.0911	0.03
+		15	Nkain2	Na+/K+ transporting ATPase interacting 2	4.05e-03	0.394	-0.1381	0.0472
+		16	Gm15631	NA	9.18e-04	0.2218	-0.345	0.0986
+		17	Src	Rous sarcoma oncogene	1.04e-03	0.2355	-0.1311	0.0391
+		18	Crhbp	corticotropin releasing hormone binding protein	1.16e-05	0.0253	-0.27	0.0592
+		19	Fam118b	family with sequence similarity 118, member B	2.83e-03	0.3776	-0.1037	0.0341
+		20	Ripk3	receptor-interacting serine-threonine kinase 3	3.93e-03	0.394	-0.1206	0.0411
+		21	Slc9a3r1	solute carrier family 9 (sodium/hydrogen exchanger), member 3 regulator 1	2.80e-03	0.3776	-0.0977	0.0321
+		22	Arap3	ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 3	1.28e-03	0.2538	-0.0948	0.0288
+		23	Ppm1f	protein phosphatase 1F (PP2C domain containing)	4.68e-03	0.4137	-0.0751	0.0261
+		24	Mcur1	mitochondrial calcium uniporter regulator 1	2.39e-03	0.353	-0.1245	0.0389
+		25	Timm29	NA	2.28e-03	0.353	-0.0806	0.0259
+		26	Herc6	hect domain and RLD 6	1.91e-03	0.3191	-0.1836	0.0562
+		27	Eef2	eukaryotic translation elongation factor 2	5.06e-03	0.419	-0.1326	0.0465
+		28	Zfp277	zinc finger protein 277	2.88e-03	0.3776	-0.0941	0.031
+		29	Cyp2d22	cytochrome P450, family 2, subfamily d, polypeptide 22	3.99e-03	0.394	-0.103	0.0352
+		30	Trpc6	transient receptor potential cation channel, subfamily C, member 6	4.27e-03	0.394	-0.2002	0.0689
+		31	Pik3r3	phosphatidylinositol 3 kinase, regulatory subunit, polypeptide 3 (p55)	7.48e-03	0.4398	-0.1121	0.0413
+		32.5	Arhgef3	Rho guanine nucleotide exchange factor (GEF) 3	8.51e-04	0.2195	-0.124	0.0364
+		32.5	Irf1	interferon regulatory factor 1	3.94e-03	0.394	-0.102	0.0348
+		34	Spsb1	splA/ryanodine receptor domain and SOCS box containing 1	3.48e-03	0.394	-0.1311	0.0441
+		35	Cyp20a1	cytochrome P450, family 20, subfamily a, polypeptide 1	3.53e-03	0.394	-0.1465	0.0493
+		36	Bcl7b	B cell CLL/lymphoma 7B	2.70e-03	0.3776	-0.109	0.0357
+		37	Mgll	monoglyceride lipase	6.06e-03	0.4396	-0.091	0.0327
+		38	Btbd9	BTB (POZ) domain containing 9	3.09e-03	0.3902	-0.1371	0.0455
+		39	Fastkd5	FAST kinase domains 5	3.03e-03	0.3902	-0.0943	0.0313
+		40	Nedd4l	neural precursor cell expressed, developmentally down-regulated gene 4-like	4.16e-03	0.394	-0.1197	0.0411
+		41	Atf6b	activating transcription factor 6 beta	2.22e-04	0.1419	-0.1419	0.0374
+		42	Slc15a2	solute carrier family 15 (H+/peptide transporter), member 2	6.29e-03	0.4396	-0.1988	0.0717
+		43	Ccr5	chemokine (C-C motif) receptor 5	3.51e-03	0.394	-0.1308	0.0441
+		44	Smad3	SMAD family member 3	7.98e-03	0.4486	-0.1273	0.0473
+		45	Kcnab2	potassium voltage-gated channel, shaker-related subfamily, beta member 2	3.19e-03	0.3925	-0.1327	0.0443
+		46	Rapgef4	Rap guanine nucleotide exchange factor (GEF) 4	1.09e-03	0.2424	-0.1964	0.0589
+		47	Ptk2	PTK2 protein tyrosine kinase 2	6.85e-03	0.4396	-0.0699	0.0255
+		48	Osmr	oncostatin M receptor	3.51e-03	0.394	-0.1241	0.0418
+		49	Axin1	axin 1	7.19e-03	0.4396	-0.1119	0.0401
+		50	Pde3b	phosphodiesterase 3B, cGMP-inhibited	6.44e-03	0.4396	-0.0907	0.032

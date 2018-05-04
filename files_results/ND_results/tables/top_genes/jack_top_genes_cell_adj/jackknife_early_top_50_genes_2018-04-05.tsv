@@ -1,0 +1,101 @@
+Disease	Regulation	Rank	Gene	Name	P-value	Adj. p	Slope estimate	Std. error
+AD	early phase: up-regulated	1	Sqle	squalene epoxidase	4.99e-06	0.0118	0.1824	0.0383
+		2	Msmo1	methylsterol monoxygenase 1	6.49e-06	0.0118	0.1805	0.0384
+		3	Nsdhl	NAD(P) dependent steroid dehydrogenase-like	5.17e-05	0.0402	0.1845	0.0441
+		4	Ring1	ring finger protein 1	1.09e-06	0.0047	0.1871	0.0366
+		5	Selenoh	NA	1.43e-04	0.0677	0.1253	0.032
+		6	Prokr2	prokineticin receptor 2	3.01e-04	0.0891	0.2374	0.064
+		7.5	Etnk1	ethanolamine kinase 1	2.72e-04	0.0879	0.2071	0.0531
+		7.5	Bdh2	3-hydroxybutyrate dehydrogenase, type 2	5.59e-05	0.0405	0.1982	0.0476
+		9	Zfp330	zinc finger protein 330	6.05e-06	0.0118	0.1145	0.0243
+		10	Tecr	trans-2,3-enoyl-CoA reductase	1.16e-03	0.1709	0.0783	0.0236
+		11	Enkur	enkurin, TRPC channel interacting protein	8.43e-04	0.1479	0.227	0.0665
+		12	Gm5617	predicted gene 5617	2.21e-04	0.0802	0.3608	0.0899
+		13	Slc29a1	solute carrier family 29 (nucleoside transporters), member 1	3.03e-04	0.0891	0.1183	0.0319
+		14	C1qb	complement component 1, q subcomponent, beta polypeptide	5.38e-04	0.1175	0.102	0.0288
+		15	Acat2	acetyl-Coenzyme A acetyltransferase 2	7.35e-04	0.1379	0.1196	0.0345
+		16	Fam229b	family with sequence similarity 229, member B	4.30e-04	0.1115	0.1015	0.0281
+		17	Cdhr1	cadherin-related family member 1	1.24e-04	0.062	0.2088	0.0528
+		18	Ube2b	ubiquitin-conjugating enzyme E2B	1.43e-03	0.1854	0.0612	0.0188
+		19	Dynlrb1	dynein light chain roadblock-type 1	1.47e-03	0.1854	0.0718	0.0221
+		20	Dbnl	drebrin-like	2.56e-03	0.2224	0.0685	0.0223
+		21	Gtf2ird1	general transcription factor II I repeat domain-containing 1	2.76e-03	0.2224	0.1164	0.0382
+		22	Glra2	glycine receptor, alpha 2 subunit	2.61e-04	0.0879	0.1679	0.0448
+		23	Smarcb1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1	1.25e-03	0.1709	0.0643	0.0195
+		24	Dad1	defender against cell death 1	5.96e-04	0.1242	0.0941	0.0268
+		25	Tmem43	transmembrane protein 43	2.66e-03	0.2224	0.0808	0.0264
+		26	Dbi	diazepam binding inhibitor	1.12e-03	0.1709	0.1053	0.0316
+		27	Zfp433	zinc finger protein 433	2.21e-04	0.0802	0.2507	0.0631
+		28	Dnah2	dynein, axonemal, heavy chain 2	6.70e-04	0.1301	0.2327	0.0668
+		29	Elovl6	ELOVL family member 6, elongation of long chain fatty acids (yeast)	3.52e-03	0.2509	0.0894	0.0301
+		30	Dhx35	DEAH (Asp-Glu-Ala-His) box polypeptide 35	2.46e-03	0.2224	0.0926	0.03
+		31	C1qa	complement component 1, q subcomponent, alpha polypeptide	4.50e-04	0.1115	0.1034	0.0287
+		32	Acadm	acyl-Coenzyme A dehydrogenase, medium chain	1.21e-03	0.1709	0.0598	0.0181
+		33	Cep41	centrosomal protein 41	8.89e-03	0.3104	0.1249	0.0471
+		34	Tmsb10	thymosin, beta 10	6.58e-03	0.292	0.1137	0.0412
+		35	C1qc	complement component 1, q subcomponent, C chain	1.70e-03	0.2005	0.0871	0.0272
+		36	Mier1	MEIR1 treanscription regulator	2.55e-03	0.2224	0.0844	0.0275
+		37	Inpp5e	inositol polyphosphate-5-phosphatase E	4.85e-03	0.2734	0.0687	0.024
+		38	Casp6	caspase 6	1.16e-02	0.3367	0.1173	0.0459
+		39	Rasal2	RAS protein activator like 2	1.26e-03	0.1709	0.1643	0.0482
+		40	6330403K07Rik	RIKEN cDNA 6330403K07 gene	8.88e-03	0.3104	0.0862	0.0325
+		41	Rsph9	radial spoke head 9 homolog (Chlamydomonas)	1.81e-03	0.2052	0.1522	0.0478
+		42	Arhgap4	Rho GTPase activating protein 4	5.03e-04	0.1164	0.0937	0.0263
+		43	Drc3	NA	2.17e-03	0.2187	0.1086	0.0347
+		44	Slc22a23	solute carrier family 22, member 23	1.50e-02	0.367	0.0754	0.0306
+		45	Cdk5rap1	CDK5 regulatory subunit associated protein 1	3.74e-03	0.2593	0.1413	0.0479
+		46	Zic4	zinc finger protein of the cerebellum 4	3.83e-03	0.2612	0.3222	0.1095
+		47	Rnase1	ribonuclease, RNase A family, 1 (pancreatic)	4.61e-04	0.1115	0.232	0.0645
+		48	Harbi1	harbinger transposase derived 1	1.19e-02	0.3383	0.1054	0.0406
+		49	Grb10	growth factor receptor bound protein 10	1.36e-02	0.3525	0.1131	0.0453
+		50.5	Myadml2	myeloid-associated differentiation marker-like 2	9.41e-03	0.3149	0.1488	0.0552
+	early phase: down-regulated	1	Ttyh2	tweety family member 2	4.08e-05	0.0366	-0.1453	0.0342
+		2	Irgm2	immunity-related GTPase family M member 2	1.45e-05	0.0183	-0.2187	0.0486
+		3	Arap3	ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 3	6.64e-04	0.1301	-0.0896	0.0257
+		4	Ddit3	DNA-damage inducible transcript 3	4.40e-04	0.1115	-0.1388	0.0385
+		5	Entpd4	ectonucleoside triphosphate diphosphohydrolase 4	2.84e-04	0.0884	-0.1794	0.0481
+		6	Ecd	ecdysoneless homolog (Drosophila)	8.56e-04	0.1479	-0.0916	0.0269
+		7	Eef2	eukaryotic translation elongation factor 2	1.85e-03	0.2052	-0.1435	0.0452
+		8	Slc7a5	solute carrier family 7 (cationic amino acid transporter, y+ system), member 5	2.74e-03	0.2224	-0.1094	0.0359
+		9	Nkain2	Na+/K+ transporting ATPase interacting 2	2.03e-03	0.2123	-0.1499	0.0476
+		10	Tap2	transporter 2, ATP-binding cassette, sub-family B (MDR/TAP)	3.02e-03	0.2281	-0.1208	0.04
+		11	Gm15631	NA	2.52e-03	0.2224	-0.3565	0.1129
+		12	Ica1	islet cell autoantigen 1	2.00e-03	0.2123	-0.0928	0.0295
+		13	Knop1	lysine rich nucleolar protein 1	2.72e-03	0.2224	-0.0675	0.0221
+		14	Orc2	origin recognition complex, subunit 2	7.83e-03	0.3033	-0.1005	0.0373
+		15	Tmem248	transmembrane protein 248	6.05e-04	0.1242	-0.1377	0.0379
+		16	Psmd13	proteasome (prosome, macropain) 26S subunit, non-ATPase, 13	3.74e-03	0.2593	-0.0645	0.0219
+		17	B3gat3	beta-1,3-glucuronyltransferase 3 (glucuronosyltransferase I)	2.48e-03	0.2224	-0.0806	0.0262
+		18	Nmb	neuromedin B	6.26e-03	0.2898	-0.0932	0.0336
+		19	Wbp11	WW domain binding protein 11	6.23e-04	0.1255	-0.1487	0.0425
+		20	Sema4b	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4B	2.88e-03	0.2224	-0.0864	0.0285
+		21	Mfhas1	malignant fibrous histiocytoma amplified sequence 1	2.07e-04	0.0802	-0.1459	0.0365
+		22	Ecsit	ECSIT signalling integrator	1.69e-04	0.0737	-0.1442	0.0373
+		23	Cyp20a1	cytochrome P450, family 20, subfamily a, polypeptide 1	4.13e-03	0.2614	-0.1375	0.0471
+		24.5	Itpr2	inositol 1,4,5-triphosphate receptor 2	5.61e-03	0.2801	-0.0777	0.0276
+		24.5	Cd52	CD52 antigen	8.79e-03	0.3104	-0.0968	0.0365
+		26	Btbd9	BTB (POZ) domain containing 9	9.52e-03	0.3162	-0.0869	0.0331
+		27	Tatdn2	TatD DNase domain containing 2	2.49e-03	0.2224	-0.1063	0.0345
+		28	Armc7	armadillo repeat containing 7	4.65e-03	0.2691	-0.0971	0.0338
+		29	Igfbp4	insulin-like growth factor binding protein 4	9.17e-03	0.3141	-0.1294	0.049
+		30	Spns2	spinster homolog 2	3.87e-03	0.2612	-0.1588	0.0528
+		31	Gpr68	G protein-coupled receptor 68	1.59e-03	0.1943	-0.1288	0.04
+		32	Gnaz	guanine nucleotide binding protein, alpha z subunit	3.27e-03	0.2405	-0.0931	0.0311
+		33	Nes	nestin	1.15e-02	0.3367	-0.1246	0.0487
+		34	Herpud1	homocysteine-inducible, endoplasmic reticulum stress-inducible, ubiquitin-like domain member 1	3.27e-03	0.2405	-0.0814	0.0272
+		35	Eno2	enolase 2, gamma neuronal	6.42e-03	0.2898	-0.0447	0.0161
+		36	Aplp2	amyloid beta (A4) precursor-like protein 2	6.02e-03	0.2898	-0.149	0.0534
+		37	Usp12	ubiquitin specific peptidase 12	2.07e-02	0.4049	-0.0979	0.0419
+		38	Bcl7b	B cell CLL/lymphoma 7B	6.44e-05	0.0419	-0.1403	0.034
+		39.5	Matn4	matrilin 4	5.44e-03	0.2792	-0.0968	0.0343
+		39.5	Ciart	circadian associated repressor of transcription	4.03e-03	0.2614	-0.1314	0.0449
+		41	Smn1	survival motor neuron 1	6.34e-03	0.2898	-0.0683	0.0246
+		42	Nudcd3	NudC domain containing 3	1.37e-03	0.1818	-0.0881	0.0269
+		43	Madd	MAP-kinase activating death domain	1.78e-02	0.388	-0.1075	0.0449
+		44	1500009C09Rik	RIKEN cDNA 1500009C09 gene	4.22e-03	0.2636	-0.2727	0.0915
+		45	Rnf112	ring finger protein 112	9.83e-03	0.3185	-0.0995	0.038
+		46	Stk19	serine/threonine kinase 19	3.85e-03	0.2612	-0.0917	0.0312
+		47	Svip	small VCP/p97-interacting protein	1.14e-03	0.1709	-0.0909	0.0265
+		48	Creld1	cysteine-rich with EGF-like domains 1	1.01e-02	0.3186	-0.0636	0.0244
+		49	Riox1	NA	8.02e-03	0.3033	-0.0854	0.0318
+		50	Dpm1	dolichol-phosphate (beta-D) mannosyltransferase 1	7.92e-03	0.3033	-0.0702	0.0261

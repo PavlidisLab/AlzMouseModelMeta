@@ -1,0 +1,101 @@
+Disease	Regulation	Rank	Gene	Name	P-value	Adj. p	Slope estimate	Std. error
+AD	late phase: up-regulated	1	Cd68	CD68 antigen	1.84e-15	0	1.4452	0.153
+		2	Man2b1	mannosidase 2, alpha B1	2.61e-15	0	0.6484	0.0693
+		3	Trem2	triggering receptor expressed on myeloid cells 2	5.25e-15	0	1.5212	0.1634
+		4	C1qb	complement component 1, q subcomponent, beta polypeptide	1.99e-14	0	1.1534	0.1288
+		5	Tyrobp	TYRO protein tyrosine kinase binding protein	1.85e-14	0	1.308	0.1455
+		6	C1qa	complement component 1, q subcomponent, alpha polypeptide	3.19e-14	0	1.2214	0.1378
+		7	Ly86	lymphocyte antigen 86	1.68e-13	0	1.1052	0.1296
+		8	Cd14	CD14 antigen	3.21e-13	0	0.8434	0.1003
+		9.5	Ctsz	cathepsin Z	6.81e-13	0	0.909	0.1101
+		9.5	Grn	granulin	7.03e-13	0	0.6889	0.0835
+		11	Fcgr3	Fc receptor, IgG, low affinity III	6.10e-13	0	1.0116	0.1208
+		12	Irf8	interferon regulatory factor 8	1.21e-12	0	0.8907	0.1096
+		13	C1qc	complement component 1, q subcomponent, C chain	1.55e-12	0	1.1731	0.1452
+		14	Gusb	glucuronidase, beta	1.80e-12	0	0.7145	0.0887
+		15	Slc11a1	solute carrier family 11 (proton-coupled divalent metal ion transporters), member 1	1.64e-12	0	1.0356	0.1285
+		16	Fcer1g	Fc receptor, IgE, high affinity I, gamma polypeptide	2.61e-12	0	0.9961	0.1248
+		17	Plek	pleckstrin	4.70e-12	0	0.9644	0.1222
+		18	Gfap	glial fibrillary acidic protein	6.26e-12	0	1.1727	0.1505
+		19	Lgmn	legumain	4.76e-12	0	0.4156	0.0529
+		20	Cd52	CD52 antigen	4.60e-12	0	1.253	0.1595
+		21.5	Sqle	squalene epoxidase	6.33e-12	0	0.3544	0.0455
+		21.5	Gpr84	G protein-coupled receptor 84	7.09e-12	0	0.9747	0.1251
+		23	Slc22a4	solute carrier family 22 (organic cation transporter), member 4	1.40e-11	0	0.4683	0.061
+		24	Olfml3	olfactomedin-like 3	1.53e-11	0	0.6826	0.0893
+		25	Msmo1	methylsterol monoxygenase 1	3.35e-12	0	0.3238	0.0408
+		26	Hexa	hexosaminidase A	2.03e-11	0	0.5207	0.0689
+		27	Ctss	cathepsin S	5.04e-11	0	0.9189	0.1247
+		28	Thy1	thymus cell antigen 1, theta	2.07e-13	0	0.513	0.0605
+		29	Tgfbr2	transforming growth factor, beta receptor II	6.37e-11	0	0.6567	0.0895
+		30	Laptm5	lysosomal-associated protein transmembrane 5	8.01e-11	0	0.8254	0.1135
+		31	Slamf9	SLAM family member 9	1.53e-10	0	0.8983	0.1255
+		32.5	Slc14a1	solute carrier family 14 (urea transporter), member 1	8.41e-11	0	0.6922	0.0948
+		32.5	Idh1	isocitrate dehydrogenase 1 (NADP+), soluble	3.85e-11	0	0.2823	0.038
+		34	Lsp1	lymphocyte specific 1	8.68e-11	0	0.624	0.086
+		35	Slc15a3	solute carrier family 15, member 3	1.24e-10	0	0.8716	0.121
+		36	Tlr2	toll-like receptor 2	1.65e-10	0	0.9707	0.1358
+		37	Tgfbr1	transforming growth factor, beta receptor I	1.25e-10	0	0.4584	0.0638
+		38.5	Siglech	sialic acid binding Ig-like lectin H	1.65e-10	0	0.5825	0.0815
+		38.5	Hexb	hexosaminidase B	1.97e-10	0	0.701	0.0985
+		40	Lag3	lymphocyte-activation gene 3	2.10e-10	0	0.8189	0.1159
+		41	Anxa3	annexin A3	1.55e-10	0	0.6959	0.0974
+		42	Unc93b1	unc-93 homolog B1 (C. elegans)	1.91e-10	0	0.5371	0.0757
+		43	Havcr2	hepatitis A virus cellular receptor 2	2.20e-10	0	0.7109	0.1001
+		44	Ctsa	cathepsin A	3.15e-10	0	0.3468	0.0496
+		45	Ifngr1	interferon gamma receptor 1	2.51e-10	0	0.2958	0.042
+		46	Ctsh	cathepsin H	2.61e-10	0	0.7862	0.1118
+		47	Samsn1	SAM domain, SH3 domain and nuclear localization signals, 1	4.61e-10	0	0.718	0.1036
+		48	Nsdhl	NAD(P) dependent steroid dehydrogenase-like	5.03e-10	0	0.3484	0.0506
+		49	Cyba	cytochrome b-245, alpha polypeptide	4.22e-10	0	0.6945	0.1002
+		50	Hvcn1	hydrogen voltage-gated channel 1	3.32e-10	0	0.8138	0.1164
+	late phase: down-regulated	1.5	Crhbp	corticotropin releasing hormone binding protein	9.30e-10	0	-0.6302	0.0929
+		1.5	Fam163a	family with sequence similarity 163, member A	4.03e-09	0	-0.4247	0.0657
+		3	Fbxo27	F-box protein 27	1.74e-07	0	-0.2191	0.0389
+		4	Nrarp	Notch-regulated ankyrin repeat protein	7.38e-08	0	-0.2821	0.0484
+		5	Spred2	sprouty-related, EVH1 domain containing 2	2.62e-07	0	-0.3467	0.0628
+		6	Igfbp4	insulin-like growth factor binding protein 4	2.75e-07	0	-0.3759	0.0682
+		7	Eloc	NA	4.53e-07	0	-0.1557	0.0288
+		8	Stt3b	STT3, subunit of the oligosaccharyltransferase complex, homolog B (S. cerevisiae)	9.61e-07	0	-0.093	0.0178
+		9	Cort	cortistatin	1.95e-08	0	-0.7154	0.1172
+		10	Prr3	proline-rich polypeptide 3	1.41e-06	1e-04	-0.1191	0.0232
+		11	Kcnq3	potassium voltage-gated channel, subfamily Q, member 3	7.74e-07	0	-0.215	0.0407
+		12	Plpp6	NA	1.85e-06	1e-04	-0.2438	0.048
+		13	Il17d	interleukin 17D	2.01e-06	1e-04	-0.2527	0.05
+		14	Cinp	cyclin-dependent kinase 2 interacting protein	3.25e-06	1e-04	-0.1661	0.0337
+		15	Cadps2	Ca2+-dependent activator protein for secretion 2	3.45e-06	1e-04	-0.2281	0.0463
+		16	6430573F11Rik	RIKEN cDNA 6430573F11 gene	2.91e-06	1e-04	-0.2565	0.0517
+		17	R3hdm1	R3H domain containing 1	9.28e-06	3e-04	-0.3759	0.0805
+		18	Ccdc32	coiled-coil domain containing 32	4.09e-06	2e-04	-0.1559	0.0319
+		19	Vegfc	vascular endothelial growth factor C	1.58e-07	0	-0.2073	0.0368
+		20	Map3k5	mitogen-activated protein kinase kinase kinase 5	4.77e-06	2e-04	-0.2263	0.0433
+		21	Mkx	mohawk homeobox	1.11e-06	1e-04	-0.3311	0.0638
+		22	Ppp3cb	protein phosphatase 3, catalytic subunit, beta isoform	4.73e-06	2e-04	-0.1175	0.0243
+		23	Fjx1	four jointed box 1 (Drosophila)	2.83e-06	1e-04	-0.2708	0.0545
+		24	Ppp3r1	protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type I)	3.68e-06	1e-04	-0.2691	0.0545
+		25	Rbfox2	RNA binding protein, fox-1 homolog (C. elegans) 2	3.78e-06	1e-04	-0.2733	0.0559
+		26.5	Nyap1	neuronal tyrosine-phosphorylated phosphoinositide 3-kinase adaptor 1	1.88e-06	1e-04	-0.2804	0.0553
+		26.5	Myt1l	myelin transcription factor 1-like	3.91e-06	1e-04	-0.1674	0.0343
+		28	Commd2	COMM domain containing 2	7.16e-06	2e-04	-0.2462	0.0521
+		29	Slc8a2	solute carrier family 8 (sodium/calcium exchanger), member 2	1.86e-05	5e-04	-0.3403	0.0757
+		30	Mturn	maturin, neural progenitor differentiation regulator homolog (Xenopus)	1.02e-05	3e-04	-0.2841	0.061
+		31	Ggct	gamma-glutamyl cyclotransferase	8.84e-06	3e-04	-0.1666	0.0356
+		32	Etv5	ets variant 5	1.67e-05	5e-04	-0.2188	0.0483
+		33	Arid5b	AT rich interactive domain 5B (MRF1-like)	1.64e-05	5e-04	-0.3093	0.0683
+		34	Lrrfip1	leucine rich repeat (in FLII) interacting protein 1	1.47e-05	5e-04	-0.1337	0.0294
+		35	Sema5b	sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5B	1.93e-05	6e-04	-0.1898	0.0424
+		36	Plppr5	NA	1.52e-05	5e-04	-0.1854	0.0408
+		37	Kcnk12	potassium channel, subfamily K, member 12	1.90e-05	6e-04	-0.2026	0.0451
+		38	Pum2	pumilio RNA-binding family member 2	1.83e-05	5e-04	-0.1927	0.0429
+		39	Atp2a2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	1.79e-05	5e-04	-0.1006	0.0223
+		40	Nr4a2	nuclear receptor subfamily 4, group A, member 2	1.85e-05	5e-04	-0.3953	0.088
+		41	Mtus2	microtubule associated tumor suppressor candidate 2	2.12e-05	6e-04	-0.2011	0.045
+		42	Rgs7	regulator of G protein signaling 7	1.77e-06	1e-04	-0.1545	0.0304
+		43	Pik3r3	phosphatidylinositol 3 kinase, regulatory subunit, polypeptide 3 (p55)	2.61e-05	7e-04	-0.1928	0.0437
+		44	Dlg2	discs, large homolog 2 (Drosophila)	3.78e-05	0.001	-0.1811	0.042
+		45	Wwc1	WW, C2 and coiled-coil domain containing 1	6.32e-06	2e-04	-0.1863	0.0388
+		46	Rapgef5	Rap guanine nucleotide exchange factor (GEF) 5	3.31e-05	9e-04	-0.2467	0.0567
+		47	Wasf3	WAS protein family, member 3	4.53e-05	0.0011	-0.1874	0.0439
+		48	Dnajb5	DnaJ heat shock protein family (Hsp40) member B5	1.38e-05	4e-04	-0.231	0.0506
+		49	Mecp2	methyl CpG binding protein 2	4.16e-05	0.001	-0.1291	0.0301
+		50	Gpd1	glycerol-3-phosphate dehydrogenase 1 (soluble)	1.29e-05	4e-04	-0.2046	0.0446

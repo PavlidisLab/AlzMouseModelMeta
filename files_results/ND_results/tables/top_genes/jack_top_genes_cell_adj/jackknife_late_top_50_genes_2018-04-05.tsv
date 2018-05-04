@@ -1,0 +1,101 @@
+Disease	Regulation	Rank	Gene	Name	P-value	Adj. p	Slope estimate	Std. error
+AD	late phase: up-regulated	1	Man2b1	mannosidase 2, alpha B1	8.23e-07	0.0043	0.2267	0.0432
+		2	Idh1	isocitrate dehydrogenase 1 (NADP+), soluble	6.05e-06	0.0156	0.2357	0.0494
+		3	Twsg1	twisted gastrulation BMP signaling modulator 1	2.76e-05	0.0261	0.1543	0.0352
+		4	Sqle	squalene epoxidase	9.89e-06	0.0156	0.2658	0.0572
+		5	Cd68	CD68 antigen	2.27e-05	0.0236	0.3888	0.0875
+		6	Wdr82	WD repeat domain containing 82	6.73e-06	0.0156	0.2589	0.0482
+		7	Msmo1	methylsterol monoxygenase 1	7.79e-07	0.0043	0.2564	0.0487
+		8	Reep1	receptor accessory protein 1	1.87e-04	0.0646	0.1111	0.0287
+		9	Nsdhl	NAD(P) dependent steroid dehydrogenase-like	2.87e-04	0.0805	0.2348	0.0626
+		10	Slc22a4	solute carrier family 22 (organic cation transporter), member 4	9.37e-05	0.0492	0.2569	0.0631
+		11	Kctd6	potassium channel tetramerisation domain containing 6	4.39e-04	0.1085	0.1311	0.0361
+		12	Fdps	farnesyl diphosphate synthetase	5.10e-04	0.1104	0.2172	0.0606
+		13	Slc14a1	solute carrier family 14 (urea transporter), member 1	1.33e-04	0.055	0.2236	0.0562
+		14	Syap1	synapse associated protein 1	2.45e-04	0.0794	0.1081	0.0284
+		15	Trem2	triggering receptor expressed on myeloid cells 2	4.91e-04	0.1104	0.3659	0.1016
+		16	Cidea	cell death-inducing DNA fragmentation factor, alpha subunit-like effector A	1.70e-05	0.0221	0.3523	0.078
+		17.5	Cpne7	copine VII	1.45e-03	0.1481	0.3292	0.1006
+		17.5	Tpst1	protein-tyrosine sulfotransferase 1	6.14e-04	0.1118	0.1167	0.033
+		19.5	C1ql2	complement component 1, q subcomponent-like 2	6.63e-04	0.1118	0.371	0.1056
+		19.5	Apex1	apurinic/apyrimidinic endonuclease 1	4.24e-04	0.1073	0.1485	0.0408
+		21	Thy1	thymus cell antigen 1, theta	3.29e-05	0.0285	0.3333	0.0768
+		22	Cntn1	contactin 1	7.92e-04	0.1187	0.1534	0.0444
+		23	Pak2	p21 protein (Cdc42/Rac)-activated kinase 2	4.15e-04	0.1073	0.1945	0.0509
+		24	Fahd1	fumarylacetoacetate hydrolase domain containing 1	6.93e-04	0.1118	0.1758	0.0503
+		25	Arcn1	archain 1	3.69e-04	0.0983	0.2408	0.0625
+		26	Serinc2	serine incorporator 2	6.14e-04	0.1118	0.2595	0.0734
+		27	Telo2	telomere maintenance 2	2.57e-03	0.1678	0.2101	0.068
+		28	Ptpre	protein tyrosine phosphatase, receptor type, E	1.73e-03	0.1586	0.177	0.055
+		29.5	Rnf14	ring finger protein 14	2.69e-03	0.1681	0.1056	0.0344
+		29.5	March8	membrane-associated ring finger (C3HC4) 8	2.79e-03	0.1712	0.2011	0.0657
+		31	Mvk	mevalonate kinase	5.80e-04	0.1118	0.2262	0.061
+		32	0610007P14Rik	RIKEN cDNA 0610007P14 gene	9.38e-04	0.1252	0.1137	0.0334
+		33	Ttc39c	tetratricopeptide repeat domain 39C	1.65e-04	0.0636	0.2303	0.0588
+		34	Cdk4	cyclin-dependent kinase 4	1.93e-03	0.1595	0.1328	0.0403
+		35	Tceal8	transcription elongation factor A (SII)-like 8	1.56e-03	0.1526	0.1436	0.0442
+		36	Hmgcs1	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1	1.06e-03	0.1321	0.1381	0.0409
+		37	Rab6a	RAB6A, member RAS oncogene family	2.14e-03	0.1595	0.1638	0.0521
+		38	Polr2h	polymerase (RNA) II (DNA directed) polypeptide H	3.04e-03	0.1759	0.1045	0.0345
+		39	Brix1	BRX1, biogenesis of ribosomes	1.82e-03	0.1595	0.1371	0.0429
+		40	Stambpl1	STAM binding protein like 1	9.67e-04	0.1271	0.1054	0.031
+		41	Jun	jun proto-oncogene	2.78e-03	0.1712	0.187	0.0611
+		42	Smyd4	SET and MYND domain containing 4	5.09e-04	0.1104	0.3215	0.0895
+		43	Fbxo21	F-box protein 21	2.24e-03	0.1606	0.1143	0.0365
+		44	Slit1	slit homolog 1 (Drosophila)	4.44e-03	0.2067	0.2013	0.0692
+		45	Fam210b	family with sequence similarity 210, member B	3.36e-03	0.1864	0.1595	0.0532
+		46	Tcf3	transcription factor 3	1.66e-03	0.1548	0.2353	0.0704
+		47	Pqlc1	PQ loop repeat containing 1	1.67e-03	0.1548	0.1622	0.0503
+		48	Tyrobp	TYRO protein tyrosine kinase binding protein	1.63e-03	0.1541	0.2568	0.0795
+		49	Ostm1	osteopetrosis associated transmembrane protein 1	1.20e-03	0.1445	0.0882	0.0265
+		50	Ppat	phosphoribosyl pyrophosphate amidotransferase	5.50e-03	0.2153	0.1276	0.045
+	late phase: down-regulated	1	Sema5b	sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5B	7.27e-05	0.0462	-0.2355	0.057
+		2	Camkk2	calcium/calmodulin-dependent protein kinase kinase 2, beta	1.63e-04	0.0636	-0.2565	0.0655
+		3	Gucy1a3	guanylate cyclase 1, soluble, alpha 3	1.09e-04	0.0492	-0.3136	0.0778
+		4	Crybb1	crystallin, beta B1	1.08e-04	0.0492	-0.1834	0.0455
+		5	Vars2	valyl-tRNA synthetase 2, mitochondrial	2.06e-05	0.0236	-0.2656	0.0594
+		6	Nrxn3	neurexin III	5.94e-05	0.0417	-0.2028	0.0483
+		7	Inppl1	inositol polyphosphate phosphatase-like 1	1.05e-05	0.0156	-0.1651	0.0356
+		8	Sppl2b	signal peptide peptidase like 2B	2.75e-04	0.0805	-0.1253	0.0333
+		9	Cdh6	cadherin 6	7.83e-05	0.0462	-0.357	0.0868
+		10	Ang	angiogenin, ribonuclease, RNase A family, 5	2.20e-04	0.0737	-0.2052	0.0533
+		11	Atrnl1	attractin like 1	1.84e-04	0.0646	-0.3728	0.0904
+		12	Cox8a	cytochrome c oxidase subunit VIIIa	2.81e-04	0.0805	-0.1175	0.0311
+		13	Phactr1	phosphatase and actin regulator 1	1.36e-03	0.1458	-0.1758	0.0534
+		14	Fstl4	follistatin-like 4	1.30e-03	0.1458	-0.2035	0.0616
+		15	Pdyn	prodynorphin	8.01e-05	0.0462	-0.2888	0.0703
+		16	Pramef8	PRAME family member 8	9.10e-04	0.1252	-0.1498	0.0438
+		17	Lrrc58	leucine rich repeat containing 58	4.88e-04	0.1104	-0.2274	0.0604
+		18	Sfxn1	sideroflexin 1	6.71e-04	0.1118	-0.0923	0.0263
+		19	Smagp	small cell adhesion glycoprotein	9.24e-04	0.1252	-0.1622	0.0474
+		20	Il17d	interleukin 17D	5.75e-04	0.1118	-0.2331	0.0656
+		21	Cdh4	cadherin 4	4.59e-04	0.1095	-0.2622	0.0724
+		22	Dus1l	dihydrouridine synthase 1-like (S. cerevisiae)	2.15e-03	0.1595	-0.1108	0.0352
+		23	Slc1a3	solute carrier family 1 (glial high affinity glutamate transporter), member 3	6.21e-04	0.1118	-0.1103	0.0312
+		24	Extl3	exostoses (multiple)-like 3	6.77e-04	0.1118	-0.1148	0.0328
+		25	Galt	galactose-1-phosphate uridyl transferase	6.88e-04	0.1118	-0.1483	0.0424
+		26	Map3k5	mitogen-activated protein kinase kinase kinase 5	1.34e-03	0.1458	-0.2221	0.0649
+		27	Arhgef19	Rho guanine nucleotide exchange factor (GEF) 19	1.36e-03	0.1458	-0.1263	0.0384
+		28	Col5a3	collagen, type V, alpha 3	4.64e-04	0.1095	-0.2025	0.056
+		29	Matn4	matrilin 4	2.55e-03	0.1678	-0.1463	0.0474
+		30	Etv5	ets variant 5	2.72e-03	0.1694	-0.1637	0.0533
+		31	Zfp91	zinc finger protein 91	6.48e-04	0.1118	-0.2403	0.0636
+		32	Rapgef4	Rap guanine nucleotide exchange factor (GEF) 4	2.66e-03	0.1681	-0.235	0.0764
+		33	Gpt	glutamic pyruvic transaminase, soluble	2.11e-03	0.1595	-0.1056	0.0335
+		34	Fzd9	frizzled class receptor 9	1.30e-03	0.1458	-0.264	0.0752
+		35	Hspb11	heat shock protein family B (small), member 11	1.63e-03	0.1541	-0.2652	0.0792
+		36	Pstpip1	proline-serine-threonine phosphatase-interacting protein 1	6.92e-04	0.1118	-0.2094	0.0597
+		37	Fam120a	family with sequence similarity 120, member A	1.30e-03	0.1458	-0.1986	0.0565
+		38	Ppp6r1	protein phosphatase 6, regulatory subunit 1	4.26e-03	0.2014	-0.0984	0.0337
+		39	Tjap1	tight junction associated protein 1	2.13e-03	0.1595	-0.162	0.0514
+		40	Dot1l	DOT1-like, histone H3 methyltransferase (S. cerevisiae)	2.56e-03	0.1678	-0.1784	0.0577
+		41	Gabrd	gamma-aminobutyric acid (GABA) A receptor, subunit delta	3.87e-05	0.0309	-0.3397	0.079
+		42	Parp14	poly (ADP-ribose) polymerase family, member 14	2.89e-03	0.1736	-0.194	0.0636
+		43	Bub1b	BUB1B, mitotic checkpoint serine/threonine kinase	5.46e-03	0.2153	-0.1966	0.0693
+		44	Ppme1	protein phosphatase methylesterase 1	9.96e-04	0.1277	-0.107	0.0316
+		45	Vcp	valosin containing protein	4.17e-03	0.1995	-0.1004	0.0342
+		46	Lmcd1	LIM and cysteine-rich domains 1	6.09e-03	0.2164	-0.121	0.0432
+		47	Bcl7b	B cell CLL/lymphoma 7B	2.41e-03	0.1662	-0.1535	0.0494
+		48	Slc30a9	solute carrier family 30 (zinc transporter), member 9	9.41e-04	0.1252	-0.1808	0.051
+		49	Ddhd1	DDHD domain containing 1	1.60e-03	0.1534	-0.2052	0.0611
+		50	Cacna1b	calcium channel, voltage-dependent, N type, alpha 1B subunit	2.22e-03	0.1606	-0.179	0.0571

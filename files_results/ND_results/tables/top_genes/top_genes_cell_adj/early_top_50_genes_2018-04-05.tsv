@@ -1,0 +1,101 @@
+Disease	Regulation	Gene	Name	P-value	Adj. p	Slope estimate	Std. error
+AD	early phase: up-regulated	Thy1	thymus cell antigen 1, theta	5.09e-09	1.00e-04	0.2588	0.0412
+		Ring1	ring finger protein 1	1.09e-06	4.70e-03	0.1871	0.0366
+		Sox2ot	SOX2 overlapping transcript (non-protein coding)	1.31e-06	4.70e-03	0.9846	0.1804
+		Sqle	squalene epoxidase	4.99e-06	1.18e-02	0.1824	0.0383
+		Zfp330	zinc finger protein 330	6.05e-06	1.18e-02	0.1145	0.0243
+		Msmo1	methylsterol monoxygenase 1	6.49e-06	1.18e-02	0.1805	0.0384
+		Catsperg1	catsper channel auxiliary subunit gamma 1	8.05e-06	1.25e-02	0.2199	0.0469
+		Ccdc160	coiled-coil domain containing 160	1.52e-05	1.83e-02	0.1532	0.0338
+		Gck	glucokinase	3.13e-05	3.41e-02	0.2261	0.0524
+		Vwa3a	von Willebrand factor A domain containing 3A	3.63e-05	3.59e-02	0.2356	0.0551
+		C3	complement component 3	4.37e-05	3.66e-02	0.4944	0.1168
+		Nsdhl	NAD(P) dependent steroid dehydrogenase-like	5.17e-05	4.02e-02	0.1845	0.0441
+		Bdh2	3-hydroxybutyrate dehydrogenase, type 2	5.59e-05	4.05e-02	0.1982	0.0476
+		Mlf1	myeloid leukemia factor 1	6.84e-05	4.19e-02	0.3397	0.0826
+		Morn5	MORN repeat containing 5	6.93e-05	4.19e-02	0.2382	0.058
+		Cdhr1	cadherin-related family member 1	1.24e-04	6.20e-02	0.2088	0.0528
+		Rab7b	NA	1.25e-04	6.20e-02	0.2172	0.055
+		Selenoh	NA	1.43e-04	6.77e-02	0.1253	0.032
+		Tekt1	tektin 1	1.67e-04	7.37e-02	0.2493	0.0643
+		Nsd2	NA	2.05e-04	8.02e-02	0.3526	0.0886
+		Gm5617	predicted gene 5617	2.21e-04	8.02e-02	0.3608	0.0899
+		Zfp433	zinc finger protein 433	2.21e-04	8.02e-02	0.2507	0.0631
+		Mdh1b	malate dehydrogenase 1B, NAD (soluble)	2.48e-04	8.71e-02	0.2053	0.0545
+		Glra2	glycine receptor, alpha 2 subunit	2.61e-04	8.79e-02	0.1679	0.0448
+		Etnk1	ethanolamine kinase 1	2.72e-04	8.79e-02	0.2071	0.0531
+		Cfap65	NA	2.75e-04	8.79e-02	0.2905	0.0777
+		Prokr2	prokineticin receptor 2	3.01e-04	8.91e-02	0.2374	0.064
+		Slc29a1	solute carrier family 29 (nucleoside transporters), member 1	3.03e-04	8.91e-02	0.1183	0.0319
+		Idh1	isocitrate dehydrogenase 1 (NADP+), soluble	3.19e-04	9.14e-02	0.1425	0.0386
+		Zdhhc5	zinc finger, DHHC domain containing 5	3.60e-04	1.00e-01	0.191	0.05
+		Fam229b	family with sequence similarity 229, member B	4.30e-04	1.12e-01	0.1015	0.0281
+		C1qa	complement component 1, q subcomponent, alpha polypeptide	4.50e-04	1.12e-01	0.1034	0.0287
+		Gm5148	predicted gene 5148	4.53e-04	1.12e-01	0.1384	0.0385
+		Rnase1	ribonuclease, RNase A family, 1 (pancreatic)	4.61e-04	1.12e-01	0.232	0.0645
+		Arhgap4	Rho GTPase activating protein 4	5.03e-04	1.16e-01	0.0937	0.0263
+		Ccdc114	coiled-coil domain containing 114	5.23e-04	1.17e-01	0.161	0.0453
+		C1qb	complement component 1, q subcomponent, beta polypeptide	5.38e-04	1.17e-01	0.102	0.0288
+		Hmgb2	high mobility group box 2	5.40e-04	1.17e-01	0.1523	0.0428
+		Dynlrb2	dynein light chain roadblock-type 2	5.83e-04	1.24e-01	0.3456	0.0981
+		Dad1	defender against cell death 1	5.96e-04	1.24e-01	0.0941	0.0268
+		Dnah2	dynein, axonemal, heavy chain 2	6.70e-04	1.30e-01	0.2327	0.0668
+		Nosip	nitric oxide synthase interacting protein	7.18e-04	1.37e-01	0.1219	0.0352
+		Acat2	acetyl-Coenzyme A acetyltransferase 2	7.35e-04	1.38e-01	0.1196	0.0345
+		Nek3	NIMA (never in mitosis gene a)-related expressed kinase 3	8.25e-04	1.48e-01	0.0887	0.0259
+		Enkur	enkurin, TRPC channel interacting protein	8.43e-04	1.48e-01	0.227	0.0665
+		Evpl	envoplakin	8.95e-04	1.52e-01	0.3181	0.0903
+		Chek2	checkpoint kinase 2	1.03e-03	1.67e-01	0.1829	0.0545
+		Dbi	diazepam binding inhibitor	1.12e-03	1.71e-01	0.1053	0.0316
+		Tecr	trans-2,3-enoyl-CoA reductase	1.16e-03	1.71e-01	0.0783	0.0236
+		Dnah1	dynein, axonemal, heavy chain 1	1.19e-03	1.71e-01	0.1141	0.0345
+	early phase: down-regulated	Irgm2	immunity-related GTPase family M member 2	1.45e-05	1.83e-02	-0.2187	0.0486
+		Ttyh2	tweety family member 2	4.08e-05	3.66e-02	-0.1453	0.0342
+		Bcl7b	B cell CLL/lymphoma 7B	6.44e-05	4.19e-02	-0.1403	0.034
+		Acer2	alkaline ceramidase 2	7.95e-05	4.55e-02	-0.2064	0.0507
+		Crhbp	corticotropin releasing hormone binding protein	1.14e-04	6.19e-02	-0.2029	0.051
+		Ecsit	ECSIT signalling integrator	1.69e-04	7.37e-02	-0.1442	0.0373
+		Mfhas1	malignant fibrous histiocytoma amplified sequence 1	2.07e-04	8.02e-02	-0.1459	0.0365
+		Fam53b	family with sequence similarity 53, member B	2.13e-04	8.02e-02	-0.1424	0.0374
+		Entpd4	ectonucleoside triphosphate diphosphohydrolase 4	2.84e-04	8.84e-02	-0.1794	0.0481
+		Ddit3	DNA-damage inducible transcript 3	4.40e-04	1.12e-01	-0.1388	0.0385
+		Batf3	basic leucine zipper transcription factor, ATF-like 3	4.57e-04	1.12e-01	-0.1678	0.0468
+		Scrt2	scratch family zinc finger 2	4.96e-04	1.16e-01	-0.2097	0.0566
+		Tmem248	transmembrane protein 248	6.05e-04	1.24e-01	-0.1377	0.0379
+		Wbp11	WW domain binding protein 11	6.23e-04	1.26e-01	-0.1487	0.0425
+		Arap3	ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 3	6.64e-04	1.30e-01	-0.0896	0.0257
+		Rbm3	RNA binding motif protein 3	7.69e-04	1.42e-01	-0.2067	0.06
+		Wipf2	WAS/WASL interacting protein family, member 2	8.56e-04	1.48e-01	-0.1002	0.0294
+		Ecd	ecdysoneless homolog (Drosophila)	8.56e-04	1.48e-01	-0.0916	0.0269
+		Rnf166	ring finger protein 166	9.23e-04	1.54e-01	-0.1121	0.0331
+		Ripk3	receptor-interacting serine-threonine kinase 3	1.02e-03	1.67e-01	-0.1346	0.0401
+		Limch1	LIM and calponin homology domains 1	1.05e-03	1.68e-01	-0.2579	0.0742
+		Atf6b	activating transcription factor 6 beta	1.09e-03	1.71e-01	-0.0976	0.0293
+		Svip	small VCP/p97-interacting protein	1.14e-03	1.71e-01	-0.0909	0.0265
+		Pygm	muscle glycogen phosphorylase	1.24e-03	1.71e-01	-0.1594	0.0483
+		Nudcd3	NudC domain containing 3	1.37e-03	1.82e-01	-0.0881	0.0269
+		Ptov1	prostate tumor over expressed gene 1	1.40e-03	1.83e-01	-0.2276	0.0675
+		Per3	period circadian clock 3	1.52e-03	1.87e-01	-0.1783	0.0551
+		Gpr68	G protein-coupled receptor 68	1.59e-03	1.94e-01	-0.1288	0.04
+		Nup62	nucleoporin 62	1.82e-03	2.05e-01	-0.102	0.0321
+		Cox4i1	cytochrome c oxidase subunit IV isoform 1	1.85e-03	2.05e-01	-0.0625	0.0197
+		Eef2	eukaryotic translation elongation factor 2	1.85e-03	2.05e-01	-0.1435	0.0452
+		Ube2w	ubiquitin-conjugating enzyme E2W (putative)	1.92e-03	2.09e-01	-0.0949	0.0291
+		Agmo	alkylglycerol monooxygenase	1.99e-03	2.12e-01	-0.3724	0.1139
+		Ica1	islet cell autoantigen 1	2.00e-03	2.12e-01	-0.0928	0.0295
+		Il17d	interleukin 17D	2.02e-03	2.12e-01	-0.17	0.054
+		Nkain2	Na+/K+ transporting ATPase interacting 2	2.03e-03	2.12e-01	-0.1499	0.0476
+		Tmem151b	transmembrane protein 151B	2.06e-03	2.13e-01	-0.1721	0.0546
+		Fam78b	family with sequence similarity 78, member B	2.08e-03	2.13e-01	-0.0888	0.0283
+		Oaf	out at first homolog	2.11e-03	2.14e-01	-0.1131	0.0361
+		Kif1a	kinesin family member 1A	2.20e-03	2.19e-01	-0.0854	0.0274
+		Zfp710	zinc finger protein 710	2.42e-03	2.22e-01	-0.0718	0.0232
+		B3gat3	beta-1,3-glucuronyltransferase 3 (glucuronosyltransferase I)	2.48e-03	2.22e-01	-0.0806	0.0262
+		Tatdn2	TatD DNase domain containing 2	2.49e-03	2.22e-01	-0.1063	0.0345
+		Wnt10a	wingless-type MMTV integration site family, member 10A	2.49e-03	2.22e-01	-0.2004	0.0651
+		Gm15631	NA	2.52e-03	2.22e-01	-0.3565	0.1129
+		Tox4	TOX high mobility group box family member 4	2.56e-03	2.22e-01	-0.0719	0.0234
+		Mars	methionine-tRNA synthetase	2.57e-03	2.22e-01	-0.0785	0.0256
+		Cenpb	centromere protein B	2.58e-03	2.22e-01	-0.1156	0.0377
+		Cdk19	cyclin-dependent kinase 19	2.59e-03	2.22e-01	-0.0867	0.0282
+		Cwf19l1	CWF19-like 1, cell cycle control (S. pombe)	2.61e-03	2.22e-01	-0.1522	0.0484
