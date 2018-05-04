@@ -1,0 +1,3 @@
+disease	phase	n_studies	control	disease_samples	total	total_genes
+AD	early	4	47	69	116	10878
+AD	late	8	36	56	92	10383
