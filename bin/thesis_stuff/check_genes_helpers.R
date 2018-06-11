@@ -212,8 +212,6 @@ getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
     full_name <- c('Oligo', 'Astrocyte', "Microglia","DentateGranule",'GabaSSTReln', 'StriatumCholin','Pyramidal', 'ForebrainCholin', 'Spiny', 'Microglia_deactivation', 'Microglia_activation')
     new_name <- c('Oligodendrocytes','Astrocytes',"Microglia", "Dentate granule cells" ,'GABAergic cells','Cholinergic neurons', 'Pyramidal cells','Cholinergic neurons', 'Medium spiny neurons','Microglia_deactivation', 'Microglia_activation')
     
-    
-    
     tmpFun <- function(df, prefix, fdr){
         df_marker <- NULL
         for(regulation in c('up', 'down')){
@@ -273,6 +271,27 @@ getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
     df <- all_ranks_adj
     df_marker_adj <- tmpFun(df,'_after',fdr)
     
+    ph = phase
+    df_marker_adj$geneSymbol_after %<>% strsplit(', ') %>% sapply(function(x){
+        x %>% sapply(function(y){
+            nonAdjusted = all_ranks %>% dplyr::filter(geneSymbol == y, phase == ph)
+            if (!is.null(fdr)){
+                top50 = nonAdjusted$down_jack <= threshold | nonAdjusted$up_jack<= threshold
+                significant = nonAdjusted$P_adj <= fdr
+            } else {
+                top50 = nonAdjusted$down_jack <= threshold | nonAdjusted$up_jack<= threshold
+                significant = nonAdjusted$P_adj <= 0.05
+            }
+            
+            if(!significant){
+                y = paste0(y,'●')
+            } else if(!top50){
+                y= paste0(y,'*')
+            }
+            return(y)
+        }) %>% paste(collapse = ', ')
+    })
+    
     df1 <- mapBindAllColumns(df_marker, df_marker_adj)
     
     df1$disease = disease
@@ -286,7 +305,6 @@ getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
 enrichedGOTerms <- function(outdir, GO_adj,phase_ls =c('early', 'late')){
     ## input the GO_adj rdata, output a clean table with top 20 significant GO terms
     ## and the associated top genes
-    
     dir.create(outdir,recursive = T, showWarnings = F)
     df <- GO_adj
     df <- df[, c(1:3,19, 5:9, 11, 15:16)]
@@ -314,7 +332,7 @@ enrichedGOTerms <- function(outdir, GO_adj,phase_ls =c('early', 'late')){
     
     
     ## remove pathways if there's no top 20 genes involved
-    df <- df[which(df$top_count_20 >=2), ]%>%droplevels()
+    df <- df[which(df$top_count_20 >=0), ]%>%droplevels()
     
     
     ## get the repeated top 20 genes
