@@ -272,6 +272,21 @@ getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
     df_marker_adj <- tmpFun(df,'_after',fdr)
     
     ph = phase
+    df_marker$geneSymbol_before %<>% strsplit(', ') %>% sapply(function(x){
+        x %>% sapply(function(y){
+            nonAdjusted = all_ranks %>% dplyr::filter(geneSymbol == y, phase == ph)
+            if (!is.null(fdr)){
+                significantNow = nonAdjusted$P_adj <= fdr
+            } else {
+                significantNow = nonAdjusted$P_adj <= 0.05
+            }
+            if(significantNow){
+                y = paste0(y,'*')
+            }
+            return(y)
+        }) %>% paste(collapse = ', ')
+    }) 
+    
     df_marker_adj$geneSymbol_after %<>% strsplit(', ') %>% sapply(function(x){
         x %>% sapply(function(y){
             nonAdjusted = all_ranks %>% dplyr::filter(geneSymbol == y, phase == ph)
@@ -289,7 +304,9 @@ getCellMarkers <- function(disease, phase, threshold=NULL, fdr = NULL){
             if(significantNow & !significant){
                 y = paste0(y,'●')
             } else if(significantNow & !top50){
-                y= paste0(y,'*')
+                y= paste0(y,'^')
+            } else if(significantNow){
+                y = paste0(y,'*')
             }
             return(y)
         }) %>% paste(collapse = ', ')
